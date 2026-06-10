@@ -80,7 +80,7 @@
     "human_angle_en": "A traditional PM ships deterministic features; an AI PM ships an agent that is 'probably right'. Daily decisions sound like: what is one point of hallucination worth? Will users leave over two seconds of latency? When must a human take over? They translate probability into product calls.",
     "skills": ["LLM 能力边界认知", "评估指标设计", "成本/延迟权衡", "数据飞轮设计"],
     "examples": ["科技公司", "AI 初创"],
-    "event_ids": [],
+    "event_ids": ["2025-10-zhilian-ai-pm-144pct"],
     "sources": []
   },
   {
@@ -104,7 +104,7 @@
     "human_angle_en": "AI's private tutors. Doctors, lawyers, and programmers sit at screens grading model answers and writing better ones — a model's character is fed by hundreds of thousands of these human judgments. One of the most invisible yet largest new trades of the AI era.",
     "skills": ["领域专业知识", "标注规范执行", "判断一致性"],
     "examples": ["数据标注/众包平台", "模型实验室数据团队"],
-    "event_ids": [],
+    "event_ids": ["2020-02-mohrss-batch2-ai-trainer"],
     "sources": []
   },
   {
