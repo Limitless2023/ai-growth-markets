@@ -1,20 +1,30 @@
-# 研究框架 · Research Framework
+# 研究框架 · Research Framework（v2）
 
-本文档定义 **AI Growth Markets** 项目的研究方法、分类标准和数据模型。目的是让数据的收集与分析保持一致、可核查、可复现。
+本文档定义 **AI Growth Markets** 项目的研究范围、分类标准与数据结构。计数规则、入选标准与纠错政策见 [`methodology.md`](methodology.md)。
 
 ## 1. 核心问题
 
-> 随着 AI（尤其是生成式 AI 与 Agent）的发展，**哪些全新的岗位和增量市场正在出现**，它们的成熟度、规模和增长性如何？
+> 随着 AI（尤其是生成式 AI 与 Agent）的发展，**哪些全新的岗位和增量市场正在出现**？谁在何时宣布了什么？
 
-我们关注的是「**增量**」——即原本不存在、或因 AI 才被显著放大的机会，而非单纯「被 AI 提效的存量岗位」。
+我们关注**创造侧**——原本不存在、或因 AI 才被显著放大的机会；替代侧（裁员/自动化）仅在路线图 P2 的净账本中以引用现成追踪源的方式出现。
 
-## 2. 分类维度
+## 2. 数据结构（四实体）
 
-### 2.1 类型 (type)
-- `role` — 新岗位 / 职业角色
-- `market` — 增量市场 / 商业品类
+数据全部为仓库内 JSON，Schema 见 [`data/schema/`](../data/schema/)：
 
-### 2.2 主题领域 (domain)
+| 实体 | 文件 | 角色 |
+|------|------|------|
+| **Event 事件** | `data/events.json` | 账本行：谁在何时宣布了什么，每行带来源（引擎层） |
+| **Occupation 新职业** | `data/occupations.json` | 物种档案：首现时间、官方认定、"做这行的人每天在干什么"（灵魂层） |
+| **Market 增量市场** | `data/markets.json` | 因 AI 新生/被放大的商业品类（P3 扩展指标） |
+| **Source 信源** | `data/sources.json` | collector agent 的扫描清单与更新节奏 |
+
+事件滋养词典：账本中反复出现的岗位类型沉淀为新职业条目，事件与职业/市场通过 `occupation_ids` / `market_ids` / `event_ids` 双向关联（校验器强制引用完整性）。
+
+## 3. 分类维度
+
+### 3.1 主题领域 (domain)
+
 - `infrastructure` — 算力、推理、向量库、MLOps
 - `data` — 数据标注、合成数据、数据飞轮
 - `product` — AI 应用层、Agent、Copilot 产品
@@ -23,42 +33,25 @@
 - `creative` — 内容创作、设计、营销
 - `enablement` — 培训、咨询、布道、教育
 
-### 2.3 成熟度 (maturity)
+### 3.2 成熟度 (maturity)
+
 - `emerging` — 刚出现，定义尚不清晰
 - `growing` — 需求明显上升，开始标准化
 - `established` — 已形成稳定职位/品类
 
-## 3. 数据模型
+### 3.3 事件类型 (kind) 与计数
 
-`data/opportunities.json` 中每条记录的字段：
+见 [`methodology.md`](methodology.md) §1-§2：`hiring_commitment` / `team_formation` 满足五条件可入账，`official_listing` / `report_datapoint` 永不入账。
 
-| 字段 | 类型 | 说明 |
-| --- | --- | --- |
-| `id` | string | 唯一标识（kebab-case） |
-| `name` | string | 名称（中/英） |
-| `type` | enum | `role` \| `market` |
-| `domain` | enum | 见 2.2 |
-| `maturity` | enum | 见 2.3 |
-| `summary` | string | 一句话描述这个机会是什么 |
-| `whyNew` | string | 为什么它是 AI 带来的「增量」 |
-| `signals` | string[] | 佐证信号：招聘量、融资、代表公司等 |
-| `skills` | string[] | （岗位）所需关键技能 / （市场）关键能力 |
-| `examples` | string[] | 代表公司 / 产品 / 职位 |
-| `sources` | string[] | 来源链接（用于核查，可为空但鼓励填写） |
+## 4. 信源体系
 
-## 4. 数据来源建议
+[`data/sources.json`](../data/sources.json) 维护 34+ 信源（全球轨 + 中国轨），按更新节奏（日/周/双周/月/季/年/事件驱动）编排扫描计划；采集执行规范见 [`agents/collector.md`](../agents/collector.md)。
 
-收集与核查时优先参考：
-- 招聘平台趋势（LinkedIn、Indeed、Levels.fyi 的岗位数量与薪资）
-- 融资数据库（Crunchbase、PitchBook 的品类融资额）
-- 行业报告（咨询机构、风投基金的 AI 市场报告）
-- 一手招聘 JD 与公司官网
+引用纪律：官方数据（人社部、信通院、统计局、Census）可自由引用作为底座；招聘平台数据为私有口径，引用须注明统计基数且不可互相加和。
 
-> ⚠️ 注意：本项目早期数据为人工整理的种子样本，**具体数字需回到一手来源核验**，不要直接当作权威统计引用。
+## 5. 分析输出（路线图）
 
-## 5. 分析输出
-
-在数据积累到一定规模后，计划产出：
-1. **岗位热度榜** — 按招聘量 / 增速排序的新岗位。
-2. **增量市场地图** — 按市场规模与增长性二维分布。
-3. **趋势简报** — 定期更新哪些方向在加速、哪些降温。
+1. **The Number + 事件账本**（P0，已上线）——创造侧的可引用账本
+2. **趋势简报**（P2）——月度汇总账本增量与口径变化
+3. **净账本**（P2）——对置创造与替代（替代侧引用现成追踪源）
+4. **增量市场看板**（P3）——融资/规模/招聘三类代理指标
