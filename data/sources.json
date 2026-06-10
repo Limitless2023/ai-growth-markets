@@ -1,1 +1,308 @@
-[]
+[
+  {
+    "id": "anthropic-economic-index",
+    "name": "Anthropic Economic Index",
+    "url": "https://www.anthropic.com/economic-index",
+    "cadence": "quarterly",
+    "lang": "en",
+    "what_to_look_for_zh": "Claude 用量映射职业任务的报告与开放数据集 → report_datapoint（AI 使用面参照系）",
+    "last_checked": "2026-06-10"
+  },
+  {
+    "id": "stanford-hai-ai-index",
+    "name": "Stanford HAI AI Index Report",
+    "url": "https://hai.stanford.edu/ai-index/2026-ai-index-report",
+    "cadence": "yearly",
+    "lang": "en",
+    "what_to_look_for_zh": "年度经济章节中的 AI 技能岗位占比与就业结构数据 → report_datapoint",
+    "last_checked": "2026-06-10"
+  },
+  {
+    "id": "wef-future-of-jobs",
+    "name": "WEF Future of Jobs Report",
+    "url": "https://www.weforum.org/publications/series/future-of-jobs/",
+    "cadence": "biennial",
+    "lang": "en",
+    "what_to_look_for_zh": "两年一版的岗位创造/替代/净增预测（当前口径：2030 年前净增 7800 万）→ report_datapoint",
+    "last_checked": "2026-06-10"
+  },
+  {
+    "id": "indeed-hiring-lab-ai-tracker",
+    "name": "Indeed Hiring Lab AI Tracker",
+    "url": "https://github.com/hiring-lab/ai-tracker",
+    "cadence": "daily",
+    "lang": "en",
+    "what_to_look_for_zh": "招聘启事 AI 提及率日更 CSV（开放可商用）→ report_datapoint 与月度趋势",
+    "last_checked": "2026-06-10"
+  },
+  {
+    "id": "linkedin-economic-graph",
+    "name": "LinkedIn Economic Graph",
+    "url": "https://economicgraph.linkedin.com/",
+    "cadence": "yearly",
+    "lang": "en",
+    "what_to_look_for_zh": "年度劳动力市场报告中的 AI 岗位创造总量（当前口径：130 万 + 60 万数据中心）→ report_datapoint",
+    "last_checked": "2026-06-10"
+  },
+  {
+    "id": "linkedin-jobs-on-the-rise",
+    "name": "LinkedIn Jobs on the Rise",
+    "url": "https://www.linkedin.com/pulse/linkedin-jobs-rise-2026-25-fastest-growing-roles-us-linkedin-news-dlb1c",
+    "cadence": "yearly",
+    "lang": "en",
+    "what_to_look_for_zh": "年度增长最快职业榜中的 AI 新职业名（新职业词典 first_seen 考据源）",
+    "last_checked": "2026-06-10"
+  },
+  {
+    "id": "layoffs-fyi",
+    "name": "layoffs.fyi",
+    "url": "https://layoffs.fyi/",
+    "cadence": "daily",
+    "lang": "en",
+    "what_to_look_for_zh": "替代侧事件级数据（P2 净账本对照源，注明口径引用）",
+    "last_checked": "2026-06-10"
+  },
+  {
+    "id": "oecd-ai-wips",
+    "name": "OECD.AI Work, Innovation, Productivity & Skills",
+    "url": "https://oecd.ai/en/work-innovation-productivity-skills",
+    "cadence": "event_driven",
+    "lang": "en",
+    "what_to_look_for_zh": "AI 与就业的政策研究、live data 仪表盘 → report_datapoint",
+    "last_checked": "2026-06-10"
+  },
+  {
+    "id": "imf-ai-preparedness-index",
+    "name": "IMF AI Preparedness Index & SDN",
+    "url": "https://www.imf.org/external/datamapper/AI_PI@AIPI/",
+    "cadence": "yearly",
+    "lang": "en",
+    "what_to_look_for_zh": "国家级 AI 备战度与新岗位创造研究（SDN/2026/001）→ report_datapoint",
+    "last_checked": "2026-06-10"
+  },
+  {
+    "id": "umd-linkup-ai-maps",
+    "name": "UMD-LinkUp AI Maps",
+    "url": "https://www.aimaps.ai/",
+    "cadence": "monthly",
+    "lang": "en",
+    "what_to_look_for_zh": "美国 AI 岗位创造月度地图（LLM 识别口径）→ report_datapoint",
+    "last_checked": "2026-06-10"
+  },
+  {
+    "id": "yale-budget-lab-ai-tracker",
+    "name": "Yale Budget Lab AI Labor Tracker",
+    "url": "https://budgetlab.yale.edu/research/tracking-impact-ai-labor-market",
+    "cadence": "monthly",
+    "lang": "en",
+    "what_to_look_for_zh": "职业构成扰动月度监测（宏观对照）→ report_datapoint",
+    "last_checked": "2026-06-10"
+  },
+  {
+    "id": "pwc-ai-jobs-barometer",
+    "name": "PwC Global AI Jobs Barometer",
+    "url": "https://www.pwc.com/gx/en/services/ai/ai-jobs-barometer.html",
+    "cadence": "yearly",
+    "lang": "en",
+    "what_to_look_for_zh": "全球近 10 亿条招聘广告的 AI 技能岗位增速与薪资溢价 → report_datapoint",
+    "last_checked": "2026-06-10"
+  },
+  {
+    "id": "ilo-ai-observatory",
+    "name": "ILO Observatory on AI and Work",
+    "url": "https://www.ilo.org/observatory-ai-and-work-digital-economy",
+    "cadence": "event_driven",
+    "lang": "en",
+    "what_to_look_for_zh": "GenAI 职业暴露指数与数字劳动平台政策 → report_datapoint",
+    "last_checked": "2026-06-10"
+  },
+  {
+    "id": "census-btos-ai",
+    "name": "US Census BTOS AI Supplement",
+    "url": "https://www.census.gov/library/stories/2026/05/ai-use-businesses.html",
+    "cadence": "biweekly",
+    "lang": "en",
+    "what_to_look_for_zh": "双周频企业 AI 采用率官方序列（可机读）→ report_datapoint",
+    "last_checked": "2026-06-10"
+  },
+  {
+    "id": "fed-ai-adoption-notes",
+    "name": "Federal Reserve FEDS Notes on AI",
+    "url": "https://www.federalreserve.gov/econres/notes/feds-notes/monitoring-ai-adoption-in-the-u-s-economy-20260403.html",
+    "cadence": "event_driven",
+    "lang": "en",
+    "what_to_look_for_zh": "美联储对 AI 采用的官方监测笔记 → report_datapoint",
+    "last_checked": "2026-06-10"
+  },
+  {
+    "id": "openai-economic-blog",
+    "name": "OpenAI Economic Opportunity Announcements",
+    "url": "https://openai.com/index/expanding-economic-opportunity-with-ai/",
+    "cadence": "event_driven",
+    "lang": "en",
+    "what_to_look_for_zh": "Jobs Platform / 认证计划等公司承诺 → hiring_commitment",
+    "last_checked": "2026-06-10"
+  },
+  {
+    "id": "bloomberry-blog",
+    "name": "Bloomberry",
+    "url": "https://bloomberry.com/blog/",
+    "cadence": "event_driven",
+    "lang": "en",
+    "what_to_look_for_zh": "大样本职位数据分析长文（180M 职位级分析）→ report_datapoint",
+    "last_checked": "2026-06-10"
+  },
+  {
+    "id": "ai-eating-the-world",
+    "name": "AI Eating The World — AI Layoffs Tracker",
+    "url": "https://www.aieatingtheworld.com/ai-layoffs-tracker",
+    "cadence": "weekly",
+    "lang": "en",
+    "what_to_look_for_zh": "AI 归因裁员事件库（P2 净账本对照源；其『来源说了算』入选法与我们的方法论同源）",
+    "last_checked": "2026-06-10"
+  },
+  {
+    "id": "goldman-sachs-ai-insights",
+    "name": "Goldman Sachs AI & Labor Insights",
+    "url": "https://www.goldmansachs.com/insights/articles/how-will-ai-affect-the-us-labor-market",
+    "cadence": "event_driven",
+    "lang": "en",
+    "what_to_look_for_zh": "投行口径的 AI 就业影响研究 → report_datapoint",
+    "last_checked": "2026-06-10"
+  },
+  {
+    "id": "piie-realtime-econ",
+    "name": "PIIE RealTime Economics",
+    "url": "https://www.piie.com/blogs/realtime-economics/2026/research-ai-and-labor-market-still-first-inning",
+    "cadence": "event_driven",
+    "lang": "en",
+    "what_to_look_for_zh": "AI 劳动力市场研究综述与争论 → 方法论参考",
+    "last_checked": "2026-06-10"
+  },
+  {
+    "id": "mohrss-new-occupations",
+    "name": "人社部「职业上新」（新职业发布制度）",
+    "url": "https://chrm.mohrss.gov.cn/",
+    "cadence": "yearly",
+    "lang": "zh",
+    "what_to_look_for_zh": "新一批新职业/新工种公示与发布（AI 相关职业认定）→ official_listing",
+    "last_checked": "2026-06-10"
+  },
+  {
+    "id": "mohrss-xzy-platform",
+    "name": "新职业在线学习平台",
+    "url": "https://xzy.mohrss.gov.cn/",
+    "cadence": "event_driven",
+    "lang": "zh",
+    "what_to_look_for_zh": "新职业的官方培训/考证动向（职业标准落地信号）",
+    "last_checked": "2026-06-10"
+  },
+  {
+    "id": "caict-ai-reports",
+    "name": "中国信通院 AI 产业报告",
+    "url": "http://www.caict.ac.cn/",
+    "cadence": "yearly",
+    "lang": "zh",
+    "what_to_look_for_zh": "AI 核心产业规模官方口径（2025 预计 1.2 万亿）→ report_datapoint",
+    "last_checked": "2026-06-10"
+  },
+  {
+    "id": "gov-ai-plus-policy",
+    "name": "国务院「人工智能+」行动",
+    "url": "https://www.mee.gov.cn/zcwj/gwywj/202508/t20250827_1126207.shtml",
+    "cadence": "event_driven",
+    "lang": "zh",
+    "what_to_look_for_zh": "智能经济政策及配套文件中的就业承诺 → official_listing / hiring_commitment",
+    "last_checked": "2026-06-10"
+  },
+  {
+    "id": "boss-zhipin-reports",
+    "name": "BOSS直聘人才趋势报告",
+    "url": "https://careersciencelab.com/",
+    "cadence": "yearly",
+    "lang": "zh",
+    "what_to_look_for_zh": "AI 岗位新发职位增速、薪资溢价、非技术岗 AI 需求 → report_datapoint",
+    "last_checked": "2026-06-10"
+  },
+  {
+    "id": "zhilian-reports",
+    "name": "智联招聘 AI 人才报告",
+    "url": "https://www.fxbaogao.com/detail/5116567",
+    "cadence": "yearly",
+    "lang": "zh",
+    "what_to_look_for_zh": "AI 产业人才供需与岗位增速 → report_datapoint",
+    "last_checked": "2026-06-10"
+  },
+  {
+    "id": "liepin-reports",
+    "name": "猎聘大数据研究院",
+    "url": "https://finance.sina.com.cn/tech/roll/2026-02-05/doc-inhkutyw1881081.shtml",
+    "cadence": "quarterly",
+    "lang": "zh",
+    "what_to_look_for_zh": "AI 技能岗位薪资溢价与高管 AI 思维需求 → report_datapoint",
+    "last_checked": "2026-06-10"
+  },
+  {
+    "id": "maimai-gaopin-reports",
+    "name": "脉脉高聘人才智库",
+    "url": "https://finance.sina.com.cn/tech/roll/2025-12-12/doc-inhaprxi5698237.shtml",
+    "cadence": "quarterly",
+    "lang": "zh",
+    "what_to_look_for_zh": "AI 岗位新发增速与人才供需比 → report_datapoint",
+    "last_checked": "2026-06-10"
+  },
+  {
+    "id": "cier-index",
+    "name": "CIER 中国就业市场景气指数",
+    "url": "http://www.cier.org.cn/List.asp?Catid=451",
+    "cadence": "quarterly",
+    "lang": "zh",
+    "what_to_look_for_zh": "季度就业景气指数及 AI 重构就业专题 → report_datapoint",
+    "last_checked": "2026-06-10"
+  },
+  {
+    "id": "qbitai-think-tank",
+    "name": "量子位智库",
+    "url": "https://www.qbitai.com/tag/%E6%99%BA%E5%BA%93",
+    "cadence": "event_driven",
+    "lang": "zh",
+    "what_to_look_for_zh": "AI 产业趋势报告中的就业/职业子话题 → report_datapoint",
+    "last_checked": "2026-06-10"
+  },
+  {
+    "id": "jazzyear-reports",
+    "name": "甲子光年智库",
+    "url": "https://www.jazzyear.com/",
+    "cadence": "event_driven",
+    "lang": "zh",
+    "what_to_look_for_zh": "企业级 AI Agent 市场规模与商业品类研究 → report_datapoint",
+    "last_checked": "2026-06-10"
+  },
+  {
+    "id": "tencent-research",
+    "name": "腾讯研究院",
+    "url": "https://tisi.org/",
+    "cadence": "monthly",
+    "lang": "zh",
+    "what_to_look_for_zh": "AI 原生工作方式、超级个体等趋势研究 → 词典 human_angle 素材",
+    "last_checked": "2026-06-10"
+  },
+  {
+    "id": "ali-research",
+    "name": "阿里研究院",
+    "url": "http://www.aliresearch.com/",
+    "cadence": "event_driven",
+    "lang": "zh",
+    "what_to_look_for_zh": "「AI+」职业趋势与超级个体案例 → 词典素材",
+    "last_checked": "2026-06-10"
+  },
+  {
+    "id": "aicpb-rankings",
+    "name": "AI 产品榜",
+    "url": "https://www.aicpb.com/",
+    "cadence": "monthly",
+    "lang": "zh",
+    "what_to_look_for_zh": "AI 产品月度榜单（增量市场热度的产品侧信号）→ market 佐证",
+    "last_checked": "2026-06-10"
+  }
+]
