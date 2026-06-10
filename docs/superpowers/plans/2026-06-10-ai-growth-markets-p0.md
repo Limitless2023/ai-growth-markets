@@ -41,7 +41,7 @@
 - Create: `scripts/validate.mjs`
 - Test: `tests/validate.test.mjs`、`tests/fixtures/valid/*.json`、`tests/fixtures/invalid/*.json`
 
-- [ ] **Step 1.1: 写四个 Schema 文件**
+- [x] **Step 1.1: 写四个 Schema 文件**
 
 `data/schema/event.schema.json`：
 
@@ -174,7 +174,7 @@
 }
 ```
 
-- [ ] **Step 1.2: 写失败测试**
+- [x] **Step 1.2: 写失败测试**
 
 `tests/validate.test.mjs`（零依赖，`node:test`；校验器从 `DATA_DIR` 环境变量读数据目录）：
 
@@ -215,14 +215,14 @@ test("invalid fixtures 全部规则被命中", () => {
 
 `tests/fixtures/valid/` 下放四个最小合法文件（events.json 含 1 条 counted=true/jobs_count=500/company_stated/hiring_commitment/published 事件 + 1 条 report_datapoint/counted=false；occupations.json、markets.json 各 1 条最小合法记录，事件的 occupation_ids 指向它；sources.json 1 条）。`tests/fixtures/invalid/` 下放触发 R1（重复 id）、R2（缺 source.url）、R3（counted=true 但 confidence=report_estimated）、R4（report_datapoint 且 counted=true）、R5（occupation_ids 指向不存在的 id）的文件。fixture 即测试数据，照规则反向构造即可。
 
-- [ ] **Step 1.3: 跑测试确认失败**
+- [x] **Step 1.3: 跑测试确认失败**
 
 ```bash
 cd "/Users/limitless/Desktop/Projects/AI Growth Market" && node --test tests/
 ```
 预期：FAIL（`scripts/validate.mjs` 不存在）。
 
-- [ ] **Step 1.4: 实现校验器**
+- [x] **Step 1.4: 实现校验器**
 
 `scripts/validate.mjs`（零依赖，不引入通用 JSON Schema 引擎，手写规则与 schema 文件语义一致）：
 
@@ -333,14 +333,14 @@ console.log(`✓ 校验通过：${events.length} 事件 / ${occupations.length} 
 console.log(`✓ The Number = ${theNumber}`);
 ```
 
-- [ ] **Step 1.5: 跑测试确认通过**
+- [x] **Step 1.5: 跑测试确认通过**
 
 ```bash
 node --test tests/
 ```
 预期：PASS（2 个测试）。
 
-- [ ] **Step 1.6: Commit**
+- [x] **Step 1.6: Commit**
 
 ```bash
 git add data/schema scripts tests && git commit -m "feat: 数据模型 Schema 与零依赖校验器（R1-R5 数据纪律）"
@@ -354,7 +354,7 @@ git add data/schema scripts tests && git commit -m "feat: 数据模型 Schema �
 - Create: `data/occupations.json`（6 条 role 升级）、`data/markets.json`（6 条 market 拆双语）
 - Delete: `data/opportunities.json`
 
-- [ ] **Step 2.1: 写 occupations.json**
+- [x] **Step 2.1: 写 occupations.json**
 
 由现有 6 条 `type: "role"` 记录改造：字段改名 `summary→summary_zh`、`whyNew→why_new_zh`、`name` 拆 `name_zh`/`name_en`；新增 `summary_en`、`why_new_en`（实施时按 zh 翻译）、`aka`、`first_seen`、`official_recognition`、`salary_band: null`、`human_angle_zh/_en`、`event_ids: []`。英文名与已知考据：
 
@@ -369,11 +369,11 @@ git add data/schema scripts tests && git commit -m "feat: 数据模型 Schema �
 
 `human_angle_zh` 每条写 2~3 句"这个职业的人每天在做什么"（基于 summary 展开，写实不煽情）；`human_angle_en` 为其英译。`drift-bottles` 时代的 `signals` 字段并入 `summary` 语境后丢弃（spec §4.2 未保留该字段）。
 
-- [ ] **Step 2.2: 写 markets.json**
+- [x] **Step 2.2: 写 markets.json**
 
 6 条 `type: "market"` 同法拆双语（`name_zh/name_en/summary_zh/summary_en/why_new_zh/why_new_en`），保留 `skills`、`examples`、`sources`，新增 `event_ids: []`，丢弃 `type` 与 `signals`。
 
-- [ ] **Step 2.3: 删除旧文件并跑校验**
+- [x] **Step 2.3: 删除旧文件并跑校验**
 
 ```bash
 git rm data/opportunities.json
@@ -381,7 +381,7 @@ DATA_DIR=data node scripts/validate.mjs
 ```
 预期：`✓ 校验通过：0 事件 / 6 职业 / 6 市场 / 0 信源`——注意此时 events.json/sources.json 还不存在会报错，先写空数组文件：`echo '[]' > data/events.json && echo '[]' > data/sources.json`。
 
-- [ ] **Step 2.4: Commit**
+- [x] **Step 2.4: Commit**
 
 ```bash
 git add -A data && git commit -m "feat: opportunities 拆分为 occupations/markets，双语化+词典字段升级"
@@ -394,7 +394,7 @@ git add -A data && git commit -m "feat: opportunities 拆分为 occupations/mark
 **Files:**
 - Modify: `data/sources.json`
 
-- [ ] **Step 3.1: 录入首批信源（两份调研报告全部信源，32 条）**
+- [x] **Step 3.1: 录入首批信源（两份调研报告全部信源，32 条）**
 
 每条按 schema 写全 `id/name/url/cadence/lang/what_to_look_for_zh/last_checked:"2026-06-10"`。清单（id ｜ cadence ｜ lang ｜ url 取调研报告核实过的链接）：
 
@@ -404,7 +404,7 @@ git add -A data && git commit -m "feat: opportunities 拆分为 occupations/mark
 
 `what_to_look_for_zh` 一句话写明该信源能产出哪类事件（如 linkedin-economic-graph："年度报告中的 AI 岗位创造总量数字 → report_datapoint"）。
 
-- [ ] **Step 3.2: 校验 + Commit**
+- [x] **Step 3.2: 校验 + Commit**
 
 ```bash
 DATA_DIR=data node scripts/validate.mjs   # 预期 ✓ 34 信源（32+任何补充）
@@ -418,7 +418,7 @@ git add data/sources.json && git commit -m "feat: 信源登记表首批 30+ 信�
 **Files:**
 - Modify: `data/events.json`
 
-- [ ] **Step 4.1: 录入 18 条种子事件**
+- [x] **Step 4.1: 录入 18 条种子事件**
 
 全部来自调研报告已核实链接。事件表（id ｜ date ｜ kind ｜ body ｜ region ｜ jobs_count ｜ source.url）：
 
@@ -445,7 +445,7 @@ git add data/sources.json && git commit -m "feat: 信源登记表首批 30+ 信�
 
 通用字段：`confidence: "report_estimated"`（15-17 官方认定与 18 用 `company_stated`）、`counted: false`（批次一全部不计数；18 无具体岗位数所以也不计数）、`status: "published"`、`quote_zh/quote_en` 摘原文关键句（中文源配英译标 `(translated)`，英文源配中译）、关联 `occupation_ids`（如 15→`["ai-trainer-annotator"]`）。具体 URL 一律从调研报告原文复制，禁止凭记忆改写。
 
-- [ ] **Step 4.2: 反向回填关联 + 校验 + Commit**
+- [x] **Step 4.2: 反向回填关联 + 校验 + Commit**
 
 occupations.json 中 `ai-trainer-annotator.event_ids` 加 `"2020-02-mohrss-batch2-ai-trainer"`，其余职业/市场按语义回填（没有就留空）。
 
@@ -462,7 +462,7 @@ git add data && git commit -m "feat: 种子账本批次一——18 条机构口�
 - Create: `agents/collector.md`
 - Modify: `data/events.json`、`data/sources.json`(last_checked)
 
-- [ ] **Step 5.1: 写 collector.md**
+- [x] **Step 5.1: 写 collector.md**
 
 内容骨架（写全文，不留 TBD）：
 
@@ -497,13 +497,13 @@ URL 必须实际访问验证可达且内容与 quote 一致。
 - 不确定就降级：拿不准 company_stated 时标 report_estimated + counted:false
 ```
 
-- [ ] **Step 5.2: 首跑采集（执行者亲自跑，目标 ≥5 条 counted 事件）**
+- [x] **Step 5.2: 首跑采集（执行者亲自跑，目标 ≥5 条 counted 事件）**
 
 按 collector.md 的搜索配方执行 WebSearch：重点搜 2025H2-2026H1 的公司/政府 AI 招聘承诺硬数字（数据中心建设运维、AI 实验室扩张、制造业 AI 产线、主权 AI 基建等都是高产区）。每条候选：访问 URL 验证可达 + quote 逐字核对 + 按 schema 写入 events.json（`status: "published"`，counted 按红线判定）。同时把用到的信源 `last_checked` 更新为执行日。
 
 验收：`DATA_DIR=data node scripts/validate.mjs` 输出 `The Number ≥ 10000`（5 条以上带数字的承诺，数据中心类单条常为千~万级；若实际采集低于此值，如实保留真实数字，不凑数）。
 
-- [ ] **Step 5.3: Commit**
+- [x] **Step 5.3: Commit**
 
 ```bash
 git add agents data && git commit -m "feat: collector 采集规范 + 首跑——首批 counted 事件入账，The Number 上线"
@@ -517,7 +517,7 @@ git add agents data && git commit -m "feat: collector 采集规范 + 首跑—�
 - Create: `docs/methodology.md`
 - Modify: `docs/research-framework.md`
 
-- [ ] **Step 6.1: 写 methodology.md**
+- [x] **Step 6.1: 写 methodology.md**
 
 章节与内容（全文照 spec §5/§4.1.1 展开，此处为必含要点）：
 1. **The Number 计数规则**——spec §5 五条件逐条列出 + "保守下限"定位声明
@@ -527,11 +527,11 @@ git add agents data && git commit -m "feat: collector 采集规范 + 首跑—�
 5. **如何引用**——格式：`AI Growth Markets, "事件标题", 检索于 YYYY-MM-DD, <URL>`；数据许可 CC BY 4.0
 6. **已知局限**——承诺≠到岗（P2 做回访核查）、覆盖偏差（英文中文信源为主）、AI-washing 风险声明
 
-- [ ] **Step 6.2: research-framework.md v2**
+- [x] **Step 6.2: research-framework.md v2**
 
 改三处：① 数据模型一节替换为指向 `data/schema/` 的四实体说明；② 增加"事件账本方法论见 methodology.md"链接；③ 删除已废弃的 opportunities.json 字段表。保留分类维度（domain/maturity 枚举继续有效）。
 
-- [ ] **Step 6.3: Commit**
+- [x] **Step 6.3: Commit**
 
 ```bash
 git add docs && git commit -m "docs: 计数方法论与研究框架 v2"
@@ -544,7 +544,7 @@ git add docs && git commit -m "docs: 计数方法论与研究框架 v2"
 **Files:**
 - Rewrite: `web/index.html`；Create: `web/style.css`、`web/app.js`、`web/i18n.js`、`web/methodology.html`
 
-- [ ] **Step 7.1: i18n.js——语言机制**
+- [x] **Step 7.1: i18n.js——语言机制**
 
 ```js
 // ============================================================
@@ -581,7 +581,7 @@ export const UI = {
 };
 ```
 
-- [ ] **Step 7.2: app.js——数据加载与渲染核心**
+- [x] **Step 7.2: app.js——数据加载与渲染核心**
 
 关键逻辑（完整实现按此扩展，渲染函数逐段拼 DOM）：
 
@@ -613,22 +613,22 @@ const theNumber = published.filter((e) => e.counted).reduce((s, e) => s + e.jobs
 
 The Number 数字格式：`toLocaleString()`（如 12,400），hero 副行始终带"保守下限"定位语，杜绝表演式计数。
 
-- [ ] **Step 7.3: index.html + style.css**
+- [x] **Step 7.3: index.html + style.css**
 
 结构：`<header>`(品牌 + 语言切换钮) → Hero(The Number) → 参照条 → 三个 tab 区（账本表 / 词典卡片网格 / 市场卡片）→ footer（方法论链接 + 数据下载 data/*.json 直链 + 引用格式 + GitHub 仓库/纠错 Issue 链接 + CC BY 4.0）。样式沿用现有暗色观察站体系（从旧 index.html 的 `:root` 变量起步：`--bg:#0b0f19` 系），表格行 hover 展开、卡片网格复用旧 `.card` 样式语言；新增 `--counted:#7ee0c0` 强调入账行。移动端单列。中文字体栈保留 `Noto Sans SC`。
 
-- [ ] **Step 7.4: methodology.html**
+- [x] **Step 7.4: methodology.html**
 
 静态页：把 docs/methodology.md 的内容手工转为 HTML 章节（不引 md 渲染库，保持零依赖），顶部同款 header，可切语言（正文 v1 先中文为主、关键规则双语）。
 
-- [ ] **Step 7.5: 本地验证**
+- [x] **Step 7.5: 本地验证**
 
 ```bash
 cd "/Users/limitless/Desktop/Projects/AI Growth Market" && python3 -m http.server 8800
 ```
 浏览器检查 `http://localhost:8800/web/`：① The Number 与 validate.mjs 输出一致；② 账本行展开可见 quote 与来源链接；③ 语言切换全 UI 生效且 localStorage 记忆；④ 筛选器工作；⑤ 移动宽度（375px）不破版。用 browse/preview 工具截图留证。
 
-- [ ] **Step 7.6: Commit**
+- [x] **Step 7.6: Commit**
 
 ```bash
 git add web && git commit -m "feat: 网站 v1——The Number/事件账本/新职业词典/方法论页，中英双语"
@@ -641,7 +641,7 @@ git add web && git commit -m "feat: 网站 v1——The Number/事件账本/新�
 **Files:**
 - Create: `.github/workflows/validate.yml`、`.github/workflows/pages.yml`
 
-- [ ] **Step 8.1: validate.yml**
+- [x] **Step 8.1: validate.yml**
 
 ```yaml
 name: validate-data
@@ -659,7 +659,7 @@ jobs:
       - run: node --test tests/
 ```
 
-- [ ] **Step 8.2: pages.yml**
+- [x] **Step 8.2: pages.yml**
 
 ```yaml
 name: deploy-pages
@@ -686,7 +686,7 @@ jobs:
         uses: actions/deploy-pages@v4
 ```
 
-- [ ] **Step 8.3: Commit**
+- [x] **Step 8.3: Commit**
 
 ```bash
 git add .github && git commit -m "ci: 数据校验与 GitHub Pages 部署工作流"
@@ -699,11 +699,11 @@ git add .github && git commit -m "ci: 数据校验与 GitHub Pages 部署工作�
 **Files:**
 - Rewrite: `README.md`
 
-- [ ] **Step 9.1: 重写 README（双语门面）**
+- [x] **Step 9.1: 重写 README（双语门面）**
 
 结构：中文在前英文在后。① 一句话定位 + 线上地址徽章；② The Number 是什么/怎么算（链 methodology）；③ 三层产品结构表；④ 数据下载与引用格式（CC BY 4.0）；⑤ 贡献指南（提交事件 = 复制 event 模板开 PR，CI 自动校验；纠错走 Issue）；⑥ Roadmap（P0 ✅ → P1 定时采集 → P2 净账本 → P3 市场看板 → P4 社区）；⑦ 项目方法论与 spec/plan 文档索引。
 
-- [ ] **Step 9.2: 推送 + 启用 Pages**
+- [x] **Step 9.2: 推送 + 启用 Pages**
 
 ```bash
 git add README.md && git commit -m "docs: README v1——项目门面与贡献指南"
@@ -713,7 +713,7 @@ gh api -X PUT  "repos/Limitless2023/ai-growth-markets/pages" -f build_type=workf
 gh run watch --repo Limitless2023/ai-growth-markets $(gh run list --repo Limitless2023/ai-growth-markets --workflow deploy-pages --limit 1 --json databaseId --jq '.[0].databaseId')
 ```
 
-- [ ] **Step 9.3: 线上验证（P0 完成判据，spec §9）**
+- [x] **Step 9.3: 线上验证（P0 完成判据，spec §9）**
 
 逐项核对：① `https://limitless2023.github.io/ai-growth-markets/` 公网可访问；② The Number 显示且与 `node scripts/validate.mjs` 本地输出一致；③ 随机抽 3 行事件点开来源链接全部可达；④ 语言切换正常；⑤ `…/data/events.json` 可直接下载；⑥ Actions 两个 workflow 全绿。任何一项不过即修复后重新验证，全过才算 P0 完成。
 
