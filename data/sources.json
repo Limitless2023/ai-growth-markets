@@ -304,5 +304,275 @@
     "lang": "zh",
     "what_to_look_for_zh": "AI 产品月度榜单（增量市场热度的产品侧信号）→ market 佐证",
     "last_checked": "2026-06-10"
+  },
+  {
+    "id": "microsoft-newsroom",
+    "name": "Microsoft News / On the Issues",
+    "url": "https://blogs.microsoft.com/",
+    "cadence": "event_driven",
+    "lang": "en",
+    "what_to_look_for_zh": "AI 数据中心建设与 AI 团队扩张官方公告 → hiring_commitment",
+    "last_checked": "2026-06-10"
+  },
+  {
+    "id": "meta-newsroom",
+    "name": "Meta Newsroom",
+    "url": "https://about.fb.com/news/",
+    "cadence": "event_driven",
+    "lang": "en",
+    "what_to_look_for_zh": "AI 数据中心破土/扩建公告（运营岗与建设岗分列数字）→ hiring_commitment",
+    "last_checked": "2026-06-10"
+  },
+  {
+    "id": "amazon-newsroom",
+    "name": "About Amazon",
+    "url": "https://www.aboutamazon.com/news",
+    "cadence": "event_driven",
+    "lang": "en",
+    "what_to_look_for_zh": "AWS AI/数据中心州级投资的就业承诺 → hiring_commitment",
+    "last_checked": "2026-06-10"
+  },
+  {
+    "id": "google-blog",
+    "name": "Google Keyword Blog",
+    "url": "https://blog.google/",
+    "cadence": "event_driven",
+    "lang": "en",
+    "what_to_look_for_zh": "数据中心投资与 AI 业务岗位公告 → hiring_commitment",
+    "last_checked": "2026-06-10"
+  },
+  {
+    "id": "nvidia-newsroom",
+    "name": "NVIDIA Newsroom",
+    "url": "https://nvidianews.nvidia.com/",
+    "cadence": "event_driven",
+    "lang": "en",
+    "what_to_look_for_zh": "AI 工厂/美国制造回流带动的岗位公告 → hiring_commitment",
+    "last_checked": "2026-06-10"
+  },
+  {
+    "id": "anthropic-newsroom",
+    "name": "Anthropic News",
+    "url": "https://www.anthropic.com/news",
+    "cadence": "event_driven",
+    "lang": "en",
+    "what_to_look_for_zh": "AI 基建投资与团队扩张公告（如 500 亿美元基建）→ hiring_commitment",
+    "last_checked": "2026-06-10"
+  },
+  {
+    "id": "xai-news",
+    "name": "xAI News",
+    "url": "https://x.ai/news",
+    "cadence": "event_driven",
+    "lang": "en",
+    "what_to_look_for_zh": "Colossus 等数据中心与招聘公告 → hiring_commitment",
+    "last_checked": "2026-06-10"
+  },
+  {
+    "id": "softbank-news",
+    "name": "SoftBank Group News",
+    "url": "https://group.softbank/en/news",
+    "cadence": "event_driven",
+    "lang": "en",
+    "what_to_look_for_zh": "Stargate 等 AI 基建联合公告（OpenAI 官网 403 时的一手替代）→ hiring_commitment",
+    "last_checked": "2026-06-10"
+  },
+  {
+    "id": "datacenterdynamics",
+    "name": "Data Center Dynamics",
+    "url": "https://www.datacenterdynamics.com/",
+    "cadence": "daily",
+    "lang": "en",
+    "what_to_look_for_zh": "数据中心行业媒体：项目岗位数字高产区（引用前须回溯一手公告）",
+    "last_checked": "2026-06-10"
+  },
+  {
+    "id": "prnewswire-ai",
+    "name": "PR Newswire AI 频道",
+    "url": "https://www.prnewswire.com/news/artificial-intelligence/",
+    "cadence": "daily",
+    "lang": "en",
+    "what_to_look_for_zh": "企业 AI 招聘/扩张官方通稿（一手新闻稿源）→ hiring_commitment",
+    "last_checked": "2026-06-10"
+  },
+  {
+    "id": "fool-transcripts",
+    "name": "Motley Fool Earnings Call Transcripts",
+    "url": "https://www.fool.com/earnings-call-transcripts/",
+    "cadence": "daily",
+    "lang": "en",
+    "what_to_look_for_zh": "财报电话会逐字稿中的 AI 招聘表态 → hiring_commitment / team_formation",
+    "last_checked": "2026-06-10"
+  },
+  {
+    "id": "bls-employment",
+    "name": "US Bureau of Labor Statistics",
+    "url": "https://www.bls.gov/",
+    "cadence": "monthly",
+    "lang": "en",
+    "what_to_look_for_zh": "官方就业统计中的 AI 相关职业序列与预测 → report_datapoint",
+    "last_checked": "2026-06-10"
+  },
+  {
+    "id": "whitehouse-briefing",
+    "name": "White House Briefing Room",
+    "url": "https://www.whitehouse.gov/briefing-room/",
+    "cadence": "event_driven",
+    "lang": "en",
+    "what_to_look_for_zh": "联邦 AI 投资与就业承诺、行政令配套 → hiring_commitment / official_listing",
+    "last_checked": "2026-06-10"
+  },
+  {
+    "id": "eu-ai-office",
+    "name": "EU Digital Strategy / AI Office",
+    "url": "https://digital-strategy.ec.europa.eu/",
+    "cadence": "event_driven",
+    "lang": "en",
+    "what_to_look_for_zh": "欧盟 AI 政策、InvestAI 类计划的就业承诺 → hiring_commitment",
+    "last_checked": "2026-06-10"
+  },
+  {
+    "id": "india-pib",
+    "name": "Press Information Bureau (India)",
+    "url": "https://pib.gov.in/",
+    "cadence": "event_driven",
+    "lang": "en",
+    "what_to_look_for_zh": "印度 AI Mission/数据中心投资的就业公告 → hiring_commitment",
+    "last_checked": "2026-06-10"
+  },
+  {
+    "id": "humain-news",
+    "name": "HUMAIN (Saudi Arabia)",
+    "url": "https://humain.ai/",
+    "cadence": "event_driven",
+    "lang": "en",
+    "what_to_look_for_zh": "沙特主权 AI 项目就业承诺（带数字才收）→ hiring_commitment",
+    "last_checked": "2026-06-10"
+  },
+  {
+    "id": "g42-news",
+    "name": "G42 (UAE)",
+    "url": "https://www.g42.ai/",
+    "cadence": "event_driven",
+    "lang": "en",
+    "what_to_look_for_zh": "中东 AI 基建与就业公告 → hiring_commitment",
+    "last_checked": "2026-06-10"
+  },
+  {
+    "id": "gnews-rss-ai-jobs-en",
+    "name": "Google News RSS：AI jobs announcements (EN)",
+    "url": "https://news.google.com/rss/search?q=%22AI%22+%22new+jobs%22+announced",
+    "cadence": "daily",
+    "lang": "en",
+    "what_to_look_for_zh": "RSS 扫描配方：英文『AI 新增岗位公告』入口，命中后回溯一手来源",
+    "last_checked": "2026-06-10"
+  },
+  {
+    "id": "gnews-rss-datacenter-jobs-en",
+    "name": "Google News RSS：data center jobs (EN)",
+    "url": "https://news.google.com/rss/search?q=%22data+center%22+%22jobs%22+AI",
+    "cadence": "daily",
+    "lang": "en",
+    "what_to_look_for_zh": "RSS 扫描配方：数据中心岗位公告入口，命中后回溯一手来源",
+    "last_checked": "2026-06-10"
+  },
+  {
+    "id": "gov-cn-policy",
+    "name": "中国政府网政策发布",
+    "url": "https://www.gov.cn/zhengce/",
+    "cadence": "event_driven",
+    "lang": "zh",
+    "what_to_look_for_zh": "国家级『人工智能+』配套政策与就业部署 → official_listing / hiring_commitment",
+    "last_checked": "2026-06-10"
+  },
+  {
+    "id": "miit-news",
+    "name": "工业和信息化部",
+    "url": "https://www.miit.gov.cn/",
+    "cadence": "event_driven",
+    "lang": "zh",
+    "what_to_look_for_zh": "AI 产业政策、产业园区与人才计划公告 → hiring_commitment",
+    "last_checked": "2026-06-10"
+  },
+  {
+    "id": "36kr-newsflash",
+    "name": "36氪快讯",
+    "url": "https://36kr.com/newsflashes",
+    "cadence": "daily",
+    "lang": "zh",
+    "what_to_look_for_zh": "大厂 AI 招聘/扩张快讯（引用前须回溯一手公告）",
+    "last_checked": "2026-06-10"
+  },
+  {
+    "id": "ithome-news",
+    "name": "IT之家",
+    "url": "https://www.ithome.com/",
+    "cadence": "daily",
+    "lang": "zh",
+    "what_to_look_for_zh": "大厂校招/AI 岗位公告的高频转发源（须回溯一手）",
+    "last_checked": "2026-06-10"
+  },
+  {
+    "id": "thepaper-tech",
+    "name": "澎湃新闻",
+    "url": "https://www.thepaper.cn/",
+    "cadence": "daily",
+    "lang": "zh",
+    "what_to_look_for_zh": "AI 产业就业报道与地方政策落地（含美数课数据新闻）",
+    "last_checked": "2026-06-10"
+  },
+  {
+    "id": "jiemian-tech",
+    "name": "界面新闻",
+    "url": "https://www.jiemian.com/",
+    "cadence": "daily",
+    "lang": "zh",
+    "what_to_look_for_zh": "公司 AI 业务扩张与招聘报道（须回溯一手）",
+    "last_checked": "2026-06-10"
+  },
+  {
+    "id": "alibaba-newsroom",
+    "name": "阿里巴巴集团新闻",
+    "url": "https://www.alibabagroup.com/news",
+    "cadence": "event_driven",
+    "lang": "zh",
+    "what_to_look_for_zh": "AI 基建投资（如三年 3800 亿）与招聘公告 → hiring_commitment",
+    "last_checked": "2026-06-10"
+  },
+  {
+    "id": "tencent-newsroom",
+    "name": "腾讯新闻中心",
+    "url": "https://www.tencent.com/zh-cn/media",
+    "cadence": "event_driven",
+    "lang": "zh",
+    "what_to_look_for_zh": "AI 招聘计划（实习/校招/社招）与基建公告 → hiring_commitment",
+    "last_checked": "2026-06-10"
+  },
+  {
+    "id": "huawei-newsroom",
+    "name": "华为新闻",
+    "url": "https://www.huawei.com/cn/news",
+    "cadence": "event_driven",
+    "lang": "zh",
+    "what_to_look_for_zh": "昇腾/AI 产业链与人才培养计划公告 → hiring_commitment",
+    "last_checked": "2026-06-10"
+  },
+  {
+    "id": "bytedance-newsroom",
+    "name": "字节跳动新闻",
+    "url": "https://www.bytedance.com/zh/news",
+    "cadence": "event_driven",
+    "lang": "zh",
+    "what_to_look_for_zh": "AI 业务扩张与校招公告 → hiring_commitment",
+    "last_checked": "2026-06-10"
+  },
+  {
+    "id": "gnews-rss-ai-jobs-zh",
+    "name": "Google News RSS：AI 岗位公告（中文）",
+    "url": "https://news.google.com/rss/search?q=%22%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%22+%22%E5%B2%97%E4%BD%8D%22&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "cadence": "daily",
+    "lang": "zh",
+    "what_to_look_for_zh": "RSS 扫描配方：中文『人工智能+岗位』公告入口，命中后回溯一手来源",
+    "last_checked": "2026-06-10"
   }
 ]

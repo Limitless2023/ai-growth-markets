@@ -22,6 +22,22 @@
 
 高产区提示：AI 数据中心建设运维、模型实验室扩张、制造业 AI 产线、主权 AI 基建、AI 客服/标注基地。
 
+## 扫描计划（例行运行）
+
+每轮例行运行按 `data/sources.json` 的 `cadence` 字段分层扫描：
+
+| 层 | 信源 | 动作 |
+|----|------|------|
+| **每轮必扫** | `cadence: daily / weekly` 的信源 + 两条 Google News RSS 配方（中英） | 扫上次运行（`last_checked`）以来的新公告 |
+| **轮换扫** | `cadence: monthly / quarterly / yearly` 中 `last_checked` 距今超过其周期的 | 每轮挑 3-5 个补扫，扫后更新 `last_checked` |
+| **事件驱动** | `cadence: event_driven`（大厂 newsroom、政府渠道） | 配合搜索配方按需查证，不强制全扫 |
+
+**区域配额**：每轮交付中 US 与 CN 事件都必须出现（除非确实无新事件并说明）；每轮至少尝试一个第三区域（EU/JP/KR/IN/中东）。
+
+**二手转发源纪律**：36氪快讯/IT之家/DCD 等媒体只作为发现入口，入库 `source.url` 必须回溯到一手公告（公司 newsroom / 政府官网）；确实找不到一手时才引转发并在 `notes_zh` 注明。
+
+**信源自进化**：每轮交付物末尾可附「建议新增信源」清单（id/url/cadence/理由），由终审人决定是否入登记表。
+
 ## 产出格式
 
 每条候选 = 一个完整 event JSON 对象 + 一行入选理由（为何可信、口径是什么）。
