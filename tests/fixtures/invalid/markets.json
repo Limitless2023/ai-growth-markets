@@ -1,0 +1,12 @@
+[
+  {
+    "id": "mkt-ok",
+    "name_zh": "市场",
+    "name_en": "Market",
+    "domain": "infrastructure",
+    "maturity": "emerging",
+    "summary_zh": "摘要",
+    "summary_en": "Summary",
+    "why_new_zh": "原因"
+  }
+]

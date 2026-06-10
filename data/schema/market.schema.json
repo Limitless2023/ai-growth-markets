@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Market",
+  "description": "增量市场条目：因 AI 而新生或被显著放大的商业品类",
+  "type": "object",
+  "required": ["id", "name_zh", "name_en", "domain", "maturity", "summary_zh", "summary_en", "why_new_zh"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]+$" },
+    "name_zh": { "type": "string", "minLength": 1 },
+    "name_en": { "type": "string", "minLength": 1 },
+    "domain": { "enum": ["infrastructure", "data", "product", "safety", "governance", "creative", "enablement"] },
+    "maturity": { "enum": ["emerging", "growing", "established"] },
+    "summary_zh": { "type": "string", "minLength": 1 },
+    "summary_en": { "type": "string", "minLength": 1 },
+    "why_new_zh": { "type": "string", "minLength": 1 },
+    "why_new_en": { "type": "string" },
+    "skills": { "type": "array", "items": { "type": "string" } },
+    "examples": { "type": "array", "items": { "type": "string" } },
+    "event_ids": { "type": "array", "items": { "type": "string" } },
+    "sources": { "type": "array", "items": { "type": "string", "pattern": "^https?://" } }
+  }
+}

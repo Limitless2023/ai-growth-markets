@@ -1,0 +1,44 @@
+[
+  {
+    "id": "2026-06-testco-ai-500",
+    "date": "2026-06-01",
+    "company_or_body": "TestCo",
+    "region": "US",
+    "kind": "hiring_commitment",
+    "jobs_count": 500,
+    "jobs_type_zh": "测试岗位",
+    "jobs_type_en": "Test Role",
+    "occupation_ids": ["test-occupation"],
+    "market_ids": ["test-market"],
+    "source": {
+      "url": "https://example.com/announcement",
+      "publisher": "Example News",
+      "date": "2026-06-01",
+      "quote_zh": "我们将为 AI 业务新增 500 个岗位。",
+      "quote_en": "We will add 500 roles for our AI business."
+    },
+    "confidence": "company_stated",
+    "counted": true,
+    "status": "published",
+    "notes_zh": ""
+  },
+  {
+    "id": "2026-06-institute-datapoint",
+    "date": "2026-06-02",
+    "company_or_body": "Test Institute",
+    "region": "Global",
+    "kind": "report_datapoint",
+    "jobs_count": null,
+    "occupation_ids": [],
+    "market_ids": [],
+    "source": {
+      "url": "https://example.com/report",
+      "publisher": "Example Institute",
+      "date": "2026-06",
+      "quote_en": "AI created many jobs."
+    },
+    "confidence": "report_estimated",
+    "counted": false,
+    "status": "published"
+  }
+]

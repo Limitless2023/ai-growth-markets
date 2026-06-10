@@ -1,0 +1,11 @@
+[
+  {
+    "id": "test-source",
+    "name": "Test Source",
+    "url": "https://example.com",
+    "cadence": "monthly",
+    "lang": "en",
+    "what_to_look_for_zh": "测试信号",
+    "last_checked": "2026-06-10"
+  }
+]

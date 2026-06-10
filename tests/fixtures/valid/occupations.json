@@ -1,0 +1,22 @@
+[
+  {
+    "id": "test-occupation",
+    "name_zh": "测试职业",
+    "name_en": "Test Occupation",
+    "domain": "product",
+    "maturity": "growing",
+    "summary_zh": "一个用于测试的职业。",
+    "summary_en": "An occupation for testing.",
+    "why_new_zh": "因测试而生。",
+    "why_new_en": "Born for testing.",
+    "first_seen": { "date": "2026-01", "source_url": "https://example.com/first" },
+    "official_recognition": null,
+    "salary_band": null,
+    "human_angle_zh": "每天写测试。",
+    "human_angle_en": "Writes tests every day.",
+    "skills": ["测试"],
+    "examples": ["TestCo"],
+    "event_ids": ["2026-06-testco-ai-500"],
+    "sources": []
+  }
+]

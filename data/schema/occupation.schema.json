@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Occupation",
+  "description": "新职业词典条目：AI 催生的新职业的物种档案",
+  "type": "object",
+  "required": ["id", "name_zh", "name_en", "domain", "maturity", "summary_zh", "summary_en", "why_new_zh", "skills"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]+$" },
+    "name_zh": { "type": "string", "minLength": 1 },
+    "name_en": { "type": "string", "minLength": 1 },
+    "aka": { "type": "array", "items": { "type": "string" } },
+    "domain": { "enum": ["infrastructure", "data", "product", "safety", "governance", "creative", "enablement"] },
+    "maturity": { "enum": ["emerging", "growing", "established"] },
+    "summary_zh": { "type": "string", "minLength": 1 },
+    "summary_en": { "type": "string", "minLength": 1 },
+    "why_new_zh": { "type": "string", "minLength": 1 },
+    "why_new_en": { "type": "string" },
+    "first_seen": {
+      "type": ["object", "null"],
+      "description": "该职业名可考的最早出现——物种发生时间线",
+      "required": ["date", "source_url"],
+      "properties": {
+        "date": { "type": "string", "pattern": "^\\d{4}-\\d{2}$" },
+        "source_url": { "type": "string", "pattern": "^https?://" }
+      }
+    },
+    "official_recognition": { "type": ["string", "null"] },
+    "salary_band": {
+      "type": ["object", "null"],
+      "required": ["region", "low", "high", "currency", "period", "source_url"],
+      "properties": {
+        "region": { "type": "string" },
+        "low": { "type": "number" },
+        "high": { "type": "number" },
+        "currency": { "type": "string" },
+        "period": { "enum": ["year", "month"] },
+        "source_url": { "type": "string", "pattern": "^https?://" }
+      }
+    },
+    "human_angle_zh": { "type": "string", "description": "做这行的人每天在干什么" },
+    "human_angle_en": { "type": "string" },
+    "skills": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+    "examples": { "type": "array", "items": { "type": "string" } },
+    "event_ids": { "type": "array", "items": { "type": "string" } },
+    "sources": { "type": "array", "items": { "type": "string", "pattern": "^https?://" } }
+  }
+}

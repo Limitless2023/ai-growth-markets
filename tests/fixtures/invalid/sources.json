@@ -1,0 +1,11 @@
+[
+  {
+    "id": "src-ok",
+    "name": "Source",
+    "url": "https://example.com",
+    "cadence": "yearly",
+    "lang": "zh",
+    "what_to_look_for_zh": "信号",
+    "last_checked": "2026-06-10"
+  }
+]

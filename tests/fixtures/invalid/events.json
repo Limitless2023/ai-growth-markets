@@ -1,0 +1,37 @@
+[
+  {
+    "id": "dup-event",
+    "date": "2026-06-01",
+    "company_or_body": "A Corp",
+    "region": "US",
+    "kind": "hiring_commitment",
+    "jobs_count": 100,
+    "occupation_ids": ["nonexistent-occupation"],
+    "market_ids": [],
+    "source": {
+      "url": "https://example.com/a",
+      "publisher": "Example",
+      "date": "2026-06"
+    },
+    "confidence": "report_estimated",
+    "counted": true,
+    "status": "published"
+  },
+  {
+    "id": "dup-event",
+    "date": "2026-06-02",
+    "company_or_body": "B Corp",
+    "region": "Global",
+    "kind": "report_datapoint",
+    "jobs_count": 50,
+    "occupation_ids": [],
+    "market_ids": [],
+    "source": {
+      "publisher": "Example",
+      "date": "2026-06"
+    },
+    "confidence": "report_estimated",
+    "counted": true,
+    "status": "published"
+  }
+]

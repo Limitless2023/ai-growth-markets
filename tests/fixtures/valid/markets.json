@@ -1,0 +1,17 @@
+[
+  {
+    "id": "test-market",
+    "name_zh": "测试市场",
+    "name_en": "Test Market",
+    "domain": "infrastructure",
+    "maturity": "emerging",
+    "summary_zh": "一个用于测试的市场。",
+    "summary_en": "A market for testing.",
+    "why_new_zh": "因测试而生。",
+    "why_new_en": "Born for testing.",
+    "skills": [],
+    "examples": [],
+    "event_ids": [],
+    "sources": []
+  }
+]
