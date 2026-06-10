@@ -1,0 +1,20 @@
+# ============================================================
+# 数据校验 CI：每次 push / PR 强制执行数据纪律（R1-R5）
+# ============================================================
+name: validate-data
+on:
+  push:
+    branches: [main]
+  pull_request:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Validate data discipline
+        run: node scripts/validate.mjs
+      - name: Run validator tests
+        run: node --test tests/*.test.mjs
