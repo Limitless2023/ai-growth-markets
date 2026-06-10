@@ -11,7 +11,15 @@
     "why_new_en": "Exploding compute demand for AI training and inference created a 'neocloud' category independent of traditional cloud providers.",
     "skills": ["大规模集群运维", "网络/存储优化", "调度与计费"],
     "examples": ["GPU 云厂商", "Neocloud 新云"],
-    "event_ids": [],
+    "event_ids": [
+      "2026-01-linkedin-600k-datacenter",
+      "2025-11-anthropic-fluidstack-800",
+      "2025-09-microsoft-wisconsin-800",
+      "2025-10-meta-elpaso-100",
+      "2025-09-stargate-five-sites-25000",
+      "2025-06-amazon-pennsylvania-1250",
+      "2025-06-sk-aws-ulsan-78000"
+    ],
     "sources": []
   },
   {
