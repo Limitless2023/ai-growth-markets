@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>方法论 · Methodology — AI 新工作账本</title>
+<meta name="description" content="The Number 计数规则、入选标准、纠错政策与引用格式。Counting rules, inclusion criteria, corrections policy, and citation format." />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="site">
+  <div class="left"><h1><a href="index.html" style="color:inherit">← AI 新工作账本</a></h1></div>
+</header>
+
+<article class="prose">
+  <h1>方法论 · Methodology</h1>
+  <p class="en">Our credibility rests on this page. Key rules are bilingual; full text is maintained in
+    <a href="https://github.com/Limitless2023/ai-growth-markets/blob/main/docs/methodology.md" target="_blank" rel="noopener">docs/methodology.md</a>.</p>
+
+  <h2>1. The Number 怎么算 · How The Number is computed</h2>
+  <p><b>The Number = 账本中同时满足以下五个条件的事件的岗位数之和：</b></p>
+  <ol>
+    <li><code>status == "published"</code>（已经过人工终审发布）</li>
+    <li><code>counted == true</code></li>
+    <li><code>confidence == "company_stated"</code> —— <b>只计当事方亲口宣布的数字</b>，机构估算永不入账</li>
+    <li><code>kind</code> 为「招聘承诺」或「新建团队」</li>
+    <li>岗位数为明确的正整数（没有数字的事件入账本、不入计数）</li>
+  </ol>
+  <p class="en">The Number is the sum of <code>jobs_count</code> over events that are published, counted,
+    first-party stated (<code>company_stated</code>), of kind <i>hiring commitment</i> or <i>team formation</i>,
+    with an explicit positive integer count.</p>
+  <blockquote>
+    <p><b>The Number 是一个"可逐行核查的保守下限"，不是对全球 AI 岗位创造总量的估计。</b>
+    我们的数字比 LinkedIn 的 130 万小得多——但每一个都能点开看到来源原文。</p>
+    <p class="en">It is a verifiable, conservative floor — not an estimate of total AI job creation.
+    Our number is far smaller than LinkedIn's 1.3M, but every unit of it links to a source.</p>
+  </blockquote>
+
+  <h2>2. 入选标准 · Inclusion criteria</h2>
+  <p>账本记录的是<b>「谁、在什么时候、宣布了什么」</b>，不是我们对"什么算 AI 创造的岗位"的判断——这个定义争议被有意外包给来源。</p>
+  <p class="en">We record <i>who announced what, when</i> — the definition of "AI-created" is deliberately
+    outsourced to the source itself.</p>
+  <table>
+    <tr><th>kind</th><th>含义 · Meaning</th><th>可否入账 · Counted?</th></tr>
+    <tr><td><code>hiring_commitment</code></td><td>公司/政府公开宣布因 AI 新增 N 个岗位 · First-party hiring pledge</td><td>✅ 满足五条件时</td></tr>
+    <tr><td><code>team_formation</code></td><td>新设 AI 相关部门/团队 · New AI team/unit</td><td>✅ 满足五条件时</td></tr>
+    <tr><td><code>official_listing</code></td><td>官方新职业认定 · Official occupation listing</td><td>❌ 永不</td></tr>
+    <tr><td><code>report_datapoint</code></td><td>机构报告数据点 · Institutional datapoint</td><td>❌ 永不（仅参照系）</td></tr>
+  </table>
+  <ul>
+    <li>✅ 收录：来源原文明确把新增岗位/团队/职业归因于 AI</li>
+    <li>❌ 拒收：无公开来源、仅付费墙、传言；来源没说 AI、由我们推断的事件</li>
+  </ul>
+
+  <h2>3. 双轨展示 · Two tracks, never added together</h2>
+  <p>账本轨（事件级、逐行带来源、保守下限）与参照轨（LinkedIn 130 万、WEF 净增 7800 万预测、人社部 110 个新职业等机构口径）<b>结构上不可能混加</b>——数据校验层禁止机构口径事件入账（规则 R4）。</p>
+  <p>各招聘平台数据（BOSS直聘 +74.1%、脉脉 +543% 等）统计基数互不相同，不可互相比较或加和；每条事件的口径备注写在 <code>notes_zh</code>。</p>
+
+  <h2>4. 已知局限 · Known limitations</h2>
+  <ul>
+    <li><b>承诺 ≠ 到岗</b>：账本记录公开承诺，企业可能夸大或不兑现；回访核查机制在路线图 P2。</li>
+    <li><b>覆盖偏差</b>：以中英文公开报道为主，其他语言区与不发新闻稿的中小企业被系统性低估。</li>
+    <li><b>日期精度</b>：部分报告仅精确到月，按当月首日（月度统计取月末日）记录并在备注注明。</li>
+    <li><b>建设期 vs 运营期</b>：数据中心类公告分开记或取常驻岗，绝不取大数。</li>
+  </ul>
+
+  <h2>5. 纠错政策 · Corrections</h2>
+  <p>发现错误请提 <a href="https://github.com/Limitless2023/ai-growth-markets/issues" target="_blank" rel="noopener">GitHub Issue</a>（指明事件 id 与问题）。核实属实即修正，全部修订通过 git 历史公开留痕；影响 The Number 的重大更正在 README 更正日志记录。</p>
+
+  <h2>6. 如何引用 · How to cite</h2>
+  <blockquote><p>AI Growth Markets, "&lt;事件标题或 The Number&gt;", retrieved YYYY-MM-DD,<br />https://limitless2023.github.io/ai-growth-markets/</p></blockquote>
+  <p>数据许可 <b>CC BY 4.0</b> — 自由使用，须署名。原始数据：
+    <a href="data/events.json">events.json</a> ·
+    <a href="data/occupations.json">occupations.json</a> ·
+    <a href="data/markets.json">markets.json</a> ·
+    <a href="data/sources.json">sources.json</a></p>
+
+  <h2>7. 更新管线 · Update pipeline</h2>
+  <p><code>信源登记表 → collector agent 扫描 → 候选草稿（PR）→ 人工终审 → 发布 → The Number 自动更新</code></p>
+  <p><b>人工终审是可信度底线：本项目永不全自动发布。</b>
+    <span class="en">Human review is the credibility floor: nothing publishes automatically.</span></p>
+</article>
+
+</body>
+</html>
