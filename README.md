@@ -1,54 +1,71 @@
-# AI Growth Markets
+# AI 新工作账本 · The AI Jobs Ledger
 
-> Mapping the new jobs and incremental ("增量") markets emerging from the rise of AI.
+> **AI 创造侧的公共账本** —— AI 正在创造哪些新工作、新职业、新市场？每一行都有来源。
+> *The public ledger of what AI is creating — new jobs, new roles, new markets. Every row has a source.*
 
-随着 AI 的发展，旧岗位被改写的同时，也持续催生**全新的职业角色**和**新的增量市场**。这个项目的目标是把这些「新机会」系统性地收集、分类、量化，并最终做成一个**可探索的数据网站 / 产品**。
+🌐 **线上访问**：https://limitless2023.github.io/ai-growth-markets/
 
-## 🎯 项目目标
-
-1. **收集** — 持续追踪 AI 浪潮下出现的新岗位、新工种、新商业品类。
-2. **分类与结构化** — 用统一的数据模型描述每个机会（角色 / 市场、成熟度、薪资区间、所需技能、代表公司等）。
-3. **分析** — 输出趋势报告：哪些方向在加速、哪些是泡沫、增量空间有多大。
-4. **产品化** — 做成一个可交互的网站：地图 / 榜单 / 筛选器，帮助求职者、创业者、投资人快速定位机会。
-
-## 🧭 研究范围
-
-我们把「AI 带来的新机会」分为两大类：
-
-| 类别 | 说明 | 例子 |
-| --- | --- | --- |
-| **新岗位 (New Roles)** | 以前不存在、或因 AI 才规模化出现的职业 | Prompt Engineer、AI 训练师/数据标注专家、AI 红队 (Red Teamer)、AI 产品经理、模型评估工程师、AI 合规官 |
-| **增量市场 (Growth Markets)** | 因 AI 需求而新生或被显著放大的商业品类 | GPU 算力租赁、向量数据库、AI 推理基础设施、合成数据、AI Agent 平台、AI 安全/对齐、AI 内容检测 |
-
-详细方法论见 [`docs/research-framework.md`](docs/research-framework.md)。
-
-## 📦 目录结构
-
-```
-ai-growth-markets/
-├── README.md                  # 你正在看的文件
-├── docs/
-│   └── research-framework.md  # 研究方法论与分类标准
-├── data/
-│   └── opportunities.json     # 核心数据集（种子数据，持续扩充）
-└── web/
-    └── index.html             # 网站雏形（直接用浏览器打开即可）
-```
-
-## 🗺️ Roadmap
-
-- [x] 立项 + 研究框架
-- [x] 种子数据集（首批 12 条）
-- [x] 网站雏形（读取数据、可筛选）
-- [ ] 数据扩充到 50+ 条，引用一手来源
-- [ ] 加入趋势/增长指标（招聘量、融资额、薪资中位数）
-- [ ] 可视化：增量市场规模地图、岗位热度榜
-- [ ] 拆分为独立仓库 + 部署（GitHub Pages / Vercel）
-
-## 🤝 如何贡献数据
-
-每条机会是 `data/opportunities.json` 里的一个对象。新增时请尽量附上来源链接，便于后续核查。字段定义见研究框架文档。
+[![validate-data](https://github.com/Limitless2023/ai-growth-markets/actions/workflows/validate.yml/badge.svg)](https://github.com/Limitless2023/ai-growth-markets/actions/workflows/validate.yml)
+[![deploy-pages](https://github.com/Limitless2023/ai-growth-markets/actions/workflows/pages.yml/badge.svg)](https://github.com/Limitless2023/ai-growth-markets/actions/workflows/pages.yml)
+[![License: CC BY 4.0](https://img.shields.io/badge/data-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 ---
 
-*Status: 早期立项阶段 · 数据为人工整理的种子样本，使用前请自行核验来源。*
+## 这是什么
+
+关于"AI 抢走多少工作"，全网有 layoffs.fyi 和至少六个追踪站；关于"AI **创造**了多少工作"，只有每年达沃斯发一次的 PDF。这个项目补上缺的那半句话：
+
+| 层 | 名称 | 是什么 |
+|----|------|--------|
+| 头条层 | **The Number** | 账本中所有「当事方亲口宣布、带明确数字」的 AI 岗位承诺之和——**可逐行核查的保守下限** |
+| 引擎层 | **事件账本** | 逐条记录"谁、在什么时候、宣布了什么"，每行带来源链接与原文引述 |
+| 灵魂层 | **新职业词典** | AI 催生的新职业的物种档案：首现时间、官方认定、"做这行的人每天在干什么" |
+
+**The Number 怎么算、什么能入账、什么永不入账** → 见 [方法论](docs/methodology.md)（核心规则：只计 `company_stated`，机构估算永远只做参照系，两轨永不相加）。
+
+## 数据下载 · Open Data
+
+数据即仓库，许可 **CC BY 4.0**（自由使用，须署名）：
+
+- [`data/events.json`](data/events.json) — 事件账本
+- [`data/occupations.json`](data/occupations.json) — 新职业词典
+- [`data/markets.json`](data/markets.json) — 增量市场
+- [`data/sources.json`](data/sources.json) — 信源登记表（34+ 信源，全球+中国双轨）
+
+**引用格式**：
+
+> AI Growth Markets, "<事件标题或 The Number>", retrieved YYYY-MM-DD, https://limitless2023.github.io/ai-growth-markets/
+
+## 如何贡献 · Contributing
+
+**提交新事件**：复制 [`data/schema/event.schema.json`](data/schema/event.schema.json) 约定的格式，向 `data/events.json` 追加记录并开 PR。硬性要求（CI 自动校验 + 人工终审）：
+
+1. `source.url` 必填且公开可访问，`quote` 忠实原文
+2. 只记"来源自己说的"——AI 归因必须是来源说的，不是你推断的
+3. 机构估算一律 `report_datapoint` + `counted: false`
+4. 本地自检：`node scripts/validate.mjs`
+
+**纠错**：发现来源失效/数字不符/归因错误 → [提 Issue](https://github.com/Limitless2023/ai-growth-markets/issues)，指明事件 `id`。核实即改，git 历史公开留痕。
+
+采集自动化规范见 [`agents/collector.md`](agents/collector.md)——本项目由 AI agent 采集草稿、人工终审发布（**永不全自动发布**）。
+
+## Roadmap
+
+- [x] **P0** — 数据模型 + 种子账本 + 网站 v1（The Number / 账本 / 词典）+ CI + 上线
+- [ ] **P1** — collector 定时化、周更节奏、一键引用、SEO
+- [ ] **P2** — 净账本（创造 vs 替代对置）、月度趋势简报、AI-washing 回访核查
+- [ ] **P3** — 增量市场看板（融资/规模/招聘指标）
+- [ ] **P4** — 社区共建、多语扩展
+
+## 项目文档
+
+- [方法论 · Methodology](docs/methodology.md) — 计数规则/入选标准/纠错政策
+- [研究框架 · Research Framework](docs/research-framework.md) — 分类维度与数据结构
+- [设计文档 · Design Spec](docs/superpowers/specs/2026-06-10-ai-growth-markets-design.md)
+- [实施计划 · P0 Plan](docs/superpowers/plans/2026-06-10-ai-growth-markets-p0.md)
+
+本地开发：`python3 -m http.server 8800` → 打开 `http://localhost:8800/web/`；数据校验：`node scripts/validate.mjs`；测试：`node --test tests/*.test.mjs`。
+
+---
+
+*维护：[@Limitless2023](https://github.com/Limitless2023) · 数据为公开来源的事件级聚合，使用前请核对原始来源。*
