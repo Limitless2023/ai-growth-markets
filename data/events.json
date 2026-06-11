@@ -32,7 +32,9 @@
     "jobs_type_zh": "数据中心相关岗位（AI 基建带动）",
     "jobs_type_en": "Data center jobs driven by AI buildout",
     "occupation_ids": [],
-    "market_ids": ["gpu-cloud"],
+    "market_ids": [
+      "gpu-cloud"
+    ],
     "source": {
       "url": "https://www.weforum.org/stories/2026/01/ai-has-already-added-1-3-million-new-jobs-according-to-linkedin-data/",
       "publisher": "World Economic Forum (转载 LinkedIn 数据)",
@@ -123,7 +125,9 @@
     "jobs_count": null,
     "jobs_type_zh": "AI 产品经理 / 算法工程师需求增速",
     "jobs_type_en": "Demand growth for AI PMs and algorithm engineers",
-    "occupation_ids": ["ai-product-manager"],
+    "occupation_ids": [
+      "ai-product-manager"
+    ],
     "market_ids": [],
     "source": {
       "url": "https://www.21jingji.com/article/20251024/herald/99f5deac46722328df0354104c860ed0.html",
@@ -330,7 +334,9 @@
     "jobs_count": null,
     "jobs_type_zh": "人工智能训练师（官方新职业认定）",
     "jobs_type_en": "AI Trainer (official new occupation)",
-    "occupation_ids": ["ai-trainer-annotator"],
+    "occupation_ids": [
+      "ai-trainer-annotator"
+    ],
     "market_ids": [],
     "source": {
       "url": "https://www.mohrss.gov.cn/SYrlzyhshbzb/dongtaixinwen/buneiyaowen/202004/t20200430_367110.html",
@@ -423,7 +429,9 @@
     "jobs_type_zh": "AI 数据中心运营常驻岗位（建设期岗位 2,400 个另列，未计入）",
     "jobs_type_en": "Permanent AI data center operations jobs (2,400 construction jobs listed separately, not counted)",
     "occupation_ids": [],
-    "market_ids": ["gpu-cloud"],
+    "market_ids": [
+      "gpu-cloud"
+    ],
     "source": {
       "url": "https://www.anthropic.com/news/anthropic-invests-50-billion-in-american-ai-infrastructure",
       "publisher": "Anthropic",
@@ -446,7 +454,9 @@
     "jobs_type_zh": "Fairwater AI 数据中心全职运营岗位（两座合计）",
     "jobs_type_en": "Full-time operations jobs at Fairwater AI datacenters (both sites combined)",
     "occupation_ids": [],
-    "market_ids": ["gpu-cloud"],
+    "market_ids": [
+      "gpu-cloud"
+    ],
     "source": {
       "url": "https://blogs.microsoft.com/on-the-issues/2025/09/18/made-in-wisconsin-the-worlds-most-powerful-ai-datacenter/",
       "publisher": "Microsoft On the Issues",
@@ -469,7 +479,9 @@
     "jobs_type_zh": "El Paso AI 数据中心首期运营岗位",
     "jobs_type_en": "Operational jobs at El Paso AI-focused data center (initial phase)",
     "occupation_ids": [],
-    "market_ids": ["gpu-cloud"],
+    "market_ids": [
+      "gpu-cloud"
+    ],
     "source": {
       "url": "https://about.fb.com/news/2025/10/metas-new-ai-optimized-data-center-el-paso/",
       "publisher": "Meta Newsroom",
@@ -492,7 +504,9 @@
     "jobs_type_zh": "五个新 Stargate AI 数据中心站点现场岗位（建设+运营混合口径）",
     "jobs_type_en": "Onsite jobs at five new Stargate AI data center sites (mixed construction + operations)",
     "occupation_ids": [],
-    "market_ids": ["gpu-cloud"],
+    "market_ids": [
+      "gpu-cloud"
+    ],
     "source": {
       "url": "https://group.softbank/en/news/press/20250924",
       "publisher": "SoftBank Group（OpenAI/Oracle/SoftBank 联合公告）",
@@ -515,7 +529,9 @@
     "jobs_type_zh": "宾夕法尼亚 AI/云数据中心高技能直接岗位（数据中心工程师、网络专家等）",
     "jobs_type_en": "High-skilled direct jobs at Pennsylvania AI/cloud data centers (data center engineers, network specialists, etc.)",
     "occupation_ids": [],
-    "market_ids": ["gpu-cloud"],
+    "market_ids": [
+      "gpu-cloud"
+    ],
     "source": {
       "url": "https://www.aboutamazon.com/news/aws/amazon-pennsylvania-investment-cloud-infrastructure-ai-innovation",
       "publisher": "About Amazon（亚马逊官方新闻室）",
@@ -607,7 +623,9 @@
     "jobs_type_zh": "蔚山 AI 数据中心（AWS AI Zone）直接+间接就业岗位上限",
     "jobs_type_en": "Up to 78,000 direct and indirect jobs from Ulsan AI data center (AWS AI Zone)",
     "occupation_ids": [],
-    "market_ids": ["gpu-cloud"],
+    "market_ids": [
+      "gpu-cloud"
+    ],
     "source": {
       "url": "https://eng.sk.com/news/sk-group-and-aws-team-up-to-build-cloud-computing-infrastructure-to-support-ai-innovation",
       "publisher": "SK Group（官方新闻稿）",
@@ -630,7 +648,9 @@
     "jobs_type_zh": "AI 数据中心光纤先进制造常驻岗位（北卡罗来纳；建设岗『数百』另列未计）",
     "jobs_type_en": "Permanent advanced fiber-optics manufacturing jobs for AI data centers (North Carolina; hundreds of construction jobs listed separately, not counted)",
     "occupation_ids": [],
-    "market_ids": ["gpu-cloud"],
+    "market_ids": [
+      "gpu-cloud"
+    ],
     "source": {
       "url": "https://www.aboutamazon.com/news/company-news/amazon-corning-fiber-optics-1000-jobs-north-carolina",
       "publisher": "About Amazon（亚马逊官方新闻室）",
@@ -640,7 +660,7 @@
     },
     "confidence": "company_stated",
     "counted": true,
-    "status": "draft",
+    "status": "published",
     "notes_zh": "jobs_count 取 1,000 康宁北卡常驻先进制造岗（AI 数据中心光纤），建设期『数百』另列未计，按红线取常驻不取混合数。AI 归因：协议明确为亚马逊 AI 数据中心基础设施供应光纤，康宁官网新闻稿标题直书『for AI data centers』。Amazon AWS CEO Matt Garman 与康宁 CEO Wendell Weeks 共同宣布，2026-06-08。一手为 About Amazon 官方新闻室（已实测可达）+ 康宁官网新闻稿（corning.com，collector 抓取被 403，终审可于浏览器核对）。"
   },
   {
@@ -663,7 +683,7 @@
     },
     "confidence": "company_stated",
     "counted": true,
-    "status": "draft",
+    "status": "published",
     "notes_zh": "Anthropic 总裁兼联合创始人 Daniela Amodei 表态、爱尔兰 IDA 共同宣布，2026-03-13，2027 年前到位。岗位为前沿 AI 公司因 Claude 企业需求驱动的净增常驻岗，AI 归因为需求侧（非全部为 AI 技术岗，含财务/法务/运营多职能）。一手为 IDA Ireland 新闻稿（idaireland.com，collector 抓取被 403）；此处引爱尔兰国家广播 RTÉ 可达转述并逐字保留公司口径。终审可核对 IDA 原文与多职能构成，若认为非纯 AI 岗可降级 counted:false。"
   },
   {
@@ -676,7 +696,9 @@
     "jobs_type_zh": "AI 数据中心运营常驻岗位（建设期 800、经济外溢 750 另列未计）",
     "jobs_type_en": "Permanent AI data center operations jobs (800 construction & 750 spin-off jobs listed separately, not counted)",
     "occupation_ids": [],
-    "market_ids": ["gpu-cloud"],
+    "market_ids": [
+      "gpu-cloud"
+    ],
     "source": {
       "url": "https://www.saskatchewan.ca/government/news-and-media/2026/march/16/saskatchewan-welcomes-historic-investment-new-jobs-parnterships",
       "publisher": "Government of Saskatchewan（萨斯喀彻温省政府新闻稿）",
@@ -686,7 +708,7 @@
     },
     "confidence": "company_stated",
     "counted": true,
-    "status": "draft",
+    "status": "published",
     "notes_zh": "jobs_count 取运营常驻岗 80；建设岗 800（临时）与外溢岗 750（间接）均另列未计，按红线『混报绝不取大数』绝不取 1,630。Bell Canada CEO Mirko Bibic、省长 Scott Moe 与 George Gordon First Nation 共同宣布，2026-03-16；Bell 投资 17 亿加元建 300MW『加拿大最大 AI 数据中心』（Sherwood，里贾纳郊外），首期 2027 上半年投运。一手为省政府新闻稿 saskatchewan.ca（collector 抓取被 403，内容已经搜索逐字确认，终审可于浏览器核对）。"
   },
   {
@@ -699,7 +721,9 @@
     "jobs_type_zh": "四州 AI 数据中心运营岗位（公司口径『近 8,000』，约数待核）",
     "jobs_type_en": "AI data center operational jobs across four states (company says 'nearly 8,000', approximate, to verify)",
     "occupation_ids": [],
-    "market_ids": ["gpu-cloud"],
+    "market_ids": [
+      "gpu-cloud"
+    ],
     "source": {
       "url": "https://www.oracle.com/news/announcement/blog/ai-data-centers-create-local-jobs-2026-03-09/",
       "publisher": "Oracle（官方博客《AI Data Centers Create Local Jobs》）",
@@ -708,9 +732,9 @@
       "quote_zh": "Oracle 预计在密歇根、新墨西哥、得克萨斯与威斯康星四州的 AI 数据中心投运后雇用近 8,000 人，此外建设期另有数万个建设岗位。（译）"
     },
     "confidence": "company_stated",
-    "counted": false,
-    "status": "draft",
-    "notes_zh": "不入账（口径/核验降级）：『近 8,000』为四州尚未全部投运站点的运营岗前瞻合计估值（建设岗按站点另行拆分），为约数；且 collector 抓取 oracle.com 官方博客被 403，未能逐字核对一手页面。终审须打开 oracle.com 原文确认口径后再决定是否入账。处理同 Stargate 25,000 / SK 78,000：记录但暂不计入 The Number。"
+    "counted": true,
+    "status": "published",
+    "notes_zh": "终审升级入账（2026-06-11）：原文已本地逐字核验——We expect to hire nearly 8,000 people across Michigan, New Mexico, Texas, and Wisconsin once our AI data centers are operational；运营岗与建设岗（各州 2,500~8,000 建设工人）原文分列，口径同 Anthropic约800类承诺。collector 云端 403 的核验障碍已由终审人扫除。"
   },
   {
     "id": "2026-03-bytedance-campus-7000",
@@ -732,7 +756,7 @@
     },
     "confidence": "company_stated",
     "counted": false,
-    "status": "draft",
+    "status": "published",
     "notes_zh": "不入账（同百度校招口径处理）：7000/4800 为校招 Offer 总量而非 AI 岗净增数，AI 归因仅覆盖『研发类为核心方向』而非全部岗位；含实习转正通道（临时性）。补全中国大厂创造侧记录（百度、腾讯已在账本，字节此前缺）。事件为 2026-03 旧事补录，非本轮新发。"
   }
 ]
