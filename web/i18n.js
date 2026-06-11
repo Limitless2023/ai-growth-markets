@@ -64,7 +64,7 @@ export const UI = {
       official_listing: "官方认定",
       report_datapoint: "机构口径",
     },
-    regions: { US: "美国", CN: "中国", KR: "韩国", Global: "全球" },
+    regions: { US: "美国", CN: "中国", KR: "韩国", IE: "爱尔兰", CA: "加拿大", Global: "全球" },
     maturity: { emerging: "萌芽", growing: "成长", established: "成熟" },
     domains: {
       infrastructure: "基础设施", data: "数据", product: "产品/应用",
@@ -116,7 +116,7 @@ export const UI = {
       official_listing: "Official listing",
       report_datapoint: "Report datapoint",
     },
-    regions: { US: "United States", CN: "China", KR: "South Korea", Global: "Global" },
+    regions: { US: "United States", CN: "China", KR: "South Korea", IE: "Ireland", CA: "Canada", Global: "Global" },
     maturity: { emerging: "Emerging", growing: "Growing", established: "Established" },
     domains: {
       infrastructure: "Infrastructure", data: "Data", product: "Product",
