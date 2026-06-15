@@ -758,5 +758,78 @@
     "counted": false,
     "status": "published",
     "notes_zh": "不入账（同百度校招口径处理）：7000/4800 为校招 Offer 总量而非 AI 岗净增数，AI 归因仅覆盖『研发类为核心方向』而非全部岗位；含实习转正通道（临时性）。补全中国大厂创造侧记录（百度、腾讯已在账本，字节此前缺）。事件为 2026-03 旧事补录，非本轮新发。"
+  },
+  {
+    "id": "2026-06-meta-workforce-academy",
+    "date": "2026-06-08",
+    "company_or_body": "Meta",
+    "region": "US",
+    "kind": "hiring_commitment",
+    "jobs_count": null,
+    "jobs_type_zh": "AI 数据中心建设技工培训与就业保障计划（America's Workforce Academy，未给具体岗位数）",
+    "jobs_type_en": "AI data center skilled-trades training with guaranteed jobs (America's Workforce Academy; no specific job count)",
+    "occupation_ids": [],
+    "market_ids": [
+      "gpu-cloud"
+    ],
+    "source": {
+      "url": "https://about.fb.com/news/2026/06/americas-workforce-academy-free-skilled-trade-training/",
+      "publisher": "Meta Newsroom",
+      "date": "2026-06-08",
+      "quote_en": "Meta is launching America's Workforce Academy (AWA): a nationwide, unprecedented fast-track to a long-term career in a skilled trade, powered by an initial $115 million first year investment. … The AI infrastructure we're building today requires an incredible workforce to make it a reality. … A cost-free program that supports all participants while they learn and then guarantees a job for all graduates.",
+      "quote_zh": "Meta 推出『美国劳动力学院』（AWA）：一条面向全美、史无前例的技工长期职业快速通道，首年投入 1.15 亿美元。……我们今天正在建设的 AI 基础设施需要一支了不起的劳动力队伍才能落地。……该计划对参与者全程免费，并为所有结业学员保证一份工作。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "不入账（同 OpenAI Jobs Platform 口径处理）：为技工培训+就业保障计划，公告只给首年投入 1.15 亿美元与『为所有结业学员保证工作』，未给明确岗位数；且对应岗位为 AI 数据中心建设期技工（电工/焊工/管工/光纤技师等，临时性建设岗）。AI 归因明确（Meta 称为支撑其 AI 基础设施）。试点城市：巴吞鲁日(LA)、哥伦布(OH)、印第安纳波利斯(IN)、休斯顿(TX)；合作方含 National Urban League、ABC、CBRE。Meta 自称『美国史上最大的、带就业保障的私营部门技工承诺』。一手为 Meta 官方新闻室(2026-06-08，已实测可达)。事件早于上轮运行(06-11)，属补录。"
+  },
+  {
+    "id": "2026-05-gorilla-thailand-1000",
+    "date": "2026-05-05",
+    "company_or_body": "Gorilla Technology Group",
+    "region": "TH",
+    "kind": "hiring_commitment",
+    "jobs_count": 1000,
+    "jobs_type_zh": "泰国呵叻 200MW AI 数据中心园区岗位（工程/运营/基建管理/支持服务混合口径）",
+    "jobs_type_en": "Jobs at 200MW Korat (Thailand) AI data center campus (mixed: engineering/operations/infrastructure/support)",
+    "occupation_ids": [],
+    "market_ids": [
+      "gpu-cloud"
+    ],
+    "source": {
+      "url": "https://investors.gorilla-technology.com/gorilla-technology-secures-200mw-thailand-ai-campus-to-power-southeast-asias-next-wave-of-ai-compute/",
+      "publisher": "Gorilla Technology Group（官方投资者新闻稿）",
+      "date": "2026-05-05",
+      "quote_en": "The project is also expected to generate significant local economic activity, including the creation of over 1,000 skilled jobs across engineering, operations, infrastructure management and support services as the campus is developed and brought online.",
+      "quote_zh": "该项目预计还将带动可观的本地经济活动，包括在园区开发与投运过程中创造逾 1,000 个涵盖工程、运营、基建管理与支持服务的技能岗位。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "不入账：『over 1,000 skilled jobs across engineering, operations, infrastructure management and support services as the campus is developed and brought online』为开发/建设期+运营期+支持服务混合口径，公告未拆分常驻运营岗，按红线『混报绝不取大数』记录但不计入。jobs_count 留存公司原始混合数 1000 仅作记录（同 Stargate 25000 / SK 蔚山 78000 处理）。第三区域（泰国/东南亚），补充东南亚区域 AI 算力建设记录。Gorilla(NASDAQ:GRRR)在呵叻(Nakhon Ratchasima)购地约 40 英亩建六座 AI 数据大厅(共 200MW)，2026-07 动工、首期 2027 Q1 投运。一手为公司官方投资者新闻稿(2026-05-05，已实测可达)。事件早于上轮运行，属补录。"
+  },
+  {
+    "id": "2026-04-maharashtra-ai-policy-150k",
+    "date": "2026-04-29",
+    "company_or_body": "Government of Maharashtra",
+    "region": "IN",
+    "kind": "hiring_commitment",
+    "jobs_count": 150000,
+    "jobs_type_zh": "马哈拉施特拉邦《人工智能政策 2026》预期新增就业（规划目标，约 15 万）",
+    "jobs_type_en": "Jobs expected from Maharashtra AI Policy 2026 (policy target, ~150,000)",
+    "occupation_ids": [],
+    "market_ids": [],
+    "source": {
+      "url": "https://www.newsonair.gov.in/maharashtra-government-announces-artificial-intelligence-policy-2026-to-boost-investment-and-jobs/",
+      "publisher": "NewsOnAir（印度国营广播 Prasar Bharati）",
+      "date": "2026-04-29",
+      "quote_en": "investments exceeding ₹10,000 crore and the creation of over 1.5 lakh jobs",
+      "quote_zh": "（该政策预期带来）超过 1,000 亿卢比（₹10,000 crore）投资，并创造逾 15 万（1.5 lakh）个就业岗位。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "不入账（同河南省『人工智能+』规划口径处理）：『expects investments / creation of over 1.5 lakh jobs』为政策规划目标值而非招聘承诺；1.5 lakh=150,000，jobs_count 留存目标数仅作记录。第三区域（印度），补充印度邦级政府创造侧政策记录。confidence=company_stated 指主体（邦政府）亲口口径。一手为印度国营广播 NewsOnAir(2026-04-29，已实测可达，引语为原文片段)；终审建议进一步回溯邦政府/PIB 原始政策文本核对完整措辞与口径。本条为三候选中最边际者（目标值+片段引语），终审可酌情退回。事件早于上轮运行，属补录。"
   }
 ]
