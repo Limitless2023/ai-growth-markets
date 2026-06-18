@@ -758,5 +758,74 @@
     "counted": false,
     "status": "published",
     "notes_zh": "不入账（同百度校招口径处理）：7000/4800 为校招 Offer 总量而非 AI 岗净增数，AI 归因仅覆盖『研发类为核心方向』而非全部岗位；含实习转正通道（临时性）。补全中国大厂创造侧记录（百度、腾讯已在账本，字节此前缺）。事件为 2026-03 旧事补录，非本轮新发。"
+  },
+  {
+    "id": "2026-06-kainos-ni-341",
+    "date": "2026-06-10",
+    "company_or_body": "Kainos",
+    "region": "GB",
+    "kind": "hiring_commitment",
+    "jobs_count": 341,
+    "jobs_type_zh": "扩展 AI 能力的常驻专业岗位（软件/数据工程、AI 与数据科学、架构、产品与 Workday 咨询、交付、设计、业务支持；平均年薪 £58k，含 200 个早期职业岗位）",
+    "jobs_type_en": "Permanent professional roles to expand AI capabilities (software/data engineering, AI & data science, architecture, product & Workday consulting, delivery, design, business support; avg salary £58k, incl. 200 early-career roles)",
+    "occupation_ids": [],
+    "market_ids": [],
+    "source": {
+      "url": "https://www.investni.com/media-centre/news/first-minister-deputy-first-minister-and-economy-minister-announce-creation-over",
+      "publisher": "Invest Northern Ireland（北爱尔兰投资局官方新闻稿，First/deputy First Minister 与经济部长共同宣布）",
+      "date": "2026-06-10",
+      "quote_en": "UK technology company Kainos is creating 341 new jobs here over the next three years. … The new roles will support the company's plans to expand its artificial intelligence (AI) capabilities in response to growing customer demand. The new roles on offer span software engineering, platform and data engineering, AI and data science, architecture, product and Workday consulting, as well as delivery, design and business support roles, with an average salary of £58k.",
+      "quote_zh": "英国科技公司 Kainos 将在未来三年内于此创造 341 个新岗位。……这些新岗位将支持公司应对客户需求增长、扩展其人工智能（AI）能力的计划。岗位涵盖软件工程、平台与数据工程、AI 与数据科学、架构、产品与 Workday 咨询，以及交付、设计与业务支持，平均年薪 5.8 万英镑。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": true,
+    "status": "draft",
+    "notes_zh": "AI 归因明确：Invest NI 一手新闻稿原文称 341 岗为『扩展其人工智能（AI）能力』而设，由北爱第一部长、副第一部长与经济部长偕公司共同宣布，三年内到位，Invest NI 提供 150 万英镑支持。jobs_count 取 341 常驻专业岗（非临时建设岗）。口径提示：岗位构成为多职能（含 Workday 咨询、业务支持等非纯 AI 技术岗，另含 200 个早期职业岗位），AI 归因覆盖整体扩张目的而非每个岗位；同 Anthropic 都柏林 200 的多职能 AI 需求驱动口径处理，终审若判定非纯 AI 岗可降级 counted:false。"
+  },
+  {
+    "id": "2026-06-opentext-ireland-400",
+    "date": "2026-06-12",
+    "company_or_body": "OpenText",
+    "region": "IE",
+    "kind": "hiring_commitment",
+    "jobs_count": 400,
+    "jobs_type_zh": "科克与戈尔韦的高技能常驻岗位（智能体 AI / 网络安全 / 主权云 / 数字运营的研发与运营）",
+    "jobs_type_en": "High-skilled permanent roles in Cork and Galway (agentic AI, cybersecurity, sovereign cloud, digital operations R&D and operations)",
+    "occupation_ids": [],
+    "market_ids": [],
+    "source": {
+      "url": "https://www.prnewswire.com/news-releases/opentext-to-create-400-jobs-with-105-million-investment-in-cork-and-galway-to-expand-agentic-ai-and-sovereign-cloud-in-europe-302799400.html",
+      "publisher": "PR Newswire（转发 OpenText 官方通稿，IDA Ireland 支持）",
+      "date": "2026-06-12",
+      "quote_en": "OpenText … today announced a €105 million investment that will create 400 new jobs across the company's sites in Ireland over the next three years. … The investment will expand the company's agentic AI, cybersecurity, sovereign cloud, and digital operations capabilities … and will create high-skilled roles at OpenText in Cork and Galway.",
+      "quote_zh": "OpenText……今日宣布投资 1.05 亿欧元，未来三年将在其爱尔兰各站点创造 400 个新岗位。……此次投资将扩展公司的智能体 AI（agentic AI）、网络安全、主权云与数字运营能力……并在科克与戈尔韦设立高技能岗位。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": true,
+    "status": "draft",
+    "notes_zh": "AI 归因明确：公告标题与正文以『智能体 AI（agentic AI）』为核心叙事，IDA Ireland 称智能体 AI/主权云/网络安全为『可信企业级 AI 的基础三领域』。jobs_count 取 400 高技能常驻岗，三年内到位，为加拿大科技公司对爱尔兰最大单笔投资、使其在爱投资翻倍（现有约 275 人）。口径提示：400 岗构成含网络安全/主权云/数字运营等 AI 邻近能力，非全部为纯 AI 技术岗，终审可据此判断。一手为 IDA Ireland 新闻稿与 OpenText 官网（collector 抓取分别被 403/444），此处引 PR Newswire 转发的公司官方通稿（一手发布渠道，实测可达）逐字保留口径；dateline DUBLIN, June 12, 2026。"
+  },
+  {
+    "id": "2026-06-statecouncil-ai-employment-plan",
+    "date": "2026-06-11",
+    "company_or_body": "国务院",
+    "region": "CN",
+    "kind": "official_listing",
+    "jobs_count": null,
+    "jobs_type_zh": "国家级就业优先战略首次设『适应人工智能发展促进就业创业』专项任务",
+    "jobs_type_en": "National employment-first strategy adds a dedicated task to promote AI-driven job creation",
+    "occupation_ids": [],
+    "market_ids": [],
+    "source": {
+      "url": "https://www.gov.cn/zhengce/content/202606/content_7072481.htm",
+      "publisher": "中国政府网（国务院关于印发《实施就业优先战略“十五五”规划》的通知）",
+      "date": "2026-06-17",
+      "quote_zh": "适应人工智能发展促进就业创业。深入实施“人工智能+”行动，推动形成更多人工智能应用场景创新、技术成果转化等创业项目，探索人机协同的新型工作形态，强化人工智能的就业创造效应。",
+      "quote_en": "Adapt to AI development to promote employment and entrepreneurship. Deepen the implementation of the 'AI Plus' initiative, foster more entrepreneurial projects in AI application scenarios and technology commercialization, explore new forms of human-machine collaborative work, and strengthen AI's job-creation effect. (translated)"
+    },
+    "confidence": "company_stated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "国务院 2026-06-11 印发、06-17 公布《实施就业优先战略“十五五”规划》，将『适应人工智能发展促进就业创业』列为 9 大重点任务专项之一，首次把『强化人工智能的就业创造效应』写入国家级五年就业规划。无具体岗位数，属国家级政策里程碑（同 OpenAI Jobs Platform / IMF SDN 等框架性事件处理），不入账。一手为中国政府网 gov.cn（实测可达），date 取印发日 2026-06-11、source.date 取公布日 2026-06-17。"
   }
 ]
