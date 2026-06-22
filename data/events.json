@@ -758,5 +758,76 @@
     "counted": false,
     "status": "published",
     "notes_zh": "不入账（同百度校招口径处理）：7000/4800 为校招 Offer 总量而非 AI 岗净增数，AI 归因仅覆盖『研发类为核心方向』而非全部岗位；含实习转正通道（临时性）。补全中国大厂创造侧记录（百度、腾讯已在账本，字节此前缺）。事件为 2026-03 旧事补录，非本轮新发。"
+  },
+  {
+    "id": "2026-04-clay-nyc-498",
+    "date": "2026-04-03",
+    "company_or_body": "Clay（纽约州州长办公室共同宣布）",
+    "region": "US",
+    "kind": "hiring_commitment",
+    "jobs_count": 498,
+    "jobs_type_zh": "AI go-to-market 平台总部扩张净增全职岗位（软件/AI 工程、销售、产品、公司职能，五年内）",
+    "jobs_type_en": "Net new full-time HQ jobs from AI go-to-market platform expansion (software/AI engineering, sales, product, corporate; over five years)",
+    "occupation_ids": [],
+    "market_ids": [],
+    "source": {
+      "url": "https://www.governor.ny.gov/news/governor-hochul-announces-ai-platform-clay-expand-new-york-city-headquarters-creating-nearly",
+      "publisher": "New York State Governor's Office（纽约州州长办公室新闻稿）",
+      "date": "2026-04-03",
+      "quote_en": "Over the following five years, Clay will create 498 new well-paying full-time jobs spanning software and AI engineering, sales, product, and corporate functions.",
+      "quote_zh": "未来五年内，Clay 将创造 498 个高薪全职新岗位，涵盖软件与 AI 工程、销售、产品及公司职能。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": true,
+    "status": "draft",
+    "notes_zh": "jobs_count 取 498（公司亲口、纽约州州长办公室官方新闻稿，2026-04-03，五年内到位）。AI 归因：Clay 系『人工智能 go-to-market 平台』（artificial intelligence go-to-market platform），岗位为其 AI 业务扩张净增。counted 处理同账本 Anthropic 都柏林 200 先例（前沿 AI 公司多职能净增常驻岗即计入）；惟岗位含销售/产品/公司职能等非纯 AI 技术岗，终审若认定非纯 AI 岗可降级 counted:false。一手为 governor.ny.gov 官方新闻稿（已实测可达）。事件为 2026-04 补录，经本轮区域配额/轮换扫描发现，非严格『上次运行以来』新发。"
+  },
+  {
+    "id": "2026-05-maimai-ai-8-7x",
+    "date": "2026-05-14",
+    "company_or_body": "脉脉高聘",
+    "region": "CN",
+    "kind": "report_datapoint",
+    "jobs_count": null,
+    "jobs_type_zh": "AI 领域新发岗位量增速（2026 春招）",
+    "jobs_type_en": "Growth in new AI job postings (2026 spring recruiting)",
+    "occupation_ids": [],
+    "market_ids": [],
+    "source": {
+      "url": "https://m.thepaper.cn/newsDetail_forward_33176309",
+      "publisher": "澎湃新闻（脉脉高聘《2026 春招职场洞察报告》）",
+      "date": "2026-05-14",
+      "quote_zh": "2026 年 1-4 月，AI 领域岗位量同比增长 8.7 倍；北京、杭州新发 AI 岗位渗透率分别达 30.17% 和 28.54%。",
+      "quote_en": "From January to April 2026, the volume of new AI job postings grew 8.7-fold year over year; AI-role penetration of new postings reached 30.17% in Beijing and 28.54% in Hangzhou. (translated)"
+    },
+    "confidence": "report_estimated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "口径：脉脉平台 2026 年 1-4 月春招新发岗位量同比；同报告具身智能赛道岗位量暴增 15 倍、平均月薪 6.2 万元。与账本内 2025-12 脉脉 543%（2025 年 1-10 月）为不同时段、不同基数，不可比/加和。report_datapoint 永不入账。一手为脉脉高聘报告，此处引澎湃新闻可达转述（已实测可达）。"
+  },
+  {
+    "id": "2026-05-softbank-france-5gw",
+    "date": "2026-05-31",
+    "company_or_body": "SoftBank Group",
+    "region": "FR",
+    "kind": "hiring_commitment",
+    "jobs_count": null,
+    "jobs_type_zh": "法国 5GW AI 数据中心建设带动的高技能岗位（『数千』模糊口径，未拆分）",
+    "jobs_type_en": "High-skilled jobs from 5GW French AI data center buildout ('thousands', not broken down)",
+    "occupation_ids": [],
+    "market_ids": [
+      "gpu-cloud"
+    ],
+    "source": {
+      "url": "https://group.softbank/en/news/press/20260531_0",
+      "publisher": "SoftBank Group（官方新闻稿）",
+      "date": "2026-05-31",
+      "quote_en": "SoftBank Group's investment is expected to create thousands of high-skilled jobs across data center development, engineering, energy systems, robotics, operations, maintenance and advanced manufacturing.",
+      "quote_zh": "软银集团的投资预计将在数据中心建设、工程、能源系统、机器人、运营、运维与先进制造等领域创造数千个高技能岗位。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "软银会长孙正义于 2026-05-31 Choose France 峰会宣布，投资至多 €750 亿建 5GW AI 数据中心（首期 €450 亿/3.1GW，Hauts-de-France：Dunkirk/Bosquel/Bouchain，2031 年前）。岗位口径仅『thousands of high-skilled jobs』且含建设/工程/能源/机器人/运维/制造多类、无明确数无拆分，按红线『模糊数绝不取大数』不入账，仅作记录。一手为 group.softbank 官方新闻稿（已实测可达）。"
   }
 ]
