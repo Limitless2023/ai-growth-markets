@@ -758,5 +758,103 @@
     "counted": false,
     "status": "published",
     "notes_zh": "不入账（同百度校招口径处理）：7000/4800 为校招 Offer 总量而非 AI 岗净增数，AI 归因仅覆盖『研发类为核心方向』而非全部岗位；含实习转正通道（临时性）。补全中国大厂创造侧记录（百度、腾讯已在账本，字节此前缺）。事件为 2026-03 旧事补录，非本轮新发。"
+  },
+  {
+    "id": "2026-02-amazon-louisiana-540",
+    "date": "2026-02-23",
+    "company_or_body": "Amazon (AWS)",
+    "region": "US",
+    "kind": "hiring_commitment",
+    "jobs_count": 540,
+    "jobs_type_zh": "路易斯安那 AI/云数据中心园区直接全职岗位（社区 1,710 间接 FTE、建设期至多 1,500 岗另列未计）",
+    "jobs_type_en": "Direct full-time jobs at Louisiana AI/cloud data center campuses (1,710 community FTE and up to 1,500 construction jobs listed separately, not counted)",
+    "occupation_ids": [],
+    "market_ids": [
+      "gpu-cloud"
+    ],
+    "source": {
+      "url": "https://www.aboutamazon.com/news/company-news/amazon-data-center-louisiana-new-jobs",
+      "publisher": "About Amazon（亚马逊官方新闻室）",
+      "date": "2026-02",
+      "quote_en": "Amazon's $12 billion investment in northwest Louisiana will build next-generation data center campuses to support AI and cloud computing. … This planned investment is expected to create 540 full-time jobs at the Amazon data centers, plus support 1,710 additional full-time equivalent positions in the community overall.",
+      "quote_zh": "亚马逊在路易斯安那州西北部投资 120 亿美元，建设新一代数据中心园区以支持 AI 与云计算。……这笔计划投资预计在亚马逊数据中心创造 540 个全职岗位，并在整个社区带动另外 1,710 个全职等效岗位。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": true,
+    "status": "draft",
+    "notes_zh": "jobs_count 取 540 数据中心直接全职岗（薪资达全州平均工资 150% 以上）；社区 1,710 全职等效岗为间接、建设期至多 1,500 岗为临时，均按红线『混报绝不取大数』另列未计。AI 归因明确：亚马逊官方页『build next-generation data center campuses to support AI and cloud computing』。$12B 投资于路易斯安那西北部 Caddo/Bossier 两郡（Shreveport 地区），2026-02-23 随路易斯安那经济发展局(LED)及 Shreveport 市同日宣布；官方页未显示日期，source.date 记到月，事件日据 LED 新闻稿(opportunitylouisiana.gov)与多家本地媒体(2026-02-23/24)确认。本条为旧事补录（非本轮新发）。"
+  },
+  {
+    "id": "2025-11-amazon-indiana-1100",
+    "date": "2025-11-24",
+    "company_or_body": "Amazon (AWS)",
+    "region": "US",
+    "kind": "hiring_commitment",
+    "jobs_count": 1100,
+    "jobs_type_zh": "北印第安纳 AI/云数据中心园区高技能直接岗位（供应链『数千』岗另列未计）",
+    "jobs_type_en": "High-skilled direct jobs at Northern Indiana AI/cloud data center campuses (thousands of supply-chain jobs listed separately, not counted)",
+    "occupation_ids": [],
+    "market_ids": [
+      "gpu-cloud"
+    ],
+    "source": {
+      "url": "https://www.aboutamazon.com/news/company-news/amazon-15-billion-indiana-data-centers",
+      "publisher": "About Amazon（亚马逊官方新闻室）",
+      "date": "2025-11",
+      "quote_en": "Amazon plans to invest $15 billion to build new data center campuses in northern Indiana to support artificial intelligence (AI) and cloud computing technologies. … This landmark investment is expected to create more than 1,100 new high-skilled jobs while supporting thousands of other jobs in the data center supply chain.",
+      "quote_zh": "亚马逊计划投资 150 亿美元在北印第安纳州建设新数据中心园区，以支持人工智能（AI）与云计算技术。……这一里程碑式投资预计创造逾 1,100 个高技能新岗位，同时带动数据中心供应链数千个其他岗位。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": true,
+    "status": "draft",
+    "notes_zh": "jobs_count 取 1,100 直接高技能常驻岗；供应链『数千』为模糊间接数另列未计，按红线取直接不取大数（口径同账本宾州 1,250 / 康宁北卡 1,000 条）。AI 归因明确：亚马逊官方页『support artificial intelligence (AI) and cloud computing technologies』『Generative AI is driving increased demand』。$15B 投资于北印第安纳（NIPSCO 供电区域，叠加上年 $11B St. Joseph 县投资），2025-11-24 随州长 Mike Braun 宣布。本条为旧事补录（非本轮新发），补全账本 Amazon 州级数据中心承诺缺口。"
+  },
+  {
+    "id": "2026-06-microsoft-pecos-datacenter",
+    "date": "2026-06-22",
+    "company_or_body": "Microsoft",
+    "region": "US",
+    "kind": "hiring_commitment",
+    "jobs_count": null,
+    "jobs_type_zh": "Pecos AI 数据中心常驻运营岗位（公司口径『数百』未给确数；建设高峰逾 6,000 建设岗另列）",
+    "jobs_type_en": "Permanent operational jobs at Pecos AI datacenter (company says 'hundreds', no exact figure; over 6,000 construction jobs at peak listed separately)",
+    "occupation_ids": [],
+    "market_ids": [
+      "gpu-cloud"
+    ],
+    "source": {
+      "url": "https://blogs.microsoft.com/blog/2026/06/22/powering-the-next-wave-of-ai-expanding-capacity-with-our-new-datacenter-in-pecos/",
+      "publisher": "The Official Microsoft Blog",
+      "date": "2026-06-22",
+      "quote_en": "We will build a new datacenter campus, expanding our global datacenter capacity by approximately 2 gigawatts (GW) to meet strong and sustained customer demand for AI and cloud services. … We expect to support over 6,000 construction jobs at peak build-out and to create hundreds of permanent operational jobs.",
+      "quote_zh": "我们将新建一座数据中心园区，使全球数据中心产能增加约 2 吉瓦（GW），以满足客户对 AI 与云服务持续强劲的需求。……我们预计在建设高峰期支持逾 6,000 个建设岗位，并创造数百个常驻运营岗位。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "不入账：常驻运营岗仅给『数百(hundreds)』无确数，缺『明确岗位数』五条件之一；建设岗 6,000+ 为临时另列。Microsoft 称此为公司史上最大单次产能扩张之一，新建 Pecos（德州）园区约 2GW，明确『to meet…demand for AI and cloud services』，AI 归因充分。本轮最新鲜事件(2026-06-22)。终审若获官方确数可升级 counted:true。"
+  },
+  {
+    "id": "2026-04-microsoft-japan-1m-training",
+    "date": "2026-04-03",
+    "company_or_body": "Microsoft",
+    "region": "JP",
+    "kind": "hiring_commitment",
+    "jobs_count": null,
+    "jobs_type_zh": "日本 AI 技能培训承诺（2030 年前培训 100 万工程师与开发者）",
+    "jobs_type_en": "Japan AI upskilling commitment (train 1 million engineers and developers by 2030)",
+    "occupation_ids": [],
+    "market_ids": [],
+    "source": {
+      "url": "https://news.microsoft.com/source/asia/2026/04/03/microsoft-deepens-its-commitment-to-japan-with-10-billion-investment-in-ai-infrastructure-cybersecurity-workforce/",
+      "publisher": "Microsoft News (Source Asia)",
+      "date": "2026-04-03",
+      "quote_en": "Microsoft will … train one million engineers and developers in Japan by 2030.",
+      "quote_zh": "微软将……到 2030 年在日本培训 100 万名工程师与开发者。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "不入账：技能培训/再培训承诺而非岗位数承诺（处理口径同账本 OpenAI Jobs Platform 条）。$10B 投资(2026–2029)分三支柱：AI 基础设施 / 网络安全 / 人才，与富士通、日立、NEC、NTT Data、软银等合作；针对日本到 2040 年 AI 与机器人人才缺口约 326 万。AI 归因明确(generative AI adoption)。第三区域(JP)覆盖。本条为旧事补录(2026-04)。"
   }
 ]
