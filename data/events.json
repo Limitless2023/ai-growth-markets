@@ -758,5 +758,80 @@
     "counted": false,
     "status": "published",
     "notes_zh": "不入账（同百度校招口径处理）：7000/4800 为校招 Offer 总量而非 AI 岗净增数，AI 归因仅覆盖『研发类为核心方向』而非全部岗位；含实习转正通道（临时性）。补全中国大厂创造侧记录（百度、腾讯已在账本，字节此前缺）。事件为 2026-03 旧事补录，非本轮新发。"
+  },
+  {
+    "id": "2026-06-rogo-nyc-422",
+    "date": "2026-06-22",
+    "company_or_body": "Rogo（经 Empire State Development 公布）",
+    "region": "US",
+    "kind": "hiring_commitment",
+    "jobs_count": 422,
+    "jobs_type_zh": "纽约市总部扩张新增全职岗位（工程、产品、销售、运营、财务、法务等）",
+    "jobs_type_en": "New full-time jobs from NYC headquarters expansion (engineering, product, sales, operations, finance, legal, etc.)",
+    "occupation_ids": [],
+    "market_ids": [
+      "ai-agent-platform"
+    ],
+    "source": {
+      "url": "https://esd.ny.gov/esd-media-center/press-releases/empire-state-development-announces-rogo-expand-new-york-city",
+      "publisher": "Empire State Development（纽约州经济发展署官方新闻稿）",
+      "date": "2026-06-22",
+      "quote_en": "Rogo, a New York City-based artificial intelligence company, plans to expand its operations in the state ... The project is expected to create 422 new full-time jobs across engineering, product development, sales, operations, finance, legal and other business functions.",
+      "quote_zh": "Rogo 是一家总部位于纽约市的人工智能公司，计划在本州扩张运营……该项目预计新增 422 个全职岗位，涵盖工程、产品研发、销售、运营、财务、法务及其他业务职能。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": true,
+    "status": "draft",
+    "notes_zh": "本轮新发（2026-06-22）。建议入账：AI 公司亲口承诺 + 明确数字 + hiring_commitment 五条件齐全。Rogo 为面向投行/私募/资管的金融 AI（agentic 平台），2026 已完成 1.6 亿美元 D 轮。数字口径取官方稿『422 个全职岗位』（新闻标题写作 over 400），非建设/临时岗；州府提供最高 650 万美元 Excelsior 绩效税收抵免。ESD 主席 Hope Knight 与 Rogo CEO Gabe Stengel 均有表态。与账本内 clay-nyc（Hochul 宣布、counted:true）同模式。"
+  },
+  {
+    "id": "2026-04-nscale-monarch-wv-700",
+    "date": "2026-04-07",
+    "company_or_body": "Nscale × Fidelis Energy（Monarch Compute Campus）",
+    "region": "US",
+    "kind": "hiring_commitment",
+    "jobs_count": 700,
+    "jobs_type_zh": "西弗吉尼亚 Mason County『AI 工厂』首期运营常驻岗位（2027 投运）",
+    "jobs_type_en": "Phase-1 permanent operations jobs at the Monarch 'AI factory' in Mason County, West Virginia (operational 2027)",
+    "occupation_ids": [],
+    "market_ids": [
+      "gpu-cloud"
+    ],
+    "source": {
+      "url": "https://www.wsaz.com/2026/04/08/ai-data-center-aims-2027-launch-700-permanent-jobs/",
+      "publisher": "WSAZ NewsChannel 3（转述 Nscale 首席电力与能源官 Dan Shapiro）",
+      "date": "2026-04-07",
+      "quote_en": "the first phase of development brings 700 permanent jobs",
+      "quote_zh": "首期开发将带来 700 个常驻岗位。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "补录 4 月遗漏事件（历轮未采）。降级不入账原因：700 系公司高管（Nscale CPEO Dan Shapiro）亲口但经地方电视台 WSAZ 转述，未见 Nscale/Fidelis 正式新闻稿；且为 2027 投运前的首期前瞻数字。取运营常驻岗 700，未采信『四期后周边岗位或增至 6 倍』的外溢口径。项目为 8GW『AI 工厂』Monarch Compute Campus（Point Pleasant 北侧），Microsoft 已签约 1.35GW，投资约 400 亿美元。终审若接受高管经媒体转述之口径，可升级 counted:true。一手回溯 Nscale newsroom 未果，建议终审浏览器核对。"
+  },
+  {
+    "id": "2026-06-deepseek-double-headcount",
+    "date": "2026-06-25",
+    "company_or_body": "深度求索 DeepSeek",
+    "region": "CN",
+    "kind": "hiring_commitment",
+    "jobs_count": null,
+    "jobs_type_zh": "全部门大规模扩招（7 大类共 33 个岗位，京杭两地，含实习）",
+    "jobs_type_en": "Company-wide large-scale hiring (33 openings across 7 categories, Beijing & Hangzhou, interns accepted)",
+    "occupation_ids": [],
+    "market_ids": [
+      "ai-agent-platform"
+    ],
+    "source": {
+      "url": "https://eu.36kr.com/en/p/3869415015404551",
+      "publisher": "36Kr（英文版，转述界面新闻/DeepSeek 官方招聘公告）",
+      "date": "2026-06-25",
+      "quote_en": "it plans to at least double the size of all departments ... this recruitment covers seven major categories including algorithm, R&D, operation and maintenance, product, data engineers, and functional departments, with a total of 33 positions open. The work locations include Beijing and Hangzhou.",
+      "quote_zh": "计划将所有部门的规模至少扩大一倍……本次招聘覆盖算法、研发、运维、产品、数据工程师、职能部门等七大类，共开放 33 个岗位；工作地点包括北京和杭州。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "本轮新发（2026-06-25）。不入账：无明确 headcount——『至少扩大一倍』为比例口径，33 为岗位类别数而非招聘人数，jobs_count 置 null。DeepSeek 官方招聘公告（微信公众号，中文一手不可直链），经界面新闻/36氪转述，URL 引 36Kr 英文版并已实访核验与原文一致。背景：6-16 完成约 74 亿美元首轮外部融资，扩招指向 AI Agent（Harness 团队）方向。中国旗舰大模型实验室创造侧信号，值得留档。"
   }
 ]
