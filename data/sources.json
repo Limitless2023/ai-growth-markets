@@ -186,7 +186,7 @@
     "cadence": "yearly",
     "lang": "zh",
     "what_to_look_for_zh": "新一批新职业/新工种公示与发布（AI 相关职业认定）→ official_listing",
-    "last_checked": "2026-06-10"
+    "last_checked": "2026-07-06"
   },
   {
     "id": "mohrss-xzy-platform",
@@ -348,7 +348,7 @@
     "cadence": "event_driven",
     "lang": "en",
     "what_to_look_for_zh": "AI 工厂/美国制造回流带动的岗位公告 → hiring_commitment",
-    "last_checked": "2026-06-10"
+    "last_checked": "2026-07-06"
   },
   {
     "id": "anthropic-newsroom",
@@ -393,7 +393,7 @@
     "cadence": "daily",
     "lang": "en",
     "what_to_look_for_zh": "企业 AI 招聘/扩张官方通稿（一手新闻稿源）→ hiring_commitment",
-    "last_checked": "2026-06-10"
+    "last_checked": "2026-07-06"
   },
   {
     "id": "fool-transcripts",
@@ -465,7 +465,7 @@
     "cadence": "daily",
     "lang": "en",
     "what_to_look_for_zh": "RSS 扫描配方：英文『AI 新增岗位公告』入口，命中后回溯一手来源",
-    "last_checked": "2026-06-11"
+    "last_checked": "2026-07-06"
   },
   {
     "id": "gnews-rss-datacenter-jobs-en",
@@ -474,7 +474,7 @@
     "cadence": "daily",
     "lang": "en",
     "what_to_look_for_zh": "RSS 扫描配方：数据中心岗位公告入口，命中后回溯一手来源",
-    "last_checked": "2026-06-11"
+    "last_checked": "2026-07-06"
   },
   {
     "id": "gov-cn-policy",
@@ -573,6 +573,6 @@
     "cadence": "daily",
     "lang": "zh",
     "what_to_look_for_zh": "RSS 扫描配方：中文『人工智能+岗位』公告入口，命中后回溯一手来源",
-    "last_checked": "2026-06-11"
+    "last_checked": "2026-07-06"
   }
 ]
