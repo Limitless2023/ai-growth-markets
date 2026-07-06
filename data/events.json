@@ -758,5 +758,97 @@
     "counted": false,
     "status": "published",
     "notes_zh": "不入账（同百度校招口径处理）：7000/4800 为校招 Offer 总量而非 AI 岗净增数，AI 归因仅覆盖『研发类为核心方向』而非全部岗位；含实习转正通道（临时性）。补全中国大厂创造侧记录（百度、腾讯已在账本，字节此前缺）。事件为 2026-03 旧事补录，非本轮新发。"
+  },
+  {
+    "id": "2026-06-boston-dynamics-ma-1250",
+    "date": "2026-06-24",
+    "company_or_body": "Boston Dynamics",
+    "region": "US",
+    "kind": "hiring_commitment",
+    "jobs_count": 1250,
+    "jobs_type_zh": "先进机器人与 AI 中心的研发、先进制造、劳动力培训与运营常驻岗",
+    "jobs_type_en": "R&D, advanced manufacturing, workforce training and operations roles at an advanced robotics-and-AI center",
+    "occupation_ids": [],
+    "market_ids": [],
+    "source": {
+      "url": "https://bostondynamics.com/news/boston-dynamics-expands-massachusetts-footprint-with-new-323000-square-foot-facility-in-waltham/",
+      "publisher": "Boston Dynamics（官方 newsroom）",
+      "date": "2026-06-24",
+      "quote_en": "Boston Dynamics will invest $100 million to create 1,250 new jobs by 2033, transforming a 323,000-square-foot Waltham facility into an advanced robotics and AI center.",
+      "quote_zh": "波士顿动力将投资 1 亿美元，到 2033 年创造 1250 个新岗位，把沃尔瑟姆一处 32.3 万平方英尺的设施改造为先进机器人与 AI 中心。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": true,
+    "status": "draft",
+    "notes_zh": "口径：公司亲口宣布，1250 为『到 2033 年累计新增岗位』（八年累计，非一次性），投资 1 亿美元，马萨诸塞州给予 2500 万美元税收激励（EDIP）。岗位为先进制造/AI/机器人研发与运营常驻岗，非数据中心建设临时工。AI 归因明确：设施定名 advanced robotics and AI center。一手 newsroom 页面受 Cloudflare 人机验证拦截、自动抓取受阻；岗位数 1250、投资额 1 亿美元、AI 中心表述经 CBS Boston（2026-06-24）交叉核验一致。建议入账（counted）。"
+  },
+  {
+    "id": "2026-05-corning-nvidia-3000",
+    "date": "2026-05-06",
+    "company_or_body": "Corning",
+    "region": "US",
+    "kind": "hiring_commitment",
+    "jobs_count": 3000,
+    "jobs_type_zh": "北卡罗来纳州与得克萨斯州三座新建先进制造工厂的光学连接/光纤制造常驻岗",
+    "jobs_type_en": "advanced manufacturing jobs at three new optical-connectivity/fiber facilities in North Carolina and Texas",
+    "occupation_ids": [],
+    "market_ids": [],
+    "source": {
+      "url": "https://nvidianews.nvidia.com/news/nvidia-and-corning-announce-long-term-partnership-to-strengthen-us-manufacturing-for-ai-infrastructure",
+      "publisher": "NVIDIA Newsroom（NVIDIA 与 Corning 联合公告）",
+      "date": "2026-05-06",
+      "quote_en": "The expansion includes the construction of three new advanced manufacturing facilities in North Carolina and Texas and the creation of more than 3,000 new, high-paying American jobs ... to meet the accelerating demand driven by AI factory buildouts.",
+      "quote_zh": "此次扩张包括在北卡罗来纳州和得克萨斯州新建三座先进制造工厂，创造 3000 多个高薪美国岗位……以满足 AI 工厂建设带动的加速需求。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": true,
+    "status": "draft",
+    "notes_zh": "口径：Corning 与 NVIDIA 联合公告（2026-05-06），Corning 为岗位创造主体，CEO Wendell Weeks 亲口『AI is a huge job creator, and it's a huge manufacturing job creator』。3000+ 为常驻先进制造岗（光学连接/光纤），非建设临时岗；NVIDIA 通过认股权最高可再投 32 亿美元。AI 归因明确（为 AI factory buildouts 将美国光学连接产能扩产 10 倍）。本轮补录 2026-05 遗漏事件。建议入账（counted），取下界 3000。与账本既有 2026-06-amazon-corning-nc-1000（Amazon 数据中心）非同一事件。"
+  },
+  {
+    "id": "2026-07-mohrss-agent-developer",
+    "date": "2026-07-03",
+    "company_or_body": "中华人民共和国人力资源和社会保障部",
+    "region": "CN",
+    "kind": "official_listing",
+    "jobs_count": null,
+    "jobs_type_zh": "在『生成式人工智能系统应用员』职业下新增『智能体开发员』工种（公示征求意见阶段）",
+    "jobs_type_en": "new 'AI agent developer' work-type under the 'generative AI system application specialist' occupation (public consultation)",
+    "occupation_ids": [],
+    "market_ids": [],
+    "source": {
+      "url": "https://www.chinanews.com.cn/sh/2026/07-03/10651916.shtml",
+      "publisher": "中国新闻网（转人社部办公厅公示）",
+      "date": "2026-07-03",
+      "quote_zh": "人力资源社会保障部办公厅对拟发布船舶岸基管理工程技术人员等 12 个新职业信息进行公示，同步公布新增工种信息，其中在『生成式人工智能系统应用员』职业下增设『智能体开发员』工种，公示反馈截止 2026 年 7 月 17 日。",
+      "quote_en": "The MOHRSS General Office published for public comment 12 proposed new occupations and accompanying new work-types, adding an 'AI agent developer' work-type under the 'generative AI system application specialist' occupation; feedback closes 17 July 2026. (translated)"
+    },
+    "confidence": "company_stated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "官方职业认定线索：人社部办公厅 2026-07-03 公示，拟发布 12 个新职业并新增 20 个工种，AI 相关为『生成式人工智能系统应用员』下增设『智能体开发员』工种（另含『具身智能机器人应用技术员』等数字职业）。当前为公示征求意见阶段（非正式发布），反馈截止 2026-07-17。official_listing 不入账（counted:false）。此处引权威转载（中新网）便于终审核验，一手为人社部办公厅公告，终审可回溯人社部官网原文。与账本既有 mohrss batch2/6/7 不重复。"
+  },
+  {
+    "id": "2026-06-lloyds-ai-1000",
+    "date": "2026-06-22",
+    "company_or_body": "Lloyds Banking Group",
+    "region": "GB",
+    "kind": "hiring_commitment",
+    "jobs_count": 1000,
+    "jobs_type_zh": "AI 岗位（数据与 AI 科学家、工程师、负责任 AI 专家、AI 产品经理等），含约 300 个 agentic AI 岗位",
+    "jobs_type_en": "AI roles (Data & AI Scientists, Engineers, Responsible AI specialists, AI Product Managers), incl. ~300 agentic AI roles",
+    "occupation_ids": [],
+    "market_ids": [],
+    "source": {
+      "url": "https://www.lloydsbankinggroup.com/media/press-releases/2026/lloyds-banking-group/1000-new-ai-roles.html",
+      "publisher": "Lloyds Banking Group（官方 press release）",
+      "date": "2026-06-22",
+      "quote_en": "Lloyds Banking Group is targeting more than 1,000 new AI roles in 2026 to support the Group's AI build-out, with almost 300 agentic AI-related roles being recruited over the coming months.",
+      "quote_zh": "劳埃德银行集团 2026 年计划新增 1000 多个 AI 岗位以支撑集团 AI 建设，未来数月将招聘近 300 个 agentic AI 相关岗位。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "口径降级不入账（counted:false）：公司亲口，但为『targets more than 1,000』（全年目标而非确定承诺），且岗位『both internally and externally』填充（含内部转岗/再培训，非纯新增外部就业），属混合口径，取下界 1000 且不计入 The Number；未来数月约 300 个 agentic AI 岗位对外招聘较确定。第三区域（英国 GB）覆盖。AI 归因明确（Data & AI / agentic AI 岗位）。"
   }
 ]
