@@ -758,5 +758,105 @@
     "counted": false,
     "status": "published",
     "notes_zh": "不入账（同百度校招口径处理）：7000/4800 为校招 Offer 总量而非 AI 岗净增数，AI 归因仅覆盖『研发类为核心方向』而非全部岗位；含实习转正通道（临时性）。补全中国大厂创造侧记录（百度、腾讯已在账本，字节此前缺）。事件为 2026-03 旧事补录，非本轮新发。"
+  },
+  {
+    "id": "2026-05-applied-digital-louisiana-200",
+    "date": "2026-05-26",
+    "company_or_body": "Applied Digital（路易斯安那经济发展局 LED 共同宣布）",
+    "region": "US",
+    "kind": "hiring_commitment",
+    "jobs_count": 200,
+    "jobs_type_zh": "AI 工厂园区常驻现场全职岗位（路易斯安那 Rapides Parish；建设期峰值逾 1,000 岗与 218 个 LED 估算间接岗另列未计）",
+    "jobs_type_en": "Permanent on-site full-time jobs at the AI factory campus (Rapides Parish, Louisiana; 1,000+ peak construction jobs and 218 LED-estimated indirect jobs listed separately, not counted)",
+    "occupation_ids": [],
+    "market_ids": [
+      "gpu-cloud",
+      "ai-inference-infra"
+    ],
+    "source": {
+      "url": "https://www.opportunitylouisiana.gov/news/central-louisiana-secures-3-6-billion-applied-digital-ai-factory-campus",
+      "publisher": "Louisiana Economic Development（路易斯安那经济发展局官方新闻稿）",
+      "date": "2026-05-26",
+      "quote_en": "The new campus will directly support 200 new full-time, on-site jobs with salaries 150% of the state average wage.",
+      "quote_zh": "新园区将直接创造 200 个全职现场新岗位，薪资为州平均工资的 150%。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": true,
+    "status": "draft",
+    "notes_zh": "jobs_count 取 200 = Applied Digital 亲口的常驻现场全职岗（AI 训练/推理工厂），薪资 150% 州均值。建设期峰值逾 1,000 岗为临时岗、218 个为 LED 间接岗估算（『418 潜在岗位』即含此二者），均按红线『建设岗与常驻岗分列、绝不取大数』未计入。AI 归因来源亲口：园区定性为 state-of-the-art artificial intelligence (AI) factory campus… purpose-built for large-scale AI training and inference workloads。$3.6B 投资，2026-01 已动工，运营预计 2027 年中。一手为 LED 官方新闻稿（opportunitylouisiana.gov，实测可达）。本轮补录此前各轮漏采的 2026-05 事件。"
+  },
+  {
+    "id": "2026-05-hut8-beacon-point-230",
+    "date": "2026-05-06",
+    "company_or_body": "Hut 8（Beacon Point AI 数据中心园区开发商；实际运营租户保密）",
+    "region": "US",
+    "kind": "hiring_commitment",
+    "jobs_count": 230,
+    "jobs_type_zh": "AI 数据中心园区常驻运营岗位（德州 Nueces County / Robstown；两期合计口径，建设期约 1,900 岗另列）",
+    "jobs_type_en": "Permanent operations jobs at the AI data center campus (Nueces County / Robstown, Texas; two-phase total; ~1,900 construction jobs listed separately)",
+    "occupation_ids": [],
+    "market_ids": [
+      "gpu-cloud",
+      "ai-inference-infra"
+    ],
+    "source": {
+      "url": "https://www.kristv.com/news/local-news/in-your-neighborhood/nueces-county/hut-8-signs-9-8-billion-lease-for-ai-data-center-campus-in-nueces-county",
+      "publisher": "KRIS 6 News（转述 Hut 8 官方口径）",
+      "date": "2026-05",
+      "quote_en": "Phase 1 is expected to create 945 construction jobs and 115 permanent operations jobs.",
+      "quote_zh": "第一期预计创造 945 个建设岗位与 115 个常驻运营岗位。（译）（两期合计约 1,900 建设岗、230 常驻岗）"
+    },
+    "confidence": "company_stated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "记 counted:false，三重降级理由——①实际 AI 运营方保密（Hut 8 为开发商/业主，租户被描述为 high-investment-grade 匿名公司），无法确认净招雇主；②分期口径打架：Phase 1 = 945 建设 + 115 常驻，两期合计 ~1,900 建设 + 230 常驻，源间数字不一；③常驻岗系满负荷运营后的开发商投射，非雇主亲口净招。jobs_count 记 230（园区两期常驻岗头条口径）但 counted:false 故不进 The Number；建设岗按红线另列不计。AI 归因明确：Beacon Point 定性为 AI 数据中心（powering artificial intelligence operations），$9.8B/15 年租约（Phase 1 约 $8.5B），预计 2027 年初上线。一手 Hut 8 公告（hut8.com，corp 域名抓取常 403，终审可浏览器核对）。本轮补录 2026-05 漏采事件。"
+  },
+  {
+    "id": "2026-06-multiverse-edinburgh-200",
+    "date": "2026-06-08",
+    "company_or_body": "Multiverse",
+    "region": "GB",
+    "kind": "hiring_commitment",
+    "jobs_count": 200,
+    "jobs_type_zh": "AI 工程岗位（爱丁堡新 AI 中心 + 伦敦总部，一年内『至多』200 个；聚焦 agentic AI 工具构建）",
+    "jobs_type_en": "AI engineering roles (up to 200 across the new Edinburgh AI hub and London HQ within a year; focused on building agentic AI tools)",
+    "occupation_ids": [],
+    "market_ids": [
+      "ai-agent-platform"
+    ],
+    "source": {
+      "url": "https://scottishbusinessnews.net/edinburgh-tech-hub-aims-to-create-up-to-200-jobs-as-multiverse-expands-ai-engineering-base/",
+      "publisher": "Scottish Business News",
+      "date": "2026-06",
+      "quote_en": "Multiverse expects to create up to 200 roles across Edinburgh and London over the next year.",
+      "quote_zh": "Multiverse 预计在未来一年内于爱丁堡和伦敦创造至多 200 个岗位。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "记 counted:false，降级理由——①up to 200 为上界目标而非承诺下限；②岗位横跨爱丁堡新 AI 中心 + 伦敦总部两地，非单一中心净增；③over the next year 为一年内计划，系 £55m（约 $70m，Schroders Capital 领投）融资后的扩张目标。AI 归因成立：Multiverse 为 AI 技能/工程公司，新岗聚焦软件工程、AI 工程与 agentic AI 工具构建，并聘前亚马逊高管 Colin Mackenzie 任首任 VP of AI Engineering。满足本轮第三区域（英国/苏格兰，region=GB）覆盖。一手为苏格兰当地商业媒体报道（2026-06-08 前后 The Herald、Daily Business、UKTN 等多家同步）。"
+  },
+  {
+    "id": "2026-07-mohrss-cloud-recruitment-drive",
+    "date": "2026-07-02",
+    "company_or_body": "人力资源社会保障部",
+    "region": "CN",
+    "kind": "report_datapoint",
+    "jobs_count": null,
+    "jobs_type_zh": "互联网企业云端招聘月释放岗位总量（超 20 万，AI 相关岗位占比持续攀升）",
+    "jobs_type_en": "Total jobs released in the MOHRSS internet-industry cloud recruitment drive (200,000+, with a rising share of AI-related roles)",
+    "occupation_ids": [],
+    "market_ids": [],
+    "source": {
+      "url": "https://www.chinanews.com.cn/gn/2026/07-02/10651386.shtml",
+      "publisher": "中国新闻网（人社部数据）",
+      "date": "2026-07-02",
+      "quote_zh": "为期一个月的互联网企业云端招聘月活动已于近日开展，5000 多家互联网企业集中释放超 20 万个就业岗位，其中 AI 相关岗位占比持续攀升。",
+      "quote_en": "The month-long internet-industry cloud recruitment drive has recently launched, with more than 5,000 internet companies releasing over 200,000 jobs, of which the share of AI-related roles keeps rising. (translated)"
+    },
+    "confidence": "report_estimated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "永不计数（report_datapoint）。口径披露：20 万+为全部岗位总量（非 AI 净增），AI 仅『占比持续攀升』未给净值，不满足『AI 亲口归因净新增岗位』红线，故仅作官方劳动力市场信号收录、不入账。人社部组织、中国公共招聘网归集；企业级细分均为混合口径非纯 AI：腾讯招约 8000（含 AI 算法/大模型/HPC/基础架构）、字节约 7000（大模型应用/AI 搜索/视觉智能 + 综合运营）、美团约 6000（技术/产品/金融/零售/运营）。满足本轮 CN 区域配额。一手另见数字中国建设峰会官网转载（szzg.gov.cn/2026/xwzx/szkx/202607/t20260703_5342278.htm）。"
   }
 ]
