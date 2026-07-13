@@ -758,5 +758,78 @@
     "counted": false,
     "status": "published",
     "notes_zh": "不入账（同百度校招口径处理）：7000/4800 为校招 Offer 总量而非 AI 岗净增数，AI 归因仅覆盖『研发类为核心方向』而非全部岗位；含实习转正通道（临时性）。补全中国大厂创造侧记录（百度、腾讯已在账本，字节此前缺）。事件为 2026-03 旧事补录，非本轮新发。"
+  },
+  {
+    "id": "2026-06-snp-newjersey-250",
+    "date": "2026-06-18",
+    "company_or_body": "Starman New Photonics (SNP) × NJEDA",
+    "region": "US",
+    "kind": "hiring_commitment",
+    "jobs_count": 250,
+    "jobs_type_zh": "新泽西州光模块先进制造常驻岗位（AI 数据中心用高速光收发模块）",
+    "jobs_type_en": "Permanent advanced-manufacturing jobs for AI-datacenter optical transceivers (Warren, New Jersey)",
+    "occupation_ids": [],
+    "market_ids": [
+      "gpu-cloud"
+    ],
+    "source": {
+      "url": "https://www.njeda.gov/njeda-approves-first-award-under-next-new-jersey-manufacturing-program/",
+      "publisher": "New Jersey Economic Development Authority (NJEDA)",
+      "date": "2026-06-18",
+      "quote_en": "Starman New Photonics, LLC (\"SNP\"), is a newly formed U.S.-based advanced manufacturing company ... $150 million investment ... expected to create 250 new jobs. ... Optical transceivers are essential for AI production, connecting Graphics Processing Units in data centers and overcoming bandwidth and energy limitations.",
+      "quote_zh": "Starman New Photonics（SNP）是一家新成立的美国先进制造公司……投资 1.5 亿美元……预计创造 250 个新岗位。……光收发模块对 AI 生产至关重要，用于连接数据中心内的 GPU，突破带宽与能耗瓶颈。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": true,
+    "status": "draft",
+    "notes_zh": "jobs_count 取 250 常驻先进制造/组装/封装/研发岗；为投资激励配套的净新增岗位承诺（10 年承诺期），非建设临时岗、未与建设岗混报。AI 归因明确：NJEDA 官方新闻稿直书光收发模块『essential for AI production, connecting GPUs in data centers』『essential for the AI industry』，口径同已入账的 Amazon×Corning 北卡光纤（2026-06-amazon-corning-nc-1000）。NJEDA 董事会 2026-06-18 批准 Next New Jersey Manufacturing Program 首个奖项（$150M 投资、$37.5M 税收抵免）。一手为 NJEDA 官网（已实测可达）；此事在此前各轮采集中被遗漏，本轮补入。"
+  },
+  {
+    "id": "2026-07-jabil-mississippi-2200",
+    "date": "2026-07-07",
+    "company_or_body": "Jabil × Mississippi Development Authority",
+    "region": "US",
+    "kind": "hiring_commitment",
+    "jobs_count": 2200,
+    "jobs_type_zh": "密西西比州马歇尔县数据中心硬件制造岗位（约 2,200；服务器/供电/液冷）",
+    "jobs_type_en": "Data-center-hardware manufacturing jobs in Marshall County, Mississippi (~2,200; servers, power, liquid cooling)",
+    "occupation_ids": [],
+    "market_ids": [
+      "gpu-cloud"
+    ],
+    "source": {
+      "url": "https://governorreeves.ms.gov/jabil-to-open-manufacturing-facility-in-marshall-county/",
+      "publisher": "Office of Governor Tate Reeves (Mississippi)",
+      "date": "2026-07-07",
+      "quote_en": "Jabil ... will create approximately 2,200 jobs ... more than $119 million ... 1.5 million-square-foot facility ... to support customers in the data center infrastructure market.",
+      "quote_zh": "Jabil……将创造约 2,200 个岗位……投资超过 1.19 亿美元……改造一座 150 万平方英尺的厂房……以服务数据中心基础设施市场的客户。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "不入账（AI 归因红线未过 + 岗位性质未拆分）：州长办公室一手新闻稿仅写『data center infrastructure market』，全文未出现 AI/人工智能字样；AI 归因为间接——Jabil 官网称其为数据中心制造服务器/供电/液冷，CEO Mike Dastoor 另在 Q3 财报称『AI infrastructure demand remains extremely strong』，但该表态针对公司营收而非本次 2,200 岗；且一手未拆分 2,200 为常驻运营岗抑或含建设岗。按『拿不准就降级 counted:false』记录，保留为 AI 基建供应链回流美国制造的信号；终审若核到 MDA/Jabil 一手含明确 AI 表述且为常驻岗，可升级入账（口径可参照 Amazon×Corning 北卡）。2026-07-07 州长 Tate Reeves 宣布，系继 2025-09 首个 $70M 项目后的第二座马歇尔县工厂。"
+  },
+  {
+    "id": "2026-07-naukri-india-ai-hiring-16pct",
+    "date": "2026-07-03",
+    "company_or_body": "Naukri (Info Edge) JobSpeak",
+    "region": "IN",
+    "kind": "report_datapoint",
+    "jobs_count": null,
+    "jobs_type_zh": "印度 AI 岗位招聘增速（逆整体 IT 招聘下行）",
+    "jobs_type_en": "AI hiring growth in India (against a declining overall IT market)",
+    "occupation_ids": [],
+    "market_ids": [],
+    "source": {
+      "url": "https://techchannel.news/ai-hiring-outpaces-overall-it-recruitment-in-india-in-june/",
+      "publisher": "TechChannel News（引 Naukri JobSpeak 2026 年 6 月月报）",
+      "date": "2026-07",
+      "quote_en": "AI-specific hiring in the IT sector climbed 16 per cent year-on-year ... overall IT recruitment contracted by 3 per cent during the same period ... AI and machine learning job listings expanded by 25 per cent [across all 14 sectors].",
+      "quote_zh": "IT 行业 AI 专项招聘同比增长 16%……同期整体 IT 招聘下降 3%……全部 14 个行业的 AI 与机器学习职位发布增长 25%。（译）"
+    },
+    "confidence": "report_estimated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "永不计数（report_datapoint）。口径：Naukri（Info Edge 旗下、印度最大招聘平台）JobSpeak 2026 年 6 月月报的增速百分比，非净新增岗位绝对数，各平台基数不可互相加和。满足本轮第三区域（印度）配额，与中文世界的 BOSS/脉脉/智联/猎聘平台增速数据点同类互为参照。一手为 Naukri JobSpeak 月报，此处引可达的 TechChannel News 转述并逐字保留数字（媒体转发源，终审可回溯 naukri.com JobSpeak 原报告）。"
   }
 ]
