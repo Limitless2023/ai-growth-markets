@@ -758,5 +758,124 @@
     "counted": false,
     "status": "published",
     "notes_zh": "不入账（同百度校招口径处理）：7000/4800 为校招 Offer 总量而非 AI 岗净增数，AI 归因仅覆盖『研发类为核心方向』而非全部岗位；含实习转正通道（临时性）。补全中国大厂创造侧记录（百度、腾讯已在账本，字节此前缺）。事件为 2026-03 旧事补录，非本轮新发。"
+  },
+  {
+    "id": "2026-07-epc-power-fountain-inn-275",
+    "date": "2026-07-15",
+    "company_or_body": "EPC Power",
+    "region": "US",
+    "kind": "hiring_commitment",
+    "jobs_count": 275,
+    "jobs_type_zh": "南卡罗来纳州 Fountain Inn 电力逆变器先进制造常驻岗位（AI 数据中心供电）",
+    "jobs_type_en": "Permanent power-inverter manufacturing jobs in Fountain Inn, South Carolina (AI data center power)",
+    "occupation_ids": [],
+    "market_ids": [
+      "gpu-cloud"
+    ],
+    "source": {
+      "url": "https://www.prnewswire.com/news-releases/epc-power-expands-us-manufacturing-to-meet-surging-demand-for-ai-data-center-power-302825669.html",
+      "publisher": "PR Newswire（EPC Power 官方新闻稿）",
+      "date": "2026-07-15",
+      "quote_en": "The facility will also create 275 new jobs. ... \"Our expansion in South Carolina is a direct response to the AI infrastructure investment and power demands we're seeing worldwide,\" said Jim Fusaro, CEO of EPC Power.",
+      "quote_zh": "该工厂还将创造 275 个新岗位。……EPC Power 首席执行官 Jim Fusaro 表示：「我们在南卡罗来纳州的扩张，是对我们在全球范围内看到的 AI 基础设施投资与电力需求的直接回应。」（译）"
+    },
+    "confidence": "company_stated",
+    "counted": true,
+    "status": "draft",
+    "notes_zh": "jobs_count 取 275 常驻先进制造岗（生产 M / MRACK 系列电力逆变器），非建设临时岗：工厂已于 2026-07-15 剪彩开业、本月内即达满产，Post and Courier 转述为『will employ 275 people to build power inverters』，故为运营期制造岗，未与建设岗混报。AI 归因由公司亲口给出（非 collector 推断）：新闻稿标题直书『to Meet Surging Demand for AI Data Center Power』，CEO Jim Fusaro 明言扩张系对 AI 基础设施投资与电力需求的『直接回应』；产品为面向 AI 数据中心的电力逆变器（满产即增 27GW 年产能、可扩至 40GW）。口径待核（终审留意）：一手未写明 275 岗的到位周期（几年内招满未披露），亦未拆分工种；另有『Additional jobs will be created as expansion continues』的增量未计入。同类已入账口径参照 Amazon×Corning 北卡光纤（2026-06-amazon-corning-nc-1000）与待审的 SNP 新泽西光模块（2026-06-snp-newjersey-250），同属 AI 基建供应链美国制造回流池。一手 PR Newswire 已实测可达；另有 EPC Power 官网、Fox Carolina、Post and Courier、Upstate Business Journal 多源互证。"
+  },
+  {
+    "id": "2026-07-insight-global-1700",
+    "date": "2026-07-06",
+    "company_or_body": "Insight Global",
+    "region": "US",
+    "kind": "hiring_commitment",
+    "jobs_count": 1700,
+    "jobs_type_zh": "2026 全年内部全职招聘目标（咨询/技术交付/销售/招聘/公司运营混合口径，非纯 AI 净增）",
+    "jobs_type_en": "Full-year 2026 internal full-time hiring target (mixed: consulting, technical delivery, sales, recruiting, corporate operations — not net-new AI roles)",
+    "occupation_ids": [],
+    "market_ids": [],
+    "source": {
+      "url": "https://insightglobal.com/news/insight-global-expands-workforce-to-meet-surging-demand-for-ai-infrastructure-and-enterprise-transformation",
+      "publisher": "Insight Global（公司官网新闻室）",
+      "date": "2026-07-06",
+      "quote_en": "Insight Global ... will hire more than 1,700 full-time employees in 2026 as demand continues to grow for technical talent and AI transformation. ... The planned hiring investment spans consulting, technical delivery, sales, recruiting, and corporate operations and will support the company's increasing AI engagements, including multiple projects supporting the nation's largest AI infrastructure developments. ... AI-specific demand increasing 136% in early 2026.",
+      "quote_zh": "Insight Global……将在 2026 年招聘超过 1,700 名全职员工，因技术人才与 AI 转型需求持续增长。……该招聘投入覆盖咨询、技术交付、销售、招聘与公司运营，将支撑公司不断增加的 AI 业务，包括多个服务于全美最大规模 AI 基础设施建设的项目。……2026 年初 AI 专项需求增长 136%。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "不入账（两条红线未过）：①『全年目标』口径——1,700 为 2026 日历年度全年招聘计划，非某次具体 AI 项目的净新增岗位承诺；②混合口径——公司自述岗位覆盖『consulting, technical delivery, sales, recruiting, and corporate operations』，AI 仅为需求侧驱动之一（新闻稿标题即『AI Infrastructure AND Enterprise Transformation』并列），无法拆出纯 AI 归因的岗位数，按『混合口径绝不取大数』不取 1,700 入账。AI 归因确为公司亲口：明言支撑『多个服务于全美最大规模 AI 基础设施建设的项目』、AI 专项需求增长 136%，故保留为 AI 基建带动人力服务业扩张的信号。主体性质需终审留意：Insight Global 为人力/咨询公司，本次 1,700 系其自有内部全职员工（非派驻客户的外包合同工），公司另有独立人才派遣业务不在此数内。一手为公司官网新闻室（已实测可达），同文另发 PR Newswire（302818380）。"
+  },
+  {
+    "id": "2026-07-indeed-datacenter-postings-6-per-1000",
+    "date": "2026-07-14",
+    "company_or_body": "Indeed Hiring Lab",
+    "region": "US",
+    "kind": "report_datapoint",
+    "jobs_count": null,
+    "jobs_type_zh": "美国数据中心相关岗位发布占比与工种结构（AI 建设潮的劳动力需求切片）",
+    "jobs_type_en": "US data center job postings share and occupational mix (labor-demand slice of the AI build-out)",
+    "occupation_ids": [],
+    "market_ids": [
+      "gpu-cloud"
+    ],
+    "source": {
+      "url": "https://www.hiringlab.org/2026/07/14/hiring-for-the-data-center-build-out/",
+      "publisher": "Indeed Hiring Lab（Aubrey Woessner & Laura Ullrich）",
+      "date": "2026-07-14",
+      "quote_en": "Data center job postings have more than doubled over the last two years. ... Six in every 1,000 US job postings are now data center-related, up from 2 per 1,000 in May 2023. ... The largest 10 tech firms account for 71% of data center postings in 2026. ... About a quarter of all data center job openings are for installation and maintenance workers. ... Hourly installation workers at data centers can expect a 42% increase compared to non-data center pay.",
+      "quote_zh": "数据中心岗位发布量在过去两年里翻了一倍以上。……如今每 1,000 条美国岗位发布中有 6 条与数据中心相关，2023 年 5 月时为每千条 2 条。……2026 年最大的 10 家科技公司占数据中心岗位发布量的 71%。……约四分之一的数据中心岗位空缺为安装与维护工人。……数据中心的小时工安装工人相较非数据中心岗位可获得 42% 的时薪溢价。（译）"
+    },
+    "confidence": "report_estimated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "永不计数（report_datapoint）。口径：Indeed 平台岗位发布量的占比与结构（每千条发布中的份额、工种构成、薪资溢价），非净新增岗位绝对数，各招聘平台基数不同不可互相加和。AI 归因为作者明说：文章称数据中心为『AI's backbone』、『the AI build-out is quietly creating a new kind of tech job』。价值在于给出 AI 建设潮劳动力需求的结构性证据——蓝领（安装/维护）占四分之一，且需求集中于 Columbus / Jackson / Reno 等中小都市（大厂份额由 2025 年中的不足 2% 升至今逾 10%），可与已入账的数据中心运营岗承诺（Oracle 四州 8,000、Amazon×Corning 北卡 1,000）互为宏观参照。信源 indeed-hiring-lab-ai-tracker 属 daily 层，本轮必扫命中。"
+  },
+  {
+    "id": "2026-06-umd-aimaps-31056-monthly",
+    "date": "2026-06-30",
+    "company_or_body": "UMD-LinkUp AI Maps",
+    "region": "US",
+    "kind": "report_datapoint",
+    "jobs_count": 31056,
+    "jobs_type_zh": "单月新增 AI 职位（美国）",
+    "jobs_type_en": "New AI job listings in one month (US)",
+    "occupation_ids": [],
+    "market_ids": [],
+    "source": {
+      "url": "https://www.aimaps.ai/",
+      "publisher": "UMD Smith School × LinkUp",
+      "date": "2026-06",
+      "quote_en": "Total: 31,056 for 06/2026",
+      "quote_zh": "2026 年 6 月合计 31,056 条（美国新增 AI 职位）。（译）"
+    },
+    "confidence": "report_estimated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "永不计数（report_datapoint）。承接已入账的 2026-05-umd-aimaps-30594-monthly 月度序列：5 月 30,594 → 6 月 31,056，环比 +1.5%（+462）。口径：微调 LLM 识别『需要 AI 技能的职位』（团队自述与人工核对一致率逾 90%）；月度数据，日期按月末记（沿用 5 月条目惯例）。**口径存疑，请终审裁定（影响整个序列而非本条）**：站点计数器标签为『Total: 31,056 for 06/2026』，但页面另有一句说明写作『Data on the total # of new AI job postings cumulatively from January 2018 through the end of the latest calendar month』，字面读作『2018 年 1 月至今累计』。collector 判定为**当月新增**而非累计，依据有二：①若为 2018 年以来累计，8 年半仅 3.1 万条 AI 职位与常识及本站『AI 岗位占全部招聘 3.4%』的口径矛盾，量级应为百万级；②UMD/LinkUp 另行公布的 2024 年 Q4 单季 AI 职位数为 49,577，季度量级即约 5 万，故月度 3 万余条量级自洽，而累计读法不自洽。该『cumulatively』应系描述图表数据集的时间跨度（序列自 2018-01 起）而非计数器本身。若终审核定为累计口径，则须同步修正已发布的 5 月条目。信源 umd-linkup-ai-maps 属 monthly 层、超期 6 天，本轮轮换补扫命中。"
+  },
+  {
+    "id": "2026-07-maimai-campus-ai-47pct",
+    "date": "2026-07-02",
+    "company_or_body": "脉脉高聘人才智库",
+    "region": "CN",
+    "kind": "report_datapoint",
+    "jobs_count": null,
+    "jobs_type_zh": "校招市场 AI 岗位增速与 AI 渗透率（2026 年 1–5 月）",
+    "jobs_type_en": "Campus-recruiting AI job growth and AI penetration rate (Jan–May 2026)",
+    "occupation_ids": [],
+    "market_ids": [],
+    "source": {
+      "url": "https://finance.sina.com.cn/tob/2026-07-02/doc-inifmmmw4116033.shtml",
+      "publisher": "新浪财经（脉脉高聘人才智库《抢占 AI 新生代——2026 年名校生求职招聘洞察》）",
+      "date": "2026-07-02",
+      "quote_zh": "新发校招岗位量同比小幅增长 3.56%……新发校招 AI 岗位量同比增长 47.30%……新发岗位 AI 渗透率从 2025 年的 26.41% 提升至 2026 年的 37.56%，意味着每 10 个新发校招岗位中，接近 4 个与 AI 相关。",
+      "quote_en": "New campus-recruiting postings grew 3.56% year over year ... new campus-recruiting AI postings grew 47.30% year over year ... the AI penetration rate of new postings rose from 26.41% in 2025 to 37.56% in 2026, meaning nearly 4 in every 10 new campus postings are AI-related. (translated)"
+    },
+    "confidence": "report_estimated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "永不计数（report_datapoint）。口径：脉脉平台校招（应届生）新发岗位量的同比增速与 AI 渗透率，统计区间 2026 年 1–5 月，为百分比非净新增绝对数；各平台基数不同不可互相加和。查重说明：与已发布的 2025-12-maimai-ai-543pct（同主体，口径为全平台新发 AI 岗位增速）及待审 PR #3 的 2026-05-maimai-ai-8-7x（新经济领域 AI 岗位量）属不同切片——本条专指校招/应届生入口市场，核心指标为渗透率结构变化（26.41%→37.56%），不构成重复。价值在于给出 AI 对中国应届生入口市场的结构性证据：整体校招盘子仅增 3.56%，AI 岗位却增 47.30%，即校招增量几乎全部来自 AI。满足本轮 CN 区域配额。一手为脉脉高聘报告，此处引可达的新浪财经转述并逐字保留数字（媒体转发源，终审可回溯脉脉高聘原报告），沿用已入账的 2025-12-maimai-ai-543pct（引新浪科技转述）与 2026-01-boss-zhipin-ai-741pct（引央广网转述）之同类先例。"
   }
 ]
