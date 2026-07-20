@@ -758,5 +758,51 @@
     "counted": false,
     "status": "published",
     "notes_zh": "不入账（同百度校招口径处理）：7000/4800 为校招 Offer 总量而非 AI 岗净增数，AI 归因仅覆盖『研发类为核心方向』而非全部岗位；含实习转正通道（临时性）。补全中国大厂创造侧记录（百度、腾讯已在账本，字节此前缺）。事件为 2026-03 旧事补录，非本轮新发。"
+  },
+  {
+    "id": "2026-07-zeroeyes-pennsylvania-100",
+    "date": "2026-07-14",
+    "company_or_body": "ZeroEyes",
+    "region": "US",
+    "kind": "hiring_commitment",
+    "jobs_count": 100,
+    "jobs_type_zh": "AI 岗位（AI 技术项目经理、MLOps 工程师、AI 解决方案专家；面向退伍军人）",
+    "jobs_type_en": "AI roles (Technical Program Managers (AI), MLOps Engineers, AI Solutions Specialists; veteran-focused)",
+    "occupation_ids": [],
+    "market_ids": [],
+    "source": {
+      "url": "https://www.prnewswire.com/news-releases/zeroeyes-announces-10m-investment-in-ai-rd-and-plans-to-hire-100-philadelphia-area-veterans-over-next-two-years-302824376.html",
+      "publisher": "PR Newswire（ZeroEyes 官方新闻稿）",
+      "date": "2026-07-14",
+      "quote_en": "ZeroEyes ... today announced a planned $10 million U.S. investment in AI/ML research and development, including hiring over 100 veterans in Southeastern Pennsylvania over the next 24 months to fill the roles of Technical Program Managers (AI), MLOps Engineers, and AI Solutions Specialists.",
+      "quote_zh": "ZeroEyes……今日宣布一项 1,000 万美元的美国 AI/ML 研发投资，其中包括未来 24 个月在宾夕法尼亚州东南部招聘超过 100 名退伍军人，出任 AI 技术项目经理、MLOps 工程师与 AI 解决方案专家等岗位。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": true,
+    "status": "draft",
+    "notes_zh": "ZeroEyes（AI 枪支/威胁检测公司，2018 年由海豹突击队员创立）在参议员 Dave McCormick 主办的 2026 宾州国防与创新峰会上宣布，2026-07-14。岗位为 100% AI 岗（AI 技术项目经理、MLOps 工程师、AI 解决方案专家），AI 归因干净直接。『over 100』为下限，jobs_count 按红线保守取 100。同步宣布 1,000 万美元 AI/ML 研发投资、3,000 平方英尺 AI 实验室与 Conshohocken 运营中心。一手为 PR Newswire 官方新闻稿（已实测可达）。"
+  },
+  {
+    "id": "2026-07-siemens-saskatoon-100",
+    "date": "2026-07-15",
+    "company_or_body": "Siemens",
+    "region": "CA",
+    "kind": "hiring_commitment",
+    "jobs_count": 100,
+    "jobs_type_zh": "萨斯卡通 R&D hub 高技能常驻岗位（软件工程、AI 研究、客户应用；服务 AI 驱动的半导体设计）",
+    "jobs_type_en": "High-skilled permanent R&D roles at Saskatoon hub (software engineering, AI research, customer application; for AI-driven semiconductor design)",
+    "occupation_ids": [],
+    "market_ids": [],
+    "source": {
+      "url": "https://news.siemens.com/en-us/saskatoon-research-development-hub-2026/",
+      "publisher": "Siemens（官方新闻室）",
+      "date": "2026-07-15",
+      "quote_en": "The expansion is expected to support the creation of up to 100 new highly skilled roles over the next two years, growing the local workforce from approximately 300 to 400 employees.",
+      "quote_zh": "此次扩张预计将在未来两年支持创造至多 100 个高技能新岗位，使本地员工规模从约 300 人增至约 400 人。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": true,
+    "status": "draft",
+    "notes_zh": "Siemens 数字工业软件（Siemens EDA）萨斯卡通 R&D hub 扩建，2026-07-15 官方新闻室发布；第三区域（加拿大）。jobs_count 取公司口径 100——原文『up to 100』为上限，但配合员工数 300→400 的具体增长，属常驻高技能 R&D 岗（软件工程、AI 研究、客户应用）。AI 归因：原文『global semiconductor market is entering a historic phase of growth driven by AI』『advancing Industrial AI that delivers real customer value』，招聘聚焦含 AI research——为 AI 驱动的芯片设计软件研发。红线提示：因『up to』上限口径 + AI 属半导体设计工具的间接语境，终审若判 AI 归因过间接，可降级 counted:false。"
   }
 ]
