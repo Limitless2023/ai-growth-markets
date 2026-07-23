@@ -758,5 +758,53 @@
     "counted": false,
     "status": "published",
     "notes_zh": "不入账（同百度校招口径处理）：7000/4800 为校招 Offer 总量而非 AI 岗净增数，AI 归因仅覆盖『研发类为核心方向』而非全部岗位；含实习转正通道（临时性）。补全中国大厂创造侧记录（百度、腾讯已在账本，字节此前缺）。事件为 2026-03 旧事补录，非本轮新发。"
+  },
+  {
+    "id": "2026-07-openai-effingham-ga-400",
+    "date": "2026-07-22",
+    "company_or_body": "OpenAI（Effingham County IDA 官方联合新闻稿公布岗位数）",
+    "region": "US",
+    "kind": "hiring_commitment",
+    "jobs_count": 400,
+    "jobs_type_zh": "AI 数据中心（Project Camellia）初始运营常驻技术岗位（数千建设岗另列未计）",
+    "jobs_type_en": "Initial permanent technology jobs at OpenAI's AI data center (Project Camellia); thousands of construction jobs listed separately, not counted",
+    "occupation_ids": [],
+    "market_ids": [
+      "gpu-cloud"
+    ],
+    "source": {
+      "url": "https://www.effinghamgateway.com/",
+      "publisher": "EffinghamGateway.com（Effingham County IDA / 县委员会 / 学区官方项目页）",
+      "date": "2026-07-22",
+      "quote_en": "Creation of an initial 400 technology-focused jobs offering high-skill, high-paying employment in addition to thousands of construction jobs. … $20 Billion Investment … one of the largest private capital investments in the history of coastal Georgia.",
+      "quote_zh": "创造初始 400 个技术类岗位，提供高技能、高薪酬就业，此外还有数千个建设岗位。……200 亿美元投资……佐治亚沿海地区史上最大规模的私人资本投资之一。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": true,
+    "status": "draft",
+    "notes_zh": "jobs_count 取官方联合新闻稿口径的『initial 400 technology-focused jobs』（运营常驻）；『thousands of construction jobs』（建设临时岗）原文分列，按红线取常驻不取混合数、未计入。不取 AJC 报道的 2032 年前增至约 1,000 的远期投影，按『绝不取大数』取初始 400。AI 归因明确：OpenAI 自建 AI 数据中心园区 Project Camellia（约 3.2GW、四栋楼、1,400 英亩、$200 亿），2028 投运、Georgia Power 分期 2028–2032 供电。岗位数由 Effingham County 工业发展局（IDA）/县委员会/学区联合新闻稿宣布（同 Clay/Rogo/Applied Digital 类『企业 AI 项目 + 地方经济发展机构公布岗位数』counted 范式）。source.url 用可达官方项目页 effinghamgateway.com（承载县 IDA 新闻稿逐字岗位语），OpenAI newsroom 一手页 openai.com/index/building-ai-infrastructure-with-the-effingham-county-community/ collector 抓取 403，终审可于浏览器核对。effinghamgateway.com 附声明：部分财务/税收细节尚待正式协议确认（岗位数 400 各源一致）。与账本 2025-09-stargate-five-sites-25000（counted:false，五站点混合口径、不含佐治亚）为不同设施，不构成双计。"
+  },
+  {
+    "id": "2026-07-liepin-ai-h1-21pct",
+    "date": "2026-07-18",
+    "company_or_body": "猎聘大数据研究院",
+    "region": "CN",
+    "kind": "report_datapoint",
+    "jobs_count": null,
+    "jobs_type_zh": "AI 行业新发职位增速（2026 上半年）",
+    "jobs_type_en": "Growth rate of new AI-industry job postings (H1 2026)",
+    "occupation_ids": [],
+    "market_ids": [],
+    "source": {
+      "url": "https://news.qq.com/rain/a/20260718A0002E00",
+      "publisher": "腾讯新闻（猎聘《2026人工智能行业人才供需趋势洞察》，WAIC 2026 发布）",
+      "date": "2026-07-18",
+      "quote_zh": "2026 年上半年，AI 行业新发职位同比增长 21.08%；架构师新发职位同比增长 76.74%，机械结构工程师增长 57.20%，硬件工程师增长 40.80%，算法工程师增速仅 12.84%。",
+      "quote_en": "In H1 2026, new AI-industry job postings grew 21.08% year over year; architect roles grew 76.74%, mechanical-structure engineers 57.20%, hardware engineers 40.80%, while algorithm engineers grew only 12.84%. (translated)"
+    },
+    "confidence": "report_estimated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "猎聘大数据研究院于 WAIC 2026（2026-07-17~20，上海）发布《2026人工智能行业人才供需趋势洞察》，基于猎聘平台 2026 上半年全量招聘/求职数据。口径：平台新发职位同比增速，与 BOSS直聘/脉脉/智联统计基数不同、不可互相加和。核心信号：AI 人才需求从『单一算法能力』转向『软硬融合与产业落地』——架构师/硬件/机械结构岗增速远超算法岗。与账本 2026-02-liepin-ai-salary-premium 为不同报告（年度薪资溢价 vs H1 新发职位增速），非重复。"
   }
 ]
