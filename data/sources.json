@@ -33,7 +33,7 @@
     "cadence": "daily",
     "lang": "en",
     "what_to_look_for_zh": "招聘启事 AI 提及率日更 CSV（开放可商用）→ report_datapoint 与月度趋势",
-    "last_checked": "2026-06-10"
+    "last_checked": "2026-07-23"
   },
   {
     "id": "linkedin-economic-graph",
@@ -141,7 +141,7 @@
     "cadence": "event_driven",
     "lang": "en",
     "what_to_look_for_zh": "Jobs Platform / 认证计划等公司承诺 → hiring_commitment",
-    "last_checked": "2026-06-10"
+    "last_checked": "2026-07-23"
   },
   {
     "id": "bloomberry-blog",
@@ -231,7 +231,7 @@
     "cadence": "yearly",
     "lang": "zh",
     "what_to_look_for_zh": "AI 产业人才供需与岗位增速 → report_datapoint",
-    "last_checked": "2026-06-10"
+    "last_checked": "2026-07-23"
   },
   {
     "id": "liepin-reports",
@@ -240,7 +240,7 @@
     "cadence": "quarterly",
     "lang": "zh",
     "what_to_look_for_zh": "AI 技能岗位薪资溢价与高管 AI 思维需求 → report_datapoint",
-    "last_checked": "2026-06-10"
+    "last_checked": "2026-07-23"
   },
   {
     "id": "maimai-gaopin-reports",
@@ -312,7 +312,7 @@
     "cadence": "event_driven",
     "lang": "en",
     "what_to_look_for_zh": "AI 数据中心建设与 AI 团队扩张官方公告 → hiring_commitment",
-    "last_checked": "2026-06-10"
+    "last_checked": "2026-07-23"
   },
   {
     "id": "meta-newsroom",
@@ -321,7 +321,7 @@
     "cadence": "event_driven",
     "lang": "en",
     "what_to_look_for_zh": "AI 数据中心破土/扩建公告（运营岗与建设岗分列数字）→ hiring_commitment",
-    "last_checked": "2026-06-10"
+    "last_checked": "2026-07-23"
   },
   {
     "id": "amazon-newsroom",
@@ -330,7 +330,7 @@
     "cadence": "event_driven",
     "lang": "en",
     "what_to_look_for_zh": "AWS AI/数据中心州级投资的就业承诺 → hiring_commitment",
-    "last_checked": "2026-06-11"
+    "last_checked": "2026-07-23"
   },
   {
     "id": "google-blog",
@@ -384,7 +384,7 @@
     "cadence": "daily",
     "lang": "en",
     "what_to_look_for_zh": "数据中心行业媒体：项目岗位数字高产区（引用前须回溯一手公告）",
-    "last_checked": "2026-06-11"
+    "last_checked": "2026-07-23"
   },
   {
     "id": "prnewswire-ai",
@@ -393,7 +393,7 @@
     "cadence": "daily",
     "lang": "en",
     "what_to_look_for_zh": "企业 AI 招聘/扩张官方通稿（一手新闻稿源）→ hiring_commitment",
-    "last_checked": "2026-06-10"
+    "last_checked": "2026-07-23"
   },
   {
     "id": "fool-transcripts",
@@ -465,7 +465,7 @@
     "cadence": "daily",
     "lang": "en",
     "what_to_look_for_zh": "RSS 扫描配方：英文『AI 新增岗位公告』入口，命中后回溯一手来源",
-    "last_checked": "2026-06-11"
+    "last_checked": "2026-07-23"
   },
   {
     "id": "gnews-rss-datacenter-jobs-en",
@@ -474,7 +474,7 @@
     "cadence": "daily",
     "lang": "en",
     "what_to_look_for_zh": "RSS 扫描配方：数据中心岗位公告入口，命中后回溯一手来源",
-    "last_checked": "2026-06-11"
+    "last_checked": "2026-07-23"
   },
   {
     "id": "gov-cn-policy",
@@ -501,7 +501,7 @@
     "cadence": "daily",
     "lang": "zh",
     "what_to_look_for_zh": "大厂 AI 招聘/扩张快讯（引用前须回溯一手公告）",
-    "last_checked": "2026-06-11"
+    "last_checked": "2026-07-23"
   },
   {
     "id": "ithome-news",
@@ -510,7 +510,7 @@
     "cadence": "daily",
     "lang": "zh",
     "what_to_look_for_zh": "大厂校招/AI 岗位公告的高频转发源（须回溯一手）",
-    "last_checked": "2026-06-11"
+    "last_checked": "2026-07-23"
   },
   {
     "id": "thepaper-tech",
@@ -519,7 +519,7 @@
     "cadence": "daily",
     "lang": "zh",
     "what_to_look_for_zh": "AI 产业就业报道与地方政策落地（含美数课数据新闻）",
-    "last_checked": "2026-06-11"
+    "last_checked": "2026-07-23"
   },
   {
     "id": "jiemian-tech",
@@ -528,7 +528,7 @@
     "cadence": "daily",
     "lang": "zh",
     "what_to_look_for_zh": "公司 AI 业务扩张与招聘报道（须回溯一手）",
-    "last_checked": "2026-06-11"
+    "last_checked": "2026-07-23"
   },
   {
     "id": "alibaba-newsroom",
@@ -573,6 +573,6 @@
     "cadence": "daily",
     "lang": "zh",
     "what_to_look_for_zh": "RSS 扫描配方：中文『人工智能+岗位』公告入口，命中后回溯一手来源",
-    "last_checked": "2026-06-11"
+    "last_checked": "2026-07-23"
   }
 ]
