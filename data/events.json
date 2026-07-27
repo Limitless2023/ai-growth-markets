@@ -758,5 +758,76 @@
     "counted": false,
     "status": "published",
     "notes_zh": "不入账（同百度校招口径处理）：7000/4800 为校招 Offer 总量而非 AI 岗净增数，AI 归因仅覆盖『研发类为核心方向』而非全部岗位；含实习转正通道（临时性）。补全中国大厂创造侧记录（百度、腾讯已在账本，字节此前缺）。事件为 2026-03 旧事补录，非本轮新发。"
+  },
+  {
+    "id": "2026-07-legora-nyc-550",
+    "date": "2026-07-24",
+    "company_or_body": "Legora（纽约州州长办公室 / Empire State Development 共同宣布）",
+    "region": "US",
+    "kind": "hiring_commitment",
+    "jobs_count": 550,
+    "jobs_type_zh": "曼哈顿扩张净增岗位（工程、产品开发、法律工程、公司职能）",
+    "jobs_type_en": "Net new jobs from Manhattan expansion (engineering, product development, legal engineering, corporate functions)",
+    "occupation_ids": [],
+    "market_ids": [],
+    "source": {
+      "url": "https://www.governor.ny.gov/news/governor-hochul-announces-ai-company-legora-create-over-550-jobs-through-major-new-york-city",
+      "publisher": "New York State Governor's Office（纽约州州长办公室官方新闻稿）",
+      "date": "2026-07-24",
+      "quote_en": "Governor Kathy Hochul today announced that Legora, the agentic operating system for legal work, will significantly expand its U.S. operations with a new office at 11 Madison Avenue in Manhattan, creating over 550 new jobs and establishing nearly 100,000 square feet of office space to support engineering, product development, legal engineering and corporate functions. … Empire State Development is supporting the project with up to $10.5 million in performance-based Excelsior Jobs Program tax credits in exchange for job creation and research and development commitments. The project is expected to create over 550 net new jobs while supporting significant long-term investment in New York's innovation economy.",
+      "quote_zh": "州长 Kathy Hochul 今日宣布，法律工作的智能体操作系统 Legora 将大幅扩张其美国业务，在曼哈顿麦迪逊大道 11 号设立新办公室，创造 550 多个新岗位，并建设近 10 万平方英尺办公空间，用于支持工程、产品开发、法律工程与公司职能。……Empire State Development 以最高 1,050 万美元的绩效导向型 Excelsior Jobs Program 税收抵免支持该项目，作为岗位创造与研发承诺的交换。该项目预计创造 550 多个净增岗位，同时为纽约创新经济带来可观的长期投资。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": true,
+    "status": "draft",
+    "notes_zh": "jobs_count 取 550（原文『over 550』，按红线取下限不取大数）。口径为『net new jobs』（净增岗位，非存量转移），且与 Excelsior Jobs Program 税收抵免绑定为可核查的绩效承诺（拿不到岗位就拿不到抵免），强于一般口头承诺。时间跨度：原文『over the coming years』未给具体年限。AI 归因明确且来自来源本身：官方稿标题即『AI Company Legora』，正文定义 Legora 为『the agentic operating system for legal work』（法律工作的智能体操作系统），ESD 总裁兼 CEO Hope Knight 表述『Every major AI company that chooses to grow in New York…』。属本账本已确立的 counted 范式：AI 企业 + 州级经济发展机构公布明确岗位数（同 Clay 498 / Rogo 422 / Applied Digital 200）。source.url 为纽约州州长办公室一手新闻稿，collector 已实测可达并逐字核验。"
+  },
+  {
+    "id": "2026-07-hcltech-odisha-5000",
+    "date": "2026-07-24",
+    "company_or_body": "HCLTech × Government of Odisha（印度奥迪沙邦政府）× Sarvam AI",
+    "region": "IN",
+    "kind": "hiring_commitment",
+    "jobs_count": 5000,
+    "jobs_type_zh": "布巴内斯瓦尔全球技术中心容纳人数（交付 AI 主导数字方案；为容量口径而非净增岗位承诺）",
+    "jobs_type_en": "Headcount capacity of the Bhubaneswar Global Technology Centre delivering AI-led digital solutions (capacity figure, not a net-hiring commitment)",
+    "occupation_ids": [],
+    "market_ids": [
+      "gpu-cloud"
+    ],
+    "source": {
+      "url": "https://www.crnasia.com/india/news/2026/hcltech-builds-ai-ecosystem-in-odisha-with-its-first-data-centre-and-global-technology-hub",
+      "publisher": "CRN Asia（转述 HCLTech 官方新闻稿）",
+      "date": "2026-07-24",
+      "quote_en": "HCLTech will establish its first AI data centre at the upcoming Odisha Sovereign AI Park. … The technology centre will focus on developing and delivering AI-led digital solutions for global enterprises while building next-generation technology skills in the region. The facility is expected to house 5,000 employees and is planned to begin operations by 2028.",
+      "quote_zh": "HCLTech 将在即将建成的奥迪沙主权 AI 园区设立其首座 AI 数据中心。……该技术中心将专注于为全球企业开发和交付 AI 主导的数字化解决方案，同时在当地培育下一代技术技能。该设施预计容纳 5,000 名员工，计划于 2028 年前投入运营。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "降级不入账，三条理由：（1）口径是容量不是承诺——原文为『expected to house 5,000 employees』（预计容纳 5,000 名员工），是全球技术中心的工位/容纳规模，公司未说这 5,000 是净增招聘岗位数，公司对就业的表述只有模糊的『direct and indirect employment』；（2）5,000 归属的是『全球技术中心』这一独立项目，与同日公布、有明确金额（₹14,257 亿卢比）的 AI 数据中心是两份分开的 MoU，而 AI 数据中心本身未给岗位数；（3）事件处于 MoU 签署阶段、2028 年才投运，不确定性高。AI 归因成立且为公司亲口：技术中心定位『developing and delivering AI-led digital solutions』，数据中心落在『Odisha Sovereign AI Park』（主权 AI 园区），与 Sarvam AI 基础模型合作。签署仪式由奥迪沙邦首席部长 Mohan Charan Majhi、HCLTech 董事长 Roshni Nadar Malhotra 出席。source.url：HCLTech 官网一手新闻稿 hcltech.com/press-releases/hcltech-announces-ai-data-center-bhubaneswar-partnership-sarvam-and-government 与印度通讯社 ANI 页 collector 抓取分别超时 / 403，此处引可达的 CRN Asia 转述并逐字保留公司口径，终审可于浏览器核对一手页。本轮第三区域（IN）配额事件。"
+  },
+  {
+    "id": "2026-07-zhilian-ai-agent-244pct",
+    "date": "2026-07-16",
+    "company_or_body": "智联招聘",
+    "region": "CN",
+    "kind": "report_datapoint",
+    "jobs_count": null,
+    "jobs_type_zh": "AI 行业招聘企业数/职位数增速与智能体开发岗位需求增速",
+    "jobs_type_en": "Growth in AI-industry hiring employers and postings, and demand growth for AI agent developer roles",
+    "occupation_ids": [],
+    "market_ids": [],
+    "source": {
+      "url": "http://www.rmzxw.com.cn/c/2026-07-17/3948106.shtml",
+      "publisher": "人民政协网（智联招聘《2026年人工智能产业人才发展报告》）",
+      "date": "2026-07-17",
+      "quote_zh": "人工智能行业招聘企业数同比增长24.8%，职位数同比增长10.6%；求职人数同比增长10.5%……AI智能体开发人才需求同比增长244%……人工智能工程师需供比达2.62……一线与新一线城市合计贡献AI行业65%招聘需求，其中新一线城市职位数占比达40.7%",
+      "quote_en": "The number of AI-industry employers hiring grew 24.8% year over year and postings grew 10.6%, while job seekers grew 10.5%; demand for AI agent development talent grew 244% year over year; the demand-supply ratio for AI engineers reached 2.62; tier-1 and new-tier-1 cities together account for 65% of AI-industry hiring demand, with new-tier-1 cities alone at 40.7% of postings. (translated)"
+    },
+    "confidence": "report_estimated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "报告 2026-07-16 发布，基于智联招聘平台 2026 上半年数据；source.date 记引用页发布日 2026-07-17。口径：平台招聘企业数/职位数同比增速，与 BOSS直聘/脉脉/猎聘统计基数不同、不可互相加和。本轮核心新信号是『智能体开发人才需求同比 +244%』——AI 岗位需求从『辅助工具』类岗位转向『自主执行』类岗位，与账本 2025-10-zhilian-ai-pm-144pct（2025 年前三季度 AI 产品经理增速）为不同年度不同报告，非重复。另注：本报告职位数增速 10.6% 明显低于猎聘 H1 的 21.08%（见 2026-07-liepin-ai-h1-21pct，仍在未合并 PR #11 中），两者基数与行业划分口径不同，终审时不要交叉推断。"
   }
 ]
