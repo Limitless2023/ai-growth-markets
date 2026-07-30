@@ -758,5 +758,122 @@
     "counted": false,
     "status": "published",
     "notes_zh": "不入账（同百度校招口径处理）：7000/4800 为校招 Offer 总量而非 AI 岗净增数，AI 归因仅覆盖『研发类为核心方向』而非全部岗位；含实习转正通道（临时性）。补全中国大厂创造侧记录（百度、腾讯已在账本，字节此前缺）。事件为 2026-03 旧事补录，非本轮新发。"
+  },
+  {
+    "id": "2026-07-doe-paducah-600",
+    "date": "2026-07-29",
+    "company_or_body": "U.S. Department of Energy × Brookfield × NextEra Energy",
+    "region": "US",
+    "kind": "hiring_commitment",
+    "jobs_count": 600,
+    "jobs_type_zh": "Paducah AI/高性能计算园区常驻运营岗位（建设期 8,000 岗另列未计）",
+    "jobs_type_en": "Permanent jobs at the Paducah AI/HPC innovation campus (8,000 construction jobs listed separately, not counted)",
+    "occupation_ids": [],
+    "market_ids": [
+      "gpu-cloud"
+    ],
+    "source": {
+      "url": "https://www.energy.gov/articles/energy-department-announces-partnership-expand-reliable-affordable-energy-access-and-power",
+      "publisher": "U.S. Department of Energy（美国能源部官网新闻稿）",
+      "date": "2026-07-29",
+      "quote_en": "The more than $100 billion privately funded investment, one of the largest in Kentucky's history, is expected to create approximately 8,000 construction jobs and 600 permanent jobs. … deploy up to 2.6 GW of battery energy storage to support a new 1.8 GW artificial intelligence and high-performance computing (HPC) innovation campus.",
+      "quote_zh": "这笔超过 1,000 亿美元的私人投资是肯塔基州历史上最大的投资之一，预计创造约 8,000 个建设岗位和 600 个常驻岗位。……部署最高 2.6 GW 电池储能，以支持一座新建的 1.8 GW 人工智能与高性能计算（HPC）创新园区。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": true,
+    "status": "draft",
+    "notes_zh": "jobs_count 取常驻岗 600；建设岗 8,000（临时性）原文分列、另列未计，按红线『混报绝不取大数』绝不取 8,600。AI 归因为一手原文亲口：能源部新闻稿正文写明储能是为支持一座『1.8 GW artificial intelligence and high-performance computing (HPC) innovation campus』，并称此举确保『the United States wins the AI race』。主体：美国能源部（DOE）与 Brookfield（园区开发运营方，经 2025-11 招标选定）、NextEra Energy（专用电源与储能）、Big Rivers Electric、Jackson Purchase Energy、Paducah Power System 共同宣布，能源部长 Chris Wright 赴肯塔基州现场宣布，2026-07-29。园区规划 2032 年全面建成，支撑 1.8 GW 电力容量与超 1.2 GW 算力负载。一手为 energy.gov 官网新闻稿（collector 已实测可达并逐字核验）；Brookfield 侧同日 PR Newswire 通稿可作交叉核对：https://www.prnewswire.com/news-releases/doe-site-in-western-kentucky-revitalized-with-data-center-campus-and-dedicated-energy-project-creating-jobs-and-protecting-residents-and-businesses-from-costs-302837752.html"
+  },
+  {
+    "id": "2026-07-openai-dublin-eu-hq-250",
+    "date": "2026-07-27",
+    "company_or_body": "OpenAI",
+    "region": "IE",
+    "kind": "hiring_commitment",
+    "jobs_count": 250,
+    "jobs_type_zh": "都柏林欧盟总部新增常驻岗位（GTM/销售、工程、用户运营、HR、财务、隐私、法务、企业安全、职场）",
+    "jobs_type_en": "New permanent roles at the Dublin EU headquarters (GTM/sales, engineering, user operations, HR, finance, privacy, legal, corpsec, workplace)",
+    "occupation_ids": [],
+    "market_ids": [],
+    "source": {
+      "url": "https://www.rte.ie/news/business/2026/0727/1585271-openai-to-create-200-dublin-jobs/",
+      "publisher": "RTÉ News（爱尔兰国家广播，转述 OpenAI / IDA Ireland 公告）",
+      "date": "2026-07-27",
+      "quote_en": "over the next two years it will add 250 new roles across GTM (go to market/sales), engineering, user operations, human resources, finance, privacy, legal and workplace. … The company has over 100 employees here already",
+      "quote_zh": "未来两年内将新增 250 个岗位，涵盖 GTM（市场进入/销售）、工程、用户运营、人力资源、财务、隐私、法务与职场等职能。……该公司在爱尔兰已有 100 多名员工。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": true,
+    "status": "draft",
+    "notes_zh": "口径：两年内新增 250 个常驻岗，在现有 100+ 员工基础上净增，非临时岗、非实习岗，公司亲口给出明确数字，故入账。OpenAI 爱尔兰负责人兼副总法律顾问 Emma Redmond 表态、爱尔兰总理（Taoiseach）Micheál Martin 与 IDA Ireland 共同欢迎，2026-07-27；同时租下都柏林码头区 Tropical Fruit Warehouse 共 88,000 平方英尺作欧盟总部。AI 归因为需求侧（欧洲用户、客户与开发者对 OpenAI 产品需求快速增长），与账本既有 2026-03-anthropic-dublin-200 同一判定口径（多职能、需求侧归因、counted:true），处理保持一致；若终审认为多职能岗不宜计入，应同时下调 Anthropic 都柏林条目以免口径分裂。一手为 IDA Ireland 新闻稿 https://www.idaireland.com/latest-news/press-release/openai-announces-new-eu-hq-and-250-additional-jobs （collector 抓取被域名安全策略拦截，与 Anthropic 都柏林事件同一障碍），此处引可达的爱尔兰国家广播 RTÉ 并逐字保留公司口径，终审可于浏览器核对 IDA 原文。注意 RTÉ 该文 URL 短链残留『200』为其标题修订痕迹，正文与其余爱尔兰媒体（Silicon Republic、TechCentral、Irish Examiner）一致均为 250。与同月 2026-07-openai-effingham-ga-400（乔治亚州数据中心，未合并 PR #11）为不同事实、不构成重复计数。"
+  },
+  {
+    "id": "2026-07-microsoft-frontier-6000",
+    "date": "2026-07-02",
+    "company_or_body": "Microsoft",
+    "region": "Global",
+    "kind": "team_formation",
+    "jobs_count": 6000,
+    "jobs_type_zh": "Microsoft Frontier Company 前线部署工程团队规模（6,000 名行业与工程专家驻客户现场）",
+    "jobs_type_en": "Headcount of Microsoft Frontier Company (6,000 industry and engineering experts embedded at customers)",
+    "occupation_ids": [],
+    "market_ids": [],
+    "source": {
+      "url": "https://blogs.microsoft.com/blog/2026/07/02/microsoft-frontier-company-ai-engineering-that-amplifies-and-protects-your-intelligence/",
+      "publisher": "The Official Microsoft Blog（Judson Althoff，Microsoft Commercial Business CEO）",
+      "date": "2026-07-02",
+      "quote_en": "We are making a $2.5B investment in Microsoft Frontier Company, embedding 6,000 industry and engineering experts at customers to co-design, co-innovate, deploy and continuously improve AI systems at scale based on measurable business outcomes.",
+      "quote_zh": "我们向 Microsoft Frontier Company 投资 25 亿美元，派驻 6,000 名行业与工程专家进入客户现场，共同设计、共同创新、部署并持续改进大规模 AI 系统，以可衡量的业务成果为准。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "不入账（岗位来源为内部整合而非净增）：官方博客只说『embedding 6,000 industry and engineering experts』，通篇未声明这 6,000 人是新招聘；路透/CNBC 转述明确指该单元是把微软现有的前线部署工程师、技术顾问、行业销售与支持人员汇聚成新子公司，属组织重组而非新增岗位，按红线『拿不准就降级』记 counted:false。kind 取 team_formation：AI 落地交付团队的建制化本身是创造侧的结构性信号——『前线部署工程师（Forward-Deployed Engineer）』这一 AI 原生职业首次被巨头以 25 亿美元、6,000 人规模独立法人化，值得进词典 occupation 线索。日期 2026-07-02，Microsoft Commercial Business CEO Judson Althoff 发文宣布，Rodrigo Kede Lima（原微软亚洲区负责人）任总裁，首批客户含联合利华、诺和诺德；发生在亚马逊宣布 10 亿美元同类 AI 落地计划两天后。region 记 Global（子公司为全球建制，人员驻各国客户现场）。一手为微软官方博客（collector 已实测可达并逐字核验）；CNBC 同日报道抓取返回 403。此事件落在 2026-07-06 那轮窗口内但当轮未捕获，本轮补录。"
+  },
+  {
+    "id": "2026-07-51job-ai-talent-insight",
+    "date": "2026-07-14",
+    "company_or_body": "前程无忧 51job",
+    "region": "CN",
+    "kind": "report_datapoint",
+    "jobs_count": null,
+    "jobs_type_zh": "AI 岗位薪资中位值与招聘结构（算法岗占比、经验门槛）",
+    "jobs_type_en": "Median pay and structure of AI job postings (share of algorithm roles, experience thresholds)",
+    "occupation_ids": [],
+    "market_ids": [],
+    "source": {
+      "url": "https://finance.sina.com.cn/jjxw/2026-07-14/doc-inihuhka8537727.shtml",
+      "publisher": "新浪财经（前程无忧 51job《2026 人工智能人才洞察》）",
+      "date": "2026-07-14",
+      "quote_zh": "AI相关岗位月薪中位值为25340元。研发总监/部长/专家平均月薪近5.5万元；AI/算法类平均月薪普遍在2.8万元以上。……通用AI与算法类岗位构成的“一体”招聘占比近八成……六成岗位要求具备5-10年特定行业的垂直深耕经验……超四成岗位要求硕士及以上学历。",
+      "quote_en": "The median monthly pay for AI-related roles is 25,340 RMB; R&D directors/experts average nearly 55,000 RMB, and AI/algorithm roles generally above 28,000 RMB. General AI and algorithm roles together account for nearly 80% of AI hiring; 60% of roles require 5-10 years of vertical industry depth and over 40% require a master's degree or above. (translated)"
+    },
+    "confidence": "report_estimated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "口径：前程无忧 51job 基于其平台近一年招聘与求职数据发布的《2026 人工智能人才洞察》，为平台样本的机构估算，report_datapoint 永不入账。价值在于给出中国 AI 岗位的**门槛结构**而非增速——六成岗位要求 5-10 年垂直行业经验、超四成要求硕士以上，与账本既有增速类数据点（BOSS直聘 74.1%、脉脉 543%/8.7 倍、智联 244%）互补：需求在涨，但入口在收窄。前程无忧/51job 此前不在 sources.json，本轮建议新增为季度信源。一手报告无稳定公开直链，引新浪财经转载（collector 已实测可达并逐字核验）。与同月 2026-07-zhilian-ai-agent-244pct（未合并 PR #12）为不同机构不同口径，不重复。"
+  },
+  {
+    "id": "2026-07-tekenable-ireland-30",
+    "date": "2026-07-24",
+    "company_or_body": "TEKenable",
+    "region": "IE",
+    "kind": "hiring_commitment",
+    "jobs_count": 30,
+    "jobs_type_zh": "合作伙伴计划新增岗位（项目管理、业务分析、软件工程；12 个月内）",
+    "jobs_type_en": "New roles under the partnership programme (project management, business analysis, software engineering; within 12 months)",
+    "occupation_ids": [],
+    "market_ids": [],
+    "source": {
+      "url": "https://www.rte.ie/news/2026/0724/1584852-tekenable-jobs/",
+      "publisher": "RTÉ News（爱尔兰国家广播，转述 TEKenable 公告）",
+      "date": "2026-07-24",
+      "quote_en": "at least 30 jobs over the next 12 months … project management, business analysis and software engineering … growing demand for cloud, AI, automation and related services … from 200 to more than 230 by mid-2027",
+      "quote_zh": "未来 12 个月内至少新增 30 个岗位……涵盖项目管理、业务分析与软件工程……以应对云、AI、自动化及相关服务不断增长的需求……员工总数将从 200 人增至 2027 年中的 230 人以上。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "不入账（AI 归因为混合驱动）：公司自述招聘动因是『cloud, AI, automation and related services』三者共同的需求增长，AI 只是其一，岗位本身为项目管理/业务分析/软件工程等通用交付职能，按红线『AI 归因须是来源亲口且指向该批岗位』与『拿不准就降级』记 counted:false。规模虽小（30 个，员工 200→230+），但记录价值在于代表一个尚未在账本出现的品类：**AI/云落地服务型咨询公司的交付端扩员**——与同批 Microsoft Frontier 的 6,000 人前线部署建制形成大小两端的同构信号。TEKenable 为都柏林 AI/数据/云方案商，合作伙伴计划负责人 Kieran Kenefick 宣布，2026-07-24；该计划预计三年内驱动公司 20%-30% 营收增长。一手为公司公告，此处引可达的爱尔兰国家广播 RTÉ（collector 已实测可达并逐字核验）。"
   }
 ]
