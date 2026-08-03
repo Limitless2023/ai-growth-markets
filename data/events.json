@@ -758,5 +758,104 @@
     "counted": false,
     "status": "published",
     "notes_zh": "不入账（同百度校招口径处理）：7000/4800 为校招 Offer 总量而非 AI 岗净增数，AI 归因仅覆盖『研发类为核心方向』而非全部岗位；含实习转正通道（临时性）。补全中国大厂创造侧记录（百度、腾讯已在账本，字节此前缺）。事件为 2026-03 旧事补录，非本轮新发。"
+  },
+  {
+    "id": "2026-07-meta-el-paso-300",
+    "date": "2026-07-28",
+    "company_or_body": "Meta × BlackRock（El Paso 数据中心合资）",
+    "region": "US",
+    "kind": "hiring_commitment",
+    "jobs_count": 300,
+    "jobs_type_zh": "AI 数据中心园区建成后运营期常驻岗位（得州埃尔帕索；建设期峰值 4,000+ 建设岗另列未计）",
+    "jobs_type_en": "Permanent operational jobs at the completed AI data center campus (El Paso, Texas; 4,000+ peak construction jobs listed separately, not counted)",
+    "occupation_ids": [],
+    "market_ids": [
+      "ai-inference-infra"
+    ],
+    "source": {
+      "url": "https://about.fb.com/news/2026/07/meta-announces-new-venture-with-blackrock-to-develop-data-center-in-el-paso/",
+      "publisher": "Meta Newsroom（about.fb.com，Meta 官方新闻室）",
+      "date": "2026-07-28",
+      "quote_en": "The El Paso data center represents an investment of over $10 billion from Meta — supporting more than 4,000 construction jobs at peak and 300 operational jobs once complete.",
+      "quote_zh": "埃尔帕索数据中心代表 Meta 超过 100 亿美元的投资——在建设峰值期支持 4,000 多个建设岗位，建成后支持 300 个运营岗位。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": true,
+    "status": "draft",
+    "notes_zh": "jobs_count 取 300 运营期常驻岗，建设期峰值 4,000+ 为临时岗另列未计——按红线『建设期临时岗与运营期常驻岗混报时取常驻岗，绝不取大数』。AI 归因为公司亲口：Meta 创始人 Mark Zuckerberg 在同一新闻稿称『Building the infrastructure for superintelligence is key to making sure the benefits of this technology are distributed to everyone.』（为超级智能建设基础设施，是确保这项技术的收益惠及所有人的关键。译），BlackRock 方 Larry Fink 亦以『AI infrastructure and energy』定性该项目。口径提示：园区预计 2028 年起分批上线，300 个运营岗为建成后规模、非当期在岗；总开发成本约 140 亿美元，其中 Meta 出资超 100 亿，BlackRock 管理的基金持股 80%、Meta 持股 20%，Meta 为初始独家租户。一手为 Meta 官方新闻室（已实测可达，quote 逐字核对一致）。"
+  },
+  {
+    "id": "2026-07-hellbender-pittsburgh-500",
+    "date": "2026-07-30",
+    "company_or_body": "Hellbender",
+    "region": "US",
+    "kind": "hiring_commitment",
+    "jobs_count": 500,
+    "jobs_type_zh": "具身智能（Physical AI）硬件制造与研发岗位（宾州匹兹堡；五年累计目标）",
+    "jobs_type_en": "Physical AI hardware manufacturing and engineering jobs (Pittsburgh, PA; cumulative five-year target)",
+    "occupation_ids": [],
+    "market_ids": [],
+    "source": {
+      "url": "https://www.prnewswire.com/news-releases/hellbender-doubles-pittsburgh-footprint-to-meet-demand-for-physical-ai-hardware-and-software-302838338.html",
+      "publisher": "PR Newswire（Hellbender 公司自发新闻稿）",
+      "date": "2026-07-30",
+      "quote_en": "The move is expected to create over 500 Pittsburgh-area jobs over the next five years as the company scales to meet the growing demand for the mission-critical hardware and software that power Physical AI.",
+      "quote_zh": "随着公司扩产以满足对驱动具身智能（Physical AI）的关键硬件与软件的增长需求，此举预计将在未来五年内于匹兹堡地区创造 500 多个岗位。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": true,
+    "status": "draft",
+    "notes_zh": "口径提示（终审重点）：500 为『未来五年累计』目标且措辞为 expected to create（预计创造）而非已签约承诺，非当期净增；岗位覆盖制造、硬件工程、产品开发与运营等技术职能，公司称部分岗位可经技术培训进入、不限于高学历。AI 归因为公司亲口：新闻稿标题与正文均以 Physical AI（具身智能）硬件软件需求为扩产理由，CRO Brett Phillips 称『we're the only AI company hiring everyday yinzers』（我们是唯一雇用普通匹兹堡本地人的 AI 公司。译）。设施口径：全球总部迁至 Hazelwood Green 的 Roundhouse，制造扩至邻近 Mill 19，近 90,000 平方英尺园区、10 年租约，匹兹堡布局翻倍。若终审认为『五年累计 + expected』不足以支撑 counted，建议降为 counted:false。"
+  },
+  {
+    "id": "2026-07-hsbc-singapore-ai-coe-100",
+    "date": "2026-07-27",
+    "company_or_body": "HSBC（汇丰银行）",
+    "region": "SG",
+    "kind": "hiring_commitment",
+    "jobs_count": 100,
+    "jobs_type_zh": "全球 AI 卓越中心（AI CoE）AI 专才岗位（新加坡；另有 100 个财富管理客户经理岗不计入）",
+    "jobs_type_en": "AI specialist roles at the Global AI Centre of Excellence (Singapore; a further 100 wealth relationship-manager roles excluded)",
+    "occupation_ids": [
+      "ai-product-manager",
+      "ai-compliance-officer"
+    ],
+    "market_ids": [],
+    "source": {
+      "url": "https://www.about.hsbc.com.sg/news-and-media/hsbc-to-launch-global-ai-centre-of-excellence-in-singapore",
+      "publisher": "About HSBC Singapore（汇丰新加坡官方新闻室）",
+      "date": "2026-07-27",
+      "quote_en": "HSBC will establish a new Global AI Centre of Excellence (CoE) in Singapore by the second half of 2026 as part of a broader investment to create more than 200 new roles in the country across AI and Wealth. … The CoE is expected to employ more than 100 AI specialists.",
+      "quote_zh": "汇丰将于 2026 年下半年前在新加坡设立新的全球 AI 卓越中心（CoE），作为在该国横跨 AI 与财富管理领域创造 200 多个新岗位这一更广泛投资的一部分。……该卓越中心预计将雇用 100 多名 AI 专才。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": true,
+    "status": "draft",
+    "notes_zh": "jobs_count 取 100 AI 专才岗，不取 200+ 这一大数——200+ 为『AI 与财富管理』混合口径，新闻稿另明确『plans to hire a further 100 relationship managers across Premier and Private Banking over the next two years』（未来两年再招 100 名卓越理财与私人银行客户经理），该 100 属财富管理条线、与 AI 无关，按红线『混合口径绝不取大数』剔除。AI 归因为公司亲口：设立主体即『Global AI Centre of Excellence』，AI 专才向集团首席 AI 官 David Rice 团队看齐；业务方向为财富对话增强、智能体化资金管理（agentic treasury）与 AI 数字支付，新加坡所建工具将复制到汇丰全球网络。人才口径：中心将与新加坡高校及政府机构合作，培养自然语言处理、数据科学、AI 治理与以人为本设计等方向的人才梯队。集团 CEO Georges Elhedery 的表态未含具体招聘数字。一手为汇丰新加坡官方新闻室（已实测可达，quote 逐字核对一致）。满足本轮第三区域配额。"
+  },
+  {
+    "id": "2026-07-mohrss-ai-job-fair-session",
+    "date": "2026-07-21",
+    "company_or_body": "人力资源社会保障部（百日千万招聘专项行动）",
+    "region": "CN",
+    "kind": "report_datapoint",
+    "jobs_count": null,
+    "jobs_type_zh": "百日千万招聘专项行动人工智能行业专场招聘需求（超 90 家用人单位，近 1000 人次）",
+    "jobs_type_en": "Recruitment demand at the AI-industry session of the MOHRSS national recruitment drive (90+ employers, nearly 1,000 openings)",
+    "occupation_ids": [
+      "ai-product-manager"
+    ],
+    "market_ids": [],
+    "source": {
+      "url": "https://www.news.cn/tech/20260721/8709e9d9ad7c4e1294834bcd4326065e/c.html",
+      "publisher": "新华网（人力资源社会保障部发布）",
+      "date": "2026-07-21",
+      "quote_zh": "人工智能行业专场组织超90家用人单位，提供软件开发工程师、测试工程师、算法工程师、AI产品经理等岗位，招聘需求近1000人次。",
+      "quote_en": "The artificial-intelligence industry session brought together more than 90 employers, offering roles such as software development engineer, test engineer, algorithm engineer and AI product manager, with recruitment demand of nearly 1,000 openings. (translated)"
+    },
+    "confidence": "company_stated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "永不计数（report_datapoint）。口径披露：近 1000 为『招聘需求人次』即专场挂出的招聘工位数，非企业净新增岗位承诺，且同一岗位可在多场活动重复挂出，不满足入账红线，仅作官方劳动力市场信号收录。专场时间为 2026-07-20 至 07-26，属人社部『百日千万招聘专项行动』下的行业专场。AI 归因为官方亲口：专场即以『人工智能行业』命名，列举岗位含算法工程师、AI 产品经理。与本账本已有候选 2026-07-mohrss-cloud-recruitment-drive（2026-07-02，互联网企业云端招聘月 20 万+ 岗位）为同一专项行动下的不同批次活动，主体同为人社部但事件与数字互不重叠，非重复收录。一手为新华网（国家通讯社转发人社部发布，已实测可达，quote 逐字核对一致）。满足本轮 CN 区域配额。"
   }
 ]
