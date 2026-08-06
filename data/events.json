@@ -758,5 +758,128 @@
     "counted": false,
     "status": "published",
     "notes_zh": "不入账（同百度校招口径处理）：7000/4800 为校招 Offer 总量而非 AI 岗净增数，AI 归因仅覆盖『研发类为核心方向』而非全部岗位；含实习转正通道（临时性）。补全中国大厂创造侧记录（百度、腾讯已在账本，字节此前缺）。事件为 2026-03 旧事补录，非本轮新发。"
+  },
+  {
+    "id": "2026-07-meta-alberta-sturgeon-300",
+    "date": "2026-07-08",
+    "company_or_body": "Meta",
+    "region": "CA",
+    "kind": "hiring_commitment",
+    "jobs_count": 300,
+    "jobs_type_zh": "AI 数据中心运营期常驻岗位（艾伯塔省 Sturgeon County，1GW 园区；峰值约 3,000 建设岗另列未计）",
+    "jobs_type_en": "Permanent operational jobs at an AI-optimized 1GW data centre (Sturgeon County, Alberta; ~3,000 peak construction jobs listed separately, not counted)",
+    "occupation_ids": [],
+    "market_ids": [
+      "gpu-cloud"
+    ],
+    "source": {
+      "url": "https://about.fb.com/news/2026/07/breaking-ground-on-metas-first-data-center-in-canada/",
+      "publisher": "Meta Newsroom（about.fb.com 官方新闻室）",
+      "date": "2026-07-08",
+      "quote_en": "This data center will be optimized for our AI workloads, helping bring to life the technologies that billions around the world use. … approximately 3,000 construction workers will be onsite at the peak of construction, and the data center will support more than 300 operational jobs. … represent an investment of more than CAD $13 billion",
+      "quote_zh": "这座数据中心将针对我们的 AI 工作负载做优化，帮助实现全球数十亿人使用的技术。……建设高峰期预计约有 3,000 名建筑工人在场，数据中心投运后将支撑 300 个以上的运营岗位。……总投资将超过 130 亿加元。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": true,
+    "status": "draft",
+    "notes_zh": "jobs_count 取 300 运营期常驻岗（原文『more than 300』，按下限取整数不夸大）；峰值约 3,000 建设岗属临时性，按红线分开记且不取混合大数。AI 归因来自 Meta 官方新闻室原话『optimized for our AI workloads』，非 collector 推断。交叉验证：艾伯塔省总理办公室同日新闻稿（经 Sturgeon County 官网转发 https://www.sturgeoncounty.ca/news-release-meta-makes-historic-investment-in-alberta/ ）同样写明『more than 3,000 construction jobs』与『300 operational jobs』，并由省长 Danielle Smith 以人工智能为背景表述。加拿大区域第三条记录（前有 Bell Saskatchewan、Siemens Saskatoon）。事件日期 2026-07-08，为前几轮漏采的补录。"
+  },
+  {
+    "id": "2026-07-liteon-mckinney-500",
+    "date": "2026-07-13",
+    "company_or_body": "LITEON（光宝科技）",
+    "region": "US",
+    "kind": "hiring_commitment",
+    "jobs_count": 500,
+    "jobs_type_zh": "AI 电源与基础设施方案先进制造岗位（德州 McKinney 北美总部，首期口径；全周期『逾 600』不取大数）",
+    "jobs_type_en": "Advanced manufacturing jobs producing AI power and infrastructure solutions (North American HQ, McKinney, Texas; initial-phase figure, the 'more than 600' lifecycle figure not used)",
+    "occupation_ids": [],
+    "market_ids": [
+      "ai-inference-infra"
+    ],
+    "source": {
+      "url": "https://gov.texas.gov/news/post/governor-abbott-announces-liteon-expansion-in-mckinney",
+      "publisher": "Office of the Texas Governor（德州州长办公室）",
+      "date": "2026-07-13",
+      "quote_en": "Governor Greg Abbott today announced Lite-On, Inc. (LITEON) will establish a new North American headquarters for its advanced manufacturing facility in McKinney for the production of AI power and infrastructure-related solutions. The initial phase of the project represents a $307 million capital investment and will create 500 jobs. … LITEON's total investment in the McKinney facility is expected to be $919 million and will create more than 600 jobs in total over the life of the project.",
+      "quote_zh": "州长 Greg Abbott 今日宣布，光宝科技（Lite-On, Inc.）将在麦金尼设立其先进制造工厂的北美新总部，生产 AI 电源与基础设施相关解决方案。项目首期资本投资 3.07 亿美元，将创造 500 个岗位。……光宝在麦金尼工厂的总投资预计为 9.19 亿美元，项目全周期合计将创造逾 600 个岗位。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": true,
+    "status": "draft",
+    "notes_zh": "jobs_count 取 500（首期，与 350 万美元德州企业基金 TEF 补助绑定、有对赌约束），不取全周期『more than 600』的大数，符合混合口径取小不取大的红线。岗位性质为制造业常驻岗，非建设期临时岗。AI 归因来自州长办公室新闻稿原文『for the production of AI power and infrastructure-related solutions』，属政府亲口。与账本内 SNP New Jersey、Corning×NVIDIA 同属『AI 供应链制造回流』池。事件日期 2026-07-13，为前几轮漏采的补录。"
+  },
+  {
+    "id": "2025-08-wistron-fortworth-800",
+    "date": "2025-08-21",
+    "company_or_body": "Wistron（纬创资通）",
+    "region": "US",
+    "kind": "hiring_commitment",
+    "jobs_count": 800,
+    "jobs_type_zh": "AI 超级计算机组装与测试的全职制造岗位（德州 Fort Worth AllianceTexas 两座厂区）",
+    "jobs_type_en": "Full-time manufacturing jobs assembling and testing AI supercomputers (two facilities at AllianceTexas, Fort Worth, Texas)",
+    "occupation_ids": [],
+    "market_ids": [
+      "ai-inference-infra"
+    ],
+    "source": {
+      "url": "https://www.hillwood.com/newsroom/press-releases/wistron-selects-fort-worths-alliancetexas-for-761-million-ai-supercomputer-sites-project/",
+      "publisher": "Hillwood 新闻室（AllianceTexas 园区开发商，代发纬创宣布稿）",
+      "date": "2025-08-21",
+      "quote_en": "Wistron, one of the world's largest electronics manufacturers, today announced plans to establish two AI supercomputing facilities at AllianceTexas in Fort Worth. … The project represents a total investment of $761 million and will create more than 800 full-time jobs.",
+      "quote_zh": "全球最大电子制造商之一纬创资通今日宣布，计划在德州沃思堡 AllianceTexas 园区设立两座 AI 超级计算机制造厂。……该项目总投资 7.61 亿美元，将创造 800 个以上全职岗位。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": true,
+    "status": "draft",
+    "notes_zh": "jobs_count 取 800（原文『more than 800 full-time jobs』下限），为全职制造岗，不含建设期临时岗。AI 归因为纬创自述『two AI supercomputing facilities』（为 NVIDIA 组装 AI 超算），非 collector 推断。口径提示（请终审重点核）：该宣布稿托管在园区开发商 Hillwood 新闻室而非纬创自家 IR 站点，稿件以『Wistron … today announced』第一口径书写；沃思堡市与丹顿县税收减免文件中的雇佣承诺为 888 人，媒体统一表述为『more than 800』，本条按公开稿下限取 800。事件已落地：两厂于 2026-07-21 举行投产仪式，NVIDIA CEO 黄仁勋到场（Fort Worth Report 报道）。日期取宣布日 2025-08-21 而非投产日，与账本『承诺发生时点』口径一致。若终审认为开发商代发稿不满足『公司亲口』，应降为 counted:false。"
+  },
+  {
+    "id": "2026-01-elevenlabs-nyc-230",
+    "date": "2026-01-06",
+    "company_or_body": "ElevenLabs",
+    "region": "US",
+    "kind": "hiring_commitment",
+    "jobs_count": 230,
+    "jobs_type_zh": "纽约市新增工程与公司职能岗位（另留任 36 个现有岗位，未计入）",
+    "jobs_type_en": "New engineering and corporate jobs in New York City (36 existing positions retained, not counted)",
+    "occupation_ids": [],
+    "market_ids": [
+      "ai-agent-platform"
+    ],
+    "source": {
+      "url": "https://www.governor.ny.gov/news/governor-hochul-announces-global-ai-leader-elevenlabs-expand-new-york-city-operations-creating",
+      "publisher": "Office of Governor Kathy Hochul（纽约州州长办公室）",
+      "date": "2026-01-06",
+      "quote_en": "Governor Kathy Hochul today announced that ElevenLabs — a leader in artificial intelligence that develops foundational models and products for seamless human-computer interaction — will significantly expand its United States operations in New York City. … As part of this expansion, ElevenLabs will create 230 new engineering and corporate jobs, retain 36 existing New York City positions, and invest $33 million in research and development.",
+      "quote_zh": "州长 Kathy Hochul 今日宣布，ElevenLabs——一家开发基础模型与人机无缝交互产品的人工智能领军企业——将大幅扩张其在纽约市的美国业务。……作为扩张的一部分，ElevenLabs 将新增 230 个工程与公司职能岗位，留任 36 个现有纽约市岗位，并投入 3,300 万美元用于研发。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": true,
+    "status": "draft",
+    "notes_zh": "jobs_count 取 230 新增岗，留任的 36 个存量岗不计入（新增侧口径）。AI 归因来自州长办公室新闻稿对 ElevenLabs 的定性『a leader in artificial intelligence that develops foundational models』，且其 Agents Platform / Creative Platform 均为 AI 产品，非公司背景泛指。补助为帝国州发展署最高 440 万美元 Excelsior 就业计划税收抵免，按实际创造岗位数兑现（有对赌）。与账本内 Clay（498）、Legora（550）、Rogo（422）同属纽约州州长办公室 AI 企业扩张公告序列，口径一致。事件日期 2026-01-06，为过往漏采的补录。"
+  },
+  {
+    "id": "2026-08-alibaba-campus-2027-ai80pct",
+    "date": "2026-08-05",
+    "company_or_body": "阿里巴巴",
+    "region": "CN",
+    "kind": "hiring_commitment",
+    "jobs_count": null,
+    "jobs_type_zh": "2027 届应届生校招岗位（八大职类，其中 AI 相关岗位占比 80%；未公布招聘总人数）",
+    "jobs_type_en": "Campus hiring for the class of 2027 across eight job families, of which AI-related roles account for 80% (no headcount disclosed)",
+    "occupation_ids": [],
+    "market_ids": [],
+    "source": {
+      "url": "http://client.sina.com.cn/news/2026-08-05/doc-inimhawc3631344.shtml",
+      "publisher": "新浪财经",
+      "date": "2026-08-05",
+      "quote_zh": "8月5日，阿里巴巴2027届应届生招聘启动。当天，阿里巴巴控股集团及淘天集团、阿里云、阿里国际、Token Foundry、千问办公、千问事业部、平头哥、高德等16个业务集团和公司同时开启招聘。……本届招聘涵盖算法、研发、芯片、产品等八大职类，其中AI相关岗位占比80%。……本届应届生招聘面向2026年11月至2027年10月毕业的海内外应届毕业生。",
+      "quote_en": "On August 5, Alibaba launched campus recruitment for the class of 2027. That day 16 business groups and companies — Alibaba Holding, Taotian, Alibaba Cloud, Alibaba International, Token Foundry, Qwen Office, the Qwen business unit, T-Head and Amap — opened hiring simultaneously. … This round covers eight job families including algorithms, R&D, chips and product, of which AI-related roles account for 80%. … It targets students graduating between November 2026 and October 2027. (translated)"
+    },
+    "confidence": "company_stated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "不入账，原因是缺『明确岗位数』这一必要条件：阿里本次仅公布 AI 相关岗位占比 80% 与八大职类，未公布校招总人数或 offer 数，无法从占比反推绝对值（绝不用比例乘估算数）。与账本内百度 4000、腾讯 28000、字节 7000 的校招口径一并作为『不入账的中国大厂校招序列』保留，供趋势观察。信源纪律说明：collector 未检索到阿里巴巴官方新闻室（alibabagroup.com/news）对应条目，本条引新浪财经报道，其正文为阿里校招官方口径转述并含集团首席人才官蒋芳表态；终审如能定位阿里官方渠道原文（校招官网/官方公众号），建议替换 source.url。同批次可参照：2026-03-18 阿里 2027 届实习生招聘曾宣布新增七类 AI 岗位（AI 应用研发工程师、AI 应用算法工程师、AI Agent 优化工程师、Agent Infra 工程师、AI 数据工程师、AI Infra 工程师、AI SRE）。"
   }
 ]
