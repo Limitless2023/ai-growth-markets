@@ -758,5 +758,120 @@
     "counted": false,
     "status": "published",
     "notes_zh": "不入账（同百度校招口径处理）：7000/4800 为校招 Offer 总量而非 AI 岗净增数，AI 归因仅覆盖『研发类为核心方向』而非全部岗位；含实习转正通道（临时性）。补全中国大厂创造侧记录（百度、腾讯已在账本，字节此前缺）。事件为 2026-03 旧事补录，非本轮新发。"
+  },
+  {
+    "id": "2026-08-spacex-terafab-grimes-3000",
+    "date": "2026-08-06",
+    "company_or_body": "SpaceX（Terafab 半导体工厂，签约主体 TeraFab AI, LLC）",
+    "region": "US",
+    "kind": "hiring_commitment",
+    "jobs_count": 3000,
+    "jobs_type_zh": "得州 Grimes County 垂直整合晶圆厂 Terafab 一期的常驻岗位（工程师、技术员、厂务操作人员），3000 个新增岗位",
+    "jobs_type_en": "Permanent roles at the first phase of the vertically integrated Terafab semiconductor plant in Grimes County, Texas (engineers, technicians, plant operator personnel) — 3,000 new jobs",
+    "occupation_ids": [],
+    "market_ids": [],
+    "source": {
+      "url": "https://gov.texas.gov/news/post/governor-abbott-announces-spacex-expansion-in-grimes-county",
+      "publisher": "得克萨斯州州长办公室（Office of the Texas Governor）",
+      "date": "2026-08-06",
+      "quote_en": "Governor Greg Abbott today announced SpaceX will construct a vertically integrated semiconductor fabrication plant in Grimes County. The first phase of the Terafab project represents a capital investment of more than $16.8 billion and will create 3,000 new jobs. … The 100-million-square-foot facility will consolidate the production chain under a single roof to accelerate semiconductor manufacturing to meet the company's future chip needs; jobs will include engineers, technicians, and plant operator personnel. … 'The Terafab is bringing cutting-edge manufacturing to America, creating thousands of high-paying jobs in the Lone Star State, and enabling us to produce AI chips at scale for use on Earth and in space.' — SpaceX Founder & CEO Elon Musk",
+      "quote_zh": "州长 Greg Abbott 今日宣布，SpaceX 将在 Grimes County 建设一座垂直整合的半导体晶圆制造厂。Terafab 项目一期的资本投入逾 168 亿美元，将创造 3000 个新增岗位。……这座 1 亿平方英尺的厂区将把生产链整合在同一屋檐下，以加速半导体制造、满足公司未来的芯片需求；岗位将包括工程师、技术员与厂务操作人员。……『Terafab 正把最前沿的制造带回美国，在孤星州创造数千个高薪岗位，并使我们能够规模化生产 AI 芯片，供地球上与太空中使用。』——SpaceX 创始人兼 CEO 埃隆·马斯克（译）"
+    },
+    "confidence": "company_stated",
+    "counted": true,
+    "status": "draft",
+    "notes_zh": "AI 归因为公司 CEO 亲口，且不是背景板式提及：马斯克的具名表态把厂区目的直接写成『enabling us to produce AI chips at scale』（使我们能规模化生产 AI 芯片），Iola 学区通稿中披露的 JETI 协议签约主体名即为 TeraFab AI, LLC。数字口径：3000 为一期的新增岗位，州长办公室原文明确列举岗位构成为『engineers, technicians, and plant operator personnel』（工程师、技术员、厂务操作人员），属常驻运营/制造岗，通稿未单列建设期临时工，本条不叠加任何施工岗。条件性说明：州政府给予 3000 万美元德州企业基金（TEF）拨款，TEF 为『performance-based grant』（绩效型拨款，岗位未达标可追回），项目另适用 JETI 税收优惠并已由 Anderson-Shiro CISD 与 Iola ISD 两个学区表决通过——即岗位为附条件承诺而非既成事实。规模口径提醒：168 亿美元与 1 亿平方英尺均为『一期』，公司未给出投产或完工时间表，后续扩建可能带来新的岗位公告，终审时注意与本条区分避免重复计数。企业归属口径：多家媒体（TechCrunch、Quartz）报道为 Tesla 与 SpaceX 联合投资，但州长办公室一手通稿只以 SpaceX 为announcing 主体，本条按一手口径记 SpaceX。信源纪律说明：source.url 为得州州长办公室一手通稿（实测 200 可达，quote 逐字核对一致）。时间说明：事件日 2026-08-06 略早于上一轮采集（2026-08-10）的运行日，但上一轮未收录，本轮属补捞而非重复。"
+  },
+  {
+    "id": "2026-08-cloudforce-maryland-250",
+    "date": "2026-08-12",
+    "company_or_body": "Cloudforce（马里兰州州长办公室发布）",
+    "region": "US",
+    "kind": "hiring_commitment",
+    "jobs_count": 250,
+    "jobs_type_zh": "马里兰州 National Harbor 总部扩建后五年内新增的 AI 平台岗位（另留任 130+ 存量员工，不计入）",
+    "jobs_type_en": "AI-platform jobs added at the expanded National Harbor headquarters in Maryland over the next five years (a separate 130+ existing employees are retained, not counted)",
+    "occupation_ids": [],
+    "market_ids": [],
+    "source": {
+      "url": "https://governor.maryland.gov/news/press-releases/governor-moore-announces-cloudforce-chooses-maryland-major-ai-platform-expansion",
+      "publisher": "马里兰州州长办公室（The Office of Governor Wes Moore）",
+      "date": "2026-08-12",
+      "quote_en": "Governor Wes Moore today announced that AI platform company Cloudforce is expanding its headquarters in Prince George's County, retaining more than 130 employees and adding 250 new Maryland jobs over the next five years. Located at National Harbor, Cloudforce is leasing an additional 15,000 square-feet of office space, effectively doubling its headquarters footprint as the company scales its secure AI platform for higher education and broader public-sector customers around the world. … To assist with project costs, the company is eligible for a $1.25 million conditional loan through Advantage Maryland, administered by the Maryland Department of Commerce.",
+      "quote_zh": "州长 Wes Moore 今日宣布，AI 平台公司 Cloudforce 正在扩建其位于乔治王子县的总部，留任 130 多名员工并在未来五年新增 250 个马里兰州岗位。Cloudforce 位于 National Harbor，将再租赁 15000 平方英尺办公空间，使总部面积实质翻倍，以便把其面向高等教育与更广泛公共部门客户的安全 AI 平台推向全球规模。……为协助项目成本，该公司有资格获得由马里兰州商务部管理的 Advantage Maryland 计划下 125 万美元的条件性贷款。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": true,
+    "status": "draft",
+    "notes_zh": "AI 归因为发布方亲口且是事件本体：州长办公室通稿在第一句就把主体定性为『AI platform company』（AI 平台公司），并把扩建目的写成『as the company scales its secure AI platform』（该公司正在把其安全 AI 平台推向规模化），其旗舰产品 nebulaONE 为面向高校的受管控 AI 模型与 agentic workflow 接入平台——不属于『AI 只是公司背景描述』。数字口径：250 为未来五年逐步新增的岗位，另有『retaining more than 130 employees』（留任 130 余人）为存量岗位，绝不与 250 相加。条件性说明：马里兰州提供 125 万美元 Advantage Maryland 条件性贷款、乔治王子县经济发展公司提供 12.5 万美元条件性贷款，公司另可能符合 Job Creation Tax Credit 等州与地方税收抵免——条件性贷款通常以岗位达标为对价，未达标可要求偿还，故岗位为承诺而非既成事实。信源纪律说明：source.url 取州长办公室一手通稿（实测 200 可达，quote 逐字核对一致）；马里兰州商务部（business.maryland.gov）同日发布的摘要稿更短且未含五年期限与贷款条款，故不作为 source.url。"
+  },
+  {
+    "id": "2026-08-vertiv-letterkenny-300",
+    "date": "2026-08-10",
+    "company_or_body": "维谛技术（Vertiv, NYSE: VRT）",
+    "region": "IE",
+    "kind": "hiring_commitment",
+    "jobs_count": 300,
+    "jobs_type_zh": "爱尔兰多尼戈尔郡 Letterkenny 厂区扩建拟新增的工程与运营岗位（原文为『最多 300 个』，且以向 Donegal County Council 的规划许可申请为前提）",
+    "jobs_type_en": "Engineering and operational roles planned for the Letterkenny facility expansion in Co Donegal, Ireland (stated as 'up to 300', contingent on a planning application to Donegal County Council)",
+    "occupation_ids": [],
+    "market_ids": [],
+    "source": {
+      "url": "https://www.i40today.com/vertiv-plans-expansion-of-ireland-and-north-west-facility-footprint-increasing-manufacturing-and-testing-capacity-and-creating-hundreds-of-new-skilled-jobs/",
+      "publisher": "i4.0 Today（全文转载 Vertiv 官方通稿；IDA Ireland 同稿）",
+      "date": "2026-08-11",
+      "quote_en": "Vertiv (NYSE: VRT), a global leader in critical digital infrastructure, today announced plans to expand its manufacturing and testing footprint across Ireland and the North West, driven by growing global demand for infrastructure solutions supporting AI, colocation and hyperscale data centre deployments. Vertiv will be submitting an application to Donegal County Council for an additional 7,000 square metres of space at its Letterkenny facility, supporting the planned creation of up to 300 new jobs in the region. … Vertiv has already onboarded more than 500 employees across its local facilities since the beginning of 2026 and is continuing to recruit for a growing number of open positions. The new opportunities include multiple engineering and operational roles across the business.",
+      "quote_zh": "关键数字基础设施全球领先企业 Vertiv（纽交所代码 VRT）今日宣布，计划扩大其在爱尔兰及西北地区的制造与测试版图，动因是全球对支撑 AI、托管（colocation）与超大规模数据中心部署的基础设施解决方案的需求持续增长。Vertiv 将向多尼戈尔郡议会提交申请，为其 Letterkenny 厂区增加 7000 平方米空间，以支撑该地区最多 300 个新增岗位的规划。……自 2026 年初以来，Vertiv 已在其本地厂区录用逾 500 名员工，并在继续招聘不断增加的空缺岗位。新机会包括公司内多个工程与运营岗位。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "AI 归因为公司亲口且是扩产动因本身（『driven by growing global demand for infrastructure solutions supporting AI, colocation and hyperscale data centre deployments』），产品线为数据中心电源、冷却与工业化基础设施，符合本账本对供应链制造回流的一贯判定。**不入账的两个理由（均为口径问题而非归因问题）**：其一，原文数字是『up to 300』（最多 300 个）——这是上限区间而非明确岗位数，按质量红线『混合/区间口径绝不取大数』处理；其二，扩建以向 Donegal County Council 提交的规划许可申请为前提，申请在公告时尚未提交、更未获批，条件强度高于本账本已入账案例中常见的『pending final approvals』。若后续规划获批且公司给出确定数字，建议终审升级为 counted:true。另一项须与 300 严格区分的数字：『自 2026 年初已录用逾 500 名员工』是既成的存量增长，与本次承诺的 300 无关，绝不相加。地域口径：Vertiv 通稿标题写作『Ireland and North West』，其厂区跨爱尔兰（Letterkenny、Burnfoot、Limerick、Dublin）与英国北爱（Campsie/Derry），但 300 个岗位明确指向 Letterkenny 所在的多尼戈尔郡，故 region 记 IE 而非 GB。信源纪律说明：一手为 Vertiv 官方通稿，IDA Ireland（爱尔兰政府投资促进局）同日以其名义发布同稿；idaireland.com 对自动化抓取返回 403（Cloudflare 质询页，属反爬而非页面失效），vertiv.com 新闻室为 JS 渲染未能定位对应条目，故 source.url 取 i4.0 Today 的通稿全文转载（实测 200 可达，逐字核对一致），并以 RTÉ（爱尔兰国家广播公司，实测 200 可达，含 Taoiseach Micheál Martin 与 IDA CEO Michael Lohan 具名表态）交叉核验。终审如能在浏览器中打开 IDA 原页，建议将 source.url 替换为 https://www.idaireland.com/latest-news/press-release/vertiv-plans-expansion-of-ireland-and-north-west-facility-footprint 。"
+  },
+  {
+    "id": "2026-08-tencent-campus-2027",
+    "date": "2026-08-11",
+    "company_or_body": "腾讯（Tencent）",
+    "region": "CN",
+    "kind": "hiring_commitment",
+    "jobs_count": null,
+    "jobs_type_zh": "2027 届校园招聘岗位（技术、产品、设计、市场、职能五大类；新增 AI 全栈工程师、Agent 开发工程师、AI 应用工程师、AI 算法工程师、AI 产品经理、AIGC 艺术创作等 AI 原生岗位；未公布招聘总人数）",
+    "jobs_type_en": "Class-of-2027 campus recruitment across five job families (technology, product, design, marketing, functional); newly added AI-native roles include AI full-stack engineer, Agent development engineer, AI application engineer, AI algorithm engineer, AI product manager and AIGC creative roles; no total headcount disclosed",
+    "occupation_ids": [],
+    "market_ids": [],
+    "source": {
+      "url": "https://www.stcn.com/article/detail/4071188.html",
+      "publisher": "证券时报网（转述腾讯校招官方口径，含腾讯招聘负责人具名表态）",
+      "date": "2026-08-12",
+      "quote_zh": "8月11日，腾讯2027校园招聘正式启动。此次招聘面向2026年1月至2027年12月期间毕业的大学生，开放技术、产品、设计、市场、职能五大类岗位，覆盖深圳、北京、上海、成都、广州、杭州、香港等城市，海外校招也已覆盖20多个国家和地区。与往年相比，今年腾讯校招最显著的变化在于AI元素的全方位渗透——一批AI原生岗位集中上新，人才标准也随之迭代更新。……一批覆盖技术、产品和设计等类别的AI原生岗位陆续上新，包括AI全栈工程师、Agent开发工程师、AI应用工程师、AI算法工程师、AI产品经理、AIGC艺术创作等。",
+      "quote_en": "On August 11, Tencent formally launched its class-of-2027 campus recruitment. It targets students graduating between January 2026 and December 2027 and opens five job families — technology, product, design, marketing and functional — covering Shenzhen, Beijing, Shanghai, Chengdu, Guangzhou, Hangzhou and Hong Kong, with overseas campus hiring already spanning more than 20 countries and regions. The most notable change from prior years is the all-round penetration of AI: a batch of AI-native roles has been added and the talent bar has been updated accordingly. … Newly added AI-native roles spanning technology, product and design include AI full-stack engineer, Agent development engineer, AI application engineer, AI algorithm engineer, AI product manager and AIGC creative roles. (translated)"
+    },
+    "confidence": "company_stated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "不入账，原因是缺『明确岗位数』这一必要条件：腾讯本次只公布岗位类别与 AI 原生岗位清单，未公布校招总人数或 offer 数，绝不用『AI 元素全方位渗透』这类定性表述反推任何绝对值。与本账本已有的中国大厂校招序列（腾讯 2025 实习 28000、百度 4000、字节 ByteIntern 7000、字节 2027 秋招、阿里 2027 届 AI 岗占比）同口径并列，作为『不入账的中国大厂校招序列』供趋势观察。查重说明：与 2025-04-tencent-intern-28000 不重复——那条是 2025 年 4 月的实习生招聘（28000 人），本条是 2026 年 8 月 11 日启动的 2027 届全职校招，事件、时间与内容互不重叠；与上一轮候选 2026-08-bytedance-campus-2027-autumn 为不同主体的平行事件。配套事实（不构成入账依据，仅供终审判断 AI 归因强度）：腾讯 2026 年一季度研发开支约 225.42 亿元、同比增长 19%，主要用于 AI 相关投入；2026 年 7 月将混元多模态模型部门与大语言模型部门合并为基础模型部，由首席 AI 科学家姚顺雨统一管理。信源纪律说明：collector 未能定位 tencent.com 官方渠道对应条目，第一口径为『腾讯招聘』官方公众号；本条引证券时报网（深圳证券时报社，实测 200 可达，文中含腾讯校园招聘工作人员与腾讯招聘负责人具名表态）；新浪财经同日转载 21 世纪经济报道版本内容一致。终审如能定位腾讯官方渠道原文建议替换 source.url。满足本轮 CN 区域配额。"
+  },
+  {
+    "id": "2026-08-mti-singapore-ai-firm-study",
+    "date": "2026-08-11",
+    "company_or_body": "新加坡贸易与工业部（Ministry of Trade and Industry, MTI）",
+    "region": "SG",
+    "kind": "report_datapoint",
+    "jobs_count": null,
+    "jobs_type_zh": "官方研究口径：企业首次采用 AI 与其营收、总雇佣人数上升相关（非岗位承诺，不涉及具体岗位数）",
+    "jobs_type_en": "Official research datapoint: firms' first-time AI use is associated with increases in revenue and total employment (not a hiring commitment; no headcount)",
+    "occupation_ids": [],
+    "market_ids": [],
+    "source": {
+      "url": "https://www.mti.gov.sg/resources/economic-survey-of-singapore/economic-survey-of-singapore-and-feature-articles/measuring-firm-level-artificial-intelligence-use-and-its-effects-on-firm-performance-and-employment-in-singapore/",
+      "publisher": "新加坡贸易与工业部（MTI），《2026 年第二季度新加坡经济调查》专题文章",
+      "date": "2026-08-11",
+      "quote_en": "Initial AI use is associated with an increase in firms' revenue and total employment, and these gains continue to rise as AI capabilities deepen. … At the same time, the increase in firm-level employment suggests that any worker separations that may occur at the firm are outweighed by new hiring. It may also be the case that AI tends to automate specific tasks rather than entire jobs. … Firms do not see a statistically significant increase in their productivity and profit within four years of first AI adoption. … Initial gains are found to be concentrated among local higher-earners and mid-career workers, as well as skilled foreign professionals. However, as firms deepen their AI capabilities, the local employment gains broaden across wage and age groups.",
+      "quote_zh": "企业初次使用 AI 与其营收和总雇佣人数的上升相关，且随着 AI 能力加深，这一增益继续上升。……与此同时，企业层面雇佣人数的增加表明，企业内部可能发生的人员分流被新增招聘所抵消而有余。也可能是因为 AI 更多自动化的是具体任务而非整份工作。……企业在首次采用 AI 后的四年内，其生产率与利润并未出现统计上显著的提升。……初期增益集中于本地高收入者与职业中期劳动者，以及高技能外籍专业人士；但随着企业 AI 能力加深，本地雇佣增益在薪资与年龄层面逐步扩散。（译）"
+    },
+    "confidence": "report_estimated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "永不入账（report_datapoint 一律 counted:false）：这是相关性的计量研究结论，不是任何主体的岗位承诺，也没有绝对岗位数。方法口径必须随结论一起读：研究用『在线招聘广告中出现 AI 相关招聘』构造企业层面的 AI 使用度量，再与行政数据（企业层面）匹配，采用 matched staggered difference-in-differences 加固定效应回归——即『用 AI 的企业』本身是按其 AI 招聘行为识别出来的，与『雇佣上升』之间存在测量口径上的内生关联，终审引用时不宜表述为因果。作者自陈的两条限制：一是样本只覆盖到 2024 年的企业 AI 使用，不包含 agentic AI 等更晚近的能力跃迁；二是四年窗口内生产率与利润无统计显著提升，故不能读作『AI 已经提高效率』。本条的账本价值在于提供一个官方统计机构口径的『AI 采用 → 企业雇佣净增』参照系，与账本中已有的 WEF、PwC、IMF、Stanford AI Index 等 report_datapoint 并列，用于给公司承诺侧的数字提供反面校验。信源纪律说明：source.url 为 MTI 官网专题文章页（实测 200 可达，quote 逐字核对一致），完整 PDF 见同页 FA_2Q26.pdf；技术媒体 TNGlobal 与 OpenGov Asia 的同日报道内容一致，但本条只引官方原文。满足本轮第三区域配额（SG）。"
   }
 ]
