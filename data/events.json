@@ -758,5 +758,99 @@
     "counted": false,
     "status": "published",
     "notes_zh": "不入账（同百度校招口径处理）：7000/4800 为校招 Offer 总量而非 AI 岗净增数，AI 归因仅覆盖『研发类为核心方向』而非全部岗位；含实习转正通道（临时性）。补全中国大厂创造侧记录（百度、腾讯已在账本，字节此前缺）。事件为 2026-03 旧事补录，非本轮新发。"
+  },
+  {
+    "id": "2026-07-meta-richland-parish-1000",
+    "date": "2026-07-13",
+    "company_or_body": "Meta",
+    "region": "US",
+    "kind": "hiring_commitment",
+    "jobs_count": 1000,
+    "jobs_type_zh": "路易斯安那州 Richland Parish 数据中心（容纳 Hyperion AI 训练集群）运营常驻岗位（建设高峰 7,500 建设岗另列未计）",
+    "jobs_type_en": "Permanent operational jobs at the Richland Parish, Louisiana data center housing the Hyperion AI training cluster (7,500 peak construction jobs listed separately, not counted)",
+    "occupation_ids": [],
+    "market_ids": [
+      "gpu-cloud"
+    ],
+    "source": {
+      "url": "https://datacenters.atmeta.com/2026/07/deepening-our-investment-in-richland-parish-louisiana/",
+      "publisher": "Meta Data Centers（Meta 官方数据中心新闻页）",
+      "date": "2026-07-13",
+      "quote_en": "This expansion represents an investment of more than $50 billion in the Richland Parish region. … The site will house Hyperion, our largest multi-gigawatt AI training cluster. … The Data Center will support over 7,500 construction jobs at peak construction and 1,000 operational jobs once completed.",
+      "quote_zh": "此次扩建代表在 Richland Parish 地区投资超过 500 亿美元。……该园区将容纳 Hyperion——我们最大的多吉瓦级 AI 训练集群。……该数据中心建成后将支持建设高峰期超过 7,500 个建设岗位和 1,000 个运营岗位。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": true,
+    "status": "draft",
+    "notes_zh": "jobs_count 取运营常驻岗 1,000；建设高峰 7,500 为临时性建设岗，按红线『建设期临时岗与运营期常驻岗混报时取常驻岗、绝不取大数』另列未计。AI 归因为公司亲口且直接——Meta 自述该园区容纳『Hyperion——我们最大的多吉瓦级 AI 训练集群』。查重说明：本条为路易斯安那州 Richland Parish 站点，与账本已有 2025-10-meta-elpaso-100（得州埃尔帕索）以及本轮之前尚未合并的候选 2026-07-meta-alberta-sturgeon-300（加拿大萨斯特金县）分属三个互不重叠的独立站点，不构成双计。惟 1,000 属该站点累计口径：Meta 2024-12 首次公布 Richland Parish 时为 500 个常驻岗，本次扩建（投资由 100 亿美元升至 500 亿美元以上、算力扩至 5GW）翻倍至 1,000；账本此前无 500 的条目故不重复，若终审日后补录原 500 条目，须以本条替换而非叠加。事件为 2026-07-13 公告，本轮 US 区域扫描发现此前各轮均未收录，属补录而非『上次运行以来』新发。一手为 Meta 官方数据中心新闻页（已实测可达，quote 逐字核验一致）。"
+  },
+  {
+    "id": "2026-08-withcoverage-nyc-205",
+    "date": "2026-08-12",
+    "company_or_body": "WithCoverage（纽约州州长办公室 / Empire State Development 共同宣布）",
+    "region": "US",
+    "kind": "hiring_commitment",
+    "jobs_count": 205,
+    "jobs_type_zh": "曼哈顿扩张净增全职岗位（AI 驱动的风险管理/保险科技，五年内到位）",
+    "jobs_type_en": "Net new full-time jobs from the Manhattan expansion of an AI-powered risk management company (over five years)",
+    "occupation_ids": [],
+    "market_ids": [],
+    "source": {
+      "url": "https://www.governor.ny.gov/news/governor-hochul-announces-withcoverage-expand-new-york-city-creating-205-new-jobs",
+      "publisher": "New York State Governor's Office（纽约州州长办公室官方新闻稿）",
+      "date": "2026-08-12",
+      "quote_en": "WithCoverage, an AI-powered insurance technology company, will significantly expand its New York City operations, creating 205 new full-time jobs while investing $25 million in research and development activities across New York over the next five years. … pairs a team of insurance experts and attorneys with artificial intelligence to modernize the risk management industry by helping businesses close coverage gaps and reduce insurance spend. … Empire State Development is supporting the project with up to $3 million in performance-based Excelsior Jobs Program tax credits tied to job creation and research and development commitments.",
+      "quote_zh": "AI 驱动的保险科技公司 WithCoverage 将大幅扩张其纽约市业务，创造 205 个全职新岗位，并在未来五年内于纽约州投入 2,500 万美元用于研发活动。……（该公司）将保险专家与律师团队同人工智能结合，通过帮助企业弥合承保缺口、降低保险支出来改造风险管理行业。……Empire State Development 以最高 300 万美元的绩效导向型 Excelsior Jobs Program 税收抵免支持该项目，抵免与岗位创造及研发承诺挂钩。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": true,
+    "status": "draft",
+    "notes_zh": "jobs_count 取 205（原文明确数字，非区间非上限）。口径：五年内到位的净增全职岗位，且与 Excelsior Jobs Program 税收抵免绑定为可核查的绩效承诺（拿不到岗位就拿不到抵免），强于一般口头承诺。AI 归因来自来源本身而非 collector 推断：官方稿副标题即『AI-Powered Risk Management Company』，正文定义公司为『AI-powered insurance technology company』，并说明其将人工智能与保险专家/律师团队结合；CEO 亦点名『AI engineers and product designers』为招聘方向之一。counted 处理沿用本账本已确立的范式：AI 企业 + 州级经济发展机构公布明确岗位数（同 Clay 498 / Legora 550 / Rogo 422 / Cloudforce 250）。惟 205 岗含销售、法务、保险专家等非纯 AI 技术岗，终审若认定非纯 AI 岗可降级 counted:false。一手为纽约州州长办公室新闻稿（已实测可达并逐字核验），Empire State Development 官网 esd.ny.gov 有同文可交叉核对。本轮 US 区域配额事件。"
+  },
+  {
+    "id": "2026-08-gwc-tamilnadu-1000",
+    "date": "2026-08-13",
+    "company_or_body": "GWC Data.AI（Global WeConnect Technologies）× Government of Tamil Nadu（印度泰米尔纳德邦政府）",
+    "region": "IN",
+    "kind": "hiring_commitment",
+    "jobs_count": 1000,
+    "jobs_type_zh": "泰米尔纳德邦 AI 与数据专业岗位（AI 工程、数据工程、智能体开发、企业交付；12 个月内）",
+    "jobs_type_en": "AI and data professional roles in Tamil Nadu (AI engineering, data engineering, agentic AI development, enterprise delivery; within 12 months)",
+    "occupation_ids": [],
+    "market_ids": [],
+    "source": {
+      "url": "https://www.deccanchronicle.com/southern-states/tamil-nadu/gwc-dataai-to-create-1000-ai-jobs-in-tamil-nadu-1979073",
+      "publisher": "Deccan Chronicle（转载 GWC Data.AI 官方新闻稿）",
+      "date": "2026-08-14",
+      "quote_en": "GWC Data.AI has signed a memorandum of understanding (MoU) with the Tamil Nadu government to recruit more than 1,000 AI and data professionals in the state over the next 12 months. … The proposed recruitment will cover AI engineering, data engineering, agentic AI development and enterprise delivery. The jobs will be created across the company's offices in Hosur, Dharmapuri, Salem and Tirupattur, with a focus on expanding technology employment opportunities in tier-2 and tier-3 cities.",
+      "quote_zh": "GWC Data.AI 已与泰米尔纳德邦政府签署谅解备忘录，将在未来 12 个月内于该邦招聘 1,000 名以上 AI 与数据专业人才。……拟议招聘将覆盖 AI 工程、数据工程、智能体（agentic AI）开发与企业交付，岗位分布在公司位于 Hosur、Dharmapuri、Salem 与 Tirupattur 的办公室，重点扩大二三线城市的科技就业机会。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "降级不入账（counted:false），三条理由：（1）事件处于 MoU 签署阶段——2026-08-13 在钦奈 Vetri Tamilnadu Investment Conclave 2026 上、由首席部长 C. Joseph Vijay 见证交换，属投资招商场合的意向性承诺，无税收抵免等绩效绑定机制（对比本账本 Clay/Legora/WithCoverage 均绑定纽约州 Excelsior 绩效抵免）；（2）发布渠道为公司自费付费通稿（ANI / PNN 新闻通稿分发，The Tribune 版本明确标注 ADVERTORIAL DISCLAIMER），非独立采编亦非政府官网公告；（3）规模落差大——公司自述现有『250+ AI professionals』，12 个月内招 1,000 人即四倍扩张，兑现不确定性高。AI 归因本身成立且为公司亲口：岗位明列 AI 工程、数据工程、智能体开发，公司自我定位为『Anthropic Claude Preferred Partner』。若终审认定 MoU 阶段承诺可入账（口径同 counted 五条件字面全满足：公司亲口 + 明确岗位数 + hiring_commitment），可升级为 counted:true，取下限 1,000（原文『more than 1,000』）。source.url 取可达的 Deccan Chronicle 转载全文（已实测可达并逐字核验）；一手 ANI 通稿页 aninews.in 与 ThePrint 转载页 collector 抓取分别返回 403 / 浏览器安全校验，终审可于浏览器核对，另可回溯 Guidance Tamil Nadu（邦政府招商机构）渠道。本轮第三区域（IN）配额事件。"
+  },
+  {
+    "id": "2026-08-ant-group-campus-2027",
+    "date": "2026-08-10",
+    "company_or_body": "蚂蚁集团",
+    "region": "CN",
+    "kind": "hiring_commitment",
+    "jobs_count": null,
+    "jobs_type_zh": "2027 届校园招聘（技术岗位占比 80%，其中超 80% 为 AI 相关岗位；未披露 Offer 总数）",
+    "jobs_type_en": "Class-of-2027 campus recruitment (80% technical roles, of which over 80% are AI-related; total offer count not disclosed)",
+    "occupation_ids": [],
+    "market_ids": [],
+    "source": {
+      "url": "https://www.nbd.com.cn/articles/2026-08-10/4537135.html",
+      "publisher": "每日经济新闻（转述蚂蚁集团官方校招口径）",
+      "date": "2026-08-10",
+      "quote_zh": "8月10日，蚂蚁集团2027校园招聘正式启动，技术岗位占比80%，超80%AI相关岗位，工作地点覆盖杭州、上海、北京、深圳、广州、重庆、成都、香港、新加坡、马来西亚等。",
+      "quote_en": "On 10 August, Ant Group officially launched its class-of-2027 campus recruitment: technical roles account for 80% of openings, of which over 80% are AI-related, with work locations covering Hangzhou, Shanghai, Beijing, Shenzhen, Guangzhou, Chongqing, Chengdu, Hong Kong, Singapore and Malaysia. (translated)"
+    },
+    "confidence": "company_stated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "不入账（counted:false），因缺 counted 五条件之一『明确岗位数』：蚂蚁集团只公布岗位结构占比（技术岗 80%、其中 AI 相关超 80%），未披露 Offer 总量或绝对岗位数，无法折算净增 AI 岗位数，按红线『拿不准就降级』处理。另中国大厂校招口径本身含实习转正通道与非 AI 岗位，本账本对百度 4000、腾讯 28000、字节 7000 均已按同一标准 counted:false，本条保持一致。价值在于补全中国大厂创造侧记录：阿里（2026-08-05 启动）、字节（2026-08-03 启动）、腾讯 2027 届候选均已在此前各轮候选中，蚂蚁此前缺位。AI 归因为公司亲口（『超80%AI相关岗位』为蚂蚁官方校招口径）。一手为蚂蚁集团校招官网 talent.antgroup.com 公告（collector 抓取返回空内容，无稳定直链），此处引每日经济新闻（财经媒体，逐字保留公司口径，已实测可达）并注明，终审可于浏览器核对官网原文。本轮 CN 区域配额事件。"
   }
 ]
