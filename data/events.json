@@ -758,5 +758,103 @@
     "counted": false,
     "status": "published",
     "notes_zh": "不入账（同百度校招口径处理）：7000/4800 为校招 Offer 总量而非 AI 岗净增数，AI 归因仅覆盖『研发类为核心方向』而非全部岗位；含实习转正通道（临时性）。补全中国大厂创造侧记录（百度、腾讯已在账本，字节此前缺）。事件为 2026-03 旧事补录，非本轮新发。"
+  },
+  {
+    "id": "2026-08-openai-ports-pike-2500",
+    "date": "2026-08-17",
+    "company_or_body": "OpenAI（PORTS-Pike Technology Campus：SB Energy × NVIDIA × 美国能源部）",
+    "region": "US",
+    "kind": "hiring_commitment",
+    "jobs_count": 2500,
+    "jobs_type_zh": "俄亥俄州 Pike County AI 数据中心园区长期运营岗位（建设期 35,000 临时岗另列未计）",
+    "jobs_type_en": "Long-term operating jobs at the PORTS-Pike AI data center campus in Pike County, Ohio (35,000 construction jobs listed separately, not counted)",
+    "occupation_ids": [],
+    "market_ids": [
+      "gpu-cloud"
+    ],
+    "source": {
+      "url": "https://openai.com/index/openai-joins-ports-pike-project/",
+      "publisher": "OpenAI（官方新闻室《OpenAI joins PORTS-Pike project》）",
+      "date": "2026-08-17",
+      "quote_en": "The project is expected to create 35,000 construction jobs during its six-year buildout through 2032 and 2,500 long-term operating jobs.",
+      "quote_zh": "该项目预计在为期六年、持续至 2032 年的建设期内创造 35,000 个建设岗位，以及 2,500 个长期运营岗位。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": true,
+    "status": "draft",
+    "notes_zh": "jobs_count 取 2,500 长期运营岗（long-term operating jobs）；35,000 为六年建设期（至 2032 年）临时建设岗，按红线『建设期临时岗与运营期常驻岗混报时取常驻岗、绝不取大数』另列未计。AI 归因为一手亲口：园区定位为独家承载 NVIDIA AI compute 的『AI factory』，OpenAI 以约 8 GW-IT 容量入驻，厂址为原 Portsmouth 铀浓缩厂（PORTS）。核验说明：openai.com 对 collector 抓取返回 403（同 Oracle/Corning 情形），原文措辞已通过 openai.com 站内限定检索 + 多家独立媒体交叉核对（Axios 2026-08-17、WOSU 2026-08-17、Springfield News-Sun 逐字复述『35,000 construction jobs and 2,500 long-term operating jobs』）；建议终审人在浏览器逐字复核后升级 status。同园区另有 NVIDIA 新闻室与 SB Energy 一手稿，但二者仅称『tens of thousands of Ohio jobs』未拆分口径，故不取其数。与账本内 2025-09-stargate-five-sites-25000 为不同站点、不同批次，无重复。"
+  },
+  {
+    "id": "2026-08-hyve-nevada-3000",
+    "date": "2026-08-19",
+    "company_or_body": "Hyve Solutions（TD SYNNEX 全资子公司）",
+    "region": "US",
+    "kind": "hiring_commitment",
+    "jobs_count": 3000,
+    "jobs_type_zh": "内华达州 Reno（旗舰）+ North Las Vegas 两座先进制造园区合计新增岗位（AI 算力/存储/网络硬件制造）",
+    "jobs_type_en": "Combined new jobs across two advanced manufacturing campuses in Reno (flagship) and North Las Vegas, Nevada (AI compute, storage and networking hardware manufacturing)",
+    "occupation_ids": [],
+    "market_ids": [
+      "gpu-cloud"
+    ],
+    "source": {
+      "url": "http://www.prnewswire.com/news-releases/hyve-solutions-selects-nevada-for-advanced-manufacturing-campuses-in-reno-and-north-las-vegas-302855722.html",
+      "publisher": "PR Newswire（Hyve Solutions 公司新闻稿）",
+      "date": "2026-08-19",
+      "quote_en": "Together, the campuses are expected to create approximately 3,000 new jobs as the company builds its manufacturing footprint in the state.",
+      "quote_zh": "随着公司在该州扩建制造版图，两座园区预计合计创造约 3,000 个新岗位。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": true,
+    "status": "draft",
+    "notes_zh": "⚠️ 口径冲突待终审裁决（须替换、不得叠加）：本条 3,000 为 Reno + North Las Vegas 两园区**合计**口径，已包含未合并 PR #16（collector/run-20260810）中候选 2026-08-hyve-north-las-vegas-240 的 240 个 North Las Vegas 岗位（该 240 为 2026-08-06 内华达州 GOED 税收减免批复口径，属本次合计数的子集）。若两条同时入账将重复计 240，建议终审人二选一：采纳本条 3,000 并将 240 条降为 counted:false（推荐，公司一手合计口径更权威），或保留 240 而将本条降级。AI 归因为一手亲口：新闻稿称 Hyve 为『a design and manufacturing partner for compute, storage, and networking systems in AI, cloud and digital infrastructure』，并称将把内华达打造为『a hub for next-generation AI hardware』。数字用『approximately』约数，未拆分建设岗/常驻岗、未给达产年限，故约数与口径不确定性一并记录于此。发布方为公司新闻稿（内华达州长 Joe Lombardo、GOED 执行总监 Tom Burns 等同稿引述），非二手转述。"
+  },
+  {
+    "id": "2026-08-ai-prefab-hutto-200",
+    "date": "2026-08-12",
+    "company_or_body": "AI Prefab Solutions",
+    "region": "US",
+    "kind": "hiring_commitment",
+    "jobs_count": 200,
+    "jobs_type_zh": "得州 Hutto 预制模块化电力设备工厂（Innovation 8）全职制造岗位，公司口径 200~300 人、达成期至 2028 年，取区间下限",
+    "jobs_type_en": "Full-time advanced-manufacturing jobs at the Innovation 8 prefabricated modular power equipment plant in Hutto, Texas (company states 200-300 by 2028; lower bound taken)",
+    "occupation_ids": [],
+    "market_ids": [
+      "gpu-cloud"
+    ],
+    "source": {
+      "url": "https://partnersrealestate.com/media-center/press-releases/partners-real-estate-represents-ai-prefab-solutions-in-new-manufacturing-facility-lease-in-hutto-texas/",
+      "publisher": "Partners Real Estate（代 AI Prefab Solutions 发布的租约与设厂新闻稿）",
+      "date": "2026-08-12",
+      "quote_en": "AI Prefab Solutions plans to add 200 to 300 full-time employees by 2028, including through a dedicated veteran hiring initiative.",
+      "quote_zh": "AI Prefab Solutions 计划在 2028 年前新增 200 至 300 名全职员工，其中包含一项专门面向退伍军人的招聘计划。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "不入账（AI 归因未达红线，同 2026-07-jabil-mississippi-2200 处理）：新闻稿对需求端的表述是『bring hyperscale data centers and semiconductor facilities online』——只说超大规模数据中心与半导体厂，未把这批岗位亲口归因于 AI；公司官网（ai-prefab.net）与 CEO Kamal Diwan 的表述『meeting the demand of AI compute』『the thermal and power density of modern AI workloads』属公司定位与业务背景描述，非对本次 200~300 岗的 AI 归因。按红线『AI 只作公司背景描述则放弃 / 拿不准就降级』记 counted:false。数字口径：公司给区间 200~300 且达成期至 2028 年，按『绝不取大数』取下限 200。发布主体为代理其租约的商业地产行 Partners Real Estate（含公司自身计划与 CEO 引述，属代发一手稿而非二手转述）；184,000→实为 197,000 平方英尺厂房、2026-09 首套系统投产。若终审人认定『AI Prefab』业务实质与 AI 算力基建绑定足以构成归因，可升级为 counted:true（同 Oracle 终审升级先例）。"
+  },
+  {
+    "id": "2026-08-beijing-yizhuang-ai-talent-8",
+    "date": "2026-08-18",
+    "company_or_body": "北京经济技术开发区管理委员会（北京亦庄）",
+    "region": "CN",
+    "kind": "official_listing",
+    "jobs_count": null,
+    "jobs_type_zh": "全国首个 AI 专项实习支持举措：面向 AI 原生人才的创业、青年就业、生态培育三维度八条措施",
+    "jobs_type_en": "China's first AI-specific internship support scheme: eight measures covering AI-native talent entrepreneurship, youth employment and ecosystem cultivation",
+    "occupation_ids": [],
+    "market_ids": [],
+    "source": {
+      "url": "https://www.stdaily.com/web/gdxw/2026-08/19/content_566168.html",
+      "publisher": "科技日报（北京亦庄 2026 人才发展大会《北京经济技术开发区关于支持人工智能原生人才发展的若干措施》发布报道）",
+      "date": "2026-08-19",
+      "quote_zh": "北京亦庄发布人工智能原生人才专项政策，围绕人工智能人才创业、青年就业、生态培育三个核心维度推出八条措施，构建覆盖在校实习生到顶尖科学家的全链条人才引育留用体系；在全市率先推出人工智能专项实习支持举措，对人工智能赛事获奖者、高校人工智能专业优秀学生、具备大模型深度研究实习经历者及文科背景提示词工程能力突出的人才给予实习补贴与就业奖励。",
+      "quote_en": "Beijing Yizhuang released a dedicated policy for AI-native talent, introducing eight measures across three core dimensions—AI talent entrepreneurship, youth employment and ecosystem cultivation—to build a full-chain system covering everyone from student interns to top scientists; it is the first in the city to offer AI-specific internship support, providing internship subsidies and employment rewards to AI competition winners, outstanding university AI majors, those with deep large-model research internships, and liberal-arts talent with strong prompt-engineering skills. (translated)"
+    },
+    "confidence": "company_stated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "不入账（同 2026-06-statecouncil-ai-employment-plan 框架性政策处理）：全文为人才补贴与奖励措施（产业菁英个人奖励最高 50 万元、轻量化组织 AI 原生创业者个人奖励最高 5 万元、行业大会与开发者活动最高 100 万元支持），无任何岗位数或招聘目标，故 jobs_count 为 null、counted:false。AI 归因充分且为主体亲口——政策名称与全部条款均直书『人工智能原生人才』。kind 取 official_listing（政府主体亲口发布的官方举措，非企业招聘承诺）。source 采用科技日报报道：一手为北京经开区管委会在 2026-08-18 人才发展大会现场发布，截至采集时管委会官网（kfqgw.beijing.gov.cn）政策文件栏目尚未挂出该文全文，故按『确实找不到一手时引转发并注明』处理；建议终审人复查管委会官网上线后替换为一手链接。date 取发布日 2026-08-18、source.date 取报道日 2026-08-19。"
   }
 ]
