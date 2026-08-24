@@ -758,5 +758,103 @@
     "counted": false,
     "status": "published",
     "notes_zh": "不入账（同百度校招口径处理）：7000/4800 为校招 Offer 总量而非 AI 岗净增数，AI 归因仅覆盖『研发类为核心方向』而非全部岗位；含实习转正通道（临时性）。补全中国大厂创造侧记录（百度、腾讯已在账本，字节此前缺）。事件为 2026-03 旧事补录，非本轮新发。"
+  },
+  {
+    "id": "2026-08-datavita-lanarkshire-100",
+    "date": "2026-08-18",
+    "company_or_body": "DataVita / National Wealth Fund（英国政府全资主权基金）",
+    "region": "GB",
+    "kind": "hiring_commitment",
+    "jobs_count": 100,
+    "jobs_type_zh": "北拉纳克郡 AI 成长区 DV1 扩建与 DV3 新建数据中心投运后的常驻高技能岗位（建设期另有约 600 个临时岗，不计入）",
+    "jobs_type_en": "permanent high-skilled roles once the DV1 extension and new DV3 data centres in the North Lanarkshire AI Growth Zone are operational (a further ~600 construction jobs are temporary and excluded)",
+    "occupation_ids": [],
+    "market_ids": [
+      "gpu-cloud"
+    ],
+    "source": {
+      "url": "https://www.nationalwealthfund.org.uk/news-and-publications/news/datavita-secures-300-million-for-data-centre-rollout-in-scotland-s-ai-growth-zone-with-backing-from-national-wealth-fund-and-major-lenders/",
+      "publisher": "National Wealth Fund（英国国家财富基金官方新闻稿）",
+      "date": "2026-08-18",
+      "quote_en": "The two developments financed by this facility will create around 600 jobs during construction as well as c.100 permanent high-skilled jobs once completed.",
+      "quote_zh": "本融资安排所支持的两个项目将在建设期创造约 600 个岗位，并在建成后带来约 100 个常驻高技能岗位。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": true,
+    "status": "draft",
+    "notes_zh": "口径纪律（本条的核心）：本次公告存在三个并行数字，必须分辨——(1) 3,400 个岗位：英国内阁办公室/苏格兰政府经济事务大臣 Stephen Flynn 所指的『更广泛的 AI 成长区开发』（配套私人投资逾 80 亿英镑）总量，含建设期临时岗，属园区级口径，绝不取用；(2) 约 600 个：本融资项目建设期临时岗；(3) 约 100 个：DV1 扩建与 DV3 建成投运后的常驻高技能岗位。按『建设期临时岗与运营期常驻岗混报时取常驻岗、绝不取大数』红线，入账取 100。AI 归因为一手明示：项目位于英国政府认定的『AI 成长区』，两座数据中心全部算力由 AI 云厂商 CoreWeave（多家全球顶级 AI 实验室的基础设施供应商）以 15 年租约包下。主体口径：国家财富基金提供 2.02 亿英镑担保撬动 3 亿英镑融资，开发商与运营商为 DataVita。URL 核验说明：collector 侧 nationalwealthfund.org.uk 与 gov.uk 两个一手域名均被网络策略拦截、无法直接抓取（同 Oracle 2026-03 条的 403 情形）；600/100 措辞已由 digit.fyi 与 Scottish Construction Now 两家独立转载逐字比对，用词完全一致（『around 600 jobs during construction as well as c.100 permanent high-skilled jobs』），确系转载 NWF 原稿。终审请按清单第 1 条点开一手 URL 复核后再改 published。"
+  },
+  {
+    "id": "2026-08-meituan-campus-2027-ai-native",
+    "date": "2026-08-18",
+    "company_or_body": "美团（Meituan）",
+    "region": "CN",
+    "kind": "team_formation",
+    "jobs_count": null,
+    "jobs_type_zh": "2027 届校招新增十余种「AI 原生」岗位类型（AI 全栈工程师、AI 产品经理、智能商业分析师等），超八成岗位描述要求 AI 应用能力",
+    "jobs_type_en": "over a dozen new 'AI-native' role types created for the class-of-2027 campus intake (AI full-stack engineer, AI product manager, intelligent business analyst, etc.); over 80% of job descriptions require AI application skills",
+    "occupation_ids": [
+      "ai-product-manager"
+    ],
+    "market_ids": [],
+    "source": {
+      "url": "https://www.xinhuanet.com/tech/20260818/b4bedb40261845379384a1a6565da3cc/c.html",
+      "publisher": "新华网（转美团 2027 届校园招聘官方口径）",
+      "date": "2026-08-18",
+      "quote_zh": "新增AI全栈工程师、AI产品经理、智能商业分析师等十余种AI原生岗位；超过80%的岗位描述明确提出对AI相关能力的要求；开放技术、产品、商业分析、运营、零售、销售等10大类、100余种岗位，覆盖北京、上海、深圳、成都、广州、香港、利雅得等全球几十个城市。",
+      "quote_en": "Meituan has added more than ten 'AI-native' role types including AI full-stack engineer, AI product manager and intelligent business analyst; over 80% of job descriptions explicitly require AI-related capabilities; the intake opens 100-plus role types across 10 major categories spanning Beijing, Shanghai, Shenzhen, Chengdu, Guangzhou, Hong Kong and Riyadh. (translated)"
+    },
+    "confidence": "company_stated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "不入账（counted:false）：公司未公布招聘总人数，更未公布 AI 岗位的具体数字，缺『明确岗位数』这一入账必要条件。但本条的价值不在数量而在类型——与账本中既有的中国大厂校招条目（百度、腾讯、字节、阿里、蚂蚁均为『AI 岗位占比』式口径）不同，美团此次是公司亲口宣布『新增十余种 AI 原生岗位』，即创造了此前不存在的岗位类型，正落在本账本『AI 新工作』的核心命题上，故以 team_formation 记录而非 hiring_commitment。其中『AI 产品经理』与账本既有职业条目 ai-product-manager 对应，已建立引用。补全说明：美团为中国头部平台企业中此前账本缺失的一家。一手为美团校招官方公告，此处引新华网（权威转载、可公开访问）便于终审核验；新浪财经、腾讯新闻、网易科技同日转载措辞一致。"
+  },
+  {
+    "id": "2026-01-generac-sussex-100",
+    "date": "2026-01-05",
+    "company_or_body": "Generac Holdings",
+    "region": "US",
+    "kind": "hiring_commitment",
+    "jobs_count": 100,
+    "jobs_type_zh": "威斯康星州 Sussex 新建商业与工业发电机制造厂岗位（2026 年四季度开厂时到位，公司原文『逾 100 个』）",
+    "jobs_type_en": "manufacturing positions at the new Commercial & Industrial facility in Sussex, Wisconsin, when it opens in Q4 2026 (company wording: 'over 100')",
+    "occupation_ids": [],
+    "market_ids": [],
+    "source": {
+      "url": "https://www.generac.com/about/news/generac-expands-its-commercial-industrial-manufacturing-footprint/",
+      "publisher": "Generac（公司官网新闻稿）",
+      "date": "2026-01-05",
+      "quote_en": "The new manufacturing facility will add over 100 new manufacturing positions when it opens in the fourth quarter of 2026.",
+      "quote_zh": "该新建制造厂将于 2026 年第四季度开厂，届时新增逾 100 个制造岗位。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "不入账（counted:false），理由是 AI 归因不过关，处理方式同账本既有的 Jabil 密西西比条：一手官方稿通篇未出现 AI / artificial intelligence 字样（已逐字核验，确认 ABSENT），公司自述的需求驱动是『全球数据中心容量需求预计到 2030 年增长两倍以上』，属数据中心口径而非公司亲口的 AI 口径。按入选标准第 1 条『归因须由来源自己说出、不由 collector 推断』，不得替公司把数据中心补写成 AI。保留为候选是因为它是可核验的一手供应链制造回流样本，终审可判定是否按『数据中心（AI 语境）』放行。另一条重要线索留给终审：路透社 2026-08-19 报道（CEO Aaron Jagdfeld 专访）称 Generac 预计增聘约 1,000 人（约合现有人数 10%），配套 2.5 亿美元多厂扩产，数据中心发电机在手订单 16 亿美元，Jagdfeld 在访谈中明确把数据中心需求归因于 AI 普及。该 1,000 人数字无任何一手公司稿承载（已查 Generac 投资者关系新闻稿与 Q2 2026 财报电话会逐字稿，均无招聘/人数表述），且 collector 侧路透原文及 Yahoo、Seeking Alpha、Daily Reporter、tradersunion 等全部转载域名均返回 403/429，无法完成 URL 可达性核验，故不据此另建条目，留待终审用可访问渠道判定。"
+  },
+  {
+    "id": "2026-07-nordscale-narvik-jv",
+    "date": "2026-07-06",
+    "company_or_body": "Nscale / Nordkraft（合资公司 Nordscale Operations AS）",
+    "region": "NO",
+    "kind": "team_formation",
+    "jobs_count": null,
+    "jobs_type_zh": "为 Narvik 的 AI 数据中心运营组建本地合资运营公司，招募设施、技术与公司职能（机械、HR、HSE）等运营与管理岗位",
+    "jobs_type_en": "a local joint-venture operating company formed to run the Narvik AI data centre, recruiting operational and management roles across facilities, technical and corporate functions including mechanical, HR and HSE",
+    "occupation_ids": [],
+    "market_ids": [
+      "gpu-cloud"
+    ],
+    "source": {
+      "url": "https://www.nscale.com/press-releases/nordscale",
+      "publisher": "Nscale（公司官网新闻稿）",
+      "date": "2026-07-06",
+      "quote_en": "The company will be recruiting for several operational and management roles in Narvik across facilities, technical and corporate functions including mechanical, HR and HSE.",
+      "quote_zh": "该公司将在纳尔维克招募设施、技术与公司职能（含机械、人力资源、健康安全环境）等多个运营与管理岗位。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "不入账（counted:false）：一手稿只说『招募多个岗位』，未给任何具体数字，缺『明确岗位数』这一入账必要条件。记录价值在于它是 AI 基建运营侧本地化用工的清晰样本——Nscale Norway AS 持股 51%、挪威本地电力企业 Nordkraft AS 持股 49%，专为运营 Kvandal（纳尔维克）的 AI 数据中心而设，主营场地、技术与后勤（餐饮、清洁、物流、绿化、除雪、维护及专业技术服务），Nordkraft CEO Eirik Frantzen 原话强调『确保这一产业也能在本地贡献就业』。挪威（NO）为账本首次出现的区域。放弃的关联口径：同一园区的 Stargate Norway（Nscale/Aker/OpenAI，2025-07-31）常被引为『250 个常驻岗位』，但已逐字核验其一手稿（nscale.com 与 akernscale.com 两处）通篇无任何岗位数字，250 常驻/150 间接/合计约 400 的数字出自 NRK、E24 等挪威媒体经 Eurofound 二次汇编，且 NRK 标题作『400 个岗位』与 250 并存、口径互相打架，按『拿不准就降级』与『一手优先』两条红线，不另建 Stargate Norway 条目。"
   }
 ]
