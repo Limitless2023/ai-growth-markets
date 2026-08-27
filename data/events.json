@@ -758,5 +758,183 @@
     "counted": false,
     "status": "published",
     "notes_zh": "不入账（同百度校招口径处理）：7000/4800 为校招 Offer 总量而非 AI 岗净增数，AI 归因仅覆盖『研发类为核心方向』而非全部岗位；含实习转正通道（临时性）。补全中国大厂创造侧记录（百度、腾讯已在账本，字节此前缺）。事件为 2026-03 旧事补录，非本轮新发。"
+  },
+  {
+    "id": "2026-08-wiwynn-socorro-2000",
+    "date": "2026-08-21",
+    "company_or_body": "Wiwynn（緯穎科技）× El Paso County × City of Socorro × Borderplex Alliance",
+    "region": "US",
+    "kind": "hiring_commitment",
+    "jobs_count": 2000,
+    "jobs_type_zh": "德州 Socorro AI 服务器生产与测试园区常驻全职岗位",
+    "jobs_type_en": "Full-time permanent jobs at the Socorro, Texas AI-server manufacturing and testing campus",
+    "occupation_ids": [],
+    "market_ids": [
+      "gpu-cloud"
+    ],
+    "source": {
+      "url": "https://kvia.com/news/business-technology/2026/08/21/275-million-wiwynn-investment-in-socorro-is-set-to-bring-2000-jobs/",
+      "publisher": "KVIA（El Paso County / City of Socorro / Borderplex Alliance 联合发布会报道）",
+      "date": "2026-08-21",
+      "quote_en": "This expansion positions Wiwynn to meet surging global demand for AI and cloud infrastructure ... servers, storage systems and networking equipment for cloud and artificial intelligence infrastructure.",
+      "quote_zh": "此次扩建使緯穎得以满足全球对 AI 与云基础设施激增的需求……为云与人工智能基础设施制造服务器、存储系统与网络设备。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": true,
+    "status": "draft",
+    "notes_zh": "jobs_count 取 2,000 常驻全职岗（new full-time jobs），非建设临时岗，一手明确为『2,000 new full-time jobs』。不叠加旧承诺：緯穎 2025-06 首次落地 Socorro 时承诺 514 岗（$152M），本次为增量新增，官方口径称完成后 Socorro 总雇员将达约 2,500（514 + 2,000 ≈ 2,514，官方取整为 2,500），故本行只记增量 2,000，不与 514 相加，514 亦未在本账本中另行入账。AI 归因为公司亲口：緯穎董事总经理 Joseph Hsu 在联合发布会上称此次扩建旨在『meet surging global demand for AI and cloud infrastructure』。发布主体为 El Paso County、Socorro 市政府与 Borderplex Alliance 于 2026-08-21（周五）联合宣布，属政府/官方招商机构第一口径，非二手转述。投资额 $275M，选址 Socorro Logistics Centre Park，激励协议约定至少 5%（100 个）岗位须雇用 Socorro 本地居民。緯穎为纬创（Wistron）分拆之云端服务器厂商，与本账本已有候选 2025-08-wistron-fortworth-800（纬创 Fort Worth）为不同法人主体、不同厂址，非重复收录。一手发布机构自身新闻页未检索到独立稿件，故引联合发布会当日的当地媒体报道（已实测 HTTP 200，quote 与页面内容逐字核对一致）。"
+  },
+  {
+    "id": "2025-10-aoi-sugar-land-500",
+    "date": "2025-10-28",
+    "company_or_body": "Applied Optoelectronics（AOI，Nasdaq: AAOI）× City of Sugar Land",
+    "region": "US",
+    "kind": "hiring_commitment",
+    "jobs_count": 500,
+    "jobs_type_zh": "德州 Sugar Land 光模块制造与研发新增岗位（五年内，AI 数据中心用光收发模块）",
+    "jobs_type_en": "New manufacturing and engineering jobs in Sugar Land, Texas over five years (optical transceivers for AI data centers)",
+    "occupation_ids": [],
+    "market_ids": [
+      "gpu-cloud"
+    ],
+    "source": {
+      "url": "https://newsroom.ao-inc.com/news-releases/aoi-announces-expansion-in-the-city-of-sugar-land/",
+      "publisher": "Applied Optoelectronics, Inc.（公司新闻室）",
+      "date": "2025-10-28",
+      "quote_en": "AOI is making a capital investment of over $150 million and will create over 500 new jobs in Sugar Land over the next five years, spanning advanced engineering, product management, distribution operations, customer experience and finance, among others. ... When Complete, AOI Will Have the Largest Production Capacity for AI-focused Datacenter Transceivers in the U.S.",
+      "quote_zh": "AOI 将投入超过 1.5 亿美元资本开支，并在未来五年内于 Sugar Land 创造 500 个以上新岗位，涵盖先进工程、产品管理、分销运营、客户体验与财务等职能。……项目建成后，AOI 将拥有全美最大的 AI 数据中心用光收发模块产能。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": true,
+    "status": "draft",
+    "notes_zh": "jobs_count 取 500 为公司亲口承诺的净新增岗位（over 500 new jobs），承诺期五年，属常驻岗（先进工程/产品管理/分销运营/客户体验/财务），未与建设临时岗混报。AI 归因为公司亲口且写入新闻稿副标题：『the Largest Production Capacity for AI-focused Datacenter Transceivers in the U.S.』，并明确新建 21 万平方英尺厂房用于制造 AI 数据中心光收发模块，口径同已入账的 2026-06-snp-newjersey-250（新泽西光模块）与 2026-06-amazon-corning-nc-1000（北卡光纤）。防重复计数：本条为 2025-10-28 原始承诺；此后 2026-04-29 德州州长办公室宣布 $20.85M 德州半导体创新基金拨款、以及后续动工仪式（投资额由 $150M 上调至最高 $300M）均系对同一 500 岗承诺的重述，不得叠加，终审若见到该两则公告应替换或忽略而非另立新行。AOI CFO 兼首席战略官 Stefan Murry 称『we look forward to growing our workforce by 500 new jobs』。系 10 年期协议，由 Sugar Land 市经济发展办公室促成，市政府提供 200 万美元激励包，Fort Bend 县协办。此事在此前各轮采集中被遗漏，本轮补入。一手为公司自有新闻室（已实测 HTTP 200，quote 逐字核对一致）。"
+  },
+  {
+    "id": "2026-03-lumentum-greensboro-400",
+    "date": "2026-03-26",
+    "company_or_body": "Lumentum Holdings（NASDAQ: LITE）",
+    "region": "US",
+    "kind": "hiring_commitment",
+    "jobs_count": 400,
+    "jobs_type_zh": "北卡 Greensboro 磷化铟（InP）光器件工厂岗位（保留 + 新增合计，AI 数据中心用激光器）",
+    "jobs_type_en": "Preserved-plus-created US manufacturing jobs at the Greensboro, North Carolina InP photonics fab (lasers for AI data centers)",
+    "occupation_ids": [],
+    "market_ids": [
+      "gpu-cloud"
+    ],
+    "source": {
+      "url": "https://s21.q4cdn.com/377324469/files/doc_news/Lumentum-Announces-New-U-S--Manufacturing-Facility-to-Produce-Advanced-Lasers-for-the-Worlds-Largest-AI-Data-Centers-2026.pdf",
+      "publisher": "Lumentum Holdings Inc.（公司新闻稿，Business Wire 发布）",
+      "date": "2026-03-26",
+      "quote_en": "Lumentum plans to invest hundreds of millions of dollars over the next several years to scale production and strengthen advanced manufacturing capabilities at the site, while preserving and creating over 400 US manufacturing jobs. ... The 240,000-square-foot facility will produce advanced indium phosphide (InP)-based optical devices that serve as critical components in the world's largest AI data centers.",
+      "quote_zh": "Lumentum 计划在未来数年投入数亿美元扩大产能并强化该厂的先进制造能力，同时保留并创造 400 个以上美国制造业岗位。……这座 24 万平方英尺的工厂将生产先进的磷化铟（InP）光器件，它们是全球最大 AI 数据中心的关键元件。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "不入账（混合口径红线）：一手写的是『preserving and creating over 400 US manufacturing jobs』——保留岗与新增岗合并计数，且公司同时说明该厂系自 Qorvo 收购而来、购买协议『includes the transfer of an experienced workforce』，即 400 中含相当比例是随厂转入的存量员工。按『混合口径绝不取大数、拿不准就降级』，jobs_count 记 400 但 counted:false，终审若见到公司拆分出净新增部分，可按净增数升级入账。AI 归因充分且为公司亲口：新闻稿标题即『to Produce Advanced Lasers for the World's Largest AI Data Centers』，CEO Michael Hurlston 称此举『ensures we can deliver the performance, reliability, and scale required for the AI revolution』，NVIDIA 运营执行副总裁 Debora Shoquist 亦以客户身份背书，北卡商务厅长 Lee Lilley 提及『the rapidly growing advanced AI market』。岗位类型为常驻制造岗（工艺与设备工程、制造技术员、运营、供应链、质量、管理、IT、HR、财务），非建设临时岗。厂房 24 万平方英尺，产能爬坡预计 2028 年中。此事在此前各轮采集中被遗漏，本轮补入。一手为公司 IR 站点 PDF 新闻稿（已实测 HTTP 200，PDF 正文逐字核对一致）。"
+  },
+  {
+    "id": "2026-08-generac-datacenter-1000",
+    "date": "2026-08-19",
+    "company_or_body": "Generac Holdings（NYSE: GNRC）",
+    "region": "US",
+    "kind": "hiring_commitment",
+    "jobs_count": 1000,
+    "jobs_type_zh": "数据中心用大功率发电机产能扩张带来的公司总员工增量（约 +10%，多厂合计）",
+    "jobs_type_en": "Company-wide headcount increase (~10%) from scaling data-center generator production across multiple plants",
+    "occupation_ids": [],
+    "market_ids": [
+      "gpu-cloud"
+    ],
+    "source": {
+      "url": "https://finance.yahoo.com/economy/articles/demand-us-data-center-boom-100520594.html",
+      "publisher": "Reuters（经 Yahoo Finance 转载）",
+      "date": "2026-08-19",
+      "quote_en": "The Waukesha, Wisconsin-based company is spending $250 million by the end of next year to equip multiple factories to make beefed-up versions of its generators for data centers. The order backlog for those machines already stands at $1.6 billion, and the company expects to add about 1,000 workers, a 10% increase in its headcount.",
+      "quote_zh": "这家总部位于威斯康星州沃基肖的公司，将在明年年底前投入 2.5 亿美元改造多座工厂，生产面向数据中心的加强版发电机。此类机型的在手订单已达 16 亿美元，公司预计将增加约 1,000 名员工，相当于其员工总数增长 10%。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "不入账（三重降级理由）：（1）口径为公司总员工数增长约 10%（约 1,000 人）的经营预期，非某一厂址的净新增岗位承诺，且明确摊在『multiple factories』上，无法定位到具体承诺主体与厂址；（2）数字出自 Reuters 对 CEO Aaron Jagdfeld 的专访转述（『the company expects to add about 1,000 workers』），公司自有新闻室与 IR 页面未见对应正式公告，不满足『公司亲口宣布 + 明确岗位数』的入账红线；（3）与本账本已有候选 2026-01-generac-sussex-100（2026-01-05，Sussex 新厂 100+ 制造岗，counted:false）存在包含关系——1,000 为公司总增量，Sussex 的 100 是其子集，若同时入账将重复计数，终审须择一且不得相加。AI 归因偏弱：Reuters 行文称『artificial intelligence is its new frontier』系记者措辞；Jagdfeld 本人被转述称『随着所有人更多使用 AI，数据中心需求将持续增长』，但无逐字直接引语把这 1,000 岗直接系于 AI，故按『拿不准就降级』处理。保留本行的价值在于记录 AI 数据中心供电设备端产能扩张的用工信号（$250M 改造投资、$16 亿在手订单、Q2 商用与工业板块营收同比 +29% 至 5.56 亿美元）。一手为 Reuters 通稿，原发页面 dailyreporter.com 实测 403，故引 Yahoo Finance 转载版（已实测 HTTP 200，quote 逐字核对一致）。"
+  },
+  {
+    "id": "2026-08-51job-campus-2027-ai-28pct",
+    "date": "2026-08-25",
+    "company_or_body": "前程无忧 51job",
+    "region": "CN",
+    "kind": "report_datapoint",
+    "jobs_count": null,
+    "jobs_type_zh": "2027 届校招中已布局 AI 人才需求的企业占比 28.0%（AI 应用开发工程师为最紧缺岗位，占 53.9%）",
+    "jobs_type_en": "28.0% of surveyed employers have built AI talent demand into 2027 campus hiring; AI application development engineer is the most-sought role at 53.9%",
+    "occupation_ids": [
+      "ai-product-manager"
+    ],
+    "market_ids": [
+      "ai-agent-platform"
+    ],
+    "source": {
+      "url": "https://finance.sina.cn/2026-08-25/detail-inipnyqy2308484.d.html",
+      "publisher": "新浪财经（转载前程无忧 51job《2027 届校招 AI 人才市场洞察》）",
+      "date": "2026-08-25",
+      "quote_zh": "近三成企业已在校招中布局AI人才需求：24.4%的企业在技术类岗位中包含AI相关职位但尚无专项计划，3.6%已设立AI人才专项招聘计划，合计28.0%；另有14.3%的企业虽尚未启动，但未来一年内已有明确规划；57.7%的企业暂未招聘AI专项人才。",
+      "quote_en": "Nearly 30% of employers have built AI talent demand into campus recruitment: 24.4% include AI-related roles within technical positions but have no dedicated plan, and 3.6% have set up a dedicated AI talent recruitment plan, totalling 28.0%; a further 14.3% have not started but have clear plans within the next year, while 57.7% have not yet recruited dedicated AI talent. (translated)"
+    },
+    "confidence": "report_estimated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "永不计数（report_datapoint）。口径披露：28.0% 为受访企业占比而非岗位数，且由两档相加得到（24.4% 技术岗内含 AI 职位但无专项计划 + 3.6% 已设 AI 人才专项招聘计划）——即绝大多数并非专门开设 AI 岗，读数时不可等同于『28% 企业在专门招 AI 人』。53.9% 指在有 AI 需求的企业中，AI 应用开发工程师（大模型应用、智能体开发）为最紧缺岗位的占比，其后为 AI 平台/框架开发工程师 37.5%、数据科学/数据分析师 33.2%。样本为 51job 平台雇主调研，机构自有口径，非官方统计。与本账本已有候选 2026-07-51job-ai-talent-insight（2026-07-14）主体相同但为不同报告：前者面向在职人才市场，本条为《2027 届校招 AI 人才市场洞察》，调查对象与结论互不重叠，非重复收录。原始报告 PDF 未公开发布，故引新浪财经转载版（已实测 HTTP 200，quote 中文原文逐字核对一致；注：URL 路径日期为 2026-08-25，与检索到的发布日一致）。满足本轮 CN 区域配额。"
+  },
+  {
+    "id": "2026-08-mohrss-ai-session-11k",
+    "date": "2026-08-20",
+    "company_or_body": "人力资源社会保障部（百日千万招聘专项行动）",
+    "region": "CN",
+    "kind": "report_datapoint",
+    "jobs_count": null,
+    "jobs_type_zh": "百日千万招聘专项行动人工智能行业线上专场招聘需求（400 家用人单位，超 1.1 万人次）",
+    "jobs_type_en": "Recruitment demand at the AI-industry online session of the MOHRSS national hiring drive (400 employers, over 11,000 openings)",
+    "occupation_ids": [
+      "ai-product-manager",
+      "ai-trainer-annotator"
+    ],
+    "market_ids": [
+      "ai-agent-platform"
+    ],
+    "source": {
+      "url": "http://paper.people.com.cn/rmrb/pc/content/202608/20/content_30176077.html",
+      "publisher": "人民日报（人力资源社会保障部发布）",
+      "date": "2026-08-20",
+      "quote_zh": "人工智能行业专场组织中国联通软件研究院、中远海运科技股份有限公司、北京脑科学与类脑研究所等400家用人单位，提供智能体开发工程师、大模型算法工程师、AI数据分析师、机器视觉应用工程师等岗位，招聘需求超1.1万人次。",
+      "quote_en": "The artificial-intelligence industry session brought together 400 employers including China Unicom Software Research Institute, COSCO Shipping Technology and the Chinese Institute for Brain Research, offering roles such as agent development engineer, large-model algorithm engineer, AI data analyst and machine-vision application engineer, with recruitment demand exceeding 11,000 openings. (translated)"
+    },
+    "confidence": "company_stated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "永不计数（report_datapoint）。口径披露：『超 1.1 万人次』为专场挂出的招聘工位数（人次），非企业净新增岗位承诺；同一岗位可在不同场次重复挂出，亦不区分新增岗与替换岗，不满足入账红线，仅作官方劳动力市场信号收录。专场时间 2026-08-17 至 08-23，系人社部『百日千万招聘专项行动』下与先进制造、医疗卫生、外贸并行推出的 4 个线上专场之一，4 场合计 3000 余家用人单位、2.4 万人次。AI 归因为官方亲口：专场即以『人工智能行业』命名，列举岗位含智能体开发工程师、大模型算法工程师、AI 数据分析师、机器视觉应用工程师。与本账本已有候选 2026-07-mohrss-ai-job-fair-session（2026-07-21，超 90 家单位、近 1000 人次）及 2026-07-mohrss-cloud-recruitment-drive（2026-07-02，互联网企业云端招聘月）为同一专项行动下的不同批次场次，主体同为人社部但时间、单位数与数字互不重叠，非重复收录；本场规模较 7 月场扩大约一个数量级，扩张本身即信号。date 取人民日报见报日 2026-08-20（专场起于 08-17）。一手为人民日报电子版（已实测 HTTP 200，quote 中文原文逐字核对一致）。"
+  },
+  {
+    "id": "2026-08-linkedin-india-311k",
+    "date": "2026-08-21",
+    "company_or_body": "LinkedIn India（印度区总裁 Kumaresh Pattabiraman）",
+    "region": "IN",
+    "kind": "report_datapoint",
+    "jobs_count": 311000,
+    "jobs_type_zh": "2023 年以来印度新增 AI 相关岗位 31.1 万个（全球同期新增 200 万个）",
+    "jobs_type_en": "311,000 AI-related jobs added in India since 2023 (out of 2 million added globally over the same period)",
+    "occupation_ids": [],
+    "market_ids": [],
+    "source": {
+      "url": "https://www.businesstoday.in/india-at-100/story/india-added-311000-ai-related-jobs-since-2023-linkedin-india-head-kumaresh-pattabiraman-550569-2026-08-21",
+      "publisher": "Business Today（India @ 100 Summit 现场，LinkedIn India 口径）",
+      "date": "2026-08-21",
+      "quote_en": "Since 2023 globally there have been 2 million new jobs that are AI-related that have been added, and of those, a good 311,000 were added in India. AI engineering roles just in the last year have gone up by 51%.",
+      "quote_zh": "自 2023 年以来，全球新增了 200 万个 AI 相关岗位，其中印度占了 31.1 万个。仅过去一年，AI 工程类岗位就增长了 51%。（译）"
+    },
+    "confidence": "report_estimated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "永不计数（report_datapoint）。口径披露：31.1 万为 LinkedIn 基于自有平台会员档案变动测算的『AI 相关岗位』存量增量，起算点为 2023 年（三年累计，非年度或月度新增），且『AI 相关』的判定标准由 LinkedIn 自定、未公开；平台口径只覆盖 LinkedIn 有渗透的白领与技术就业，会系统性低估制造与线下岗位，不可与政府统计或本账本 counted 口径混算。51% 指 AI 工程类岗位过去一年的同比增幅。与本账本已发布的 2026-01-linkedin-1300k-ai-jobs（LinkedIn 经济图谱，全球 130 万）为同一数据家族的更新读数——本条口径下全球累计已达 200 万，终审若要维护『LinkedIn 全球 AI 岗位』时间序列，应将两者视为同一序列的先后观测点而非独立事件相加。发言场合为 Business Today『India @ 100』峰会『Manufacturing Jobs In The AI Age』分论坛，发言人为 LinkedIn India 印度区总裁 Kumaresh Pattabiraman，属机构亲口但仍系机构测算，故 confidence 记 report_estimated。同场另披露维杰亚瓦达（Vijayawada）AI 工程岗位一年增长 46%。满足本轮第三区域（IN）配额。source.url 经 WebFetch 实测可达且 quote 逐字核对一致（curl 直连被反爬拦截，属该站常见风控，不影响公开可访问性）。"
   }
 ]
