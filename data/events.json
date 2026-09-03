@@ -758,5 +758,97 @@
     "counted": false,
     "status": "published",
     "notes_zh": "不入账（同百度校招口径处理）：7000/4800 为校招 Offer 总量而非 AI 岗净增数，AI 归因仅覆盖『研发类为核心方向』而非全部岗位；含实习转正通道（临时性）。补全中国大厂创造侧记录（百度、腾讯已在账本，字节此前缺）。事件为 2026-03 旧事补录，非本轮新发。"
+  },
+  {
+    "id": "2026-08-lam-research-oregon-400",
+    "date": "2026-08-26",
+    "company_or_body": "Lam Research",
+    "region": "US",
+    "kind": "hiring_commitment",
+    "jobs_count": 400,
+    "jobs_type_zh": "俄勒冈州 Tualatin 新建「AI 时代」半导体研发实验室带来的 Lam 公司常驻岗位（建设期约 900 个临时岗另列未计）",
+    "jobs_type_en": "New permanent Lam headcount created by its new AI-era semiconductor R&D lab in Tualatin, Oregon (approx. 900 construction-period jobs listed separately, not counted)",
+    "occupation_ids": [],
+    "market_ids": [],
+    "source": {
+      "url": "https://newsroom.lamresearch.com/2026-08-26-Lam-Research-Breaks-Ground-on-New-Oregon-Lab-to-Accelerate-AI-Era-Semiconductor-Research-Development-Locally,-Globally",
+      "publisher": "Lam Research Newsroom（泛林集团官方新闻室）",
+      "date": "2026-08-26",
+      "quote_en": "…part of a more than $3 billion planned investment in its global lab network over the next five years to accelerate breakthroughs for the creation of advanced AI chips. … creating more than 400 new Lam jobs and bolstering the number of jobs that Lam supports statewide to more than 11,000. … Over the three-year construction period, the expansion project is expected to create approximately 900 jobs and $500 million in economic output. … Delivering next-generation semiconductors at the speed of AI requires relentless innovation.",
+      "quote_zh": "……是公司未来五年对其全球实验室网络逾 30 亿美元投资计划的一部分，以加速先进 AI 芯片研制方面的突破。……将创造 400 多个 Lam 的新岗位，并使 Lam 在全州支撑的岗位总数提升至逾 11,000 个。……在三年建设期内，该扩建项目预计将创造约 900 个岗位和 5 亿美元经济产出。……以 AI 的速度交付下一代半导体，需要不懈的创新。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": true,
+    "status": "draft",
+    "notes_zh": "jobs_count 取 400 个 Lam 公司常驻新增编制（原文 more than 400，取下限）。三处数字必须分清、绝不相加：(a) 400 = 公司自身常驻新增岗；(b) 约 900 = 三年建设期临时岗，按红线「建设期与常驻岗混报时取常驻岗」另列未计；(c) 逾 11,000 = Lam 在俄勒冈州「支撑」的岗位总盘（含存量与乘数效应），属旧盘重述，绝非新增。AI 归因由公司一手稿亲口给出：标题即「to Accelerate AI Era Semiconductor Research & Development」，正文明确该实验室网络投资意在「加速先进 AI 芯片研制的突破」，判定标准与账本中康宁、Prysmian、SNP 等供应链制造事件一致（看一手官方稿是否亲口说 AI）。实验室位于 Tualatin 园区，投资约 6.2 亿美元，预计 2028 年启用，岗位随之分批释放。一手新闻室 URL 已实测可达并与 quote 逐字核对；同文另经 PR Newswire 同步分发。"
+  },
+  {
+    "id": "2026-08-skhynix-indiana-1000",
+    "date": "2026-08-27",
+    "company_or_body": "SK hynix",
+    "region": "US",
+    "kind": "hiring_commitment",
+    "jobs_count": 1000,
+    "jobs_type_zh": "印第安纳州西拉法叶 HBM（AI 内存）先进封装基地商业运营期常驻岗位（建设+间接合计 7,000 的混合口径另述，不采用）",
+    "jobs_type_en": "Permanent operational workforce at the West Lafayette, Indiana HBM (AI memory) advanced packaging base (the blended 7,000 direct+indirect construction-and-operations figure is noted but not used)",
+    "occupation_ids": [],
+    "market_ids": [],
+    "source": {
+      "url": "https://news.skhynix.com/en/groundbreaking-ceremony-in-indiana/",
+      "publisher": "SK hynix Newsroom（SK 海力士官方新闻室）",
+      "date": "2026-08-27",
+      "quote_en": "It is projected to grow into a key HBM production hub in the US led by a workforce of approximately 1,000 personnel during anticipated commercial operations. … SK hynix also plans to create approximately 7,000 direct and indirect jobs with local and national companies during construction of the advanced packaging facility and subsequent commercial operations.",
+      "quote_zh": "该基地预计将发展为美国重要的 HBM 生产枢纽，商业运营期由约 1,000 名员工的团队运作。……SK 海力士还计划在该先进封装厂建设期及其后的商业运营期内，与本地和全国性企业共同创造约 7,000 个直接与间接岗位。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "不入账，两条独立理由，任一条都足以否决：(1) 旧承诺重述——SK 海力士 2024-04-03 首次宣布该印第安纳项目时已亲口给出「bringing more than a thousand new jobs to the region」，本次 2026-08-27 只是动土仪式，1,000 这个数是同一承诺的重述而非新增，计入即与该 2024 年承诺双计；(2) 7,000 为「直接+间接」且横跨「建设期+运营期」的四重混合口径，按红线「混报时绝不取大数」不得采用。本条仍入库留痕，是为了让后续轮次遇到同一项目的进度稿时能直接查到「已判定为旧承诺、勿再入账」，避免重复发现。AI 归因成立：稿件标题为「Beginning a New Future for US-Korea AI」，正文明确该厂生产 HBM（AI 内存）并服务 AI 数据中心。项目投资逾 40 亿美元，洁净室预计 2028-10 启用，次世代 HBM 量产预计 2029 下半年。一手新闻室 URL 已实测可达并与 quote 逐字核对。"
+  },
+  {
+    "id": "2026-08-xiaomi-campus-2027-ai50pct",
+    "date": "2026-08-10",
+    "company_or_body": "小米集团（Xiaomi）",
+    "region": "CN",
+    "kind": "hiring_commitment",
+    "jobs_count": null,
+    "jobs_type_zh": "2027 届全球校园招聘岗位（AI 相关岗位需求同比增长 50%，17+ 职类，产研类占比 70%；无绝对招聘人数）",
+    "jobs_type_en": "Class-of-2027 global campus recruitment roles (AI-related demand up 50% year over year, 17+ job families, 70% product/R&D; no absolute headcount disclosed)",
+    "occupation_ids": [],
+    "market_ids": [],
+    "source": {
+      "url": "https://c.m.163.com/news/a/L3VJTIJ8053469LG.html",
+      "publisher": "网易科技（转述小米官方招聘公告）",
+      "date": "2026-08-10",
+      "quote_zh": "8 月 10 日，小米发文称 2027 届全球校园招聘正式启动。此次招聘 AI 相关岗位需求增长 50%，共有 17+ 职类开放投递，产研类岗位需求占比 70%。",
+      "quote_en": "On August 10, Xiaomi announced that its Class-of-2027 global campus recruitment had officially launched. Demand for AI-related roles in this round is up 50%, with 17+ job families open for application and product/R&D roles accounting for 70% of demand. (translated)"
+    },
+    "confidence": "company_stated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "不入账：口径为「AI 相关岗位需求同比增长 50%」的相对增幅与职类结构，小米全程未披露招聘总人数或 AI 岗绝对数，不满足 counted 五条件中的「明确岗位数」。50% 是需求增幅而非新增岗位数，不可与任何绝对数换算。处理方式与账本中阿里 2027 届（AI 岗占比 80%）、字节、腾讯等校招条目一致。二手源说明：一手为小米招聘渠道 2026-08-10 公告，官方校招站 hr.xiaomi.com/campus 已实测可达并确认 2027 届校招周期存在，但该页面不承载 AI 增幅数字；IT 之家（账本已登记信源）同日报道，WebFetch 取回 403，故 source.url 采用已实测可达且完整复述官方原文的网易科技版本。另注：chinaz 转载标注启动日为 08-11，系转载日，本条按官方发文日 2026-08-10 取值。"
+  },
+  {
+    "id": "2026-07-baidu-campus-2027-ai90pct",
+    "date": "2026-07-09",
+    "company_or_body": "百度（Baidu）",
+    "region": "CN",
+    "kind": "hiring_commitment",
+    "jobs_count": null,
+    "jobs_type_zh": "2027 届校园招聘岗位（AI 相关岗位占比超 90%，5 大方向 74 个细分职位；本届未披露 Offer 总量）",
+    "jobs_type_en": "Class-of-2027 campus recruitment roles (AI-related roles over 90% of openings; 74 positions across five tracks; no offer total disclosed for this cycle)",
+    "occupation_ids": [],
+    "market_ids": [],
+    "source": {
+      "url": "https://www.ccidnet.com/news/1119658.jhtml",
+      "publisher": "赛迪网（中国电子信息产业发展研究院主办，转述百度官方校招公告）",
+      "date": "2026-07-10",
+      "quote_zh": "7 月 9 日，百度宣布正式启动 2027 届校园招聘。本届校招 AI 相关岗位占比超过 90%，共有 74 个细分职位，覆盖大模型、智能体、多模态、AI Infra、自动驾驶等前沿赛道。",
+      "quote_en": "On July 9, Baidu announced the official launch of its Class-of-2027 campus recruitment. AI-related roles account for over 90% of this cycle's openings, spanning 74 positions across frontier tracks including large models, agents, multimodality, AI Infra and autonomous driving. (translated)"
+    },
+    "confidence": "company_stated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "不入账：本届（2027 届）百度只给出 AI 岗位占比超 90% 与 74 个细分职位，未披露 Offer 总量或 AI 岗绝对数，不满足「明确岗位数」。**终审重点提示——与账本已有条目极易混淆**：账本中 `2025-07-baidu-campus-4000`（2025-07，超 4,000 份 Offer、AI 岗占比超 90%）是上一轮的 **2026 届** 校招；本条是一年后启动的 **2027 届**，两者 AI 占比表述几乎同文，但届次、启动日与是否披露 Offer 总量均不同，属两个独立事件，切勿把 4,000 这个数挪用到本条上。事件为 2026-07-09 旧事补录，非本轮窗口新发，本轮补齐是因为账本已收录阿里/腾讯/字节/美团/蚂蚁的 2027 届条目而独缺百度、小米。二手源说明：一手为百度校招官网 talent.baidu.com/jobs 的 2027 届启动公告，赛迪网版本已实测可达并完整复述官方口径，故采用；面试自 7 月 9 日起陆续安排，Offer 自 11 月起陆续发放。"
   }
 ]
