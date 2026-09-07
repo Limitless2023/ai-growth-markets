@@ -758,5 +758,74 @@
     "counted": false,
     "status": "published",
     "notes_zh": "不入账（同百度校招口径处理）：7000/4800 为校招 Offer 总量而非 AI 岗净增数，AI 归因仅覆盖『研发类为核心方向』而非全部岗位；含实习转正通道（临时性）。补全中国大厂创造侧记录（百度、腾讯已在账本，字节此前缺）。事件为 2026-03 旧事补录，非本轮新发。"
+  },
+  {
+    "id": "2026-03-vertiv-ohio-730",
+    "date": "2026-03-30",
+    "company_or_body": "维谛技术（Vertiv, NYSE: VRT）× 俄亥俄州州长办公室 / JobsOhio",
+    "region": "US",
+    "kind": "hiring_commitment",
+    "jobs_count": 730,
+    "jobs_type_zh": "俄亥俄州 Westerville 总部园区（约 210 个：工程、服务、销售、项目执行）与 Ironton 制造厂（约 520 个：机械、电气、装配、质量、生产维护与班组管理）合计的新增岗位，原文为『最多 730 个』且分摊至 2029 年前",
+    "jobs_type_en": "Combined new roles across the Westerville headquarters campus (~210: engineering, services, sales, project execution) and the Ironton manufacturing plant (~520: mechanical, electrical, assembly, quality, production maintenance, supervisory), stated as 'up to 730' and spread through 2029",
+    "occupation_ids": [],
+    "market_ids": [],
+    "source": {
+      "url": "https://www.jobsohio.com/newsroom/news-press/vertiv-announces-expansion-of-two-ohio-facilities-including-us-headquarters",
+      "publisher": "JobsOhio 新闻室（俄亥俄州州长办公室、Vertiv、Ohio Department of Development、OhioSE、Columbus Partnership 联合发布的同一份通稿）",
+      "date": "2026-03-30",
+      "quote_en": "Vertiv is investing approximately $50 million to expand its Westerville headquarters campus and its manufacturing facility in Ironton, with the projects expected to create up to 730 new jobs in the state through 2029. … The expansion reflects Vertiv's continued commitment to Ohio as the company grows its talent base, expands manufacturing capacity, and reinforces Vertiv's central role in enabling AI infrastructure worldwide. … In Ironton, the company has built and expanded manufacturing operations over the past 25 years, with a focus on the production of thermal management systems critical to AI and traditional compute workloads.",
+      "quote_zh": "Vertiv 正投资约 5,000 万美元扩建其 Westerville 总部园区与 Ironton 制造厂，预计到 2029 年前在该州创造最多 730 个新增岗位。……此次扩建体现了 Vertiv 对俄亥俄州的持续承诺——公司在扩充人才队伍、扩大制造产能的同时，也强化了其在支撑全球 AI 基础设施中的核心角色。……在 Ironton，公司已深耕制造运营 25 年，重点生产对 AI 及传统计算负载至关重要的热管理系统。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "**不入账，与账本既有 2026-08-vertiv-letterkenny-300 同规则处理**：原文数字为『up to 730』（最多 730 个）——上限区间而非明确岗位数，按质量红线『混合/区间口径绝不取大数』不予采用。第二重稀释：730 分摊至 2029 年前的四年窗口，且原文自述 Ironton 产线服务的是『AI and traditional compute workloads』（AI 与传统计算负载并列），即岗位并非全部由 AI 需求驱动，无法从公开口径中拆出 AI 专属份额。AI 归因本身成立且为公司亲口（『reinforces Vertiv's central role in enabling AI infrastructure worldwide』写在扩建动因段），故仍作为候选入库留痕，便于后续轮次遇到该项目进度稿时直接查到判定结论。地域与主体口径：Westerville 位于 Delaware County（获 JobsOhio 100 万美元资助），Ironton 位于 Lawrence County（获 300 万美元资助），另有 Ohio Department of Development 的 Job Creation Tax Credits；region 记 US。须与账本既有 2026-08-vertiv-letterkenny-300（爱尔兰 Letterkenny，最多 300 个）严格区分，两者为不同国家的不同厂区，数字互不覆盖、不得相加。信源纪律说明：一手为 Vertiv 经 GlobeNewswire 发布的官方通稿（globenewswire.com 对自动化抓取超时无响应），governor.ohio.gov 与 development.ohio.gov 的对应页面实测均返回 404（疑站点改版后链接失效）；本条 source.url 取 JobsOhio 新闻室转载——JobsOhio 是该通稿的联合发布方之一而非第三方媒体，属一手口径，实测 200 可达且与 quote 核对一致。终审如能打开 GlobeNewswire 原页，建议替换为 https://www.globenewswire.com/news-release/2026/03/30/3265021/0/en/Vertiv-Announces-Expansion-of-Two-Ohio-Facilities-Including-U-S-Headquarters.html 。本条为 2026-03-30 旧事补录，非本轮新发。"
+  },
+  {
+    "id": "2026-07-pwc-china-ai-jobs-barometer",
+    "date": "2026-07-14",
+    "company_or_body": "普华永道中国（PwC China）",
+    "region": "CN",
+    "kind": "report_datapoint",
+    "jobs_count": null,
+    "jobs_type_zh": "中国内地 AI 岗位 2025 年净增量（应用类增加近 9 万个 / 增幅 50.8%，开发类增加约 3.05 万个 / 增幅 15.5%）",
+    "jobs_type_en": "Net increase in AI job postings in mainland China during 2025 (application-type roles up by nearly 90,000 or 50.8%; development-type roles up by about 30,500 or 15.5%)",
+    "occupation_ids": [],
+    "market_ids": [],
+    "source": {
+      "url": "https://www.pwccn.com/zh/press-room/press-releases/pr-140726.html",
+      "publisher": "普华永道中国（官方新闻稿）",
+      "date": "2026-07-14",
+      "quote_zh": "报告显示，中国内地AI岗位招聘在经历前期快速增长与阶段性调整后，2025年有所回暖，AI岗位占整体招聘数量的比例实现6.4%的增幅……中国内地AI岗位需求以开发类为主，但应用类岗位在2021年与2025年两度阶段性反超开发类，表明在前期技术能力投入之后，人工智能进入加速应用与部署阶段。2025年两类岗位同步反弹，应用类岗位增加近9万个（增幅50.8%），开发类岗位增加约3.05万个（增幅15.5%）。",
+      "quote_en": "The report shows that after an earlier phase of rapid growth and subsequent adjustment, AI job recruitment in mainland China rebounded in 2025, with the share of AI roles in total hiring rising by 6.4% … Demand for AI roles in mainland China is led by development-type positions, but application-type roles overtook them in both 2021 and 2025, indicating that after the earlier investment in technical capability, AI has entered a phase of accelerated application and deployment. Both categories rebounded together in 2025: application-type roles rose by nearly 90,000 (+50.8%) and development-type roles by about 30,500 (+15.5%). (translated)"
+    },
+    "confidence": "report_estimated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "永不计数（report_datapoint）。口径披露：近 9 万 / 3.05 万是**招聘广告条数口径的岗位数量净增**（对比基准为 2024 年），并非企业亲口承诺的净新增就业，普华永道也未主张其为 AI 造成的因果净增；6.4% 是『AI 岗位占整体招聘数量之比』的增幅（占比的相对变化），不是岗位数增幅，两者切勿混读。方法论：基于《2026 年全球人工智能就业晴雨表》母版数据（覆盖 27 个国家与地区逾 10 亿份招聘广告），中国内地报告为其分市场专项分析；报告引入『受 AI 影响程度指数』（AIOE）作为职业分组依据。行业口径：TMT 行业 AI 岗位占比最高（2025 年为 10.7%），且 2025 年所有行业 AI 岗位占比均有提升；薪资溢价方面 TMT 最高，金融服务业与政府及公共部门呈**负向溢价**——此为报告原文结论，勿误读为普遍溢价。**与账本既有 2026-06-pwc-barometer-2026-52pct-headcount 不重复**：后者是同一系列的全球版母报告（2026-06-15，经 PR Newswire 发布，口径为员工人数相对 2018 年基准的累计增长率），本条是 2026-07-14 单独发布的中国内地分市场分析报告，两份为不同发布日、不同数据切面，可作全球—中国对照。信源纪律说明：pwccn.com 对 WebFetch 返回 403，改用浏览器 UA 直取实测 200 可达，发布日以页面 meta 标签 pwcReleaseDate=2026-07-14T13:05:00+08:00 为准，quote 逐字核对一致。本条为 2026-07-14 旧事补录（低频年度源 pwc-ai-jobs-barometer 按轮换计划补扫时发现），非本轮新发。"
+  },
+  {
+    "id": "2026-09-posco-2h-ai-engineer",
+    "date": "2026-09-03",
+    "company_or_body": "포스코그룹 POSCO Group（浦项制铁集团）",
+    "region": "KR",
+    "kind": "team_formation",
+    "jobs_count": null,
+    "jobs_type_zh": "2026 下半年 6 家集团公司统一校招中新设立的『AI 工程师』职务，以及面向 AX（AI Transformation）与机器人感知/控制方向的专门岗位；集团自述整体招聘规模为『三位数』，未给出确切人数",
+    "jobs_type_en": "A newly created 'AI engineer' job function in POSCO Group's second-half 2026 entry-level intake across six affiliates, plus dedicated roles for AX (AI Transformation) and robot perception/control; the group states the overall intake is in the 'triple digits' without giving an exact headcount",
+    "occupation_ids": [],
+    "market_ids": [],
+    "source": {
+      "url": "https://newsroom.posco.com/kr/%ED%8F%AC%EC%8A%A4%EC%BD%94%EA%B7%B8%EB%A3%B9-%ED%8A%B8%EB%A6%AC%ED%94%8C-%EC%BD%94%EC%96%B4-%EC%9C%84%ED%95%9C-%EB%AF%B8%EB%9E%98-%EC%9D%B8%EC%9E%AC-%ED%99%95%EB%B3%B4-%EB%82%98%EC%84%A0%EB%8B%A4/",
+      "publisher": "포스코그룹 뉴스룸（POSCO 集团官方新闻室）",
+      "date": "2026-09-03",
+      "quote_zh": "포스코그룹, 트리플 코어 위한 미래 인재 확보 나선다… 6개 그룹사 세 자릿수 신입사원 채용 …… 이번 공채는 포스코홀딩스 미래기술연구원, 포스코, 포스코인터내셔널, 포스코DX, 포스코이앤씨, RIST 총 6개 회사가 참여하며, 전체 채용 규모는 세 자릿수로 △생산∙설비기술 △영업∙마케팅 △안전∙보건 △AI 등 60여개 직무 대상으로 진행된다. 포스코그룹은 이번 채용 대상에 AI 및 로봇 관련 직무를 대거 포함하며 AI 전문인재 확보에 대한 의지를 보이고 있다. …… 특히 포스코의 경우, 인공지능 기술을 활용한 현장 자동화 및 업무 혁신을 이끌어갈 우수 인재 확보를 위해 AI 엔지니어 직무를 신설했다.",
+      "quote_en": "POSCO Group moves to secure future talent for its Triple Core strategy … six group companies to hire a triple-digit number of new employees. … This open recruitment involves six companies in total — POSCO Holdings' Future Technology Research Institute, POSCO, POSCO International, POSCO DX, POSCO E&C and RIST — with an overall intake in the triple digits, covering some 60 job functions including production and facilities engineering, sales and marketing, safety and health, and AI. POSCO Group has included a large number of AI- and robotics-related functions in this intake, showing its commitment to securing AI specialists. … In particular, POSCO has newly created an 'AI engineer' job function to secure talent who will drive on-site automation and work innovation using artificial intelligence technology. (translated)"
+    },
+    "confidence": "company_stated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "**不入账：无确切岗位数**。集团一手稿自述整体招聘规模为『세 자릿수』（三位数，即 100–999 区间），既未给出确切人数，也未拆出 AI 相关职务各自的招聘量，不满足 counted 的『明确岗位数』条件，按红线『拿不准就降级』处理。AI 归因成立且为公司亲口：稿件明确『AI 엔지니어 직무를 신설했다』（新设 AI 工程师职务）——这是本条的核心价值所在，属于企业内部职业目录中新增一个 AI 职务类别，故 kind 记 team_formation 而非 hiring_commitment；此外浦项控股未来技术研究院招募机器人感知/控制研究员，浦项与浦项 DX 招募负责制造/事务 AX（AI Transformation）的专门人力。口径提示（终审请注意勿双计）：60여개 직무（约 60 个职务类别）是**职务种类数**而非岗位数，切勿当作 60 个岗位；『三位数』覆盖全部 6 家公司的全部 60 余个职务，其中 AI 相关只是其中一部分，即便终审愿意取下限 100，该数字也远大于 AI 专属份额，不可作为 AI 岗位数入账。时间口径：报名期为 2026-09-01 至 2026-09-16 15:00，集团于 9 月 3 日对外发布，date 取发布日。背景：集团于 2026 年 7 月宣布构建涵盖产业资源、战略资源、能源资源的『Triple-core』体系，本次招聘为其配套人才动作。信源纪律说明：source.url 为 POSCO 集团官方新闻室韩文原稿（实测 200 可达，quote 为韩文逐字摘录）；Korea Herald（2026-09-03）与 Seoul Economic Daily 英文版可作交叉核验，但后者页面自述『AI-translated from Korean』，其英文措辞不可作为逐字引用来源，故 quote_en 由本 collector 自韩文原文翻译并标注（译）。本条为本轮新发事件（第三区域 KR）。"
   }
 ]
