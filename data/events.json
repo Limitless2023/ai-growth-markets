@@ -758,5 +758,197 @@
     "counted": false,
     "status": "published",
     "notes_zh": "不入账（同百度校招口径处理）：7000/4800 为校招 Offer 总量而非 AI 岗净增数，AI 归因仅覆盖『研发类为核心方向』而非全部岗位；含实习转正通道（临时性）。补全中国大厂创造侧记录（百度、腾讯已在账本，字节此前缺）。事件为 2026-03 旧事补录，非本轮新发。"
+  },
+  {
+    "id": "2026-09-first-derivative-newry-100",
+    "date": "2026-09-09",
+    "company_or_body": "First Derivative（EPAM 旗下）× Invest Northern Ireland × 北爱尔兰行政办公室",
+    "region": "GB",
+    "kind": "hiring_commitment",
+    "jobs_count": 100,
+    "jobs_type_zh": "新设『AI 与金融科技卓越中心』（AI and Fintech Centre of Excellence）研发岗位：纽里（Newry）总部 70 个、贝尔法斯特 30 个",
+    "jobs_type_en": "R&D jobs at the new AI and Fintech Centre of Excellence: 70 at the Newry HQ and 30 in Belfast",
+    "occupation_ids": [],
+    "market_ids": [],
+    "source": {
+      "url": "https://www.investni.com/media-centre/news/ministers-announce-multi-million-investment-new-ai-and-fintech-centre-excellence",
+      "publisher": "Invest Northern Ireland（北爱尔兰投资局官方新闻室；首席部长、副首席部长与经济部长联合宣布）",
+      "date": "2026-09-09",
+      "quote_en": "First Minister Michelle O’Neill, deputy First Minister Emma Little-Pengelly and Economy Minister Dr Caoimhe Archibald have announced that First Derivative is investing £15.3 million in R&D and jobs at a new AI and Fintech Centre of Excellence. … “This £15.3 million R&D investment will put First Derivative at the forefront of AI innovation and create 100 high-quality jobs, including 70 in Newry. Importantly, these jobs were secured against international competition, with support from Invest NI and the Department for the Economy. … Andrew Colhoun, Head of First Derivative said: “… We see a significant opportunity to harness advanced technologies, particularly AI, to modernise operations and improve efficiency. Establishing our Centre of Excellence is an important step in realising that vision. The centre will bring together our expertise and specialist skills with AI software solutions that our clients can integrate seamlessly into their existing systems.”",
+      "quote_zh": "北爱尔兰首席部长 Michelle O’Neill、副首席部长 Emma Little-Pengelly 与经济部长 Caoimhe Archibald 宣布，First Derivative 将投资 1,530 万英镑，用于新设『AI 与金融科技卓越中心』的研发与岗位。……『这笔 1,530 万英镑的研发投资将使 First Derivative 站到 AI 创新的最前沿，并创造 100 个高质量岗位，其中 70 个在纽里。重要的是，这些岗位是在 Invest NI 与经济部支持下，从国际竞争中争取来的。』……First Derivative 负责人 Andrew Colhoun 表示：『……我们看到利用先进技术、尤其是 AI 来现代化运营、提升效率的重大机会。设立卓越中心是实现这一愿景的重要一步。该中心将把我们的专业能力与专家技能同 AI 软件解决方案结合起来，供客户无缝集成到现有系统中。』（译）"
+    },
+    "confidence": "company_stated",
+    "counted": true,
+    "status": "draft",
+    "notes_zh": "本轮新发（2026-09-09，第三区域 GB/北爱尔兰）。counted 五条件核对：(1) 一手为 Invest NI 官方新闻室（实测 HTTP 200，quote 逐字核对一致），由北爱行政办公室首席部长、副首席部长、经济部长与 Invest NI CEO 联合现场宣布，属政府/官方招商机构第一口径；(2) 岗位数明确为 100（70 纽里 + 30 贝尔法斯特），非区间、非上限；(3) AI 归因为来源亲口：设立主体即『AI and Fintech Centre of Excellence』，公司负责人 Andrew Colhoun 明确『harness advanced technologies, particularly AI』并称中心将输出『AI software solutions』；经济部长亦称『opportunities for people to build careers in AI and FinTech』。口径提示：『100 high-quality jobs』一句出自首席部长 O’Neill 的讲话（页面把公司负责人的另一句话作为引言框插在中间，终审勿把该句误归为公司负责人所说）；岗位性质为研发岗，公告未给出招聘完成年限（Invest NI 研发项目通常为 3 年左右，属推断，不写入口径）。AI 与 FinTech 为并列表述，但两者在此处是同一中心、同一批岗位的两个面向（面向金融机构的 AI 软件），不是可拆分的两条业务线，故不按『混合口径』降级；如终审认为需保守处理，可降 counted:false。Invest NI 研发资助 3,204,190 英镑。同公司无既有记录，与账本既有北爱事件 2026-06-kainos-ni-341 为不同主体，不重复。"
+  },
+  {
+    "id": "2026-09-efd-chungnam-dangjin-80",
+    "date": "2026-09-09",
+    "company_or_body": "이에프디 EFD × 충청남도（忠清南道）× 당진시（当津市）",
+    "region": "KR",
+    "kind": "hiring_commitment",
+    "jobs_count": 80,
+    "jobs_type_zh": "忠南当津松山第二一般产业园区 100MW 人工智能（AI）数据中心建成后的新增雇用岗位（投资协约口径，优先录用本地人才）",
+    "jobs_type_en": "New hires at a 100MW AI data center in the Songsan 2 General Industrial Complex, Dangjin, South Chungcheong (per investment MOU; local talent to be hired first)",
+    "occupation_ids": [],
+    "market_ids": [
+      "gpu-cloud"
+    ],
+    "source": {
+      "url": "https://www.chungnam.go.kr/cnportal/media/article/view.do?articleNo=MD0003461928&menuNo=500181",
+      "publisher": "충청남도 도정뉴스（忠清南道政府官方新闻室）",
+      "date": "2026-09-09",
+      "quote_zh": "당진에 1.2조 인공지능(AI) 데이터센터 유치 …… 도는 9일 도청 상황실에서 당진시, 이에프디, 엔에프디코리아와 인공지능 데이터센터 건립을 위한 투자 협약(MOU)을 체결했다. …… 협약에 따르면, 이에프디는 이달부터 2029년까지 1조 2405억 원을 투자해 당진시 송산2일반산업단지 내 3만 5239㎡ 부지에 100㎿ 규모의 인공지능(AI) 데이터센터를 신설한다. 당진 인공지능(AI) 데이터센터 조성 시 신규 고용 인원은 80명이며, 지역 내 인재를 우선 채용할 계획이다.",
+      "quote_en": "Dangjin lands a KRW 1.2 trillion artificial intelligence (AI) data center … On the 9th, the province signed an investment agreement (MOU) at the provincial government situation room with Dangjin City, EFD and NFD Korea to build an AI data center. … Under the agreement, EFD will invest KRW 1.2405 trillion from this month through 2029 to build a 100MW artificial intelligence (AI) data center on a 35,239㎡ site in the Songsan 2 General Industrial Complex in Dangjin. When the Dangjin AI data center is built, new hiring will total 80 people, with priority given to local talent. (translated)"
+    },
+    "confidence": "company_stated",
+    "counted": true,
+    "status": "draft",
+    "notes_zh": "本轮新发（2026-09-09，第三区域 KR）。counted 五条件核对：(1) 一手为忠清南道政府官方新闻室（chungnam.go.kr，实测 HTTP 200，quote_zh 为韩文逐字摘录），道知事朴洙贤、当津市长、EFD 代表理事、NFD Korea 代表理事共同签署投资协约并对外发布，属政府第一口径；(2) 岗位数明确为『신규 고용 인원은 80명』（新增雇用 80 人），非区间、非上限；(3) AI 归因为来源亲口：设施本身即『인공지능(AI) 데이터센터』，道政府将其定位为『AI 수도 충남』（AI 首都忠南）产业基盘。口径提示：80 为**数据中心建成后**（조성 시）的新增雇用，属运营期常驻岗位口径，建设期临时岗未在稿中给出，故无混报问题；投资 1 兆 2405 亿韩元（约 8.9 亿美元）、2026-09 至 2029 年、100MW。事件阶段为**投资协约（MOU）**：稿中称用地已确保、已向韩国电力提交 100MW 电力系统影响评估、建筑许可程序进行中，尚未动工——终审若认为 MOU 阶段承诺应保守处理，可降 counted:false。主体说明：EFD（이에프디）为投资/建设主体，NFD Korea（엔에프디코리아）为数据中心开发运营协作方，二者非上市大厂，公开资料有限；岗位承诺由道政府代为公布，与账本既有 KR 事件 2025-06-sk-aws-ulsan-78000（SK×AWS 蔚山）、2026-09-posco-2h-ai-engineer 为不同主体，不重复。英文交叉源：Kyunghyang Shinmun 英文版 2026-09-09、Seoul Economic Daily 英文版 2026-09-09 均报道『new hiring will total 80』，quote_en 由本 collector 自韩文原文翻译并标注（translated）。"
+  },
+  {
+    "id": "2026-09-google-finland-13b-7000",
+    "date": "2026-09-09",
+    "company_or_body": "Google",
+    "region": "FI",
+    "kind": "hiring_commitment",
+    "jobs_count": 7000,
+    "jobs_type_zh": "芬兰 AI 基础设施（Hamina 扩建 + Kajaani/Muhos/Vaala 新数据中心）投运后每年『支撑』的岗位——含现场设施与技术岗、上游供应商以及周边商铺餐饮等间接/诱发就业；建设期另有『支撑逾 37,000 岗（其中约 16,000 建筑岗）』未取",
+    "jobs_type_en": "Jobs 'supported' annually once Google's Finnish AI infrastructure (Hamina expansion + new data centers in Kajaani/Muhos/Vaala) is operational — includes on-site facility/technical roles, upstream suppliers and local shops/restaurants (indirect/induced); a separate construction-phase figure of 'more than 37,000 jobs (≈16,000 in construction)' is not taken",
+    "occupation_ids": [],
+    "market_ids": [
+      "gpu-cloud"
+    ],
+    "source": {
+      "url": "https://www.googlecloudpresscorner.com/2026-09-09-Google-Deepens-Commitment-to-Finland-with-Two-Year-EUR13-Billion-investment-in-AI-Infrastructure",
+      "publisher": "Google Cloud Press Corner（Google 官方新闻室）",
+      "date": "2026-09-09",
+      "quote_en": "Google today announced plans to invest at least €13 billion in digital infrastructure in Finland over the next two years (2027 - 2028) … This is Google’s largest single investment in Europe and a testament to Finland’s leadership in responsibly building AI infrastructure … During the initial construction phase (2027–2028), this initiative is expected to contribute an annual average of €3.6 billion to Finland's GDP and support more than 37,000 jobs nationwide. Approximately 16,000 of these jobs are estimated to be in construction … Once operational, the facilities are projected to support 7,000 jobs annually, generating labor income with average wages 24% above Finland's median wage. This includes on-site facility and technical roles, upstream suppliers of equipment and services, and the local shops, restaurants and amenities supported by these workers and their families.",
+      "quote_zh": "Google 今日宣布计划在未来两年（2027–2028）内在芬兰数字基础设施上投资至少 130 亿欧元……这是 Google 在欧洲的最大单笔投资，也证明了芬兰在负责任地建设 AI 基础设施方面的领导地位……在初始建设阶段（2027–2028），该计划预计每年平均为芬兰 GDP 贡献 36 亿欧元，并在全国范围内支撑逾 37,000 个岗位，其中约 16,000 个估计为建筑业岗位……投运后，这些设施预计每年支撑 7,000 个岗位，所产生的劳动收入平均工资高于芬兰中位数 24%。这包括现场设施与技术岗位、设备与服务的上游供应商，以及由这些员工及其家庭所支撑的本地商铺、餐馆与配套设施。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "本轮新发（2026-09-09，第三区域 FI/欧盟；账本首条芬兰记录）。**不入账**：7,000 为 Google 自述的经济影响口径『support 7,000 jobs annually』，稿中明确该数含『上游供应商』与『本地商铺、餐馆』等间接与诱发就业，不是 Google 直接雇用承诺；稿件全文未给出 Google 自身新增雇员数，故按红线『混合口径不取大数、拿不准就降级』记 counted:false。jobs_count 取 7,000（运营期口径）而非 37,000（建设期 2027–2028 的年均支撑岗，属临时性且含约 16,000 建筑岗）——两者分开记、绝不相加。AI 归因为公司亲口：稿件标题即『investment in AI Infrastructure』，正文称芬兰『responsibly building AI infrastructure』、新设施将『power … AI development』。投资额『至少 130 亿欧元』（约 151 亿美元），覆盖 Hamina 既有园区扩建与 Kajaani、Muhos、Vaala 新址，并配套清洁能源、Fingrid 电网合作与社区基金。二手源（Bloomberg / Reuters / DCD 2026-09-09）与一手一致。与账本既有 Google 事件无重叠（此前无 Google 数据中心岗位记录）。处理方式与账本既有 2025-06-sk-aws-ulsan-78000（经济影响口径、counted:false）同规则。"
+  },
+  {
+    "id": "2026-09-mohrss-batch8-embodied-ai-technician",
+    "date": "2026-09-09",
+    "company_or_body": "人力资源社会保障部等部门",
+    "region": "CN",
+    "kind": "official_listing",
+    "jobs_count": null,
+    "jobs_type_zh": "第八批新职业正式发布：11 个新职业（含『具身智能机器人应用技术员』『数字孪生工程技术人员』『工业产品数字建模师』等 5 个数字职业）与 23 个新工种（含『智能体开发员』）",
+    "jobs_type_en": "Eighth batch of new occupations formally released: 11 new occupations (incl. 'embodied-AI robot application technician', 'digital twin engineering technician', 'industrial product digital modeller' among 5 digital occupations) and 23 new work-types (incl. 'AI agent developer')",
+    "occupation_ids": [],
+    "market_ids": [],
+    "source": {
+      "url": "https://www.news.cn/fortune/20260909/f44ae08cf77d4958981d59663ae3063c/c.html",
+      "publisher": "新华网（新华社权威快报；一手为人社部等部门发布公告）",
+      "date": "2026-09-09",
+      "quote_zh": "人力资源社会保障部等部门9月9日向社会发布船舶岸基管理工程技术人员、具身智能机器人应用技术员、运动数据分析师等11个新职业，社区工作者、低空物流员、适老化改造设计师等23个新工种，调整变更农产品经纪人等6个职业（工种）信息。此次发布的新职业包含5个数字职业、3个绿色职业。至此，我国发布的数字职业、绿色职业分别达到113个、142个。现代服务类职业方面，此次发布的新职业新工种中，既有服务于企业发展和产业升级的可持续发展规划师、机场净空巡查员、智能体开发员等……2019年以来，我国已累计发布8批121个新职业。",
+      "quote_en": "On 9 September the Ministry of Human Resources and Social Security and other departments released to the public 11 new occupations — including ship shore-based management engineering technician, embodied-AI robot application technician and sports data analyst — and 23 new work-types, including community worker, low-altitude logistics operator and age-friendly renovation designer, while adjusting the information of 6 existing occupations (work-types) such as agricultural product broker. The newly released occupations include 5 digital occupations and 3 green occupations, bringing the national totals of digital and green occupations to 113 and 142 respectively. Among modern-service occupations, the batch includes roles serving enterprise development and industrial upgrading such as sustainability planner, airport airspace-clearance inspector and AI agent developer … Since 2019 China has cumulatively released 8 batches totalling 121 new occupations. (translated)"
+    },
+    "confidence": "company_stated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "本轮新发（2026-09-09）。官方职业认定：第八批新职业**正式发布**，是账本既有 2026-07-mohrss-agent-developer（2026-07-03 公示稿、拟发布 12 个新职业 + 20 个新工种）的后续正式落地，两条为同一批次的不同里程碑（公示 vs 正式发布），与账本 batch2/6/7 各自单列的做法一致，不属重复；公示→正式发布期间名单有增减：新职业由 12 缩为 11，新工种由 20 增为 23，终审可据此把 07-03 那条的 notes 补一句『已于 09-09 正式发布』。AI 相关项：新职业『具身智能机器人应用技术员』（人社部另将『数字孪生工程技术人员』『工业产品数字建模师』等列为数字职业，本批数字职业 5 个）；新工种『智能体开发员』（公示稿中挂在『生成式人工智能系统应用员』职业下）。official_listing 永不入账，jobs_count 置 null。信源纪律说明：一手为人社部等部门公告，但 mohrss.gov.cn 对脚本抓取返回反爬挑战页无法直链核验（详见 collector 记忆『一手政府域名 403』），故 source.url 引新华社权威快报（新华网，实测 HTTP 200，quote 逐字核对一致），人民网 2026-09-09 同稿可作交叉核验；终审可在人社部官网『新职业』栏目回溯正式公告全文与 11+23 完整名单。"
+  },
+  {
+    "id": "2026-09-deepseek-harness-150",
+    "date": "2026-09-07",
+    "company_or_body": "深度求索 DeepSeek（Harness 团队）",
+    "region": "CN",
+    "kind": "hiring_commitment",
+    "jobs_count": 150,
+    "jobs_type_zh": "Harness 团队新开放约 150 个招聘名额：服务端开发工程师（大模型研究平台、Agent 框架组件、研究效率基础设施、DeepSeek API、在线服务、数据工程六个方向）与 Agent 弹性计算研发工程师，面向 2–10 年经验资深工程师",
+    "jobs_type_en": "About 150 newly opened openings on DeepSeek's Harness team: server-side development engineers (six tracks — LLM research platform, Agent framework components, research-efficiency infrastructure, DeepSeek API, online services, data engineering) and Agent elastic-computing R&D engineers, targeting engineers with 2–10 years' experience",
+    "occupation_ids": [],
+    "market_ids": [
+      "ai-agent-platform"
+    ],
+    "source": {
+      "url": "https://www.thepaper.cn/newsDetail_forward_34028984",
+      "publisher": "澎湃新闻（转潮新闻；一手为 DeepSeek Harness 团队负责人崔添翼社交平台公开招聘信息）",
+      "date": "2026-09-08",
+      "quote_zh": "9月7日，DeepSeek Harness团队负责人崔添翼公开了最新的招聘信息：团队新开放大约150个招聘名额，重点面向有2-10年工作经验的资深工程师。……这150个岗位跟AI研究没半点关系——全部集中在两个方向上：服务端开发工程师和Agent弹性计算研发工程师。……崔添翼自己给出了解释，话说得很直白：“计算机领域的任何东西量变大之后，就会产生复杂度上巨大的增加。数据的量、机器/容器的量、训练任务的量、评测任务的量、Agent环境的量、用户的量、请求的量，等等等等，都在急剧增加。”",
+      "quote_en": "On 7 September, Cui Tianyi, head of DeepSeek's Harness team, published the latest hiring notice: the team has newly opened about 150 openings, focused on senior engineers with 2–10 years of experience. … These 150 positions have nothing to do with AI research — they are all concentrated in two tracks: server-side development engineer and Agent elastic-computing R&D engineer. … Cui explained it bluntly himself: “In computing, once anything grows in quantity, complexity increases enormously. The volume of data, of machines/containers, of training tasks, of evaluation tasks, of Agent environments, of users, of requests, and so on — all are rising sharply.” (translated)"
+    },
+    "confidence": "company_stated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "本轮新发（2026-09-07 公开，媒体 09-08 报道）。**不入账**：(1) 数字为『大约 150』，属近似值而非确切承诺数；(2) 发布渠道为团队负责人个人社交平台帖，非公司官方新闻室/公众号招聘公告，confidence 取 company_stated 系因发布者为 DeepSeek 在职团队负责人、以公司名义公开招聘并给出投递邮箱 talent@deepseek.com，但按『拿不准就降级』仍记 counted:false。AI 归因：岗位全部服务于大模型训练/评测/Agent 环境/API 在线服务的系统层扩容（原话『Agent环境的量……都在急剧增加』），是 AI 实验室因业务规模扩张而新增的工程岗，非 AI 研究岗——媒体标题『0 个 AI 研究岗』勿误读为『与 AI 无关』。与账本既有 2026-06-deepseek-double-headcount（2026-06-25 全部门扩招、无 headcount）为同公司不同月、不同动作：6 月为公司级『所有部门至少扩大一倍』的比例口径，本条为 Harness 单一团队 9 月新开放的具体名额，不重复；但终审若认为本条是 6 月扩招计划的执行明细，可在两条 notes 互相注明避免观感双计。规模参照：报道称 DeepSeek 团队约 160 人（一说 300–500 人），150 名额相当于 30–50% 以上扩张。信源纪律说明：一手为社交平台帖（不可稳定直链），故引澎湃新闻转载稿（实测 HTTP 200，quote 逐字核对一致）；36氪快讯（2026-09-08 09:50，引财联社）表述为『DeepSeek正重点面向2-10年资深工程师，招聘约150人』，可交叉核验。"
+  },
+  {
+    "id": "2026-07-cognizant-frontier-15000",
+    "date": "2026-07-09",
+    "company_or_body": "Cognizant（Nasdaq: CTSH）",
+    "region": "US",
+    "kind": "team_formation",
+    "jobs_count": 15000,
+    "jobs_type_zh": "新设『AI 时代职业族』（single premium job family of seven roles）两条序列的规模目标：5,000 名 Frontier Certified Engineers + 10,000 名 Frontier Business Operators，合计 15,000 人；含内部认证转岗与校园直招，公司自述『扩大的不是 headcount』",
+    "jobs_type_en": "Scale target for a newly created AI-era professional job family (one premium job family of seven roles in two tracks): 5,000 Frontier Certified Engineers + 10,000 Frontier Business Operators = 15,000 people; mixes internal certification/redeployment with direct university hiring, and the company states it is 'not headcount' that is being scaled",
+    "occupation_ids": [],
+    "market_ids": [
+      "ai-agent-platform"
+    ],
+    "source": {
+      "url": "https://news.cognizant.com/2026-07-09-Cognizant-to-scale-to-5,000-Frontier-Certified-Engineers-and-10,000-Frontier-Business-Operators",
+      "publisher": "Cognizant Newsroom（公司官方新闻室，PR Newswire 同步发布）",
+      "date": "2026-07-09",
+      "quote_en": "Cognizant … today announced it was committing to scaling its Frontier-certified workforce, the human and operational infrastructure enterprises need to convert AI capability into measurable business results, to 5,000 Frontier Certified Engineers and 10,000 Frontier Business Operators. Cognizant's people investment will yield its first cohort, which will be both Frontier-assessed and deployment-ready, by fourth quarter, 2026. Cognizant also plans to augment its own Frontier talent pipeline through annual direct hires of Frontier-native talent from American and global universities. … \"We are developing a new professional identity for the AI era. … What we are scaling is not headcount, but a workforce capable of closing the outcome gap that no model, platform, or deployment engineer can close alone.\" … The workforce will be organized as a single premium job family of seven roles across two complementary tracks, Frontier Certified Engineers and Frontier Business Operators",
+      "quote_zh": "Cognizant……今日宣布承诺将其 Frontier 认证人力——企业把 AI 能力转化为可衡量业务成果所需的人力与运营基础设施——扩大至 5,000 名 Frontier Certified Engineers 与 10,000 名 Frontier Business Operators。Cognizant 的人才投入将在 2026 年第四季度产出首批经 Frontier 评估、可直接部署的队伍。Cognizant 还计划通过每年从美国及全球高校直接招聘『Frontier 原生』人才来补充其 Frontier 人才管线。……『我们正在为 AI 时代打造一种新的职业身份。……我们扩大的不是 headcount，而是一支能够弥合成果鸿沟的队伍——这是任何模型、平台或部署工程师都无法单独弥合的。』……该队伍将组织为一个包含七个角色的高端职业族，分属 Frontier Certified Engineers 与 Frontier Business Operators 两条互补序列。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "补录（2026-07-09 首发；2026-09-07 公司新闻室《Cognizant Invests in America's AI-Era Workforce》原文重申『scale a new Frontier Certified Engineer and Frontier Business Operator workforce to 15,000 people』并称其为『real, funded positions at Cognizant today』，本轮由此发现，date 取首发日避免『新稿引用更早总盘』式双计）。**不入账**：15,000 为『Frontier 认证人力』规模目标，公司首席学习官原话『What we are scaling is not headcount』，构成来源为内部 AI-Bridge 认证转岗（稿称 40,000 人进入认证通道）+ 每年校园直招，无法拆出净新增雇用；按 collector 记忆『内部转岗 → counted:false』处理，jobs_count 保留 15,000 仅为记录目标规模。本条价值在于**企业级新职业类别的正式创设**：2026-06-01 公司首次宣布创设 Frontier Certified Engineer（架构/构建智能体系统、检索与上下文层、多智能体流水线投产并持续负责）与 Frontier Business Operator（同时管理智能体队列与人类团队、对运营结果负责）两类角色，7 月 9 日给出规模目标，与账本既有 2026-07-microsoft-frontier-6000（team_formation、counted:false）同类型。关联但**未单列**的数字：2026-07-15 新闻室稿『On Track to Hire 1,500 U.S. College Graduates in 2026 to Power AI-Era Workforce』——1,500 为 2026 自然年美国校招总量（覆盖核心技术服务、Belcan 工程子公司与 Frontier Engineers 项目），AI 为叙事框架而非全部岗位属性，与账本对百度/腾讯/字节校招的处理一致，若终审希望单列可按 counted:false 追加。一手 URL 实测 HTTP 200，quote 逐字核对一致。"
+  },
+  {
+    "id": "2026-09-goldman-bellevue-ai-125",
+    "date": "2026-09-08",
+    "company_or_body": "Goldman Sachs（高盛）",
+    "region": "US",
+    "kind": "team_formation",
+    "jobs_count": 125,
+    "jobs_type_zh": "华盛顿州贝尔维尤（Bellevue）新设工程办公室——该行在太平洋西北地区首个专属工程师办公点，可容纳逾 125 名专注于 AI 与云转型的员工（容纳量口径，非明确新增招聘承诺）",
+    "jobs_type_en": "New engineering office in Bellevue, Washington — the firm's first dedicated engineering space in the Pacific Northwest, to accommodate more than 125 employees focused on AI and cloud transformation (capacity figure, not an explicit net-new hiring commitment)",
+    "occupation_ids": [],
+    "market_ids": [],
+    "source": {
+      "url": "https://www.goldmansachs.com/pressroom/press-releases/2026/goldman-sachs-opens-new-engineering-office-in-bellevue-washington",
+      "publisher": "Goldman Sachs Pressroom（公司官方新闻室）",
+      "date": "2026-09-08",
+      "quote_en": "Goldman Sachs opened a new office today in Bellevue, Washington. The new location is the firm’s first dedicated space for engineers in the region and will accommodate more than 125 employees focused on artificial intelligence and cloud transformation. \"We are in a period of rapid technological change, but we know our people are still this firm’s greatest asset. Hiring exceptional talent is central to how we adapt and grow,\" said David Solomon, chairman and CEO of Goldman Sachs. … The new dedicated space gives Goldman Sachs a permanent footprint in one of the world's leading technology hubs and serves as a strategic presence to accelerate its firmwide AI and cloud transformation.",
+      "quote_zh": "高盛今日在华盛顿州贝尔维尤开设新办公室。该地点是该行在该地区首个专属工程师办公空间，将容纳逾 125 名专注于人工智能与云转型的员工。高盛董事长兼 CEO David Solomon 表示：『我们正处于技术快速变革的时期，但我们知道人才仍是本行最重要的资产。招募卓越人才是我们适应与成长的核心。』……这一新的专属空间使高盛在全球领先的科技中心之一拥有了永久据点，并作为战略存在来加速其全行范围的 AI 与云转型。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "本轮新发（2026-09-08，US）。**不入账**：稿中『will accommodate more than 125 employees』为办公室**容纳量**口径，而非『新增招聘 125 人』的明确承诺——既未说明这 125 人中新招与从西雅图既有办公点迁入各占多少，也无招聘完成时限；按账本既有 2026-08-micron-research-labs（『capable of hosting hundreds』容量口径不入账）同规则处理，jobs_count 取下限 125 仅作规模记录。AI 归因为公司亲口：员工『focused on artificial intelligence and cloud transformation』，办公室定位为『accelerate its firmwide AI and cloud transformation』，CEO 强调『Hiring exceptional talent is central』。kind 记 team_formation（新设 AI/云工程枢纽）。背景：高盛全球逾 12,000 名工程师、约占员工总数四分之一；贝尔维尤点补充其自 2001 年起的西雅图市中心办公室。二手源 Reuters 2026-09-08 与一手一致。一手 URL 实测 HTTP 200，quote 逐字核对一致。同公司账本无既有记录。"
+  },
+  {
+    "id": "2026-08-umd-aimaps-35801-monthly",
+    "date": "2026-08-31",
+    "company_or_body": "马里兰大学 × LinkUp AI Maps",
+    "region": "US",
+    "kind": "report_datapoint",
+    "jobs_count": 35801,
+    "jobs_type_zh": "2026 年 8 月全美新发布 AI 岗位招聘广告 35,801 条（当月新增量，非存量、非累计）",
+    "jobs_type_en": "35,801 new AI job postings across the U.S. in August 2026 (new postings that calendar month, not stock and not cumulative)",
+    "occupation_ids": [],
+    "market_ids": [],
+    "source": {
+      "url": "https://www.aimaps.ai/",
+      "publisher": "UMD-LinkUp AI Maps（马里兰大学史密斯商学院与 LinkUp 合建）",
+      "date": "2026-08",
+      "quote_en": "New AI Jobs – US Total (or State), Monthly Trend … This graph shows the total # of new AI job postings during each calendar month since January 2018. … Total: 35,801 for 08/2026",
+      "quote_zh": "新增 AI 岗位——全美合计（或按州），月度趋势……本图显示自 2018 年 1 月以来每个自然月新发布的 AI 岗位招聘广告总数。……2026 年 8 月合计：35,801。（译）"
+    },
+    "confidence": "report_estimated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "永不计数（report_datapoint）。轮换补扫低频源 umd-linkup-ai-maps（月度）所得：站内计数器已更新至 08/2026（上一轮 09-07 扫描时 8 月数据尚未发布）。口径披露：35,801 是 2026 年 8 月**当月新发布**的 AI 岗位招聘广告条数，不是在招存量、也不是 2018 年以来的累计值——AI Maps 计数器措辞易被误读为累计口径（见 collector 记忆『aimaps.ai 月度 vs 累计』），图注『total # of new AI job postings during each calendar month since January 2018』明确『since 2018』修饰的是图表时间轴起点。同口径序列续接：2026-05 为 30,594（已发布）、2026-06 为 31,056、2026-07 为 34,723（均在候选分支），本条 2026-08 为 35,801，环比 +3.1%，连续第四个月上行。date 取 2026-08-31（月度数据按月末日记）。招聘广告条数≠净新增就业：同一岗位可重复挂出、撤下不代表招聘完成，不可与本账本 counted 口径的企业承诺数相加。实测 HTTP 200，quote 逐字核对一致（页面同时残留『Latest Month: November 2023 … 10,162』的旧模板文字，勿误读）。"
   }
 ]
