@@ -758,5 +758,156 @@
     "counted": false,
     "status": "published",
     "notes_zh": "不入账（同百度校招口径处理）：7000/4800 为校招 Offer 总量而非 AI 岗净增数，AI 归因仅覆盖『研发类为核心方向』而非全部岗位；含实习转正通道（临时性）。补全中国大厂创造侧记录（百度、腾讯已在账本，字节此前缺）。事件为 2026-03 旧事补录，非本轮新发。"
+  },
+  {
+    "id": "2026-09-optimus-cdc-hongseong-50",
+    "date": "2026-09-10",
+    "company_or_body": "옵티머스씨디씨 Optimus CDC × 충청남도（忠清南道）× 홍성군（洪城郡）",
+    "region": "KR",
+    "kind": "hiring_commitment",
+    "jobs_count": 50,
+    "jobs_type_zh": "忠南洪城内浦都市尖端产业园区 AI 数据中心新增雇用岗位（投资协约口径，2029 年前投资 6000 亿韩元）",
+    "jobs_type_en": "New hires at an AI data center in the Naepo Advanced Industrial Complex, Hongseong, South Chungcheong (per investment MOU; KRW 600 billion through 2029)",
+    "occupation_ids": [],
+    "market_ids": [
+      "gpu-cloud"
+    ],
+    "source": {
+      "url": "https://www.hsnews.co.kr/news/articleView.html?idxno=133317",
+      "publisher": "홍성신문（洪城新闻，全文转载洪城郡政府新闻稿，文末署 <홍성군>）",
+      "date": "2026-09-11",
+      "quote_zh": "홍성군은 지난 10일 충남도청 대회의실에서 열린 합동 투자협약(MOU) 체결식에서 3개 기업과 총 6150억원 규모의 투자협약을 체결했다. …… 이번 협약의 핵심 투자기업으로 꼽히는 옵티머스씨디씨㈜(대표 최정석)는 서버렉 공간을 제공하는 AI 데이터센터 전문기업으로, AI산업 확산에 따른 데이터센터 수요 증가에 대응해 내포도시첨단산업단지 내 신규 1만4130㎡ 부지에 2029년까지 6000억원을 투자하고 50명을 신규 고용할 계획이다.",
+      "quote_en": "On the 10th, Hongseong County signed investment agreements totaling KRW 615 billion with three companies at the joint investment MOU ceremony held in the main conference room of the South Chungcheong provincial government. … Optimus CDC Co., Ltd. (CEO Choi Jeong-seok), regarded as the core investor of this agreement, is an AI data center specialist providing server-rack space; in response to rising data center demand driven by the spread of the AI industry, it plans to invest KRW 600 billion through 2029 on a new 14,130㎡ site in the Naepo Advanced Industrial Complex and to newly hire 50 people. (translated)"
+    },
+    "confidence": "company_stated",
+    "counted": true,
+    "status": "draft",
+    "notes_zh": "本轮新发（2026-09-10 签约、09-11 见报，第三区域 KR）。counted 五条件核对：(1) 一手为洪城郡政府新闻稿（文末署名 <홍성군>），由忠清南道知事朴洙贤、洪城郡守朴正柱与 Optimus CDC 代表理事崔正锡在道厅合同投资协约仪式上共同签署并对外发布，属政府第一口径；(2) 岗位数明确为『50명을 신규 고용』（新增雇用 50 人），非区间、非上限；(3) AI 归因为来源亲口：设施即『AI 데이터센터』，投资动机明写『AI산업 확산에 따른 데이터센터 수요 증가에 대응』（应对 AI 产业扩散带来的数据中心需求增长）。口径提示：50 为投资协约（MOU）口径的新增雇用人数，未区分建设期/运营期（稿中无建设岗数字，无混报）；事件阶段为 MOU，尚未动工，与账本待审候选 2026-09-efd-chungnam-dangjin-80（同省当津、09-09 签约）同规则处理，终审若对 MOU 阶段一律不计可降 counted:false。信源纪律说明：洪城郡官网（hongseong.go.kr）collector 网络实测不可达，故 source.url 引洪城新闻全文转载稿（实测 HTTP 200，quote 韩文逐字核对一致；뉴스티앤티/동방일보/뉴스밴드/전매/투데이충남 同日同文可交叉核验）；忠清南道政府官方新闻室同日稿『8개 시군에 27개사 1.5조 유치』（https://www.chungnam.go.kr/cnportal/media/article/view.do?articleNo=MD0003462904&menuNo=500181 ，实测 HTTP 200）确认『홍성 내포도시첨단산업단지에는 옵티머스씨디씨가 6000억 원을 투자해 1만 4130㎡ 부지에 인공지능(AI) 데이터센터를 신설』，但道级稿只给 27 家企业合计 1811 名新增雇用，未拆到企业，故取郡级稿的 50。同场协约另两家（제이원메딕스 医疗器械 20 人、별식품 食品 30 人）与 AI 无关，未收。主体说明：Optimus CDC 为提供服务器机架空间的 AI 数据中心专业企业，非上市大厂，公开资料有限。与账本既有 KR 事件（SK×AWS 蔚山、POSCO、EFD 当津）为不同主体，不重复。"
+  },
+  {
+    "id": "2026-09-bell-saskatchewan-1-2gw-600",
+    "date": "2026-09-14",
+    "company_or_body": "Bell Canada（Bell AI Fabric）× Government of Saskatchewan",
+    "region": "CA",
+    "kind": "hiring_commitment",
+    "jobs_count": 600,
+    "jobs_type_zh": "萨斯喀彻温 1.2GW AI 基础设施枢纽全面建成后的常驻运营与管理岗位（公司口径『up to 600』，含既有 300MW 一期的 80 岗）",
+    "jobs_type_en": "Permanent operations and management roles at full buildout of the 1.2 GW Saskatchewan AI infrastructure hub (company says 'up to 600'; includes the 80 jobs of the existing 300 MW phase 1)",
+    "occupation_ids": [],
+    "market_ids": [
+      "gpu-cloud"
+    ],
+    "source": {
+      "url": "https://www.bce.ca/news-and-media/newsroom?article=bell-ai-fabric-to-expand-nation-building-project-in-saskatchewan-with-up-to-900-mw-of-additional-pow",
+      "publisher": "BCE / Bell Canada（公司官方新闻室，CNW 通稿）",
+      "date": "2026-09-14",
+      "quote_en": "Bell Canada (TSX: BCE) (NYSE: BCE) and the Government of Saskatchewan today announced a non-binding memorandum of understanding to expand Bell AI Fabric in Saskatchewan with the phased development of up to 900 megawatts (MW) of additional capacity, creating a path to a 1.2 gigawatt (GW) Canadian AI infrastructure hub in the province […] At full buildout, total capital investment associated with this project, including data centre infrastructure, tenant compute and related power generation could exceed $50 billion, while supporting 800 to 1,200 construction, engineering and technical jobs, and creating up to 600 permanent operations and management roles.",
+      "quote_zh": "Bell Canada 与萨斯喀彻温省政府今日宣布签署一份不具约束力的谅解备忘录，将分阶段新增至多 900 兆瓦容量以扩建 Bell AI Fabric，为该省打造一座 1.2 吉瓦的加拿大 AI 基础设施枢纽铺路……全面建成后，该项目（含数据中心基础设施、租户算力与配套发电）的总资本投资可能超过 500 亿加元，支撑 800 至 1,200 个建设、工程与技术岗位，并创造至多 600 个常驻运营与管理岗位。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "本轮新发（2026-09-14，加拿大投资峰会上由总理 Carney、省长 Moe 与 Bell CEO Bibic 共同宣布，第三区域 CA）。**不入账**（三重降级理由）：(1) 『up to 600』为上限口径，按 collector 记忆『上界必降』处理；(2) 公司稿明写为『non-binding memorandum of understanding』（不具约束力的谅解备忘录），且 RM of Sherwood 表示扩建需重新申请开发许可（620 CKRM 2026-09-15）；(3) **扩建含旧承诺**：600 为 1.2GW 全园区全面建成后的常驻岗总量，包含账本已入账的 2026-03-bell-saskatchewan-80（300MW 一期『at minimum 80 jobs』）——若终审日后升级本条，须同时把 80 从 The Number 中扣除或改为增量口径（净增上限 520），绝不相加。省政府同日稿（https://www.saskatchewan.ca/government/news-and-media/2026/september/14/single-largest-private-sector-capital-investment-in-history-of-canada-through-bell-ais-saskatchewan ，实测 HTTP 200）口径略异：『up to 500 permanent jobs associated with data centre operations and power generation』+『approximately 100 management positions』（Bell AI Fabric 总部落户萨省）≈600，与公司稿一致；省稿另称『estimated 3,000 additional jobs in areas including security, logistics and maintenance』属间接/外溢口径，与公司稿『as many as 3,000 additional offsite and community jobs』同义，另列未计。建设岗 800–1,200 为临时岗，按红线不取。AI 归因为公司亲口：项目名即『Bell AI Fabric』、定位『Canadian AI infrastructure hub』。jobs_count 取公司稿 600 而非省稿 500，因 500 未含总部管理岗；两稿均为上限。一手 URL 实测 HTTP 200，quote 逐字核对一致。"
+  },
+  {
+    "id": "2026-09-hmv-engineering-dallas-1000",
+    "date": "2026-09-17",
+    "company_or_body": "H&MV Engineering",
+    "region": "US",
+    "kind": "hiring_commitment",
+    "jobs_count": 1000,
+    "jobs_type_zh": "美国高压变电站/电网接入工程、施工与项目交付岗位（五年内，服务 AI 数据中心、电网投资与新能源项目的混合口径）",
+    "jobs_type_en": "U.S. high-voltage substation and grid-connection engineering, construction and project delivery roles over five years (mixed drivers: AI data centers, grid investment, renewables)",
+    "occupation_ids": [],
+    "market_ids": [],
+    "source": {
+      "url": "https://www.hmvengineering.com/hmv-engineering-plans-1000-u-s-jobs-as-it-scales-to-power-ai-and-critical-infrastructure-buildout/",
+      "publisher": "H&MV Engineering（公司官方新闻稿）",
+      "date": "2026-09-17",
+      "quote_en": "H&MV Engineering today announced plans to create 1,000 U.S. jobs as it scales to deliver the critical power infrastructure for America's AI and data center buildout, grid investment and expanding energy infrastructure. […] The 1,000 new roles are planned over the next five years as H&MV expands its U.S. engineering, construction and project delivery capabilities, building on its existing Dallas presence and the acquisition of Texas-based Cooke Power Services earlier this year. […] \"AI and data center growth is putting huge focus on the need for power infrastructure, but the opportunity is much broader. Across the U.S., investment in the grid, renewables and battery storage is driving demand for new high-voltage infrastructure.\"",
+      "quote_zh": "H&MV Engineering 今日宣布计划创造 1,000 个美国岗位，以扩大规模为美国的 AI 与数据中心建设、电网投资及不断扩张的能源基础设施提供关键电力基础设施。……这 1,000 个新岗位计划在未来五年内落实，H&MV 将在既有达拉斯据点与今年早些时候收购得州 Cooke Power Services 的基础上扩充其美国工程、施工与项目交付能力。……『AI 与数据中心的增长让电力基础设施需求备受关注，但机会远不止于此。在全美范围内，电网、可再生能源与电池储能投资正在拉动新的高压基础设施需求。』（译）"
+    },
+    "confidence": "company_stated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "本轮新发（2026-09-17，US）。公司在达拉斯设立北美总部并发布一手新闻稿（实测 HTTP 200，datePublished 2026-09-17，quote 逐字核对一致）。**不入账**（混合口径）：标题级归因虽为『to power AI and critical infrastructure buildout』，但正文把 1,000 岗系于『AI and data center buildout, grid investment and expanding energy infrastructure』三类驱动，CEO P.J. Flanagan 更明言『the opportunity is much broader』并列举电网、可再生能源与电池储能——即 AI/数据中心只是驱动之一，1,000 为公司级五年合计且无法按驱动拆分，按红线『混合口径绝不取大数』记 counted:false。若终审认为『AI 与数据中心』列首位的公司自述已足够（参照已待审的 2026-08-siemens-us-1500、2026-08-prysmian-us-fiber-600 供应链制造判例），可升级；但本条与前两者差异在于 Siemens/Prysmian 的产能明确面向数据中心市场，H&MV 则是通用高压电网工程商。口径提示：『1,000 new roles over the next five years』为累计承诺、非年度；公司现有达拉斯团队近 100 人（含收购的 Cooke 员工），1,000 为其外的新增。公司背景：爱尔兰利默里克高压工程商，全球 1,900+ 员工、在建/在设计项目 24GW、订单 23 亿美元、管线 186 亿美元，目标五年内年营收 35 亿美元。二手源 RTÉ / Dallas Innovates / D Magazine / Irish Examiner 2026-09-17 与一手一致。同公司账本无既有记录。"
+  },
+  {
+    "id": "2026-09-ddd-dehradun-gcc-800",
+    "date": "2026-09-11",
+    "company_or_body": "Digital Divide Data（DDD）",
+    "region": "IN",
+    "kind": "team_formation",
+    "jobs_count": 800,
+    "jobs_type_zh": "德拉敦 AI 与机器人全球能力中心（GCC）员工规模（机器人/具身智能/生成式 AI 数据服务：数据采集与标注、模型评测、AI 数据准备；公司口径 800–1,000，取下界）",
+    "jobs_type_en": "Headcount of the Dehradun AI & Robotics Global Capability Centre (robotics, physical AI and generative AI data services: data collection/annotation, model evaluation, AI data preparation; company says 800–1,000, lower bound taken)",
+    "occupation_ids": [
+      "ai-trainer-annotator",
+      "ai-evaluation-engineer"
+    ],
+    "market_ids": [],
+    "source": {
+      "url": "https://garhwalpost.in/digital-divide-data-opens-ai-robotics-global-capability-centre-in-doon/",
+      "publisher": "Garhwal Post（德拉敦本地媒体，刊发 DDD 公司新闻稿，Dehradun 11 Sep 电）",
+      "date": "2026-09-11",
+      "quote_en": "Digital Divide Data (DDD), a global social enterprise and provider of AI and data services, today announced the opening of its wholly owned Global Capability Centre (GCC) in Dehradun. […] Operational since 1 August 2026, the centre has already onboarded 150 employees across three joining batches. Focused on robotics, physical AI and generative AI data services, the centre is expected to grow to between 800 and 1,000 employees in the coming months.",
+      "quote_zh": "全球社会企业、AI 与数据服务商 Digital Divide Data（DDD）今日宣布其全资全球能力中心（GCC）在德拉敦开业。……该中心自 2026 年 8 月 1 日起运营，已分三批入职 150 名员工。中心聚焦机器人、具身智能（physical AI）与生成式 AI 数据服务，预计未来数月内增长至 800 至 1,000 名员工。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "本轮新发（2026-09-11 公司稿经 ANI 分发，第三区域 IN；账本首条北阿坎德邦记录）。**不入账**：(1) 『between 800 and 1,000』为区间口径，jobs_count 按 collector 记忆『下界可取』取 800，但仍属非确切承诺数；(2) 800–1,000 为中心目标总规模，含已入职的 150 人，净新增约 650–850，公司未给确切净增数；(3) 『in the coming months』无明确完成时限。AI 归因为公司亲口：中心即『AI & Robotics Global Capability Centre』，业务为『robotics, physical AI and generative AI data services』（自我中心视角视频采集、传感器数据标注、多模态数据集构建、模型评测），COO Steve Larson 称『India has become a critical centre of gravity for enterprise AI』。岗位性质：以应届毕业生为主的 AI 数据标注/采集/评测岗（2–4 周基础培训后进入 QA、主管、技术、客户对接与管理通道），属本账本『AI 训练师/标注员』职业口径，故 occupation_ids 挂 ai-trainer-annotator 与 ai-evaluation-engineer。kind 记 team_formation（新设 GCC 并快速扩编）。信源纪律说明：DDD 官网新闻页（digitaldividedata.com/events-news）未刊登本稿，一手为公司经 ANI 分发的新闻稿；Business Standard ANI 版（2026-09-11，https://www.business-standard.com/content/press-releases-ani/digital-divide-data-s-big-ai-bet-is-not-just-on-technology-but-talent-126091100849_1.html ）与 The Tribune 版（标 adverorial，New Delhi September 11 ANI 电）collector 网络无法直抓，故 source.url 引 Garhwal Post 刊发版（实测 HTTP 200，quote 逐字核对一致，Dehradun 11 Sep 电）；CIO&Leader 同日标题『to Create Up to 1,000 Technology Jobs』为媒体取上限，本条不取。与账本既有 IN 事件（HCLTech 奥里萨、GWC 泰米尔纳德、Maharashtra 政策、Naukri/LinkedIn 数据点）为不同主体，不重复。"
+  },
+  {
+    "id": "2026-09-mohrss-ai-session-13k",
+    "date": "2026-09-17",
+    "company_or_body": "人力资源社会保障部（百日千万招聘专项行动）",
+    "region": "CN",
+    "kind": "report_datapoint",
+    "jobs_count": null,
+    "jobs_type_zh": "百日千万招聘专项行动人工智能行业线上专场招聘需求（1700 余家用人单位，1.3 万余人次）",
+    "jobs_type_en": "Recruitment demand at the AI-industry online session of the MOHRSS national hiring drive (1,700+ employers, 13,000+ openings)",
+    "occupation_ids": [
+      "ai-evaluation-engineer"
+    ],
+    "market_ids": [],
+    "source": {
+      "url": "http://society.people.com.cn/n1/2026/0917/c1008-40800096.html",
+      "publisher": "人民网（人民日报 2026-09-17 第 04 版，人力资源社会保障部发布）",
+      "date": "2026-09-17",
+      "quote_zh": "9月14日至20日，百日千万招聘专项行动推出人工智能、先进制造、汽车、零售行业4个线上招聘专场，由相关行业协会、人力资源服务机构组织，共1.2万余家用人单位参与，招聘需求17.8万人次。据介绍，人工智能行业专场由就业在线承办，组织腾讯、华为、DeepSeek（深度求索）、今日头条、商汤科技等1700余家用人单位，提供机器人嵌入式系统测试工程师、人工智能算法工程师、数字芯片设计师、人工智能应用开发工程师、数据分析师等岗位，招聘需求1.3万余人次。",
+      "quote_en": "From September 14 to 20, the 'Hundred Days, Ten Million' recruitment campaign launched four online sessions for the artificial intelligence, advanced manufacturing, automotive and retail industries, organized by industry associations and HR service agencies, with over 12,000 employers participating and recruitment demand of 178,000 openings. The artificial-intelligence industry session, hosted by Jiuye Zaixian (Employment Online), brought together more than 1,700 employers including Tencent, Huawei, DeepSeek, Toutiao and SenseTime, offering roles such as robot embedded-system test engineer, AI algorithm engineer, digital chip designer, AI application development engineer and data analyst, with recruitment demand exceeding 13,000 openings. (translated)"
+    },
+    "confidence": "company_stated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "永不计数（report_datapoint）。口径披露：『1.3 万余人次』为专场挂出的招聘工位数（人次），非企业净新增岗位承诺；同一岗位可在不同场次重复挂出，亦不区分新增岗与替换岗，不满足入账红线，仅作官方劳动力市场信号收录。专场时间 2026-09-14 至 09-20，系人社部『百日千万招聘专项行动』下与先进制造、汽车、零售并行推出的 4 个线上专场之一，4 场合计 1.2 万余家用人单位、17.8 万人次（其中先进制造 14.6 万人次占大头，勿把 17.8 万误读为 AI 岗位数）。AI 归因为官方亲口：专场即以『人工智能行业』命名，参与单位含腾讯、华为、DeepSeek、今日头条、商汤，列举岗位含人工智能算法工程师、人工智能应用开发工程师、机器人嵌入式系统测试工程师。同口径序列续接：2026-07-mohrss-ai-job-fair-session（07-20 起，90+ 家、近 1000 人次）→ 2026-08-mohrss-ai-session-11k（08-17 起，400 家、超 1.1 万人次）→ 本条（09-14 起，1700 余家、1.3 万余人次），主体同为人社部但场次、单位数与数字互不重叠，非重复收录；参与单位数环比再扩 3 倍以上、人次 +18%。date 取人民日报见报日 2026-09-17（专场起于 09-14）。一手为人民网转载人民日报电子版（记者邱超奕，实测 HTTP 200，quote 中文原文逐字核对一致；光明网、中国网、腾讯新闻同稿可交叉核验）。满足本轮 CN 区域配额。"
+  },
+  {
+    "id": "2026-09-maimai-ai-789pct",
+    "date": "2026-09-16",
+    "company_or_body": "脉脉高聘人才智库",
+    "region": "CN",
+    "kind": "report_datapoint",
+    "jobs_count": null,
+    "jobs_type_zh": "新经济行业新发 AI 岗位量同比增速与平均月薪（2026 年 1–7 月）",
+    "jobs_type_en": "Year-on-year growth of new AI job postings in China's new-economy sectors and their average monthly salary (Jan–Jul 2026)",
+    "occupation_ids": [
+      "ai-product-manager"
+    ],
+    "market_ids": [
+      "ai-agent-platform"
+    ],
+    "source": {
+      "url": "https://www.21jingji.com/article/20260917/herald/ed9e834b4e6a6a2092f400dbf6473939.html",
+      "publisher": "21 经济网（转载澎湃新闻，记者范佳来；源自脉脉高聘《Agent 重置职场——AI 人才流动报告》）",
+      "date": "2026-09-17",
+      "quote_zh": "据脉脉最新报告显示，2026年1-7月，脉脉平台新经济行业新发AI岗位量同比增长789.47%。AI正在变成岗位的基础能力要求，34.09%的职场人自述所在公司已针对员工AI能力实施管理动作，包括设置招聘AI门槛、纳入绩效考核、组织重新上岗/转岗评估。……报告显示，2026年1-7月，新发AI岗位平均月薪达到63160元，较去年同期的61474元上涨2.74%。从城市看，北京、上海、深圳位居新发AI岗位量前三。在新发AI岗位量前十的城市中，合肥、成都、苏州的AI岗位增速最快，同比分别增长1570.37%、1158.70%和1068.18%。",
+      "quote_en": "According to Maimai's latest report, from January to July 2026 the number of newly posted AI jobs in new-economy industries on the Maimai platform grew 789.47% year on year. AI is becoming a baseline job requirement: 34.09% of professionals say their company has taken management actions on employees' AI capability, including setting AI thresholds in hiring, adding AI to performance reviews, and organizing re-onboarding/redeployment assessments. … The report shows the average monthly salary of newly posted AI jobs in Jan–Jul 2026 reached RMB 63,160, up 2.74% from 61,474 a year earlier. By city, Beijing, Shanghai and Shenzhen ranked top three in new AI postings; among the top ten cities, Hefei, Chengdu and Suzhou grew fastest, up 1,570.37%, 1,158.70% and 1,068.18% respectively. (translated)"
+    },
+    "confidence": "report_estimated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "永不计数（report_datapoint）。口径：脉脉平台新经济行业 2026 年 1–7 月新发 AI 岗位量同比增速（百分比，非净新增绝对数），报告《Agent 重置职场——AI 人才流动报告》2026-09-16 发布；各平台基数不同不可互相加和。查重说明：与待审 PR #3 的 2026-05-maimai-ai-8-7x（同平台、2026 年 1–4 月、AI 领域岗位量 +8.7 倍）为**同一序列的后续时点**（1–4 月 → 1–7 月，增速由约 +770% 微升至 +789.47%），与已发布的 2025-12-maimai-ai-543pct（2025 年 1–10 月）及待审 2026-07-maimai-campus-ai-47pct（校招切片）为不同时段/不同切片，不构成重复，但终审若嫌同序列过密可只保留其一。附加数据点（同报告，媒体转述）：AI 应用开发岗占新发 AI 岗 60.97%、AI 技术底座岗 24.55%、AI 业务效能岗 14.48%；FDE/现场部署工程师岗位量同比 +1522.73%，AI 产品经理 +120.54%；字节跳动新发 AI 岗位量与人才净流入居首，DeepSeek 新发 AI 岗位量同比 +601.40%；脉脉 CEO 林凡称『明年科技公司基本只招AI人才』。一手为脉脉高聘报告（未见公开 PDF 直链），此处引 21 经济网转载的澎湃新闻稿（实测 HTTP 200，quote 中文原文逐字核对一致），沿用账本对脉脉/BOSS 直聘报告引权威媒体转述的先例；腾讯新闻、搜狐 2026-09-16 多篇同稿可交叉核验。"
   }
 ]
