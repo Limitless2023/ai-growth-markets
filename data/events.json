@@ -758,5 +758,55 @@
     "counted": false,
     "status": "published",
     "notes_zh": "不入账（同百度校招口径处理）：7000/4800 为校招 Offer 总量而非 AI 岗净增数，AI 归因仅覆盖『研发类为核心方向』而非全部岗位；含实习转正通道（临时性）。补全中国大厂创造侧记录（百度、腾讯已在账本，字节此前缺）。事件为 2026-03 旧事补录，非本轮新发。"
+  },
+  {
+    "id": "2025-11-foxconn-wisconsin-1374",
+    "date": "2025-11-25",
+    "company_or_body": "Foxconn（鸿海精密 / Hon Hai）× Wisconsin Economic Development Corporation（WEDC）",
+    "region": "US",
+    "kind": "hiring_commitment",
+    "jobs_count": 1374,
+    "jobs_type_zh": "威斯康星州 Racine County（Mount Pleasant）园区四年内新增岗位（WEDC 第二次合同修订口径，追加投资 5.69 亿美元）",
+    "jobs_type_en": "New jobs over four years at the Racine County (Mount Pleasant) campus under WEDC's second contract amendment ($569M additional investment)",
+    "occupation_ids": [],
+    "market_ids": [
+      "ai-inference-infra"
+    ],
+    "source": {
+      "url": "https://wedc.org/wedc-foxconn-announce-additional-569-million-investment-in-racine-county/",
+      "publisher": "Wisconsin Economic Development Corporation（WEDC，州经济发展公司官网）",
+      "date": "2025-11-25",
+      "quote_en": "The Board of Directors of the Wisconsin Economic Development Corporation (WEDC) has approved a contract amendment providing up to $16 million in additional performance-based tax incentives to Foxconn, the world's largest electronic manufacturing service provider, in support of the company's investment of an additional $569 million to expand its operations in Racine County, which will create 1,374 new jobs over the next four years. … \"As the demand for more data infrastructure continues to rise, Foxconn will keep responding to our customers' needs with flexibility and at scale in the United States,\" said Jerry Hsiao, chief product officer for Foxconn.",
+      "quote_zh": "威斯康星经济发展公司（WEDC）董事会批准一项合同修订，向全球最大电子制造服务商富士康追加最高 1,600 万美元的绩效型税收激励，支持其追加投资 5.69 亿美元扩大 Racine County 业务，未来四年将创造 1,374 个新岗位。……富士康首席产品官 Jerry Hsiao 表示：『随着对数据基础设施的需求持续上升，富士康将继续在美国以灵活、规模化的方式回应客户需求。』（译）"
+    },
+    "confidence": "company_stated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "旧事补录（2025-11-25 宣布），由本轮窗口内新线索触发：2026-09-23 WPR/BizTimes/Urban Milwaukee 报道富士康向 Mount Pleasant 规划委员会提交厂房改造申请，建筑师 EUA 项目经理信函称『to add about 700 jobs near the end of the second quarter of 2027』（生产岗）——该 700 是本条 1,374（四年期、至 2029 年合同总盘 2,616）的分期兑现子集，**不单独入账，防双计**。口径：1,374 为 WEDC 合同修订的新增岗位承诺（精确数、四年期、绩效型税收抵免挂钩）；合同总盘 2,616 含 2021 年修订的既有 1,454 岗承诺（WEDC 核实截至 2024 年底已创造 1,242 岗），绝不取 2,616。**降级 counted:false 的唯一理由是 AI 归因未能在可达一手页逐字核实**：WEDC 页（实测 HTTP 200）全文只写『data infrastructure』『data management』，无 AI 字样；富士康自家新闻稿 foxconn.com/en-us/press-center/press-releases/latest-news/1920（标题『Hon Hai Technology Group (Foxconn) and Wisconsin's WEDC Announce Additional 4-Year Investment In Racine County』）据搜索引擎索引含『broaden its investment in Wisconsin to artificial intelligence infrastructure, the backbone of the AI industrial build-out in the United States』，但 collector 抓取返回 HTTP 567（反爬），无法逐字核对；NAM 转述为『expand its manufacturing footprint in Wisconsin to include artificial intelligence infrastructure』。多家媒体（Manufacturing Dive、WISN『AI servers』）报道同期与 OpenAI 的 AI 基础设施硬件合作。**终审建议**：浏览器打开富士康 1920 号稿，若 AI 原句确认，可按『供应链制造回流看一手稿是否亲口说 AI』规则升级 counted:true 并把 source.url 换为富士康稿。market_ids 挂 ai-inference-infra（AI 服务器/数据中心硬件）。"
+  },
+  {
+    "id": "2026-09-sentraforge-odisha-puri-2320",
+    "date": "2026-09-23",
+    "company_or_body": "Sentraforge AI Ltd × Government of Odisha（印度奥迪沙邦政府 High-Level Clearance Authority）",
+    "region": "IN",
+    "kind": "hiring_commitment",
+    "jobs_count": 2320,
+    "jobs_type_zh": "普里（Puri）AI 数据中心 + 全球能力中心（GCC）潜在就业（邦政府 HLCA 审批口径，投资 22,634 千万卢比）",
+    "jobs_type_en": "Potential employment at an AI data centre plus Global Capability Centre in Puri (per the state HLCA clearance; investment Rs 22,634 crore)",
+    "occupation_ids": [],
+    "market_ids": [
+      "gpu-cloud"
+    ],
+    "source": {
+      "url": "https://ommcomnews.com/odisha-news/odisha-hlca-clears-27-projects-worth-rs-2-47-lakh-cr-50162-jobs-in-offing/",
+      "publisher": "OMMCOM News（转载奥迪沙首席部长办公室 CMO 新闻稿）",
+      "date": "2026-09-23",
+      "quote_en": "The High-Level Clearance Authority (HLCA), chaired by Chief Minister Mohan Charan Majhi, on Wednesday approved 27 major industrial projects involving a cumulative investment of Rs 2,47,115.70 crore and having the potential to generate 50,162 jobs in Odisha. … Sentraforge AI Ltd will establish an AI data centre along with a Global Capability Centre in Puri, involving an investment of Rs 22,634 crore and potential employment generation of 2,320.",
+      "quote_zh": "由首席部长 Mohan Charan Majhi 主持的高级审批委员会（HLCA）周三批准 27 个重大工业项目，累计投资 24.71157 万亿卢比（2,47,115.70 千万卢比），可创造 50,162 个就业岗位。……Sentraforge AI Ltd 将在普里建设一座 AI 数据中心及全球能力中心，投资 22,634 千万卢比，潜在就业 2,320 人。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "本轮新发（2026-09-23，第三区域 IN）。降级不入账，四条理由：（1）事件阶段为邦政府 HLCA **项目审批**（投资意向获批），非公司亲口宣布；公司本身无任何公开新闻稿或官网，collector 检索『Sentraforge』除本次审批报道外零结果，主体可信度无法核验；（2）口径为『potential employment generation』（潜在就业），属政府对申报项目的就业潜力口径，接近『容纳/经济影响』类，按精度门槛降级；（3）2,320 为 AI 数据中心 + GCC 合并口径，GCC 业务是否 AI 未说明，AI 数据中心本体常驻岗通常远低于此，无法拆分；（4）未区分建设期/运营期。AI 归因为来源亲口（『AI data centre』），但仅限设施定性。信源：奥迪沙 CMO 官网 collector 网络不可达（curl 超时），引 OMMCOM 全文转载稿（实测 HTTP 200，逐字核对一致；OdishaBytes 亦注明源自『CMO release』，Odisha TV / Sambad English / Business Standard 同日报道口径一致）。**关联提示**：同场 HLCA 还批准 HCL Technologies Limited 在 Khordha 的『AI-optimised data centre』（₹14,257 千万卢比，『potential employment for 385 people』）——即待审 `2026-07-hcltech-odisha-5000` 中那座 AI 数据中心（当时公司未给数据中心岗位数）；385 为数据中心本体口径，与 5,000（全球技术中心容量口径）是两个项目，终审处理 PR#11 那条时可参考此数补记。另 High Density Datacentre Limited 园区（₹1,04,550 千万卢比、1,000 人）稿中未写 AI，未收；RKD Construction 数据中心（220 人）无 AI 字样，未收。"
   }
 ]
