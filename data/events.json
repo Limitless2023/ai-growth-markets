@@ -758,5 +758,124 @@
     "counted": false,
     "status": "published",
     "notes_zh": "不入账（同百度校招口径处理）：7000/4800 为校招 Offer 总量而非 AI 岗净增数，AI 归因仅覆盖『研发类为核心方向』而非全部岗位；含实习转正通道（临时性）。补全中国大厂创造侧记录（百度、腾讯已在账本，字节此前缺）。事件为 2026-03 旧事补录，非本轮新发。"
+  },
+  {
+    "id": "2026-09-applied-digital-brookwood-100",
+    "date": "2026-09-24",
+    "company_or_body": "Applied Digital（NASDAQ: APLD）× Tuscaloosa County Economic Development Authority（TCEDA，Project Highlands）",
+    "region": "US",
+    "kind": "hiring_commitment",
+    "jobs_count": 100,
+    "jobs_type_zh": "阿拉巴马州 Brookwood「Delta Forge 2」AI Factory 园区运营期现场全职岗（下界，>100；建设期峰值 >1,000 临时岗不计）",
+    "jobs_type_en": "Full-time onsite operations jobs at the Delta Forge 2 AI Factory campus in Brookwood, Alabama (lower bound, 'more than 100'; >1,000 peak construction jobs excluded)",
+    "occupation_ids": [],
+    "market_ids": [
+      "gpu-cloud"
+    ],
+    "source": {
+      "url": "https://www.wbrc.com/2026/09/24/applied-digital-confirms-32-billion-data-center-campus-brookwood/",
+      "publisher": "WBRC（FOX6 伯明翰，援引 Applied Digital 公司声明）",
+      "date": "2026-09-24",
+      "quote_en": "Construction employment is expected to peak at more than 1,000 workers … the completed campus is expected to support more than 100 full-time employees onsite.",
+      "quote_zh": "建设期用工预计峰值超过 1,000 人……园区建成后预计将支撑超过 100 名现场全职员工。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": true,
+    "status": "draft",
+    "notes_zh": "本轮新发（2026-09-24，US）。Applied Digital 确认此前（2026-06-08 IR 稿，未披露州名）宣布的 210MW Delta Forge 2 落址阿拉巴马州 Tuscaloosa County Brookwood，投资 >32 亿美元，租户为匿名投资级 hyperscaler（地方文件称 Kayvens LLC），2026-10-01 开工、预计 2028 年底完工。**口径**：取运营期常驻岗「more than 100 full-time employees onsite」的下界 100；建设期峰值 >1,000 为临时岗，按红线不计。TCEDA 同日口径「create over 100 permanent jobs」（Yellowhammer News / Patch 转载 TCEDA 公告）与公司一致，互为印证；另有二手稿写『101 full-time positions』，未能在一手口径中找到，不采用。『support … onsite』指园区现场直接雇员，不是经济影响口径，因此不触发『支撑』降级。**AI 归因**：公司将项目定性为『Delta Forge 2 AI Factory campus』，CEO 称其为『repeatable AI infrastructure delivered at scale』；06-08 IR 稿称园区『purpose-built for the compute densities required by large-scale AI training and inference workloads』（https://ir.applieddigital.com/news-events/press-releases/detail/154/applied-digital-signs-210-mw-lease-at-delta-forge-2）。**信源说明**：Applied Digital IR 页截至 09-28 未挂出本次落址稿（列表最新为 07-27），TCEDA 官网未找到原稿，故引 WBRC 对公司声明的逐字转述（实测可达，quote 一致）；终审若在 IR 找到正式稿，可换 URL。与待审 `2026-05-applied-digital-louisiana-200`（Delta Forge 1 / 路易斯安那）为不同园区，不重复。"
+  },
+  {
+    "id": "2026-09-mitacs-ai-advantage-10000-placements",
+    "date": "2026-09-25",
+    "company_or_body": "加拿大创新、科学与经济发展部（ISED）× Mitacs（Mitacs AI Advantage）",
+    "region": "CA",
+    "kind": "hiring_commitment",
+    "jobs_count": 10000,
+    "jobs_type_zh": "AI 采用与创新方向的联合资助实习/工作安置机会（面向在校生、应届生、博士后，五年期）",
+    "jobs_type_en": "Co-funded AI adoption and innovation work placements for post-secondary students, recent graduates and postdocs (five years)",
+    "occupation_ids": [],
+    "market_ids": [],
+    "source": {
+      "url": "https://www.canada.ca/en/innovation-science-economic-development/news/2026/09/government-of-canada-invests-in-10000-ai-related-work-placements-for-young-canadians.html",
+      "publisher": "Government of Canada（Innovation, Science and Economic Development Canada）",
+      "date": "2026-09-25",
+      "quote_en": "up to $162 million over five years, beginning in 2026–2027, for Mitacs to support 10,000 co-funded work placement opportunities",
+      "quote_zh": "自 2026–2027 财年起五年内最多投入 1.62 亿加元，支持 Mitacs 提供 10,000 个联合资助的工作安置机会（译）"
+    },
+    "confidence": "company_stated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "本轮新发（2026-09-25，第三区域 CA）。联邦政府亲口宣布、数字精确、AI 归因明确（ADOPT 流面向企业 AI 采用，AI+X 流面向 AI 创新），但**不入账**：（1）『work placement opportunities』是有期限的实习/科研安置，不是净新增常驻岗位；（2）『up to』为资金上限口径，10,000 是五年累计目标；（3）岗位由参与企业与 Mitacs 共同出资，雇主分散且未确定。参照待审 `2026-04-microsoft-japan-1m-training`、`2026-06-meta-workforce-academy` 的培训/安置类处理，记 hiring_commitment + counted:false，作为『政府 AI 人才项目』信号保留。"
+  },
+  {
+    "id": "2026-09-ciic-ai-talent-report-119pct",
+    "date": "2026-09-17",
+    "company_or_body": "科锐国际（CIIC，300662.SZ）× 得到 AI 学习圈",
+    "region": "CN",
+    "kind": "report_datapoint",
+    "jobs_count": null,
+    "jobs_type_zh": "AI 相关招聘职位量（2024 上半年→2026 上半年增长约 119%；占全部招聘职位比重 0.72%→2.01%）",
+    "jobs_type_en": "AI-related job postings (up ~119% from H1 2024 to H1 2026; share of all postings 0.72% → 2.01%)",
+    "occupation_ids": [],
+    "market_ids": [],
+    "source": {
+      "url": "https://finance.sina.com.cn/stock/s/2026-09-18/doc-inisfpqz3385379.shtml",
+      "publisher": "新浪财经（署名：科锐国际）",
+      "date": "2026-09-18",
+      "quote_zh": "从2024年到2026年，AI相关招聘岗位增长约119%。",
+      "quote_en": "From 2024 to 2026, AI-related job postings grew by about 119%. (translated)"
+    },
+    "confidence": "report_estimated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "报告《AI时代，工作机会正流向哪里？——2026AI人才市场报告》于 2026-09-17 发布，新浪财经 09-18 刊发科锐国际署名稿（作一手口径引用）。**口径**：职位发布量增速，不是净新增岗位；基于『公开招聘岗位数据及实际运营项目整理』，比较区间为 2024 上半年至 2026 上半年（经济观察网 09-18 报道原文：『AI相关招聘职位增长约119%，在全部招聘职位中的占比从0.72%升至2.01%』，http://www.eeo.com.cn/2026/0918/1041725.shtml；0.72%→2.01% 这组数字不在署名稿中，来自该报道）。其他数据点：核心算法岗占 AI 岗比重 68%→45%，应用岗与关联岗合计 55%；500 人以下企业贡献 49.3% 的 AI 招聘需求；郑州三年增幅 341%（短剧 AI 剪辑驱动）；上海 2026 上半年约 1.5 万个 AI 岗位。永不 counted。上轮（09-24）窗口未收，本轮补录（发布日早于上轮运行，但不在任何待审分支中）。"
+  },
+  {
+    "id": "2026-09-aicc-ni-ai-census-2402-fte",
+    "date": "2026-09-24",
+    "company_or_body": "Artificial Intelligence Collaboration Centre（AICC，Ulster University 与 Queen's University Belfast 合办）/ Perspective Economics",
+    "region": "GB",
+    "kind": "report_datapoint",
+    "jobs_count": 2402,
+    "jobs_type_zh": "北爱尔兰 AI 相关就业（全职当量 FTE，估算；同比 +79%）",
+    "jobs_type_en": "Estimated AI-related employment in Northern Ireland (FTE; +79% year on year)",
+    "occupation_ids": [],
+    "market_ids": [],
+    "source": {
+      "url": "https://www.northernirelandchamber.com/member-news/northern-irelands-ai-economy-doubles-in-a-year-as-200m-milestone-reached-two-years-early/",
+      "publisher": "Northern Ireland Chamber of Commerce（会员新闻，转发 Ulster University 新闻稿）",
+      "date": "2026-09-24",
+      "quote_en": "Estimated AI-related employment has increased by 79% to 2,402 full-time equivalent roles, while estimated AI-related Gross Value Added (GVA) has risen from £82 million to £214 million.",
+      "quote_zh": "估计 AI 相关就业增长 79%，达到 2,402 个全职当量岗位；估计 AI 相关总增加值（GVA）由 8,200 万英镑升至 2.14 亿英镑。（译）"
+    },
+    "confidence": "report_estimated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "北爱尔兰第二次 AI Census（AICC 委托、Perspective Economics 独立编制），2026-09-24 发布。**口径**：2,402 是 AI 相关就业**存量**的估算值（FTE），同比 +79% 意味着一年约新增 1,060 FTE，但报告未直接给出增量，collector 不做推算；AI 企业数 198→400；AI/ML 技能招聘广告滚动 12 个月 +161%；AI 岗位广告薪资中位数约 £61,000（2026 上半年）；上年 Census 中性情景预测的『2028 年 2,000+ AI 从业者、£2 亿 GVA』提前两年达成。**信源**：Ulster University 新闻页（ulster.ac.uk/news/2026/september/…）有 Cloudflare 机器人验证，collector 无法读取（未尝试绕过）；改引北爱商会会员新闻栏目全文转发稿（实测可达，quote 逐字一致）。News Letter、Irish News 同日报道口径一致。永不 counted。"
+  },
+  {
+    "id": "2026-09-indeed-canada-datacentre-payroll-23pct",
+    "date": "2026-09-23",
+    "company_or_body": "Indeed Hiring Lab Canada（基于加拿大统计局 SEPH 薪资就业数据）",
+    "region": "CA",
+    "kind": "report_datapoint",
+    "jobs_count": null,
+    "jobs_type_zh": "加拿大数据中心薪资就业（NAICS 518 代理口径）同比 +23%，约新增 8,000 人（2025-06→2026-06）",
+    "jobs_type_en": "Canadian data centre payroll employment (NAICS 518 proxy) up 23% year on year, roughly 8,000 workers added (June 2025 → June 2026)",
+    "occupation_ids": [],
+    "market_ids": [
+      "gpu-cloud"
+    ],
+    "source": {
+      "url": "https://hiringlab.indeed.com/en-ca/2026/09/23/the-canadian-data-centre-build-out/",
+      "publisher": "Indeed Hiring Lab Canada（Aubrey Woessner、Laura Ullrich）",
+      "date": "2026-09-23",
+      "quote_en": "Data centre payroll employment has surged 23% over the past year, according to official data from Statistics Canada.",
+      "quote_zh": "据加拿大统计局官方数据，数据中心薪资就业人数在过去一年激增 23%。（译）"
+    },
+    "confidence": "report_estimated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "**口径**：以 NAICS 518（Computing infrastructure providers, data processing, web hosting, and related services）作为『数据中心就业』代理，数据来自加拿大统计局 SEPH，截至 2026-06；该行业并非全部为 AI，原文给『roughly 8,000 workers added』为约数，故 jobs_count 留空（媒体转述另给 34,450→42,300，未在原文逐字核到，不采用）。**AI 归因**：原文把增长放在 AI 建设语境（『Canada is still in the early days of an AI build-out, giving already-strong employment growth further room to run』），并判断下一波主要在艾伯塔。属机构口径，永不 counted。与待审 `2026-07-indeed-datacenter-postings-6-per-1000`（美国版、招聘广告口径）是不同国家、不同指标，不重复。上轮（09-24）扫 Indeed Hiring Lab 时漏掉了这篇加拿大站文章，本轮补收。"
   }
 ]
