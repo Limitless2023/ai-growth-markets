@@ -758,5 +758,74 @@
     "counted": false,
     "status": "published",
     "notes_zh": "不入账（同百度校招口径处理）：7000/4800 为校招 Offer 总量而非 AI 岗净增数，AI 归因仅覆盖『研发类为核心方向』而非全部岗位；含实习转正通道（临时性）。补全中国大厂创造侧记录（百度、腾讯已在账本，字节此前缺）。事件为 2026-03 旧事补录，非本轮新发。"
+  },
+  {
+    "id": "2026-09-shield-ai-xbat-wa-ks-jobs",
+    "date": "2026-09-30",
+    "company_or_body": "Shield AI",
+    "region": "US",
+    "kind": "hiring_commitment",
+    "jobs_count": null,
+    "jobs_type_zh": "AI 驾驶战斗机 X-BAT 生产（华盛顿州 Des Moines，X-Forge 3）与试飞维保（堪萨斯州 Newton，X-Forge 2）相关就业（含供应商与引致就业）",
+    "jobs_type_en": "Jobs supported by production (Des Moines, WA – X-Forge 3) and flight test/sustainment (Newton, KS – X-Forge 2) of the AI-piloted X-BAT fighter (incl. supplier and induced jobs)",
+    "occupation_ids": [],
+    "market_ids": [],
+    "source": {
+      "url": "https://shield.ai/shield-ai-names-kansas-and-washington-the-flight-test-and-production-homes-of-x-bat/",
+      "publisher": "Shield AI（公司官网新闻稿）",
+      "date": "2026-09-30",
+      "quote_en": "Building and testing the aircraft in the two states is projected to support about 9,800 American jobs by the early 2030s ... The counts include people employed by Shield AI, people at suppliers, and the jobs that local spending by both groups sustains.",
+      "quote_zh": "在两州制造和测试该飞机，预计到 2030 年代初将支撑约 9,800 个美国就业岗位……该统计包括 Shield AI 员工、供应商员工以及两者本地消费所维持的岗位。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "不入账：公司亲口宣布、AI 归因清楚（X-BAT 被公司定性为 \"AI-piloted fighter jet\"），但数字触发两条降级规则——①「support」经济影响口径，原文明确包含供应商与引致就业（IMPLAN 建模），不是 Shield AI 直接雇员数；②「about」近似值。故 jobs_count 留空。分项（均为 about、support 口径）：西雅图-塔科马地区 2030 年代初约 8,000、2046 年约 27,000；Newton 地区 2030 年代初约 1,800、2046 年约 2,900；另有德州 Frisco 约 600（2030 年代初）。GeekWire 标题中的「4,000 jobs」在一手稿中找不到对应直接雇员口径，未采用。X-BAT 计划 2029 年投产、2030 年代初满产。"
+  },
+  {
+    "id": "2026-09-lambda-mayes-ok-100",
+    "date": "2026-09-27",
+    "company_or_body": "Lambda（AI 云基础设施公司）",
+    "region": "US",
+    "kind": "hiring_commitment",
+    "jobs_count": 100,
+    "jobs_type_zh": "俄克拉荷马州 Mayes County（MidAmerica Industrial Park）新数据中心常驻岗位（上限口径）",
+    "jobs_type_en": "Permanent positions at a new data center in MidAmerica Industrial Park, Mayes County, Oklahoma (upper-bound figure)",
+    "occupation_ids": [],
+    "market_ids": [],
+    "source": {
+      "url": "https://lambda.ai/blog/new-lambda-data-center-in-oklahoma",
+      "publisher": "Lambda（公司官方博客）",
+      "date": "2026-09-27",
+      "quote_en": "the project is expected to create up to 1,000 construction jobs and up to 100 permanent positions.",
+      "quote_zh": "该项目预计创造最多 1,000 个建设岗位和最多 100 个常驻岗位。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "不入账：公司一手稿，但常驻岗为「up to 100」上界口径，按精确度门槛降级；建设期「up to 1,000」为临时岗，不计。AI 归因偏弱：稿件把 Lambda 定性为 \"the Superintelligence Cloud\"、\"leader in AI cloud infrastructure\"，但未明说该园区是 AI 训练/推理设施，属公司背景描述——即便上界问题解决，入账前也需终审确认 AI 归因。发布日 09-27 早于上轮运行（09-28），上轮及所有待审分支均未收录，属补录。"
+  },
+  {
+    "id": "2026-09-linkedin-ai-safety-91pct",
+    "date": "2026-09-29",
+    "company_or_body": "LinkedIn",
+    "region": "Global",
+    "kind": "report_datapoint",
+    "jobs_count": null,
+    "jobs_type_zh": "AI 新兴岗位需求增速：前线部署专家 +226%、AI 取证分析师 +169%、AI 安全岗位 +91%（近一年）",
+    "jobs_type_en": "Demand growth for emerging AI roles over the past year: forward-deployed experts +226%, AI forensic analysts +169%, AI safety roles +91%",
+    "occupation_ids": [],
+    "market_ids": [],
+    "source": {
+      "url": "https://news.linkedin.com/2026/hiring-assistant-2",
+      "publisher": "LinkedIn Pressroom",
+      "date": "2026-09-29",
+      "quote_en": "Even as hiring has slowed, AI has helped create entirely new roles and skill demands. In the past year alone, demand for forward-deployed experts has grown 226%, AI forensic analyst roles are up 169%, and AI safety roles have increased 91%.",
+      "quote_zh": "即便招聘放缓，AI 也催生了全新的岗位与技能需求。仅过去一年，前线部署专家需求增长 226%，AI 取证分析师岗位增长 169%，AI 安全岗位增长 91%。（译）"
+    },
+    "confidence": "report_estimated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "机构数据点，永不入账。LinkedIn 在 Talent Connect 2026（Hiring Assistant 2 发布稿）中引用的平台数据；原文未说明是招聘量、职位发布量还是成员职位变更口径，也未说明地域范围（按 Global 记，终审可改 US），只给增速不给绝对数，故 jobs_count 留空。Business Insider 09-30 有转述，一手引 LinkedIn 新闻室原稿。"
   }
 ]
