@@ -758,5 +758,76 @@
     "counted": false,
     "status": "published",
     "notes_zh": "不入账（同百度校招口径处理）：7000/4800 为校招 Offer 总量而非 AI 岗净增数，AI 归因仅覆盖『研发类为核心方向』而非全部岗位；含实习转正通道（临时性）。补全中国大厂创造侧记录（百度、腾讯已在账本，字节此前缺）。事件为 2026-03 旧事补录，非本轮新发。"
+  },
+  {
+    "id": "2026-09-lg-isle-of-wight-chillers-150",
+    "date": "2026-09-30",
+    "company_or_body": "LG Electronics（北美公司）",
+    "region": "US",
+    "kind": "hiring_commitment",
+    "jobs_count": 150,
+    "jobs_type_zh": "弗吉尼亚州 Isle of Wight 县 AI 数据中心冷水机组装厂新增岗位（下界口径）",
+    "jobs_type_en": "New jobs at an air-cooled chiller assembly plant for AI data centers in Isle of Wight County, Virginia (lower-bound figure)",
+    "occupation_ids": [],
+    "market_ids": [
+      "gpu-cloud"
+    ],
+    "source": {
+      "url": "https://www.prnewswire.com/news-releases/lg-electronics-establishes-first-us-factory-to-produce-chillers-for-ai-data-center-cooling-302895464.html",
+      "publisher": "LG Electronics（PR Newswire 公司新闻稿）",
+      "date": "2026-10-01",
+      "quote_en": "LG Electronics is establishing its first U.S. chiller factory in Virginia. The new 350,000-square-foot facility will produce air-cooled chillers for AI data centers, with production scheduled to begin in the first half of 2027. … \"Not only will this investment create more than 150 new jobs in the community, but these energy-efficient innovations will be key to meeting Virginia's growing energy demands and building a more sustainable future.\"",
+      "quote_zh": "LG 电子将在弗吉尼亚州建立其首座美国冷水机组工厂。这座 35 万平方英尺的新工厂将生产用于 AI 数据中心的风冷冷水机组，计划于 2027 年上半年投产。……「这项投资不仅将为当地创造超过 150 个新岗位，这些节能创新也将是满足弗吉尼亚州不断增长的能源需求、建设更可持续未来的关键。」（译）"
+    },
+    "confidence": "company_stated",
+    "counted": true,
+    "status": "draft",
+    "notes_zh": "供应链制造类。AI 归因来自公司一手稿：LG 新闻稿标题和正文都说工厂生产「chillers for AI data centers」，不是 collector 推断。岗位数口径：LG 稿引用州长 Spanberger 的「more than 150 new jobs」，属下界口径，按门槛可取，jobs_count 记 150。州长办公室 09-30 原稿（Hampton Roads Alliance 转载）写的是「creating 164 new jobs」与 6,390 万美元投资，但州长稿本身没有提 AI，所以这里不取 164，取 AI 归因稿内的 150。日期取州长 09-30 首宣日；LG 稿发于 10-01。2027 年上半年投产，均为工厂运营岗，非建设期临时岗。终审如认为可采信州长稿的精确数，可改为 164。"
+  },
+  {
+    "id": "2026-09-whitespace-belfast-40",
+    "date": "2026-09-30",
+    "company_or_body": "Whitespace Global",
+    "region": "GB",
+    "kind": "hiring_commitment",
+    "jobs_count": 40,
+    "jobs_type_zh": "主权 AI 公司贝尔法斯特新增岗位（软件 / AI·ML / 数据 / 云工程、产品、交付咨询），三年内到位",
+    "jobs_type_en": "New Belfast roles at a sovereign AI company (software, AI/ML, data and cloud engineering, product, delivery consulting) over three years",
+    "occupation_ids": [],
+    "market_ids": [],
+    "source": {
+      "url": "https://www.investni.com/media-centre/news/whitespace-global-double-northern-ireland-workforce-40-new-jobs",
+      "publisher": "Invest Northern Ireland",
+      "date": "2026-09-30",
+      "quote_en": "Belfast-headquartered AI company Whitespace Global plans to create 40 new jobs over the next three years, doubling its Northern Ireland workforce. … With an average salary of £78,500, the new roles span software engineering, AI/ML engineering, data engineering, cloud engineering, product management, and design and delivery consulting.",
+      "quote_zh": "总部位于贝尔法斯特的 AI 公司 Whitespace Global 计划在未来三年内创造 40 个新岗位，使其北爱尔兰员工规模翻倍。……新岗位平均年薪 78,500 英镑，涵盖软件工程、AI/ML 工程、数据工程、云工程、产品管理以及设计与交付咨询。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": true,
+    "status": "draft",
+    "notes_zh": "一手为 Invest NI 官方新闻稿，公司 CFO Ruth Hengari 在稿中亲口表态（「these 40 roles」），Invest NI 提供 24 万英镑支持。AI 归因：公司主营主权 AI 操作系统 Collective，CFO 把扩张归因于 Series A 和「growing customer demand for Collective」，岗位含 AI/ML 工程。口径：三年内新增，净增（「doubling its Northern Ireland workforce」）。与 First Derivative 纽里 100 岗（2026-09-first-derivative-newry-100）不是同一事件；newsletter.co.uk 同日「100 new AI and fintech jobs」指的是后者。"
+  },
+  {
+    "id": "2026-09-naukri-india-aiml-31pct",
+    "date": "2026-09-11",
+    "company_or_body": "Naukri (Info Edge) JobSpeak",
+    "region": "IN",
+    "kind": "report_datapoint",
+    "jobs_count": null,
+    "jobs_type_zh": "印度 AI/ML 岗位招聘同比增速（2026 年 8 月）",
+    "jobs_type_en": "Year-on-year growth in AI/ML hiring in India (August 2026)",
+    "occupation_ids": [],
+    "market_ids": [],
+    "source": {
+      "url": "https://www.naukri.com/blog/naukri-jobspeak-white-collar-hiring-grows-14-in-aug-fresher-hiring-ai-roles-lead/",
+      "publisher": "Naukri 官方博客（JobSpeak 月报）",
+      "date": "2026-09-11",
+      "quote_en": "AI/ML roles continued to lead hiring growth, rising 31% YOY in August.",
+      "quote_zh": "AI/ML 岗位继续领跑招聘增长，8 月同比上升 31%。（译）"
+    },
+    "confidence": "report_estimated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "永不计数（report_datapoint）。口径：Naukri 平台 JobSpeak 指数的职位发布同比增速，非净新增岗位绝对数；同月白领招聘整体 +14%。是 2026-07-naukri-india-ai-hiring-16pct（6 月月报）的后续数据点。这次引用 naukri.com 一手博客（上次引的是媒体转述），发布日按博客 RSS 取 09-11，属补录。9 月月报（AI/ML +20%、整体 +2%）已经见诸 YourStory 等媒体，但截至 10-05 Naukri 博客还没有发布，所以本轮不录，留待下轮回溯一手。"
   }
 ]
