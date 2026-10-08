@@ -794,15 +794,15 @@
     "occupation_ids": [],
     "market_ids": [],
     "source": {
-      "url": "https://www.orissapost.com/white-collar-hiring-grows-2-in-sep-this-industry-leads/",
-      "publisher": "OrissaPOST（PTI 孟买通稿，转述 Naukri JobSpeak 9 月月报）",
-      "date": "2026-10-02",
-      "quote_en": "Artificial Intelligence and Machine Learning (AI/ML) roles continued to record growth, rising 20 per cent in September",
-      "quote_zh": "人工智能与机器学习（AI/ML）岗位继续保持增长，9 月同比上升 20%。（译）"
+      "url": "https://www.naukri.com/blog/naukri-jobspeak-october-2026-white-collar-hiring-ai-ml-growth/",
+      "publisher": "Naukri 官方博客（JobSpeak 月报）",
+      "date": "2026-10-06",
+      "quote_en": "AI/ML roles continued to record growth, rising 20% YOY in September, while the Auto sector grew 11%.",
+      "quote_zh": "AI/ML 岗位继续保持增长，9 月同比上升 20%；汽车行业增长 11%。（译）"
     },
     "confidence": "report_estimated",
     "counted": false,
     "status": "draft",
-    "notes_zh": "永不计数（report_datapoint）。口径：Naukri 平台 JobSpeak 指数的职位发布同比增速，不是净新增岗位绝对数；同月白领招聘整体 +2%（指数 3,053，去年同月 3,002）。是 2026-09-naukri-india-aiml-31pct（8 月月报，待审分支 collector/run-20261005）的后续数据点，增速从 31% 回落到 20%。一手来源：Naukri 博客与 RSS 本轮 WebFetch 均返回 403，没能读到一手月报，改引 PTI 通稿（Naukri 官方数据的通讯社转述）；终审时如能打开 naukri.com/blog 的 9 月 JobSpeak 帖子，可替换 URL。"
+    "notes_zh": "永不计数（report_datapoint）。口径：Naukri 平台 JobSpeak 指数的职位发布同比增速，不是净新增岗位绝对数；同月白领招聘整体 +2%（指数 3053，去年同月 3002）。是 2026-09-naukri-india-aiml-31pct（8 月月报，待审分支 collector/run-20261005）的后续数据点，增速从 31% 回落到 20%。日期：PTI 通稿 10-02 首发（OrissaPOST 转载 https://www.orissapost.com/white-collar-hiring-grows-2-in-sep-this-industry-leads/ ），事件日期取首发日；Naukri 一手博客 10-06 才上线，source 引一手博客（WebFetch 403，curl 200 已核对 quote）。"
   }
 ]
