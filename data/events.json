@@ -758,5 +758,51 @@
     "counted": false,
     "status": "published",
     "notes_zh": "不入账（同百度校招口径处理）：7000/4800 为校招 Offer 总量而非 AI 岗净增数，AI 归因仅覆盖『研发类为核心方向』而非全部岗位；含实习转正通道（临时性）。补全中国大厂创造侧记录（百度、腾讯已在账本，字节此前缺）。事件为 2026-03 旧事补录，非本轮新发。"
+  },
+  {
+    "id": "2026-10-amd-korea-ai-center-hundreds",
+    "date": "2026-10-07",
+    "company_or_body": "AMD（Advanced Micro Devices）× 韩国科学技术信息通信部",
+    "region": "KR",
+    "kind": "team_formation",
+    "jobs_count": null,
+    "jobs_type_zh": "AMD 韩国 AI 研究中心（AI Center of Excellence）的 AI 研究人员（「数百名」，未来数年分批招聘）",
+    "jobs_type_en": "AI researchers for AMD's planned Korea AI research center (AI Center of Excellence), \"several hundred\" to be hired over several years",
+    "occupation_ids": [],
+    "market_ids": [],
+    "source": {
+      "url": "https://www.koreajoongangdaily.com/business/amd-to-open-korea-ai-research-center-hire-hundreds-of-researchers/12909576",
+      "publisher": "Korea JoongAng Daily（转述 AMD 董事长兼 CEO Lisa Su 与韩国科技部第二次官柳济明会谈时的表态）",
+      "date": "2026-10-07",
+      "quote_en": "U.S. chipmaker AMD plans to open an AI research center in Korea by the end of this year and hire hundreds of AI researchers ... [Su told Ryu that AMD] would hire several hundred AI researchers",
+      "quote_zh": "美国芯片公司 AMD 计划在今年年底前在韩国设立 AI 研究中心，并招聘数百名 AI 研究人员……（苏姿丰对柳济明表示，AMD）将招聘数百名 AI 研究人员。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "不入账：Lisa Su 亲口表态，AI 归因明确（AI 研究中心、AI 研究人员），但数字只有「数百名 / several hundred」模糊量级，没有明确岗位数，按精确度门槛降为 counted:false，jobs_count 留空。口径：研究中心年内设立、地点未定，招聘在未来数年分批进行；中心源自 2026-07 AMD 与韩国科技部签署的 AI 半导体生态 MOU。一手来源：没有找到 AMD 或科技部（msit.go.kr）的新闻稿，韩媒（JoongAng、首尔经济、亚洲经济、Korea Herald 等 30 余家）10-07 一致转述同一表态，取 JoongAng Daily 英文稿。若后续 AMD 公布具体人数，可另起事件或升级。"
+  },
+  {
+    "id": "2026-10-naukri-india-aiml-20pct",
+    "date": "2026-10-02",
+    "company_or_body": "Naukri (Info Edge) JobSpeak",
+    "region": "IN",
+    "kind": "report_datapoint",
+    "jobs_count": null,
+    "jobs_type_zh": "印度 AI/ML 岗位招聘同比增速（2026 年 9 月）",
+    "jobs_type_en": "Year-on-year growth in AI/ML hiring in India (September 2026)",
+    "occupation_ids": [],
+    "market_ids": [],
+    "source": {
+      "url": "https://www.naukri.com/blog/naukri-jobspeak-october-2026-white-collar-hiring-ai-ml-growth/",
+      "publisher": "Naukri 官方博客（JobSpeak 月报）",
+      "date": "2026-10-06",
+      "quote_en": "AI/ML roles continued to record growth, rising 20% YOY in September, while the Auto sector grew 11%.",
+      "quote_zh": "AI/ML 岗位继续保持增长，9 月同比上升 20%；汽车行业增长 11%。（译）"
+    },
+    "confidence": "report_estimated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "永不计数（report_datapoint）。口径：Naukri 平台 JobSpeak 指数的职位发布同比增速，不是净新增岗位绝对数；同月白领招聘整体 +2%（指数 3053，去年同月 3002）。是 2026-09-naukri-india-aiml-31pct（8 月月报，待审分支 collector/run-20261005）的后续数据点，增速从 31% 回落到 20%。日期：PTI 通稿 10-02 首发（OrissaPOST 转载 https://www.orissapost.com/white-collar-hiring-grows-2-in-sep-this-industry-leads/ ），事件日期取首发日；Naukri 一手博客 10-06 才上线，source 引一手博客（WebFetch 403，curl 200 已核对 quote）。"
   }
 ]
