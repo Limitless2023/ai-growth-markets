@@ -33,7 +33,7 @@
     "cadence": "daily",
     "lang": "en",
     "what_to_look_for_zh": "招聘启事 AI 提及率日更 CSV（开放可商用）→ report_datapoint 与月度趋势",
-    "last_checked": "2026-06-10"
+    "last_checked": "2026-10-12"
   },
   {
     "id": "linkedin-economic-graph",
@@ -87,7 +87,7 @@
     "cadence": "monthly",
     "lang": "en",
     "what_to_look_for_zh": "美国 AI 岗位创造月度地图（LLM 识别口径）→ report_datapoint",
-    "last_checked": "2026-06-10"
+    "last_checked": "2026-10-12"
   },
   {
     "id": "yale-budget-lab-ai-tracker",
@@ -186,7 +186,7 @@
     "cadence": "yearly",
     "lang": "zh",
     "what_to_look_for_zh": "新一批新职业/新工种公示与发布（AI 相关职业认定）→ official_listing",
-    "last_checked": "2026-06-10"
+    "last_checked": "2026-10-12"
   },
   {
     "id": "mohrss-xzy-platform",
@@ -267,7 +267,7 @@
     "cadence": "event_driven",
     "lang": "zh",
     "what_to_look_for_zh": "AI 产业趋势报告中的就业/职业子话题 → report_datapoint",
-    "last_checked": "2026-06-10"
+    "last_checked": "2026-10-12"
   },
   {
     "id": "jazzyear-reports",
@@ -384,7 +384,7 @@
     "cadence": "daily",
     "lang": "en",
     "what_to_look_for_zh": "数据中心行业媒体：项目岗位数字高产区（引用前须回溯一手公告）",
-    "last_checked": "2026-06-11"
+    "last_checked": "2026-10-12"
   },
   {
     "id": "prnewswire-ai",
@@ -465,7 +465,7 @@
     "cadence": "daily",
     "lang": "en",
     "what_to_look_for_zh": "RSS 扫描配方：英文『AI 新增岗位公告』入口，命中后回溯一手来源",
-    "last_checked": "2026-06-11"
+    "last_checked": "2026-10-12"
   },
   {
     "id": "gnews-rss-datacenter-jobs-en",
@@ -474,7 +474,7 @@
     "cadence": "daily",
     "lang": "en",
     "what_to_look_for_zh": "RSS 扫描配方：数据中心岗位公告入口，命中后回溯一手来源",
-    "last_checked": "2026-06-11"
+    "last_checked": "2026-10-12"
   },
   {
     "id": "gov-cn-policy",
@@ -483,7 +483,7 @@
     "cadence": "event_driven",
     "lang": "zh",
     "what_to_look_for_zh": "国家级『人工智能+』配套政策与就业部署 → official_listing / hiring_commitment",
-    "last_checked": "2026-06-10"
+    "last_checked": "2026-10-12"
   },
   {
     "id": "miit-news",
@@ -501,7 +501,7 @@
     "cadence": "daily",
     "lang": "zh",
     "what_to_look_for_zh": "大厂 AI 招聘/扩张快讯（引用前须回溯一手公告）",
-    "last_checked": "2026-06-11"
+    "last_checked": "2026-10-12"
   },
   {
     "id": "ithome-news",
@@ -573,6 +573,6 @@
     "cadence": "daily",
     "lang": "zh",
     "what_to_look_for_zh": "RSS 扫描配方：中文『人工智能+岗位』公告入口，命中后回溯一手来源",
-    "last_checked": "2026-06-11"
+    "last_checked": "2026-10-12"
   }
 ]

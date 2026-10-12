@@ -758,5 +758,120 @@
     "counted": false,
     "status": "published",
     "notes_zh": "不入账（同百度校招口径处理）：7000/4800 为校招 Offer 总量而非 AI 岗净增数，AI 归因仅覆盖『研发类为核心方向』而非全部岗位；含实习转正通道（临时性）。补全中国大厂创造侧记录（百度、腾讯已在账本，字节此前缺）。事件为 2026-03 旧事补录，非本轮新发。"
+  },
+  {
+    "id": "2026-10-physicsx-singapore-hub-80",
+    "date": "2026-10-08",
+    "company_or_body": "PhysicsX",
+    "region": "SG",
+    "kind": "team_formation",
+    "jobs_count": 80,
+    "jobs_type_zh": "PhysicsX 新加坡亚太总部团队（前线部署工程师、物理 AI 研究员、仿真工程师），三年内由 20 人扩至 100 人以上",
+    "jobs_type_en": "PhysicsX Singapore Asia-Pacific hub team (forward-deployed engineers, physics AI researchers, simulation engineers), growing from 20 to more than 100 over three years",
+    "occupation_ids": [],
+    "market_ids": [],
+    "source": {
+      "url": "https://www.edb.gov.sg/en/news-and-insights/physicsx-launches-asia-pacific-hub-in-singapore-to-scale-ai-powered-industrial-engineering-across-the-region",
+      "publisher": "新加坡经济发展局 EDB（转发 PhysicsX 新闻稿）",
+      "date": "2026-10-08",
+      "quote_en": "PhysicsX already has 20 employees working through its Singapore hub and aims to grow its local team to more than 100 over the next three years, including forward-deployed engineers, physics AI researchers, and simulation engineers.",
+      "quote_zh": "PhysicsX 目前已有 20 名员工在其新加坡中心工作，目标是在未来三年内把本地团队扩大到 100 人以上，包括前线部署工程师、物理 AI 研究员和仿真工程师。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": true,
+    "status": "draft",
+    "notes_zh": "建议入账。公司亲口（EDB 官方页发布的公司新闻稿，副标题即写「plans to build a team of more than 100 in Singapore」）。PhysicsX 自述为「the AI company transforming industrial engineering」，扩张岗位直接点名 physics AI researchers，AI 归因明确。口径：取净增下界 80（目标「more than 100」为下界，减去现有 20 人），不取 100 的总编制；三年期目标、常驻岗，非建设期临时岗。同稿另有与 A*STAR 五年 4,000 万新元合作，不涉岗位数。EDB 页面对 curl 返回 202 空响应、WebFetch 返回空白，经浏览器渲染后逐字核对 quote。参照先例：2026-09-whitespace-belfast-40（三年内净增）。"
+  },
+  {
+    "id": "2026-10-marss-kuwait-air-defence-100",
+    "date": "2026-10-09",
+    "company_or_body": "英国国防部 × MARSS Systems（EOS 旗下）",
+    "region": "GB",
+    "kind": "hiring_commitment",
+    "jobs_count": 100,
+    "jobs_type_zh": "MARSS 布里斯托尔生产基地的工程与制造岗位（科威特采购 AI 赋能防空系统合同带动）",
+    "jobs_type_en": "Skilled engineering and manufacturing roles at MARSS in Bristol, driven by Kuwait's purchase of AI-enabled air defence systems",
+    "occupation_ids": [],
+    "market_ids": [],
+    "source": {
+      "url": "https://www.gov.uk/government/news/100-new-uk-jobs-created-as-kuwait-buys-british-made-ai-enabled-air-defence-systems",
+      "publisher": "GOV.UK（英国国防部）",
+      "date": "2026-10-09",
+      "quote_en": "100 new UK jobs created as Kuwait buys British-made AI-enabled air defence systems ... The contract with MARSS Systems Limited, an EOS company, will create 100 new jobs in the UK",
+      "quote_zh": "科威特采购英国制造的 AI 赋能防空系统，为英国创造 100 个新岗位……与 EOS 旗下 MARSS Systems 公司签订的合同将在英国创造 100 个新岗位。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "暂不入账，请终审判定。政府亲口、数字明确（100 个新岗位，布里斯托尔生产、扩大 MARSS 英国办公室），标题直接把岗位与「AI-enabled」系统挂钩。降级理由：AI 是产品特性（NiDAR 平台为「an AI-enabled command and control centre」），整套系统还包括干扰器、雷达、拦截弹，需求驱动是中东防空（Taskforce Sabre），岗位并非因 AI 本身而新增；与 LG「chillers for AI data centers」（需求方就是 AI）性质不同。若终审认可政府标题的 AI 归因，可改 counted:true。合同金额 3.7 亿英镑。"
+  },
+  {
+    "id": "2026-10-sesterce-jamsa-300",
+    "date": "2026-10-08",
+    "company_or_body": "Sesterce",
+    "region": "FI",
+    "kind": "hiring_commitment",
+    "jobs_count": null,
+    "jobs_type_zh": "芬兰 Jämsä（原 Kaipola 造纸厂）AI 数据中心园区建成后的常驻运营岗（约 300 人）",
+    "jobs_type_en": "Permanent operations staff at Sesterce's planned AI data centre campus in Jämsä, Finland (approximately 300)",
+    "occupation_ids": [],
+    "market_ids": [],
+    "source": {
+      "url": "https://yle.fi/a/74-20250471",
+      "publisher": "Yle News（转述 Sesterce CEO Youssef El Manssouri）",
+      "date": "2026-10-08",
+      "quote_en": "El Manssouri told Yle that the construction phase of the project could bring around 2,000 jobs to Jämsä. ... Once completed, the AI facility would employ approximately 300 people.",
+      "quote_zh": "El Manssouri 对 Yle 表示，项目建设期可能为 Jämsä 带来约 2,000 个岗位……建成后，这座 AI 设施将雇用约 300 人。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "不入账：常驻岗只有近似值「approximately 300」，按精确度门槛降级，jobs_count 留空；建设期约 2,000 为临时岗且是「could bring」，不取。AI 归因明确（园区定位为 AI 数据中心，有锚定客户）。口径：总投资逾 100 亿欧元，一期 200MW、二期至 600MW；项目仍需许可，场地收购谈判未完成。一手：没有找到 Sesterce 官网新闻稿，引 Yle 英文版对 CEO 的采访转述（DCD/TNW 同日报道一致；DCD 误写为美元）。"
+  },
+  {
+    "id": "2026-10-mohrss-ai-employment-action",
+    "date": "2026-10-10",
+    "company_or_body": "人力资源社会保障部（国新办发布会）",
+    "region": "CN",
+    "kind": "official_listing",
+    "jobs_count": null,
+    "jobs_type_zh": "「适应人工智能发展促就业行动」列为十五五五大就业行动之一；建立聚焦 AI 等领域的新职业常态化识别机制，十五五期间制定或修订 200 余项国家职业标准",
+    "jobs_type_en": "Launch of an initiative to promote employment amid AI development, plus a regular mechanism to identify new occupations focused on AI and other emerging fields (200+ national occupational standards to be set or revised in 2026-2030)",
+    "occupation_ids": [],
+    "market_ids": [],
+    "source": {
+      "url": "https://english.news.cn/20261010/db81c4f84519455da7b2946a563fe32d/c.html",
+      "publisher": "新华社英文（国新办 10-10 发布会，人社部副部长李忠、人社部官员吴礼多）",
+      "date": "2026-10-10",
+      "quote_en": "Wu Liduo, an official of the Ministry of Human Resources and Social Security, said Saturday the ministry would establish a regular mechanism for identifying new occupations, focusing on emerging fields such as AI, the digital economy, green and low-carbon development, and modern services. During the 15th Five-Year Plan period (2026-2030), the ministry plans to formulate or revise more than 200 national occupational standards, Wu said.",
+      "quote_zh": "人社部官员吴礼多周六表示，人社部将建立新职业常态化识别机制，重点关注人工智能、数字经济、绿色低碳和现代服务等新兴领域；「十五五」期间，人社部计划制定或修订 200 余项国家职业标准。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "不入账（official_listing，无岗位数）。新增内容：①人社部把「适应人工智能发展促就业行动」与技能照亮前程、农民工就业促进等并列为五大行动正式对外宣布（中文新华网 https://www.news.cn/20261010/bbf32d5f70004ad280a419fa7855b320/c.html ：「我国将开展适应人工智能发展促就业行动……」）；②新职业常态化识别机制、200 余项国家职业标准为首次公布的量化安排。与 2026-06-statecouncil-ai-employment-plan（国务院规划中的专项任务）是同一政策线的部委落地，非重复；终审若认为只是规划重述，可整条退回。同场发布会公布前三季度城镇新增就业 1052 万人（总量口径，与 AI 无关，不录）。两个新华网页面 curl 实测 200，quote 逐字核对。"
+  },
+  {
+    "id": "2026-09-indeed-us-ai-postings-7-3pct",
+    "date": "2026-09-30",
+    "company_or_body": "Indeed Hiring Lab",
+    "region": "US",
+    "kind": "report_datapoint",
+    "jobs_count": null,
+    "jobs_type_zh": "美国招聘启事中 AI 相关岗位占比（7 日移动平均，2026-09-30 为 7.34%，上年同日 3.71%）",
+    "jobs_type_en": "Share of US job postings that are AI-related (7-day trailing average): 7.34% on 2026-09-30 vs 3.71% a year earlier",
+    "occupation_ids": [],
+    "market_ids": [],
+    "source": {
+      "url": "https://github.com/hiring-lab/ai-tracker/blob/main/AI_posting.csv",
+      "publisher": "Indeed Hiring Lab（AI Tracker 开放数据，GitHub 2026-10-08 更新）",
+      "date": "2026-10-08",
+      "quote_en": "The data in this repository are the share of AI (and generative AI) job postings, as a percentage of overall job postings, using a seven-day trailing average. | 2026-09-30,US,7.33818434887748",
+      "quote_zh": "本仓库数据为 AI（及生成式 AI）招聘启事占全部招聘启事的百分比，采用 7 日移动平均。| 2026-09-30，美国，7.338%（译）"
+    },
+    "confidence": "report_estimated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "永不计数（report_datapoint）。口径：Indeed 美国站含 AI 关键词（Machine Learning、Data Science、Artificial Intelligence 等）的招聘启事占比，是占比不是岗位数。数据：2026-09-30 为 7.34%，2025-09-30 为 3.71%，同比约翻倍；2026 年月初值从 1 月 4.45% 逐月升至 9 月 6.82%。是已发布事件 2026-01-indeed-ai-mentions-5pct（1 月「接近 5%」）的后续数据点。quote 前半为仓库 README 方法说明原文，后半为 CSV 原始数据行。GitHub 最近一次提交 2026-10-08「data update」，date 取数据截止日 09-30。"
   }
 ]
