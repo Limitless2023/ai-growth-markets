@@ -758,5 +758,51 @@
     "counted": false,
     "status": "published",
     "notes_zh": "不入账（同百度校招口径处理）：7000/4800 为校招 Offer 总量而非 AI 岗净增数，AI 归因仅覆盖『研发类为核心方向』而非全部岗位；含实习转正通道（临时性）。补全中国大厂创造侧记录（百度、腾讯已在账本，字节此前缺）。事件为 2026-03 旧事补录，非本轮新发。"
+  },
+  {
+    "id": "2026-10-openai-dublin-applied-ai-lab-200",
+    "date": "2026-10-12",
+    "company_or_body": "OpenAI（IDA Ireland 发布）",
+    "region": "IE",
+    "kind": "hiring_commitment",
+    "jobs_count": 200,
+    "jobs_type_zh": "都柏林 EU 总部新增岗位（含新设 Applied AI Lab 的前线部署工程师、解决方案工程师、隐私工程师，以及销售、用户运营等职能）",
+    "jobs_type_en": "Additional roles at the Dublin EU HQ, including the new Applied AI Lab (forward deployed, solutions and privacy engineers) plus GTM and User Operations",
+    "occupation_ids": [],
+    "market_ids": [],
+    "source": {
+      "url": "https://www.idaireland.com/latest-news/press-release/openai-announces-200-additional-jobs",
+      "publisher": "IDA Ireland",
+      "date": "2026-10-12",
+      "quote_en": "OpenAI today announced it will create 200 additional jobs in Ireland, including roles to support a new Applied AI Lab at its EU headquarters. ... Today's announcement adds 200 further roles to the 250 announced in July 2026, bringing the company's total commitment to at least 450 new roles locally.",
+      "quote_zh": "OpenAI 今天宣布将在爱尔兰新增 200 个岗位，其中包括支持其 EU 总部新设 Applied AI Lab 的岗位……本次宣布在 2026 年 7 月宣布的 250 个岗位之外再增 200 个，使其在当地的新增岗位承诺合计至少 450 个。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": true,
+    "status": "draft",
+    "notes_zh": "取增量 200，不取合计 450：450 = 7 月已宣布的 250（待审 PR 中的 2026-07-openai-dublin-eu-hq-250）+ 本次 200，取 450 会双计。一手稿为 IDA Ireland 官网新闻稿（OpenAI CFO Sarah Friar 与爱尔兰总理同场宣布）。未给招聘期限；岗位不全是 AI 技术岗（含销售、用户运营），但整体归因于 AI 部署业务扩张。IDA 官网对 WebFetch 返回 403，已用浏览器实际打开核对原文。"
+  },
+  {
+    "id": "2026-09-crusoe-tulsa-second-factory-300",
+    "date": "2026-09-14",
+    "company_or_body": "Crusoe",
+    "region": "US",
+    "kind": "hiring_commitment",
+    "jobs_count": 300,
+    "jobs_type_zh": "塔尔萨两座工厂的全职制造工人（生产中压开关柜、低压配电盘等 AI 数据中心电气设备）",
+    "jobs_type_en": "Full-time manufacturing craft workers across two Tulsa factories building electrical equipment for AI infrastructure",
+    "occupation_ids": [],
+    "market_ids": [],
+    "source": {
+      "url": "https://www.crusoe.ai/resources/newsroom/crusoe-opens-second-tulsa-factory-ai-infrastructure",
+      "publisher": "Crusoe Newsroom",
+      "date": "2026-09-14",
+      "quote_en": "Crusoe has hired more than 300 local craft workers to build these components across the two Tulsa sites, up from the 100 expected when the first facility opened in 2024.",
+      "quote_zh": "Crusoe 已在塔尔萨两处工厂雇用 300 多名本地技术工人生产这些部件，高于 2024 年首座工厂开业时预期的 100 人。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "建议不入账，交终审决定：（1）300 是两座工厂累计已雇人数，不是新承诺，其中包含 2024-08 首座工厂已宣布的 100 人（新稿引用更早总盘），本次增量无法从原文拆出；（2）『more than 300』按下界取 300。AI 归因明确：原文称产线『supports gigawatts of AI infrastructure』，含为 Abilene Stargate 站点供货的 2,500 多台配电盘。事件为 2026-09-14 发布，此前各轮未收录（待审 PR 中只有 2026-03-crusoe-brighton-200）。"
   }
 ]
