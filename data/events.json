@@ -758,5 +758,120 @@
     "counted": false,
     "status": "published",
     "notes_zh": "不入账（同百度校招口径处理）：7000/4800 为校招 Offer 总量而非 AI 岗净增数，AI 归因仅覆盖『研发类为核心方向』而非全部岗位；含实习转正通道（临时性）。补全中国大厂创造侧记录（百度、腾讯已在账本，字节此前缺）。事件为 2026-03 旧事补录，非本轮新发。"
+  },
+  {
+    "id": "2026-10-hpe-chippewa-falls-75",
+    "date": "2026-10-15",
+    "company_or_body": "Hewlett Packard Enterprise（HPE，威斯康星州州长办公室 / WEDC 共同宣布）",
+    "region": "US",
+    "kind": "hiring_commitment",
+    "jobs_count": 75,
+    "jobs_type_zh": "Chippewa Falls 基地扩建新增的高技能岗位（测试、仓储、制造，服务 AI 与高性能计算产品需求）",
+    "jobs_type_en": "New high-skill jobs at the expanded Chippewa Falls site (testing, warehousing and manufacturing) serving AI and high-performance computing demand",
+    "occupation_ids": [],
+    "market_ids": [],
+    "source": {
+      "url": "https://content.govdelivery.com/accounts/WIGOV/bulletins/42eda22",
+      "publisher": "Office of Governor Tony Evers / Wisconsin Economic Development Corporation (WEDC)",
+      "date": "2026-10-15",
+      "quote_en": "Gov. Tony Evers, together with the Wisconsin Economic Development Corporation (WEDC) and Hewlett Packard Enterprise (HPE), announced today that HPE plans to invest $75 million over the next five years to expand its operations in Chippewa Falls, creating 75 new high-skill jobs in the area and supporting growing demand for artificial intelligence (AI) and high-performance computing solutions.",
+      "quote_zh": "州长 Tony Evers 与威斯康星经济发展公司（WEDC）、Hewlett Packard Enterprise（HPE）今日宣布，HPE 计划在未来五年投资 7500 万美元扩建其 Chippewa Falls 业务，在当地新增 75 个高技能岗位，以支撑对人工智能（AI）与高性能计算解决方案不断增长的需求。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": true,
+    "status": "draft",
+    "notes_zh": "州长办公室与 WEDC 代发的一手稿，含 HPE 运营执行副总裁 Mark Bakker 亲口引言「Demand for AI and high-performance computing is growing rapidly around the world」，AI 归因由公司自述。口径：五年期（投资 7500 万美元），75 个为新增常驻岗（不含现有近 500 名员工，也不含 2021 年协议已兑现的 120 个岗位）；WEDC 以绩效挂钩的 Enterprise Zone 税收抵免（最高 510 万美元）作支持。URL 已实际抓取核对，quote 逐字。"
+  },
+  {
+    "id": "2026-08-jd-robot-repair-engineers-100k",
+    "date": "2026-08-20",
+    "company_or_body": "京东（京东物流黑板报，2026 世界机器人大会期间发布）",
+    "region": "CN",
+    "kind": "hiring_commitment",
+    "jobs_count": 100000,
+    "jobs_type_zh": "机器人维修工程师（覆盖全球超 100 个国家的机器人售后维修网络；部分由快递员、仓管员、质检员等一线员工经培训转岗）",
+    "jobs_type_en": "Robot repair engineers across a planned after-sales network covering 100+ countries (partly retrained couriers, warehouse and QC staff)",
+    "occupation_ids": [],
+    "market_ids": [],
+    "source": {
+      "url": "https://m.thepaper.cn/newsDetail_forward_33817268",
+      "publisher": "澎湃新闻（转述「京东物流黑板报」）",
+      "date": "2026-08-20",
+      "quote_zh": "未来5年将构建覆盖全球超过100个国家的机器人售后维修网络，并创造超10万个机器人维修工程师就业岗位。",
+      "quote_en": "Over the next five years JD will build a robot after-sales repair network covering more than 100 countries and create over 100,000 robot repair engineer jobs. (translated)"
+    },
+    "confidence": "company_stated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "建议不入账，理由三条：（1）五年累计目标，非单次招聘承诺；（2）明确含内部转岗——首批快递员、仓管员、质检员已培训上岗，刘强东 6 月「涅槃计划」称要把 70 万蓝领送去培训转做机器人维修保养；（3）AI 归因间接：原文把岗位归于机器人售后网络，IT之家版本称「近两年，机器人、物理AI迎来了爆发式增长」，刘强东称培训是「应对AI和技术发展带来的冲击」，未直接说岗位因 AI 新增。「超 10 万」按下界取 100000。一手为微信公众号「京东物流黑板报」，无法直链，引澎湃转述；IT之家同日稿 https://www.ithome.com/0/956/704.htm（对抓取返回 403）。时间线：2026-05-28 京东服务曾提「培养 10 万名工程师」，2026-08-20 世界机器人大会期间改为「创造超 10 万个岗位」正式口径，2026-10-18 IT之家等再次转载（本轮发现入口 https://www.ithome.com/1/014/537.htm）；按首次正式宣布日 08-20 记。主库与待审 PR 均无京东条目。"
+  },
+  {
+    "id": "2026-10-everwind-point-tupper-215",
+    "date": "2026-10-16",
+    "company_or_body": "EverWind Fuels",
+    "region": "CA",
+    "kind": "hiring_commitment",
+    "jobs_count": 215,
+    "jobs_type_zh": "Point Tupper（新斯科舍省 Cape Breton）AI 数据中心园区与陆上风电组合的常驻运营岗位",
+    "jobs_type_en": "Permanent operating positions across the Point Tupper AI data centre campus and onshore wind portfolio (Nova Scotia)",
+    "occupation_ids": [],
+    "market_ids": [],
+    "source": {
+      "url": "https://everwindfuels.com/2026/10/everwind-announces-10-billion-investment-in-point-tupper-data-centre-campus-and-renewable-energy-portfolio-across-nova-scotia/",
+      "publisher": "EverWind Fuels（公司新闻稿）",
+      "date": "2026-10-16",
+      "quote_en": "The combined project portfolio represents the largest privately funded investment in Nova Scotia history and is expected to support approximately 2,000 construction positions across the staged build-out and 215 permanent operating positions across the data centre campus and wind portfolio. ... EverWind has reached a long-term lease agreement with a leading frontier AI developer for the initial phase of the Point Tupper campus.",
+      "quote_zh": "该项目组合是新斯科舍省历史上最大的私人投资，预计在分期建设中支撑约 2,000 个建设岗位，并在数据中心园区与风电组合中支撑 215 个常驻运营岗位。……EverWind 已与一家领先的前沿 AI 开发商就 Point Tupper 园区首期签订长期租约。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "建议不入账：（1）215 个常驻岗是「数据中心园区 + 风电组合」混合口径，原文不拆分，按规则不取大数；（2）原文用「support」（支撑）而非「create」；（3）租户未具名（仅称 leading frontier AI developer），媒体猜测为 Anthropic 但公司未证实。AI 归因明确：园区为满足 AI 需求、租户为前沿 AI 开发商。总投资 100 亿加元（数据中心 80 亿 + 风电 20 亿），首期 95 MW 预计 2027 年底上线，2028 年扩至 420 MW。建设岗 2,000 为临时岗不计。公司官网新闻稿已实际抓取核对。"
+  },
+  {
+    "id": "2026-10-colt-rmz-mumbai3-700",
+    "date": "2026-10-15",
+    "company_or_body": "Colt Data Centre Services × RMZ（印度数据中心合资）",
+    "region": "IN",
+    "kind": "hiring_commitment",
+    "jobs_count": 700,
+    "jobs_type_zh": "Navi Mumbai 园区第三座 64 MW AI-ready 数据中心（Mumbai 3）建设期与运营期岗位合计",
+    "jobs_type_en": "Jobs across construction and operations of Mumbai 3, a 64 MW AI-ready data centre at the Navi Mumbai campus",
+    "occupation_ids": [],
+    "market_ids": [],
+    "source": {
+      "url": "https://www.prnewswire.com/news-releases/colt-dcs-and-rmz-begin-construction-of-third-data-centre-in-mumbai-to-support-growing-ai-demand-302908543.html",
+      "publisher": "Colt Data Centre Services via PR Newswire",
+      "date": "2026-10-15",
+      "quote_en": "Colt DCS and RMZ Begin Construction of Third Data Centre in Mumbai to Support Growing AI Demand ... In addition to its environmental credentials, the project is expected to create more than 700 jobs across construction and operations, while supporting local suppliers, contractors, and service providers.",
+      "quote_zh": "Colt DCS 与 RMZ 开建孟买第三座数据中心以支撑不断增长的 AI 需求……除环保资质外，该项目预计在建设与运营环节创造 700 多个岗位，并带动本地供应商、承包商与服务商。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "建议不入账：700 是「建设 + 运营」混合口径，原文不拆分，按规则不能取大数，运营常驻岗数未知。AI 归因明确（标题即 to Support Growing AI Demand，设施为 AI-ready、支持液冷高密度 AI 负载）。公司自发新闻稿（PR Newswire 分发），已实际抓取核对。「more than 700」按下界取 700。合资背景：2024-11 宣布 17 亿美元印度数据中心 JV，Mumbai 3 已全部预租给一家超大规模客户。"
+  },
+  {
+    "id": "2026-10-krafton-ai-native-100",
+    "date": "2026-10-13",
+    "company_or_body": "크래프톤 KRAFTON",
+    "region": "KR",
+    "kind": "hiring_commitment",
+    "jobs_count": 100,
+    "jobs_type_zh": "「2027 KRAFTON 채용연계형 인턴십」（转正型实习）全职群「AI Native」应届人才：AI 研究、技术、支持、业务、游戏开发（编程）、游戏开发（策划）六个职群",
+    "jobs_type_en": "'AI Native' entry-level hires via the 2027 KRAFTON conversion internship across six job families incl. AI research, tech and game development",
+    "occupation_ids": [],
+    "market_ids": [],
+    "source": {
+      "url": "https://news.mtn.co.kr/article/2026101312433186539",
+      "publisher": "머니투데이방송 MTN（韩国媒体，照片由 KRAFTON 提供）",
+      "date": "2026-10-13",
+      "quote_zh": "KRAFTON 在去年宣布冻结新增招聘约 11 个月后，启动 100 人以上的大规模应届公开招聘。……KRAFTON 将通过本次招聘选拔能在工作中自然运用 AI 的「AI Native」人才。（译）",
+      "quote_en": "About 11 months after announcing a hiring freeze last year, KRAFTON is launching a large-scale open recruitment of more than 100 new graduates. ... Through this recruitment KRAFTON plans to select 'AI Native' talent who use AI naturally in their work. (translated)"
+    },
+    "confidence": "company_stated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "建议不入账：（1）校招 / 转正型实习（2027 年 2 月入职、5 个月后决定转正），与账本对校招口径的处理一致（百度、腾讯、字节校招均 counted:false）；（2）AI 归因是「AI Native」人才筛选标准（流程含自研 AI 能力评估 Cofa-Probe），不是因 AI 业务新增岗位；（3）「100명 이상」按下界取 100。韩文原句：「크래프톤이 지난해 신규 채용 동결 방침을 밝힌지 약 11개월 만에 100명 이상의 대규모 신입 공개채용에 나선다」「크래프톤은 이번 채용을 통해 AI를 업무에 자연스럽게 활용하는 'AI 네이티브' 인재를 선발할 방침이다」。上轮（10-15）曾因只见中文摘要而放弃，本轮找到韩文报道并核对；未在 krafton.com 找到新闻稿，故引媒体并注明。背景：公司 2025-10 宣布「AI First」转型并冻结招聘，本次为历史最大规模新人公开招聘，计划每年常态化。"
   }
 ]
