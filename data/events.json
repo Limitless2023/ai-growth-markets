@@ -758,5 +758,28 @@
     "counted": false,
     "status": "published",
     "notes_zh": "不入账（同百度校招口径处理）：7000/4800 为校招 Offer 总量而非 AI 岗净增数，AI 归因仅覆盖『研发类为核心方向』而非全部岗位；含实习转正通道（临时性）。补全中国大厂创造侧记录（百度、腾讯已在账本，字节此前缺）。事件为 2026-03 旧事补录，非本轮新发。"
+  },
+  {
+    "id": "2026-10-discovery2scale-nambe-80",
+    "date": "2026-10-16",
+    "company_or_body": "Discovery 2 Scale（D2S）× Albuquerque Regional Economic Alliance（AREA）× Economic Development New Mexico",
+    "region": "US",
+    "kind": "hiring_commitment",
+    "jobs_count": 80,
+    "jobs_type_zh": "AI + 机器人材料制造平台总部的科学家、技术员等高技能岗位（新墨西哥州 Nambé Pueblo）",
+    "jobs_type_en": "Scientists, technicians and other highly skilled roles at the HQ of an AI-and-robotics materials manufacturing platform (Nambé Pueblo, NM)",
+    "occupation_ids": [],
+    "market_ids": [],
+    "source": {
+      "url": "https://www.manilatimes.net/2026/10/17/tmt-newswire/globenewswire/albuquerque-regional-economic-alliance-robotics-driven-company-to-bring-80-jobs-to-namb%C3%A9-pueblo/2447718",
+      "publisher": "Albuquerque Regional Economic Alliance（GlobeNewswire 发布稿，Manila Times 全文转载）",
+      "date": "2026-10-16",
+      "quote_en": "The facility is expected to create more than 80 high-paying jobs for scientists, technicians and other highly skilled workers. The company is building a platform that brings AI and robotics to material manufacturing.",
+      "quote_zh": "该设施预计为科学家、技术员及其他高技能人才创造 80 多个高薪岗位。公司正在打造一个将 AI 与机器人引入材料制造的平台。（译）"
+    },
+    "confidence": "company_stated",
+    "counted": false,
+    "status": "draft",
+    "notes_zh": "一手稿为 AREA（阿尔伯克基地区经济发展联盟）10-16 经 GlobeNewswire 发布的新闻稿（https://www.globenewswire.com/news-release/2026/10/16/3382736/0/en/albuquerque-regional-economic-alliance-robotics-driven-company-to-bring-80-jobs-to-namb%C3%A9-pueblo.html，该域名对 collector 返回 403，已经搜索索引确认存在）；source.url 用可访问的全文转载，quote 逐字核对一致。州政府以 $500,000 LEDA 资金支持租赁并改造约 6,500 平方英尺实验室与办公空间，州经济发展厅长 Rob Black 在稿中具名发言。口径：『more than 80』取下界 80；未给招聘年限。降级 counted:false 的理由：①AI 归因偏弱——AI 是公司平台的描述（与机器人并列，标题写的是 Robotics-driven），稿件没有把这 80 个岗位直接归因于 AI；岗位是材料科学家/技术员；②同类先例 PhysicsX（AI 原生工程公司）曾入账，终审人可按 CEO 原话『we are putting AI, robotics, manufacturing and testing together under one roof』判断是否升级。"
   }
 ]
